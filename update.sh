@@ -8,6 +8,7 @@ n=$(expr $num - 1)
 echo "$n records found"
 
 if [ ! -f .do_not_redownload_everything ]; then
+  echo "running init on the GIT repository"
   rm -Rf db
   rm -Rf git
   
@@ -46,7 +47,7 @@ for i in `seq 0 $n`; do
 
   l=$(cat db/$language)
   if [ "$l" == "$updated" ]; then
-    echo "no update for $language needed"
+    echo "no update for $language needed as "$l" equals "$updated""
   else
     echo "update for $language needed"
     mkdir tmp
