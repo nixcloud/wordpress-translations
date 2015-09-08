@@ -2,23 +2,72 @@
 # This file is distributed under the same license as the Network Admin package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-04-12 22:11:47+0000\n"
+"PO-Revision-Date: 2015-08-02 11:50:03+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/1.0-alpha-1000\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
 "Project-Id-Version: Network Admin\n"
+
+#: wp-admin/network/sites.php:64
+msgid "You are about to mark the site %s as mature."
+msgstr "Vi difinos la retejon %s kiel Por plenkreskuloj."
+
+#: wp-admin/network/sites.php:65
+msgid "You are about to mark the site %s as not mature."
+msgstr "Vi difinos la retejon %s kiel ne nur por plenkreskuloj."
+
+#: wp-admin/network/sites.php:73
+msgid "The requested action is not valid."
+msgstr "La petita ago ne estas valida."
+
+#: wp-admin/network/sites.php:63
+msgid "You are about to delete the site %s."
+msgstr "Vi estas forigonta la retejon %s."
+
+#: wp-admin/network/sites.php:62
+msgid "You are about to mark the site %s as spam."
+msgstr "Vi estas markanta la retejon %s kiel trudaĵon."
+
+#: wp-admin/network/sites.php:61
+msgid "You are about to unspam the site %s."
+msgstr "Vi estas malmarkanta la retejon %s kiel trudaĵon."
+
+#: wp-admin/network/sites.php:60
+msgid "You are about to archive the site %s."
+msgstr "Vi estas arkivigonta la retejon %s."
+
+#: wp-admin/network/sites.php:59
+msgid "You are about to unarchive the site %s."
+msgstr "Vi estas malarkivigonta la retejon %s."
+
+#: wp-admin/network/sites.php:58
+msgid "You are about to deactivate the site %s"
+msgstr "Vi estas malaktivigonta la retejon %s"
+
+#: wp-admin/network/sites.php:57
+msgid "You are about to activate the site %s"
+msgstr "Vi estas aktivigonta la retejon %s"
+
+#: wp-admin/network/site-info.php:46 wp-admin/network/site-settings.php:43
+#: wp-admin/network/site-themes.php:60 wp-admin/network/site-users.php:53
+msgid "The requested site does not exist."
+msgstr "La petita retejo ne ekzistas."
+
+#: wp-admin/network/site-info.php:170 wp-admin/network/site-info.php:177
+msgid "Site URL"
+msgstr "URL de retejo"
 
 #: wp-admin/network/upgrade.php:32
 msgid "<a href=\"https://codex.wordpress.org/Network_Admin_Updates_Screen\" target=\"_blank\">Documentation on Upgrade Network</a>"
 msgstr "<a href=\"https://codex.wordpress.org/Network_Admin_Updates_Screen\" target=\"_blank\">Dokumentado pri promocio de reto</a>"
 
-#: wp-admin/network/user-new.php:29 wp-admin/network/users.php:275
+#: wp-admin/network/user-new.php:29 wp-admin/network/users.php:279
 msgid "<a href=\"https://codex.wordpress.org/Network_Admin_Users_Screen\" target=\"_blank\">Documentation on Network Users</a>"
 msgstr "<a href=\"https://codex.wordpress.org/Network_Admin_Users_Screen\" target=\"_blank\">Dokumentado pri uzantoj de la reto</a> "
 
-#: wp-admin/network.php:124 wp-admin/network.php:135
+#: wp-admin/network.php:130 wp-admin/network.php:141
 msgid "<a href=\"https://codex.wordpress.org/Tools_Network_Screen\" target=\"_blank\">Documentation on the Network Screen</a>"
 msgstr "<a href=\"https://codex.wordpress.org/Tools_Network_Screen\" target=\"_blank\">Dokumentado pri la reto-ekrano</a>"
 
@@ -26,13 +75,13 @@ msgstr "<a href=\"https://codex.wordpress.org/Tools_Network_Screen\" target=\"_b
 msgid "<a href=\"https://codex.wordpress.org/Network_Admin\" target=\"_blank\">Documentation on the Network Admin</a>"
 msgstr "<a href=\"https://codex.wordpress.org/Network_Admin\" target=\"_blank\">Dokumentado pri administrado de reto</a>"
 
-#: wp-admin/network/site-info.php:32 wp-admin/network/site-new.php:29
+#: wp-admin/network/site-info.php:34 wp-admin/network/site-new.php:29
 #: wp-admin/network/site-settings.php:32 wp-admin/network/site-themes.php:32
 #: wp-admin/network/site-users.php:35 wp-admin/network/sites.php:45
 msgid "<a href=\"https://codex.wordpress.org/Network_Admin_Sites_Screen\" target=\"_blank\">Documentation on Site Management</a>"
 msgstr "<a href=\"https://codex.wordpress.org/Network_Admin_Sites_Screen\" target=\"_blank\">Dokumentado pri multreteja administrado</a>"
 
-#: wp-admin/network.php:123 wp-admin/network.php:134
+#: wp-admin/network.php:129 wp-admin/network.php:140
 msgid "<a href=\"https://codex.wordpress.org/Create_A_Network\" target=\"_blank\">Documentation on Creating a Network</a>"
 msgstr "<a href=\"https://codex.wordpress.org/Create_A_Network\" target=\"_blank\">Dokumentado pri kiel krei reton</a> "
 
@@ -45,7 +94,7 @@ msgid "<a href=\"https://codex.wordpress.org/Network_Admin_Settings_Screen\" tar
 msgstr "<a href=\"https://codex.wordpress.org/Network_Admin_Settings_Screen\" target=\"_blank\">Dokumentado de retaj agordoj</a> "
 
 #. translators: 1: site url, 2: server error message
-#: wp-admin/network/upgrade.php:73
+#: wp-admin/network/upgrade.php:76
 msgid "Warning! Problem updating %1$s. Your server may not be able to connect to sites running on it. Error message: %2$s"
 msgstr "Averto! Problemo pri ĝisdatigo de %1$s. Via servilo eble ne povas konektiĝi al retejoj sur ĝi. Erarmesaĝo: %2$s"
 
@@ -57,7 +106,7 @@ msgstr "Vi pretiĝas forviŝi la sekvajn etosojn:"
 msgid "These themes may be active on other sites in the network."
 msgstr "La etosoj eble estas aktivaj sur aliaj retejoj en la reto."
 
-#: wp-admin/network/site-themes.php:171 wp-admin/network/themes.php:283
+#: wp-admin/network/site-themes.php:174 wp-admin/network/themes.php:283
 msgid "%s theme disabled."
 msgid_plural "%s themes disabled."
 msgstr[0] "%s etoso malebligita."
@@ -67,14 +116,14 @@ msgstr[1] "%s etosoj malebligitaj."
 msgid "Are you sure you wish to delete this theme?"
 msgstr "Ĉu vi estas certa, ke vi volas forviŝi tiun ĉi etoson?"
 
-#: wp-admin/network/site-themes.php:163 wp-admin/network/themes.php:275
+#: wp-admin/network/site-themes.php:166 wp-admin/network/themes.php:275
 msgid "%s theme enabled."
 msgid_plural "%s themes enabled."
 msgstr[0] "%s etoso ebligita."
 msgstr[1] "%s etosoj ebligitaj."
 
 #: wp-admin/network/themes.php:187
-msgid "Yes, Delete these themes"
+msgid "Yes, delete these themes"
 msgstr "Ĝuste, forviŝu tiujn ĉi etosojn"
 
 #: wp-admin/network/themes.php:291
@@ -87,7 +136,7 @@ msgstr[1] "%s etosoj forviŝitaj."
 msgid "Delete Themes"
 msgstr "Forviŝi etosojn"
 
-#: wp-admin/network.php:429
+#: wp-admin/network.php:443
 msgid "These unique authentication keys are also missing from your <code>wp-config.php</code> file."
 msgstr "Tiuj ĉi unikaj aŭtentigaj ŝlosiloj mankas en via dosiero <code>wp-config.php</code>."
 
@@ -99,31 +148,31 @@ msgstr "Agordoj por novaj registriĝoj"
 msgid "Allowed file types. Separate types by spaces."
 msgstr "Permesitaj dosiertipoj. Apartigu tipojn per spacetoj."
 
-#: wp-admin/network/users.php:30
+#: wp-admin/network/users.php:34
 msgid "You have chosen to delete the following users from all networks and sites."
 msgstr "Vi elektis forviŝi la sekvajn uzantojn de ĉiuj retoj kaj retejoj."
 
-#: wp-admin/network/site-info.php:173
+#: wp-admin/network/site-info.php:203
 msgid "Set site attributes"
 msgstr "Fiksi retej-ecojn"
 
-#: wp-admin/network/users.php:70
+#: wp-admin/network/users.php:74
 msgid "Select a user"
 msgstr "Elekti uzanton"
 
-#: wp-admin/network/users.php:97
+#: wp-admin/network/users.php:101
 msgid "User has no sites or content and will be deleted."
 msgstr "Uzanto havas nek retejon nek enhavon kaj estos forviŝita."
 
-#: wp-admin/network/users.php:113
+#: wp-admin/network/users.php:117
 msgid "Once you hit &#8220;Confirm Deletion&#8221;, these users will be permanently removed."
 msgstr "Post alklako de &#8220;Konfirmi forviŝon&#8221;, tiuj uzantoj estos forviŝitaj porĉiame."
 
-#: wp-admin/network/users.php:28
+#: wp-admin/network/users.php:32
 msgid "You have chosen to delete the user from all networks and sites."
 msgstr "Vi elektis forviŝi la uzanton de ĉiuj retoj kaj retejoj."
 
-#: wp-admin/network/users.php:111
+#: wp-admin/network/users.php:115
 msgid "Once you hit &#8220;Confirm Deletion&#8221;, the user will be permanently removed."
 msgstr "Post alklako de &#8220;Konfirmi forviŝon&#8221;, la uzanto estos forviŝita porĉiame."
 
@@ -136,24 +185,24 @@ msgid "Size in kilobytes"
 msgstr "Grandeco en kilobajtoj"
 
 #. translators: 1: a filename like .htaccess. 2: a file path.
-#: wp-admin/network.php:495 wp-admin/network.php:532
+#: wp-admin/network.php:509 wp-admin/network.php:546
 msgid "Add the following to your %1$s file in %2$s, <strong>replacing</strong> other WordPress rules:"
 msgstr "Aldonu la jenon al via dosiero %1$s en %2$s, <strong>anstataŭigante</strong> aliajn WordPressajn regulojn:"
 
 #. translators: user login
-#: wp-admin/network/users.php:62
+#: wp-admin/network/users.php:66
 msgid "What should be done with content owned by %s?"
 msgstr "Kio estu farita pri la enhavo apartenanta al %s?"
 
-#: wp-admin/network/sites.php:70
+#: wp-admin/network/sites.php:98
 msgid "Confirm your action"
 msgstr "Konfirmu vian agon"
 
-#: wp-admin/network/index.php:54 wp-admin/network/site-info.php:33
+#: wp-admin/network/index.php:54 wp-admin/network/site-info.php:35
 #: wp-admin/network/site-new.php:30 wp-admin/network/site-settings.php:33
 #: wp-admin/network/site-themes.php:33 wp-admin/network/site-users.php:36
 #: wp-admin/network/sites.php:46 wp-admin/network/user-new.php:30
-#: wp-admin/network/users.php:276
+#: wp-admin/network/users.php:280
 msgid "<a href=\"https://wordpress.org/support/forum/multisite/\" target=\"_blank\">Support Forums</a>"
 msgstr "<a href=\"https://wordpress.org/support/forum/multisite/\" target=\"_blank\">Helpforumoj</a>"
 
@@ -161,7 +210,7 @@ msgstr "<a href=\"https://wordpress.org/support/forum/multisite/\" target=\"_bla
 msgid "This email address will receive notifications. Registration and support emails will also come from this address."
 msgstr "Tiu ĉi retpoŝtadreso ricevos avizojn. Registraj kaj helpaj retmesaĝoj venos el tiu ĉi adreso."
 
-#: wp-admin/network/users.php:266
+#: wp-admin/network/users.php:270
 msgid "Hover over any user on the list to make the edit links appear. The Edit link on the left will take you to their Edit User profile page; the Edit link on the right by any site name goes to an Edit Site screen for that site."
 msgstr "Ŝvebigu la muson super uzanto en la listo por aperigi la redaktajn ligilojn. La redakta ligilo maldesktre kondukos vin al ties profilpaĝo en Redakti uzanton; la redakta ligilo dekstre de ia ajn reteja nomo kondukos al ekrano de Redakti retejon por tiu retejo. "
 
@@ -181,7 +230,7 @@ msgstr "Por serĉi retejon, <strong>enigu la padon aŭ domajnon</strong>."
 msgid "To search for a user, <strong>enter an email address or username</strong>. Use a wildcard to search for a partial username, such as user&#42;."
 msgstr "Por serĉi uzanton, <strong>enigu retpoŝtan adreson aŭ uzantonomon</strong>. Uzu ĵokeron por serĉi parton de uzantonomo, ekzemple uzanto&#42;."
 
-#: wp-admin/network/upgrade.php:115
+#: wp-admin/network/upgrade.php:118
 msgid "The database upgrade process may take a little while, so please be patient."
 msgstr "La ĝisdatigado de la datumbazo povas daŭri iom, do bonvolu pacienci."
 
@@ -225,12 +274,12 @@ msgstr "La kromprogrameto Nun en tiu ekrano donas nombrojn pri nunaj uzantoj kaj
 msgid "To search for a user or site, use the search boxes."
 msgstr "Por serĉi uzanton aŭ retejon, uzu la serĉskatolojn."
 
-#: wp-admin/network/upgrade.php:111
+#: wp-admin/network/upgrade.php:114
 msgid "Database Upgrade Required"
 msgstr "Datumbaza aktualigo bezonata"
 
-#: wp-admin/network/menu.php:59 wp-admin/network/upgrade.php:18
-#: wp-admin/network/upgrade.php:42 wp-admin/network/upgrade.php:116
+#: wp-admin/network/menu.php:22 wp-admin/network/upgrade.php:18
+#: wp-admin/network/upgrade.php:42 wp-admin/network/upgrade.php:119
 msgid "Upgrade Network"
 msgstr "Promocii reton"
 
@@ -238,7 +287,7 @@ msgstr "Promocii reton"
 msgid "Only use this screen once you have updated to a new version of WordPress through Updates/Available Updates (via the Network Administration navigation menu or the Toolbar). Clicking the Upgrade Network button will step through each site in the network, five at a time, and make sure any database updates are applied."
 msgstr "Uzu tiun fenestron nur post ĝisdatigo al nova versio de WordPress per alklako de la Ĝisdatigoj/haveblaj ĝisdatigoj (en la naviga menuo de la reta administrilo aŭ per la ilobreto). Alklako de la butono Promocii reton promocios la retejojn kvinope kaj ĝisdatigos datumbazojn de la retejoj."
 
-#: wp-admin/network/upgrade.php:112
+#: wp-admin/network/upgrade.php:115
 msgid "WordPress has been updated! Before we send you on your way, we need to individually upgrade the sites in your network."
 msgstr "WordPress estis ĝisdatigita! Antaŭ turni la atenton al aliaj aferoj, ni bezonas individue promocii la retejojn en via reto."
 
@@ -255,39 +304,37 @@ msgstr ""
 " Adreso: %2$s\n"
 " Nomo: %3$s"
 
-#: wp-admin/network.php:119
+#: wp-admin/network.php:125
 msgid "Add the designated lines of code to wp-config.php (just before <code>/*...stop editing...*/</code>) and <code>.htaccess</code> (replacing the existing WordPress rules)."
 msgstr "Aldonu la montritajn liniojn de kodo al wp-config.php (tuj antaŭ <code>/*...stop editing...*/</code>) kaj <code>.htaccess</code> (tio anstataŭigas la ekzistantajn WordPressajn regulojn)."
 
-#: wp-admin/network.php:246 wp-admin/network.php:499 wp-admin/network.php:536
+#: wp-admin/network.php:256 wp-admin/network.php:513 wp-admin/network.php:550
 msgid "Subdirectory networks may not be fully compatible with custom wp-content directories."
 msgstr "Subnivelaj retoj eble ne kongruos kun modifitaj dosierujoj wp-content."
 
-#: wp-admin/network/users.php:85
+#: wp-admin/network/users.php:89
 msgid "Site: %s"
 msgstr "Retejo: %s"
 
-#: wp-admin/network/site-info.php:106 wp-admin/network/site-settings.php:94
-#: wp-admin/network/site-themes.php:146 wp-admin/network/site-users.php:189
+#: wp-admin/network/site-info.php:144 wp-admin/network/site-settings.php:97
+#: wp-admin/network/site-themes.php:149 wp-admin/network/site-users.php:192
 msgid "Info"
 msgstr "Informo"
 
-#: wp-admin/network/site-info.php:91 wp-admin/network/site-info.php:92
-#: wp-admin/network/site-settings.php:79 wp-admin/network/site-settings.php:80
-#: wp-admin/network/site-themes.php:133 wp-admin/network/site-themes.php:134
-#: wp-admin/network/site-users.php:161 wp-admin/network/site-users.php:162
+#: wp-admin/network/site-info.php:129 wp-admin/network/site-settings.php:82
+#: wp-admin/network/site-themes.php:136 wp-admin/network/site-users.php:164
 msgid "Edit Site: %s"
 msgstr "Redakti retejon: %s"
 
-#: wp-admin/network/menu.php:17
+#: wp-admin/network/menu.php:28
 msgid "All Sites"
 msgstr "Ĉiuj retejoj"
 
-#: wp-admin/network/site-users.php:225
+#: wp-admin/network/site-users.php:228
 msgid "User created."
 msgstr "Uzanto kreita."
 
-#: wp-admin/network/site-users.php:276 wp-admin/network/user-new.php:103
+#: wp-admin/network/site-users.php:279 wp-admin/network/user-new.php:103
 msgid "Add User"
 msgstr "Aldoni uzanton"
 
@@ -295,16 +342,12 @@ msgstr "Aldoni uzanton"
 msgid "Add New Site"
 msgstr "Aldoni novan TTT-ejon"
 
-#: wp-admin/network/menu.php:58
-msgid "Available Updates"
-msgstr "Haveblaj aktualigoj"
-
-#: wp-admin/network/menu.php:18 wp-admin/network/sites.php:254
+#: wp-admin/network/menu.php:29 wp-admin/network/sites.php:279
 msgctxt "site"
 msgid "Add New"
 msgstr "Aldoni novan"
 
-#: wp-admin/network/menu.php:32 wp-admin/network/themes.php:264
+#: wp-admin/network/menu.php:41 wp-admin/network/themes.php:264
 msgctxt "theme"
 msgid "Add New"
 msgstr "Aldoni novan"
@@ -313,7 +356,7 @@ msgstr "Aldoni novan"
 msgid "Delete Theme"
 msgstr "Forviŝi etoson"
 
-#: wp-admin/network/menu.php:31
+#: wp-admin/network/menu.php:40
 msgid "Installed Themes"
 msgstr "Instalitaj etosoj"
 
@@ -321,43 +364,43 @@ msgstr "Instalitaj etosoj"
 msgid "Language Settings"
 msgstr "Lingvaj agordoj"
 
-#: wp-admin/network/menu.php:27
+#: wp-admin/network/menu.php:36
 msgid "Themes %s"
 msgstr "Etosoj %s"
 
-#: wp-admin/network/menu.php:53
+#: wp-admin/network/menu.php:19
 msgid "Updates"
 msgstr "Aktualigoj"
 
 #: wp-admin/network/themes.php:185
-msgid "Yes, Delete this theme"
+msgid "Yes, delete this theme"
 msgstr "Jes, forviŝu ĉi tiun etoson"
 
 #: wp-admin/network/themes.php:155
 msgid "You are about to remove the following theme:"
 msgstr "Vi estas foriganta la sekvan etoson:"
 
-#: wp-admin/network/site-users.php:228
+#: wp-admin/network/site-users.php:231
 msgid "Enter the username and email."
 msgstr "Enigu la uzantonomon kaj retpoŝton."
 
-#: wp-admin/network/site-users.php:216
+#: wp-admin/network/site-users.php:219
 msgid "Select a user to change role."
 msgstr "Elektu la uzanton, kies rolon vi volas ŝanĝi."
 
-#: wp-admin/network/site-users.php:222
+#: wp-admin/network/site-users.php:225
 msgid "Select a user to remove."
 msgstr "Elektu la uzanton, kiun vi volas forigi."
 
-#: wp-admin/network/sites.php:118
+#: wp-admin/network/sites.php:142
 msgid "You are not allowed to delete the site."
 msgstr "Vi ne havas la permeson por forviŝi la TTT-ejon."
 
-#: wp-admin/network/site-users.php:207
+#: wp-admin/network/site-users.php:210
 msgid "User is already a member of this site."
 msgstr "La uzanto jam estas membro de tiu ĉi TTT-ejo."
 
-#: wp-admin/network/site-users.php:210
+#: wp-admin/network/site-users.php:213
 msgid "Enter the username of an existing user."
 msgstr "Enigu la uzantonomon de ekziztanta uzanto."
 
@@ -369,7 +412,7 @@ msgstr "Vi ne povas forviŝi etoson dum ĝi estas aktiva ĉe la ĉefa TTT-ejo."
 msgid "Are you sure you wish to delete these themes?"
 msgstr "Ĉu vi certas, ke vi volas forviŝi tiujn ĉi etosojn?"
 
-#: wp-admin/network/site-info.php:23 wp-admin/network/site-settings.php:23
+#: wp-admin/network/site-info.php:25 wp-admin/network/site-settings.php:23
 #: wp-admin/network/site-themes.php:23 wp-admin/network/site-users.php:26
 msgid "The menu is for editing information specific to individual sites, particularly if the admin area of a site is unavailable."
 msgstr "La menuo servas por redakti informojn, kiuj estas specifaj por individuaj TTT-ejoj, precipe se la administra loko de TTT-ejo estas nehavebla."
@@ -383,10 +426,10 @@ msgid "An Edit link to a separate Edit Site screen."
 msgstr "Redakti-ligilo al aparta \"Redakti TTT-ejon\"-ekrano."
 
 #: wp-admin/network/themes.php:195
-msgid "No, Return me to the theme list"
+msgid "No, return me to the theme list"
 msgstr "Ne, revenigu min al la listo de etosoj."
 
-#: wp-admin/network/users.php:49
+#: wp-admin/network/users.php:53
 msgid "Warning! User cannot be deleted. The user %s is a network administrator."
 msgstr "Averto! Ne eblas forviŝi la uzanton. La uzanto %s estas la administranto de la reto."
 
@@ -394,7 +437,7 @@ msgstr "Averto! Ne eblas forviŝi la uzanton. La uzanto %s estas la administrant
 msgid "Cannot add user."
 msgstr "Ne eblas aldoni la uzanton."
 
-#: wp-admin/network/users.php:45
+#: wp-admin/network/users.php:49
 msgid "Warning! User %s cannot be deleted."
 msgstr "Averto! Ne eblas forviŝi la uzanton %s."
 
@@ -402,7 +445,7 @@ msgstr "Averto! Ne eblas forviŝi la uzanton %s."
 msgid "This theme may be active on other sites in the network."
 msgstr "Tiu ĉi etoso povas esti aktiva ĉe aliaj TTT-ejoj de la reto.."
 
-#: wp-admin/network/menu.php:46 wp-admin/network/settings.php:22
+#: wp-admin/network/menu.php:55 wp-admin/network/settings.php:22
 msgid "Network Settings"
 msgstr "Retaj agordoj"
 
@@ -410,7 +453,7 @@ msgstr "Retaj agordoj"
 msgid "You do not have sufficient permissions to delete themes for this site."
 msgstr "Vi ne havas sufiĉajn rajtojn por forviŝi etosojn de tiu ĉi TTT-ejo."
 
-#: wp-admin/network/sites.php:206
+#: wp-admin/network/sites.php:231
 msgid "You do not have permission to delete that site."
 msgstr "Vi ne havas sufiĉajn permesojn por forviŝi tiun TTT-ejon."
 
@@ -418,7 +461,7 @@ msgstr "Vi ne havas sufiĉajn permesojn por forviŝi tiun TTT-ejon."
 msgid "Add User will set up a new user account on the network and send that person an email with username and password."
 msgstr "Aldoni uzanton agordos novan uzanton en la reto kaj sendos al tiu persono retmesaĝon kun la uzantonomo kaj pasvorto."
 
-#: wp-admin/network/site-info.php:25 wp-admin/network/site-settings.php:25
+#: wp-admin/network/site-info.php:27 wp-admin/network/site-settings.php:25
 #: wp-admin/network/site-themes.php:25 wp-admin/network/site-users.php:28
 msgid "<strong>Users</strong> - This displays the users associated with this site. You can also change their role, reset their password, or remove them from the site. Removing the user from the site does not remove the user from the network."
 msgstr "<strong>Uzantoj</strong> - Tio montras la uzantojn asociitaj kun tiu ĉi TTT-ejo. Vi povas ankaŭ ŝanĝi ilian rolon, restarigi ilian pasvorton aŭ forigi ilin de la TTT-ejo. Forigi ilin de la TTT-ejo ne forigos la uzanton de la reto."
@@ -427,46 +470,46 @@ msgstr "<strong>Uzantoj</strong> - Tio montras la uzantojn asociitaj kun tiu ĉi
 msgid "Allow site administrators to add new users to their site via the \"Users &rarr; Add New\" page."
 msgstr "Permesi al TTT-ejaj administrantoj aldoni novajn uzantojn al sia TTT-ejo per la paĝo \"Uzantoj &rarr; Aldoni novan\"."
 
-#: wp-admin/network/site-info.php:87
+#: wp-admin/network/site-info.php:125
 msgid "Site info updated."
 msgstr "Informoj de la retejo estas nun ĝisdataj."
 
-#: wp-admin/network/site-themes.php:178
+#: wp-admin/network/site-themes.php:181
 msgid "Network enabled themes are not shown on this screen."
 msgstr "Ne estas videblaj en tiu ĉi ekrano etosoj uzeblaj por la reto."
 
-#: wp-admin/network/site-themes.php:169 wp-admin/network/themes.php:281
+#: wp-admin/network/site-themes.php:172 wp-admin/network/themes.php:281
 msgid "Theme disabled."
 msgstr "Etoso malebligita."
 
-#: wp-admin/network/site-info.php:39 wp-admin/network/site-settings.php:39
+#: wp-admin/network/site-info.php:41 wp-admin/network/site-settings.php:39
 #: wp-admin/network/site-themes.php:54 wp-admin/network/site-users.php:49
 msgid "Invalid site ID."
 msgstr "Nevalida reteja identigilo."
 
-#: wp-admin/network/site-themes.php:161 wp-admin/network/themes.php:273
+#: wp-admin/network/site-themes.php:164 wp-admin/network/themes.php:273
 msgid "Theme enabled."
 msgstr "Etoso ebligita."
 
-#: wp-admin/network/site-themes.php:175 wp-admin/network/themes.php:295
+#: wp-admin/network/site-themes.php:178 wp-admin/network/themes.php:295
 msgid "No theme selected."
 msgstr "Neniu etoso estis elektita."
 
-#: wp-admin/network/site-settings.php:75
+#: wp-admin/network/site-settings.php:79
 msgid "Site options updated."
 msgstr "La retejaj opcioj estis ĝisdatigitaj."
 
-#: wp-admin/network/site-info.php:26 wp-admin/network/site-settings.php:26
+#: wp-admin/network/site-info.php:28 wp-admin/network/site-settings.php:26
 #: wp-admin/network/site-themes.php:26 wp-admin/network/site-users.php:29
 msgid "<strong>Themes</strong> - This area shows themes that are not already enabled across the network. Enabling a theme in this menu makes it accessible to this site. It does not activate the theme, but allows it to show in the site&#8217;s Appearance menu. To enable a theme for the entire network, see the <a href=\"%s\">Network Themes</a> screen."
 msgstr "<strong>Etosoj</strong> - Tiu loko montras etosojn ne ebligitajn en la tuta reto. Ebligo de etoso en tiu menuo ebligas ĝin por tiu ĉi retejo, sed ne aktivigas ĝin. La ebligo montras ĝin en la menuo Aspekto. Por ebligi etoson por la tuta reto, vidu la ekranon <a href=\"%s\">Retaj etosoj</a>."
 
-#: wp-admin/network/site-info.php:27 wp-admin/network/site-settings.php:27
+#: wp-admin/network/site-info.php:29 wp-admin/network/site-settings.php:27
 #: wp-admin/network/site-themes.php:27 wp-admin/network/site-users.php:30
 msgid "<strong>Settings</strong> - This page shows a list of all settings associated with this site. Some are created by WordPress and others are created by plugins you activate. Note that some fields are grayed out and say Serialized Data. You cannot modify these values due to the way the setting is stored in the database."
 msgstr "<strong>Agordoj</strong> - Tiu paĝo montras liston de ĉiuj agordoj asociitaj kun tiu ĉi retejo. Kelkaj estis kreitaj de WordPress, aliaj estis kreitaj de aktivigitaj kromprogramoj. Notu, ke kelkaj kampoj aperas grize kaj diras Seriigitaj datumoj. Vi ne povas modifi tiujn valorojn pro la konservmaniero de tiu agordo en la datumbazo."
 
-#: wp-admin/network/site-info.php:24 wp-admin/network/site-settings.php:24
+#: wp-admin/network/site-info.php:26 wp-admin/network/site-settings.php:24
 #: wp-admin/network/site-themes.php:24 wp-admin/network/site-users.php:27
 msgid "<strong>Info</strong> - The domain and path are rarely edited as this can cause the site to not work properly. The Registered date and Last Updated date are displayed. Network admins can mark a site as archived, spam, deleted and mature, to remove from public listings or disable."
 msgstr "<strong>Informoj</strong> - La retnomo kaj vojo malofte estas ŝanĝitaj ĉar tio povus kaŭzi misfunkcion de la retejo. La datoj Registritaj kaj Laste ĝisdatigitaj estas montritaj. Retaj administrantoj povas marki, ke retejo estas arkivita, truda, forviŝita aŭ nur por plenkreskuloj, por forigi de publikaj listoj aŭ por malkapabligi."
@@ -516,222 +559,222 @@ msgstr "Tiu ekrano estas por la aldono de novaj retejoj al la reto fare de super
 msgid "Super admins can no longer be added on the Options screen. You must now go to the list of existing users on Network Admin > Users and click on Username or the Edit action link below that name. This goes to an Edit User page where you can check a box to grant super admin privileges."
 msgstr "Superadministrantoj ne plu povas esti aldonitaj sur la opcia ekrano. Nun vi devas iri al la listo de ekzistantaj uzantoj ĉe Reta administrado > Uzantoj kaj klaki al la uzantonomo aŭ la \"Redakti\"-ligo sub tiu nomo. Tio gvidos al \"Redakti uzanton\"-paĝo, kie vi povas uzi markobutonon por doni superadministrajn rajtojn."
 
-#: wp-admin/network.php:195
+#: wp-admin/network.php:205
 msgctxt "Default network name"
 msgid "%s Sites"
 msgstr "%s TTT-ejoj"
 
-#: wp-admin/network.php:251 wp-admin/network.php:255 wp-admin/network.php:295
+#: wp-admin/network.php:261 wp-admin/network.php:265 wp-admin/network.php:305
 msgid "Server Address"
 msgstr "servila adreso"
 
-#: wp-admin/network.php:315
+#: wp-admin/network.php:325
 msgid "Your email address."
 msgstr "Via retpoŝta adreso."
 
 #. translators: 1: hostname
-#: wp-admin/network.php:236
+#: wp-admin/network.php:246
 msgctxt "subdirectory examples"
 msgid "like <code>%1$s/site1</code> and <code>%1$s/site2</code>"
 msgstr "kiel <code>%1$s/site1</code> kaj <code>%1$s/site2</code>"
 
-#: wp-admin/network.php:213 wp-admin/network.php:246 wp-admin/network.php:272
-#: wp-admin/network.php:282
+#: wp-admin/network.php:223 wp-admin/network.php:256 wp-admin/network.php:282
+#: wp-admin/network.php:292
 msgid "Warning!"
 msgstr "Averto!"
 
-#: wp-admin/network.php:432
+#: wp-admin/network.php:446
 msgid "To make your installation more secure, you should also add:"
 msgstr "Por fari viajn instalojn pli sekuraj, vi prefere ankaŭ aldonu:"
 
-#: wp-admin/network.php:165 wp-admin/network.php:367 wp-admin/network.php:499
-#: wp-admin/network.php:536
+#: wp-admin/network.php:175 wp-admin/network.php:381 wp-admin/network.php:513
+#: wp-admin/network.php:550
 msgid "Warning:"
 msgstr "Averto:"
 
 #. translators: 1: hostname
-#: wp-admin/network.php:228
+#: wp-admin/network.php:238
 msgctxt "subdomain examples"
 msgid "like <code>site1.%1$s</code> and <code>site2.%1$s</code>"
 msgstr "kiel <code>site1.%1$s</code> kaj <code>site2.%1$s</code> "
 
-#: wp-admin/network.php:213
+#: wp-admin/network.php:223
 msgid "It looks like the Apache <code>mod_rewrite</code> module is not installed."
 msgstr "Ŝajne la <code>mod_rewrite</code>-modulo de Apache ne estas instalita."
 
-#: wp-admin/network/settings.php:128 wp-admin/network.php:302
+#: wp-admin/network/settings.php:128 wp-admin/network.php:312
 msgid "Network Title"
 msgstr "Titolo de la reto"
 
-#: wp-admin/network.php:306
+#: wp-admin/network.php:316
 msgid "What would you like to call your network?"
 msgstr "Kiel vi volas nomi vian reton?"
 
-#: wp-admin/network.php:367
+#: wp-admin/network.php:381
 msgid "An existing WordPress network was detected."
 msgstr "Ekzistanta WordPress-reto estis trovita."
 
-#: wp-admin/network.php:387
+#: wp-admin/network.php:401
 msgid "<strong>Caution:</strong> We recommend you back up your existing <code>wp-config.php</code> file."
 msgstr "<strong>Atentigo:</strong> Ni rekomendas al vi fari sekurkopion de via ekzistanta <code>wp-config.php</code>-dosiero. "
 
-#: wp-admin/network.php:383 wp-admin/network.php:385
+#: wp-admin/network.php:397 wp-admin/network.php:399
 msgid "<strong>Caution:</strong> We recommend you back up your existing <code>wp-config.php</code> and <code>%s</code> files."
 msgstr "<strong>Atentigo:</strong> Ni rekomendas al vi fari sekurkopion de viaj ekzistantaj <code>wp-config.php</code>- kaj <code>%s</code>-dosieroj. "
 
-#: wp-admin/network.php:427
+#: wp-admin/network.php:441
 msgid "This unique authentication key is also missing from your <code>wp-config.php</code> file."
 msgstr "Ankaŭ tiu ĉi unika aŭtentika ŝlosilo mankas en via <code>wp-config.php</code>-dosiero."
 
-#: wp-admin/network.php:257 wp-admin/network.php:297
+#: wp-admin/network.php:267 wp-admin/network.php:307
 msgid "The internet address of your network will be <code>%s</code>."
 msgstr "La interreta adreso de via reto estos <code>%s</code>."
 
-#: wp-admin/network.php:263
+#: wp-admin/network.php:273
 msgid "Network Details"
 msgstr "Detaloj de la reto"
 
-#: wp-admin/network.php:112
+#: wp-admin/network.php:118
 msgid "Create a Network of WordPress Sites"
 msgstr "Krei reton de WordPress-TTT-ejoj"
 
-#: wp-admin/network.php:219
+#: wp-admin/network.php:229
 msgid "Addresses of Sites in your Network"
 msgstr "Adresoj de la TTT-ejoj en via reto"
 
-#: wp-admin/network.php:128
+#: wp-admin/network.php:134
 msgid "Network"
 msgstr "Reto"
 
-#: wp-admin/network.php:188
+#: wp-admin/network.php:198
 msgid "ERROR: The network could not be created."
 msgstr "ERARO: Ne eblis krei la reton."
 
-#: wp-admin/network.php:174
+#: wp-admin/network.php:184
 msgid "You cannot install a network of sites with your server address."
 msgstr "Vi ne povas instali reton de TTT-ejoj kun via servila adreso."
 
-#: wp-admin/network.php:269
+#: wp-admin/network.php:279
 msgid "Because you are using <code>localhost</code>, the sites in your WordPress network must use sub-directories. Consider using <code>localhost.localdomain</code> if you wish to use sub-domains."
 msgstr "Ĉar vi uzas <code>localhost</code>, la retejoj en via WordPressa reto devas uzi subdosierujojn. Pripensu la uzon de <code>localhost.localdomain</code> se vi volas uzi subdomajnojn."
 
-#: wp-admin/network.php:272 wp-admin/network.php:282 wp-admin/network.php:289
+#: wp-admin/network.php:282 wp-admin/network.php:292 wp-admin/network.php:299
 msgid "The main site in a sub-directory install will need to use a modified permalink structure, potentially breaking existing links."
 msgstr "La ĉefa retejo en instalo de suba nivelo bezonos uzi modifitan strukturon de fiksitaj ligiloj, tio povus kaŭzi la paneon de ekzistantaj ligiloj."
 
-#: wp-admin/network.php:279
+#: wp-admin/network.php:289
 msgid "Because your install is in a directory, the sites in your WordPress network must use sub-directories."
 msgstr "Ĉar via instalo estas al dosierujo, la retejoj en via WordPressa reto devos uzi subdosierujojn."
 
-#: wp-admin/network.php:287
+#: wp-admin/network.php:297
 msgid "Sub-domain Install"
 msgstr "Subdomajna instalo"
 
-#: wp-admin/network.php:288
+#: wp-admin/network.php:298
 msgid "Because your install is not new, the sites in your WordPress network must use sub-domains."
 msgstr "Ĉar via instalo ne estas nova, la retejoj en via WordPressa reto devos uzi subdomajnojn."
 
-#: wp-admin/network.php:362
+#: wp-admin/network.php:376
 msgid "The original configuration steps are shown here for reference."
 msgstr "La originalaj agordaj paŝoj estas montritaj tie ĉi kiel referenco."
 
-#: wp-admin/network.php:368
+#: wp-admin/network.php:382
 msgid "Please complete the configuration steps. To create a new network, you will need to empty or remove the network database tables."
 msgstr "Bonvole plenumu la paŝojn por la agordado. Por krei novan reton, vi bezonos malplenigi aŭ forigi la tabelojn en la reta datumbazo."
 
-#: wp-admin/network.php:379
+#: wp-admin/network.php:393
 msgid "Enabling the Network"
 msgstr "Ebligo de la reto"
 
-#: wp-admin/network.php:380
+#: wp-admin/network.php:394
 msgid "Complete the following steps to enable the features for creating a network of sites."
 msgstr "Faru la sekvajn paŝojn por ebligi la bezonitaĵojn por la kreo de reto de retejoj."
 
-#: wp-admin/network.php:393
+#: wp-admin/network.php:407
 msgid "Add the following to your <code>wp-config.php</code> file in <code>%s</code> <strong>above</strong> the line reading <code>/* That&#8217;s all, stop editing! Happy blogging. */</code>:"
 msgstr "Aldonu la sekvon al via dosiero <code>wp-config.php</code> en <code>%s</code> <strong>super</strong> la linio kiu diras <code>/* Tio estas ĉio, ĉesigu la redaktadon! Bondezirojn al via blogado. */</code>:"
 
-#: wp-admin/network.php:211
+#: wp-admin/network.php:221
 msgid "Please make sure the Apache <code>mod_rewrite</code> module is installed as it will be used at the end of this installation."
 msgstr "Bonvolu certigi ke la Apache-modelo <code>mod_rewrite</code> estas instalita, ĉar ĝi estos uzata je la fino de tiu ĉi instalado."
 
-#: wp-admin/network.php:233
+#: wp-admin/network.php:243
 msgid "Sub-directories"
 msgstr "Subdosierujoj"
 
-#: wp-admin/network.php:198
+#: wp-admin/network.php:208
 msgid "Welcome to the Network installation process!"
 msgstr "Bonvenon al la instalado-procedo de la reto!"
 
-#: wp-admin/network.php:165
+#: wp-admin/network.php:175
 msgid "Once the network is created, you may reactivate your plugins."
 msgstr "Ekde kiam la reto estos kreita, vi povos reaktivigi viajn kromprogrametojn."
 
-#: wp-admin/network.php:106
+#: wp-admin/network.php:112
 msgid "You must define the <code>WP_ALLOW_MULTISITE</code> constant as true in your wp-config.php file to allow creation of a Network."
 msgstr "Vi devas difini la <code>WP_ALLOW_MULTISITE</code>-konstanton kiel \"true\" (vera) en via wp-config.php-dosiero por permesi kreadon de reto."
 
-#: wp-admin/network.php:267 wp-admin/network.php:277
+#: wp-admin/network.php:277 wp-admin/network.php:287
 msgid "Sub-directory Install"
 msgstr "Subdosieruja instalado"
 
-#: wp-admin/network.php:157
+#: wp-admin/network.php:167
 msgid "The constant DO_NOT_UPGRADE_GLOBAL_TABLES cannot be defined when creating a network."
 msgstr "Ne eblas difini la konstanton DO_NOT_UPGRADE_GLOBAL_TABLES dum kreado de reto."
 
-#: wp-admin/network.php:199
+#: wp-admin/network.php:209
 msgid "Fill in the information below and you&#8217;ll be on your way to creating a network of WordPress sites. We will create configuration files in the next step."
 msgstr "Plenigu la informojn sube kaj vi estos survoje al kreado de WordPress-TTT-ejo-reto. Ni kreos agordo-dosierojn en la sekva paŝo."
 
-#: wp-admin/network.php:225
+#: wp-admin/network.php:235
 msgid "Sub-domains"
 msgstr "Retaj domajnoj"
 
-#: wp-admin/network.php:175
+#: wp-admin/network.php:185
 msgid "You cannot use port numbers such as <code>%s</code>."
 msgstr "Vi ne povas uzi pordajn numerojn kiel <code>%s</code>."
 
-#: wp-admin/network.php:215
+#: wp-admin/network.php:225
 msgid "If <code>mod_rewrite</code> is disabled, ask your administrator to enable that module, or look at the <a href=\"http://httpd.apache.org/docs/mod/mod_rewrite.html\">Apache documentation</a> or <a href=\"http://www.google.com/search?q=apache+mod_rewrite\">elsewhere</a> for help setting it up."
 msgstr "Se <code>mod_rewrite</code> estas malebligita, demandu vian administranton ebligi tiun modulon aŭ rigardu la <a href=\"http://httpd.apache.org/docs/mod/mod_rewrite.html\">dokumentadon pri Apache</a> aŭ <a href=\"http://www.google.com/search?q=apache+mod_rewrite\">aliloken</a> por helpo, kiel agordi ĝin. "
 
-#: wp-admin/network.php:117
+#: wp-admin/network.php:123
 msgid "Choose subdomains or subdirectories; this can only be switched afterwards by reconfiguring your install. Fill out the network details, and click install. If this does not work, you may have to add a wildcard DNS record (for subdomains) or change to another setting in Permalinks (for subdirectories)."
 msgstr "Elektu inter retaj domajnoj aŭ subdosierujoj; tion eblas ŝanĝi poste nur per reagordado de la instalo. Plenigu la reto-detalojn, kaj klaku al \"Instali\". Se tio ne funkcias, eble vi devos aldoni ĵokeran DNS-rikordon (por retaj domajnoj) aŭ ŝanĝi al alia agordo en \"Fiksligiloj\" (por subdosierujoj)."
 
-#: wp-admin/network.php:221
+#: wp-admin/network.php:231
 msgid "You will need a wildcard DNS record if you are going to use the virtual host (sub-domain) functionality."
 msgstr "Vi bezonos ĵokeran DNS-rikordon se vi volas uzi la mekanismon de virtuala gastiganto (reta domajno)."
 
-#: wp-admin/network.php:545
+#: wp-admin/network.php:559
 msgid "Once you complete these steps, your network is enabled and configured. You will have to log in again."
 msgstr "Kiam vi estos fininta tiujn ĉi paŝojn, via reto estos ebligita kaj agordita. Vi devos reensaluti."
 
-#: wp-admin/network.php:118
+#: wp-admin/network.php:124
 msgid "The next screen for Network Setup will give you individually-generated lines of code to add to your wp-config.php and .htaccess files. Make sure the settings of your FTP client make files starting with a dot visible, so that you can find .htaccess; you may have to create this file if it really is not there. Make backup copies of those two files."
 msgstr "La sekva ekrano por la agordo de reto provizos vin per individue kreitaj linioj da kodo por aldoni al viaj wp-config.php- and .htaccess-dosieroj. Certigu ke la agordoj de via FTP-kliento videbligas dosierojn, kiuj komenciĝas per punkto, tiel ke vi povas trovi .htaccess; vi eble devos krei ĝin, se ĝi vere ne estas tie. Faru sekurkopiojn de tiuj du dosieroj."
 
-#: wp-admin/network.php:220
+#: wp-admin/network.php:230
 msgid "Please choose whether you would like sites in your WordPress network to use sub-domains or sub-directories. <strong>You cannot change this later.</strong>"
 msgstr "Bonvolu elekti ĉu vi volas, ke TTT-ejoj en via WordPress-reto uzu aŭ retajn domajnojn aŭ subdosierujojn. <strong>Vi ne povos ŝanĝi tion poste.</strong>"
 
-#: wp-admin/network.php:116
+#: wp-admin/network.php:122
 msgid "This screen allows you to configure a network as having subdomains (<code>site1.example.com</code>) or subdirectories (<code>example.com/site1</code>). Subdomains require wildcard subdomains to be enabled in Apache and DNS records, if your host allows it."
 msgstr "Tiu ĉi ekrano permesas al vi agordi, ĉu reto havas retajn domajnojn (<code>site1.example.com</code>) aŭ subdosierujojn (<code>example.com/site1</code>). Retaj domajnoj postulas, ke ĵokeraj retaj domajnoj estas ebligitaj en Apache kaj la DNS-rikordoj, se via gastiga servo permesas tion."
 
-#: wp-admin/network.php:176
+#: wp-admin/network.php:186
 msgid "Return to Dashboard"
 msgstr "Reen al la panelo"
 
-#: wp-admin/network.php:165
+#: wp-admin/network.php:175
 msgid "Please <a href=\"%s\">deactivate your plugins</a> before enabling the Network feature."
 msgstr "Bonvolu <a href=\"%s\">malaktivigi viajn kromprogrametojn</a> antaŭ ol ebligi la retan funkcion."
 
-#: wp-admin/network.php:121
+#: wp-admin/network.php:127
 msgid "The choice of subdirectory sites is disabled if this setup is more than a month old because of permalink problems with &#8220;/blog/&#8221; from the main site. This disabling will be addressed in a future version."
 msgstr "La elekto de subdosieraj TTT-ejoj estas malebligita se tiu ĉi agordo estas pli malnova ol unu monaton pro fiksligilaj problemoj kun &#8220;/blog/&#8221; de la ĉefa TTT-ejo. Tiu ĉi malebligo estos pritraktita en estonta versio."
 
-#: wp-admin/network.php:252
+#: wp-admin/network.php:262
 msgid "We recommend you change your siteurl to <code>%1$s</code> before enabling the network feature. It will still be possible to visit your site using the <code>www</code> prefix with an address like <code>%2$s</code> but any links will not have the <code>www</code> prefix."
 msgstr "Ni rekomendas, ŝanĝi la URL-n de via TTT-ejo al <code>%1$s</code> antaŭ ol ebligi la retan funkcion. Daŭre eblos viziti vian TTT-ejon uzante la <code>WWW</code>-prefikson kun adreso kiel <code>%2$s</code>, sed ajnaj ligiloj ne havos la <code>www</code>-prefikson."
 
@@ -739,16 +782,16 @@ msgstr "Ni rekomendas, ŝanĝi la URL-n de via TTT-ejo al <code>%1$s</code> anta
 msgid "The Network creation panel is not for WordPress MU networks."
 msgstr "La panelo por kreado de retoj ne estas por pluruzantaj (MU) WordPress-retoj."
 
-#: wp-admin/network.php:120
+#: wp-admin/network.php:126
 msgid "Once you add this code and refresh your browser, multisite should be enabled. This screen, now in the Network Admin navigation menu, will keep an archive of the added code. You can toggle between Network Admin and Site Admin by clicking on the Network Admin or an individual site name under the My Sites dropdown in the Toolbar."
 msgstr "Ekde kiam vi estos aldoninta tiun ĉi kodon kaj reŝarginta vian navigilon, multretejo devus esti ebligita. Tiu ĉi ekrano, nun en la naviga menuo por la reta administrado, konservos arkivon de la aldonita kodo. Vi povas baskuligi inter reta administrado kaj TTT-eja administrado klakante al \"Reta administrado\" aŭ nomo de individua TTT-ejo sub la falmenuo \"Miaj TTT-ejoj\" en la ilobreto."
 
-#: wp-admin/network/site-info.php:17 wp-admin/network/site-settings.php:17
+#: wp-admin/network/site-info.php:18 wp-admin/network/site-settings.php:17
 #: wp-admin/network/site-users.php:17
 msgid "You do not have sufficient permissions to edit this site."
 msgstr "Vi ne havas rajton redakti tiun ĉi TTT-ejon."
 
-#: wp-admin/network/users.php:177
+#: wp-admin/network/users.php:181
 msgid "Warning! User cannot be modified. The user %s is a network administrator."
 msgstr "Averto! Ne eblas modifi la uzanton. La uzanto %s estas reta administranto."
 
@@ -772,11 +815,11 @@ msgstr "La identigilo de la TTT-ejo estas uzata ene kaj ne montriĝas ĉe la fas
 msgid "Operational settings has fields for the network&#8217;s name and admin email."
 msgstr "Operaciaj agordoj enhavas kampojn por la nomo de la reto kaj la administra retpoŝto."
 
-#: wp-admin/network/users.php:267
+#: wp-admin/network/users.php:271
 msgid "You can also go to the user&#8217;s profile page by clicking on the individual username."
 msgstr "Vi povas iri al la profilo de la uzanto ankaŭ klakante al la individua uzantonomo."
 
-#: wp-admin/network/users.php:269
+#: wp-admin/network/users.php:273
 msgid "The bulk action will permanently delete selected users, or mark/unmark those selected as spam. Spam users will have posts removed and will be unable to sign up again with the same email addresses."
 msgstr "La amasa ago porĉiame forviŝos elektitajn uzantojn aŭ markos/malmarkos la elektitajn kiel trudaĵojn. La afiŝoj de tiuj uzantoj estos forigitaj kaj tiuj uzantoj ne povos reregistriĝi per la sama retpoŝta adreso."
 
@@ -788,7 +831,7 @@ msgstr "Enŝutaj agordoj kontrolas la grandecon de enŝutataj dosieroj kaj la kv
 msgid "Visit to go to the frontend site live."
 msgstr "Viziti por iri rekte al la fasado de la TTT-ejo."
 
-#: wp-admin/network/users.php:265
+#: wp-admin/network/users.php:269
 msgid "This table shows all users across the network and the sites to which they are assigned."
 msgstr "Tiu ĉi tabelo montras ĉiujn uzantojn en la tuta reto kaj la retejojn, al kiuj ili estas ligitaj."
 
@@ -800,7 +843,7 @@ msgstr "Se versia ĝisdatigo al la kerno ne okazis, klaki al tiu ĉi butono ne �
 msgid "If this process fails for any reason, users logging in to their sites will force the same update."
 msgstr "Se la procedo malsukcesas pro ajna kialo, uzantoj ensalutantaj al siaj retejoj devigos la saman ĝisdatigon."
 
-#: wp-admin/network/users.php:270
+#: wp-admin/network/users.php:274
 msgid "You can make an existing user an additional super admin by going to the Edit User profile page and checking the box to grant that privilege."
 msgstr "Vi povas fari superadministranton el ekzistanta uzanto per tio, ke vi iras al la \"Redakti uzanton\"-profilpaĝo kaj uzas la markobutonon por doni tiun rajton."
 
@@ -808,7 +851,7 @@ msgstr "Vi povas fari superadministranton el ekzistanta uzanto per tio, ke vi ir
 msgid "New site settings are defaults applied when a new site is created in the network. These include welcome email for when a new site or user account is registered, and what&#8127;s put in the first post, page, comment, comment author, and comment URL."
 msgstr "Agordoj por novaj TTT-ejoj estas defaŭlte aplikataj kiam nova TTT-ejo estas kreita en la reto. Tiuj ĉi inkluzivas la bonvenigan retpoŝton, kiam nova TTT-ejo aŭ uzantokonto estas registrita, kaj kio estas enmetita en la unuajn afiŝon, paĝon, komenton, komentan aŭtoron kaj komentan URL-n."
 
-#: wp-admin/network/users.php:268
+#: wp-admin/network/users.php:272
 msgid "You can sort the table by clicking on any of the bold headings and switch between list and excerpt views by using the icons in the upper right."
 msgstr "Vi povas ordigi la tabelon klakante al ajna de la grasaj titoloj kaj ŝanĝi inter lista kaj eltiraĵa prezento uzante la bildsimbolojn dekstre supre."
 
@@ -848,7 +891,7 @@ msgstr "La sekvaj vortoj estas rezervitaj por uzo en WordPress-funkcioj kaj ne p
 msgid "Can&#8217;t create an empty site."
 msgstr "Ne eblas krei malplenan TTT-ejon."
 
-#: wp-admin/network/upgrade.php:97
+#: wp-admin/network/upgrade.php:100
 msgid "If your browser doesn&#8217;t start loading the next page automatically, click this link:"
 msgstr "Se via navigilo ne komencas ŝarĝi la sekvan paĝon aŭtomate, bonvolu alklaki ĉi tiun ligilon:"
 
@@ -864,59 +907,55 @@ msgstr "Se vi volas forbari domajnojn de reteja registriĝo. Unu domajno je lini
 msgid "If registration is disabled, please set <code>NOBLOGREDIRECT</code> in <code>wp-config.php</code> to a URL you will redirect visitors to if they visit a non-existent site."
 msgstr "Se registrado estas malebligita, bonvolu meti <code>NOBLOGREDIRECT</code> en la dosiero <code>wp-config.php</code> al URL, al kiu vi alidirektos vizitantojn, se ili provas viziti neekzistantan retejon."
 
-#: wp-admin/network/sites.php:224
+#: wp-admin/network/sites.php:249
 msgid "Site marked as spam."
 msgstr "Retejo markita kiel trudaĵo."
 
-#: wp-admin/network/sites.php:197
+#: wp-admin/network/sites.php:222
 msgid "Sites marked as spam."
 msgstr "La retejoj estis markitaj kiel trudaĵoj."
 
-#: wp-admin/network/sites.php:194
+#: wp-admin/network/sites.php:219
 msgid "Sites removed from spam."
 msgstr "La retejoj estis malmarkitaj kiel trudaĵoj."
 
-#: wp-admin/network/users.php:293
+#: wp-admin/network/users.php:297
 msgid "Users removed from spam."
 msgstr "La uzantoj estis malmarkitaj kiel trudaĵoj."
 
-#: wp-admin/network/sites.php:221
+#: wp-admin/network/sites.php:246
 msgid "Site removed from spam."
 msgstr "La retejo estis malmarkita kiel trudaĵo."
 
-#: wp-admin/network/sites.php:200
+#: wp-admin/network/sites.php:225
 msgid "Sites deleted."
 msgstr "La retejoj estis forigitaj."
 
-#: wp-admin/network/sites.php:203
+#: wp-admin/network/sites.php:228
 msgid "Site deleted."
 msgstr "La retejo estis forigita."
 
-#: wp-admin/network/sites.php:212
+#: wp-admin/network/sites.php:237
 msgid "Site unarchived."
 msgstr "La retejo estis malarkivigita."
 
-#: wp-admin/network/sites.php:215
+#: wp-admin/network/sites.php:240
 msgid "Site activated."
 msgstr "La retejo estis aktivigita."
 
-#: wp-admin/network/users.php:296
+#: wp-admin/network/users.php:300
 msgid "Users deleted."
 msgstr "La uzantoj estis forviŝitaj."
 
-#: wp-admin/network/sites.php:209
+#: wp-admin/network/sites.php:234
 msgid "Site archived."
 msgstr "La retejo estis arkivigita."
 
-#: wp-admin/network/site-info.php:146
-msgid "Update <code>siteurl</code> and <code>home</code> as well."
-msgstr "Ĝisdatigi ankaŭ <code>siteurl</code> kaj <code>home</code>."
-
-#: wp-admin/network/sites.php:218
+#: wp-admin/network/sites.php:243
 msgid "Site deactivated."
 msgstr "La retejo estis malaktivigita."
 
-#: wp-admin/network/users.php:290
+#: wp-admin/network/users.php:294
 msgid "Users marked as spam."
 msgstr "La uzantoj estis markitaj kiel trudaĵoj."
 
@@ -928,7 +967,7 @@ msgstr "Nevalida retpoŝta adreso."
 msgid "There was an error creating the user."
 msgstr "Okazis eraro kreante la uzanton."
 
-#: wp-admin/network/sites.php:64 wp-admin/network/sites.php:131
+#: wp-admin/network/sites.php:89 wp-admin/network/sites.php:155
 msgid "You are not allowed to change the current site."
 msgstr "Vi ne havas la rajton por ŝanĝi tiun ĉi TTT-ejon."
 
@@ -965,7 +1004,7 @@ msgstr "La aŭtoro de la unua komento ĉe nova retejo."
 msgid "The URL for the first comment on a new site."
 msgstr "La URL por la unua komento ĉe nova retejo."
 
-#: wp-admin/network/upgrade.php:57
+#: wp-admin/network/upgrade.php:60
 msgid "All done!"
 msgstr "Ĉio farita!"
 
@@ -1013,7 +1052,7 @@ msgstr "Mankanta aŭ nevalida TTT-eja adreso."
 msgid "Missing email address."
 msgstr "Mankanta retpoŝta adreso."
 
-#: wp-admin/network/upgrade.php:97
+#: wp-admin/network/upgrade.php:100
 msgid "Next Sites"
 msgstr "Sekvaj TTT-ejoj"
 
@@ -1025,7 +1064,7 @@ msgstr "[%s] Nova TTT-ejo kreita"
 msgid "The welcome email sent to new site owners."
 msgstr "La bonveniga retmesaĝo, kiujn posedantoj de novaj TTT-ejoj ricevas."
 
-#: wp-admin/network/settings.php:135 wp-admin/network.php:311
+#: wp-admin/network/settings.php:135 wp-admin/network.php:321
 msgid "Network Admin Email"
 msgstr "Retpoŝto de la reta administranto"
 
@@ -1049,7 +1088,7 @@ msgstr "Aldoni novajn uzantojn"
 msgid "Add Site"
 msgstr "Aldoni TTT-ejon"
 
-#: wp-admin/network/sites.php:77
+#: wp-admin/network/sites.php:105
 msgid "Confirm"
 msgstr "Konfirmi"
 
@@ -1073,7 +1112,7 @@ msgstr "Unua komenta aŭtoro"
 msgid "First Page"
 msgstr "Unua paĝo"
 
-#: wp-admin/network/site-users.php:231
+#: wp-admin/network/site-users.php:234
 msgid "Duplicated username or email address."
 msgstr "Duobla uzantonomo aŭ retpoŝta adreso."
 
@@ -1113,18 +1152,14 @@ msgstr "La uzantonomo kaj pasvorto estos senditaj al tiu ĉi retpoŝta adreso."
 msgid "A new user will be created if the above email address is not in the database."
 msgstr "Nova uzanto estos kreita se la supra retpoŝta adreso ne estas en la datumbazo."
 
-#: wp-admin/network/site-users.php:308 wp-admin/network/user-new.php:99
-msgid "Username and password will be mailed to the above email address."
-msgstr "Uzantonomo kaj pasvorto estos senditaj al la supra retpoŝta adreso. "
-
 #: wp-admin/network/index.php:20 wp-admin/network/settings.php:20
-#: wp-admin/network/site-info.php:43 wp-admin/network/site-settings.php:43
-#: wp-admin/network/site-themes.php:60 wp-admin/network/site-users.php:53
-#: wp-admin/network/sites.php:17 wp-admin/network/sites.php:100
+#: wp-admin/network/site-info.php:50 wp-admin/network/site-settings.php:47
+#: wp-admin/network/site-themes.php:64 wp-admin/network/site-users.php:57
+#: wp-admin/network/sites.php:17 wp-admin/network/sites.php:124
 #: wp-admin/network/upgrade.php:39 wp-admin/network/user-new.php:37
-#: wp-admin/network/users.php:17 wp-admin/network/users.php:130
-#: wp-admin/network/users.php:151 wp-admin/network/users.php:164
-#: wp-admin/network/users.php:213
+#: wp-admin/network/users.php:17 wp-admin/network/users.php:134
+#: wp-admin/network/users.php:155 wp-admin/network/users.php:168
+#: wp-admin/network/users.php:217
 msgid "You do not have permission to access this page."
 msgstr "Vi ne havas la permeson, iri al tiu paĝo."
 
