@@ -1,7 +1,7 @@
 #!/bin/sh
 json=wp-languages.json
 
-wget 'https://api.wordpress.org/translations/core/1.0/?version=4.2' -O $json
+wget 'https://api.wordpress.org/translations/core/1.0/?version=4.3' -O $json
 
 num=$(cat $json | jq '.translations | length ')
 n=$(expr $num - 1)
@@ -38,7 +38,7 @@ for i in `seq 0 $n`; do
   echo "------ $language ----------------------------------------------"
   echo $i $package $version $updated
 
-  if [ "$version" != "4.2" ]; then
+  if [ "$version" != "4.3" ]; then
     echo "ignoring $language as $version too old"
     continue
   fi
