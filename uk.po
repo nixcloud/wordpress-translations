@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-08-25 15:22:53+0000\n"
+"PO-Revision-Date: 2015-09-12 08:07:33+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -33,7 +33,7 @@ msgstr "Змінити розділ: %s"
 #. Asian characters), enter 'characters_excluding_spaces' or
 #. 'characters_including_spaces'. Otherwise, enter 'words'. Do not translate
 #. into your own language.
-#: wp-includes/formatting.php:2862 wp-includes/script-loader.php:409
+#: wp-includes/formatting.php:2864 wp-includes/script-loader.php:409
 msgctxt "Word count type. Do not translate!"
 msgid "words"
 msgstr "words"
@@ -177,7 +177,7 @@ msgstr "Схоже на те, що ваше посилання скидання 
 msgid "Your password reset link has expired. Please request a new link below."
 msgstr "Термін дії вашого посилання скидання паролю вийшов. Будь ласка, замовте нове посилання нижче."
 
-#: wp-includes/pluggable.php:1730
+#: wp-includes/pluggable.php:1733
 msgid "To set your password, visit the following address:"
 msgstr "Щоби змінити свій пароль, відвідайте наступну адресу:"
 
@@ -2026,17 +2026,17 @@ msgid "Search"
 msgstr "Пошук"
 
 #. translators: used to join items in a list with more than 2 items
-#: wp-includes/formatting.php:3897
+#: wp-includes/formatting.php:3899
 msgid "%s, %s"
 msgstr "%s, %s"
 
 #. translators: used to join last two items in a list with more than 2 times
-#: wp-includes/formatting.php:3899
+#: wp-includes/formatting.php:3901
 msgid "%s, and %s"
 msgstr "%s, і %s"
 
 #. translators: used to join items in a list with only 2 items
-#: wp-includes/formatting.php:3901
+#: wp-includes/formatting.php:3903
 msgid "%s and %s"
 msgstr "%s і %s"
 
@@ -2704,21 +2704,21 @@ msgstr "Вимкнути повноекранний режим"
 msgid "Mute Toggle"
 msgstr "Вимкнути звук"
 
-#: wp-includes/formatting.php:2754
+#: wp-includes/formatting.php:2756
 msgid "%s week"
 msgid_plural "%s weeks"
 msgstr[0] "%s тиждень"
 msgstr[1] "%s тижні"
 msgstr[2] "%s тижнів"
 
-#: wp-includes/formatting.php:2759
+#: wp-includes/formatting.php:2761
 msgid "%s month"
 msgid_plural "%s months"
 msgstr[0] "%s місяць"
 msgstr[1] "%s місяці"
 msgstr[2] "%s місяців"
 
-#: wp-includes/formatting.php:2764
+#: wp-includes/formatting.php:2766
 msgid "%s year"
 msgid_plural "%s years"
 msgstr[0] "%s рік"
@@ -3607,7 +3607,7 @@ msgstr "Файл стилю не вдалось завантажити."
 
 #: wp-includes/class-wp-customize-control.php:481
 #: wp-includes/class-wp-customize-nav-menus.php:480
-#: wp-includes/default-widgets.php:1593
+#: wp-includes/default-widgets.php:1592
 msgid "&mdash; Select &mdash;"
 msgstr "&mdash; Оберіть &mdash;"
 
@@ -3752,7 +3752,7 @@ msgid "&#8221;"
 msgstr "&#8221;"
 
 #. translators: opening curly double quote
-#: wp-includes/formatting.php:88 wp-includes/formatting.php:4148
+#: wp-includes/formatting.php:88 wp-includes/formatting.php:4150
 msgctxt "opening curly double quote"
 msgid "&#8220;"
 msgstr "&#8220;"
@@ -3835,9 +3835,9 @@ msgstr "Додати"
 #: wp-includes/admin-bar.php:671
 msgid "%s comment awaiting moderation"
 msgid_plural "%s comments awaiting moderation"
-msgstr[0] "%s коментар чекає узгодження"
-msgstr[1] "%s коментарі чекають узгодження"
-msgstr[2] "%s коментарів чекають узгодження"
+msgstr[0] "%s коментар чекає одобрення"
+msgstr[1] "%s коментарі чекають одобрення"
+msgstr[2] "%s коментарів чекають одобрення"
 
 #: wp-includes/script-loader.php:280
 msgid "%s exceeds the maximum upload size for the multi-file uploader when used in your browser."
@@ -3916,7 +3916,7 @@ msgstr "Документація"
 msgid "Support Forums"
 msgstr "Форум підтримки"
 
-#: wp-includes/formatting.php:2851 wp-includes/general-template.php:2853
+#: wp-includes/formatting.php:2853 wp-includes/general-template.php:2853
 msgid "&hellip;"
 msgstr "&hellip;"
 
@@ -3976,7 +3976,7 @@ msgctxt "admin color scheme"
 msgid "Blue"
 msgstr "Синя"
 
-#: wp-includes/formatting.php:3683
+#: wp-includes/formatting.php:3685
 msgid "The timezone you have entered is not valid. Please select a valid timezone."
 msgstr "Часовий пояс, який Ви вказали, невірний. Будь ласка, виберіть правильний часовий пояс."
 
@@ -4640,7 +4640,7 @@ msgstr "На жаль, вам не дозволено оприлюднювати
 msgid "Sorry, you must be able to edit posts on this site in order to view categories."
 msgstr "На жаль, ви мусите мати змогу редагувати записи на цьому сайті, щоби переглядати категорії."
 
-#: wp-includes/pluggable.php:1705
+#: wp-includes/pluggable.php:1708
 msgid "New user registration on your site %s:"
 msgstr "Зареєстрований новий користувач на вашому сайті %s:"
 
@@ -4752,15 +4752,15 @@ msgstr "Назва меню <strong>%s</strong> вже використовує�
 msgid "The given object ID is not that of a menu item."
 msgstr "Вказаний ID об’єкту не належить елементу меню."
 
-#: wp-includes/formatting.php:3628
+#: wp-includes/formatting.php:3630
 msgid "The Site address you entered did not appear to be a valid URL. Please enter a valid URL."
 msgstr "Вказана адреса URL не є коректно. Будь ласка, вкажіть коректну адресу URL."
 
-#: wp-includes/formatting.php:3615
+#: wp-includes/formatting.php:3617
 msgid "The WordPress address you entered did not appear to be a valid URL. Please enter a valid URL."
 msgstr "Схоже, що посилання на URL WordPress&#8217;у  не вірне. Будь ласка, провірте це і введіть правильну адресу."
 
-#: wp-includes/formatting.php:3514
+#: wp-includes/formatting.php:3516
 msgid "The email address entered did not appear to be a valid email address. Please enter a valid email address."
 msgstr "Введена e-mail адреса недійсна. Будь ласка, введіть дійсний e-mail."
 
@@ -4869,7 +4869,7 @@ msgstr "Меню навігації"
 msgid "Links for %s"
 msgstr "Посилання сайту «%s»"
 
-#: wp-includes/default-widgets.php:1583
+#: wp-includes/default-widgets.php:1582
 msgid "No menus have been created yet. <a href=\"%s\">Create some</a>."
 msgstr "Меню ще не створено. <a href=\"%s\">Створити</a>."
 
@@ -5003,7 +5003,7 @@ msgstr "Новий коментар до запису \"%s\" очікує ваш
 msgid "Navigation Menu"
 msgstr "Меню навігації"
 
-#: wp-includes/default-widgets.php:1591
+#: wp-includes/default-widgets.php:1590
 msgid "Select Menu:"
 msgstr "Оберіть меню: "
 
@@ -5239,7 +5239,7 @@ msgstr "На жаль, ви не можете редагувати цей зап
 
 #: wp-includes/class-wp-xmlrpc-server.php:3488
 msgid "Comment author name and email are required"
-msgstr "Ім’я та e-mail адреса автора коментаря є необхідними"
+msgstr "Ім’я та e-mail адреса автора коментаря є обов'язковими"
 
 #: wp-signup.php:453
 msgid "Next"
@@ -5382,21 +5382,21 @@ msgid "Comment on %1$s by %2$s"
 msgstr "Коментарі до %1$s від %2$s"
 
 #. translators: min=minute
-#: wp-includes/formatting.php:2739
+#: wp-includes/formatting.php:2741
 msgid "%s min"
 msgid_plural "%s mins"
 msgstr[0] "%s хв."
 msgstr[1] "%s хв."
 msgstr[2] "%s хв."
 
-#: wp-includes/formatting.php:2744
+#: wp-includes/formatting.php:2746
 msgid "%s hour"
 msgid_plural "%s hours"
 msgstr[0] "%s годину"
 msgstr[1] "%s години"
 msgstr[2] "%s години"
 
-#: wp-includes/formatting.php:2749
+#: wp-includes/formatting.php:2751
 msgid "%s day"
 msgid_plural "%s days"
 msgstr[0] "%s день"
@@ -5985,7 +5985,7 @@ msgstr "Пароль вважається втраченим і змінився
 msgid "[%s] Password Lost/Changed"
 msgstr "[%s] Пароль загублено/змінено"
 
-#: wp-includes/pluggable.php:1709
+#: wp-includes/pluggable.php:1712
 msgid "[%s] New User Registration"
 msgstr "[%s] Реєстрація нового користувача"
 
@@ -6465,7 +6465,7 @@ msgstr "[%1$s] Пінг: \"%2$s\""
 msgid "%1$s [Current Revision]"
 msgstr "%1$s [Поточна редакція]"
 
-#: wp-includes/pluggable.php:1735
+#: wp-includes/pluggable.php:1738
 msgid "[%s] Your username and password info"
 msgstr "[%s] Ваша інформація про ім’я користувача та пароль"
 
@@ -6648,7 +6648,7 @@ msgstr "Невірна таксономія"
 msgid "What do I do now?"
 msgstr "Що мені тепер робити?"
 
-#: wp-includes/pluggable.php:1706 wp-includes/pluggable.php:1729
+#: wp-includes/pluggable.php:1709 wp-includes/pluggable.php:1732
 #: wp-login.php:371
 msgid "Username: %s"
 msgstr "Ім’я користувача: %s"
@@ -6936,7 +6936,7 @@ msgstr "Візуально"
 #: wp-includes/default-widgets.php:555 wp-includes/default-widgets.php:624
 #: wp-includes/default-widgets.php:758 wp-includes/default-widgets.php:907
 #: wp-includes/default-widgets.php:1075 wp-includes/default-widgets.php:1465
-#: wp-includes/default-widgets.php:1587
+#: wp-includes/default-widgets.php:1586
 msgid "Title:"
 msgstr "Назва:"
 
@@ -7100,10 +7100,6 @@ msgstr "Сила паролю"
 msgid "There are no options for this widget."
 msgstr "Для цього віджету немає опцій."
 
-#: wp-includes/comment-template.php:1931 wp-includes/comment-template.php:1993
-msgid "Your comment is awaiting moderation."
-msgstr "Ваш коментар чекає узгодження."
-
 #: wp-includes/category-template.php:752 wp-includes/category-template.php:761
 msgid "%s topic"
 msgid_plural "%s topics"
@@ -7226,7 +7222,7 @@ msgstr "Канал для всіх записів %s"
 msgid "Comments <abbr title=\"Really Simple Syndication\">RSS</abbr>"
 msgstr "Коментарі <abbr title=\"Really Simple Syndication\">RSS</abbr>"
 
-#: wp-includes/category-template.php:1305
+#: wp-includes/category-template.php:1306
 msgid "Tags: "
 msgstr "Позначки:"
 
@@ -7244,6 +7240,10 @@ msgstr "Розділяйте позначки комами"
 #: wp-includes/script-loader.php:592
 msgid "Default"
 msgstr "За замовчуванням"
+
+#: wp-includes/comment-template.php:1931 wp-includes/comment-template.php:1993
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш коментар очікує на одобрення."
 
 #: wp-includes/category-template.php:501 wp-includes/default-widgets.php:644
 #: wp-includes/default-widgets.php:657 wp-includes/theme-compat/sidebar.php:63
@@ -7522,7 +7522,7 @@ msgid "Full Size"
 msgstr "Повний розмір"
 
 #: wp-includes/pluggable.php:1465 wp-includes/pluggable.php:1595
-#: wp-includes/pluggable.php:1707
+#: wp-includes/pluggable.php:1710
 msgid "E-mail: %s"
 msgstr "E-mail: %s"
 
@@ -7684,10 +7684,6 @@ msgstr "Додати медіа"
 msgid "None"
 msgstr "Немає"
 
-#: wp-includes/class-wp-editor.php:918 wp-includes/media-template.php:1247
-msgid "Preview"
-msgstr "Попередній перегляд"
-
 #: wp-includes/revision.php:33
 msgid "Excerpt"
 msgstr "Уривок"
@@ -7695,6 +7691,10 @@ msgstr "Уривок"
 #: wp-includes/script-loader.php:503
 msgid "Save Draft"
 msgstr "До чернеток"
+
+#: wp-includes/class-wp-editor.php:918 wp-includes/media-template.php:1247
+msgid "Preview"
+msgstr "Переглянути"
 
 #: wp-includes/class-wp-customize-manager.php:186
 #: wp-includes/script-loader.php:430
