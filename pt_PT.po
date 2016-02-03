@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-09-04 15:03:28+0000\n"
+"PO-Revision-Date: 2015-09-07 17:22:58+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -3612,7 +3612,7 @@ msgstr "A página inicial mostra"
 
 #: wp-includes/class-wp-customize-control.php:481
 #: wp-includes/class-wp-customize-nav-menus.php:480
-#: wp-includes/default-widgets.php:1593
+#: wp-includes/default-widgets.php:1592
 msgid "&mdash; Select &mdash;"
 msgstr "&mdash; Seleccione &mdash;"
 
@@ -4861,7 +4861,7 @@ msgstr "Menus de navegação"
 msgid "Links for %s"
 msgstr "Links para %s"
 
-#: wp-includes/default-widgets.php:1583
+#: wp-includes/default-widgets.php:1582
 msgid "No menus have been created yet. <a href=\"%s\">Create some</a>."
 msgstr "Nenhum menu foi criado ainda. <a href=\"%s\">Crie um</a>"
 
@@ -4993,7 +4993,7 @@ msgstr "Se não activar o seu site dentro de dois dias terá que voltar a inscre
 msgid "Taxonomy:"
 msgstr "Taxonomia:"
 
-#: wp-includes/default-widgets.php:1591
+#: wp-includes/default-widgets.php:1590
 msgid "Select Menu:"
 msgstr "Seleccione menu:"
 
@@ -6331,10 +6331,6 @@ msgstr "Folha de estilos em falta."
 msgid "Template is missing."
 msgstr "Template em falta."
 
-#: wp-includes/user.php:128
-msgid "<strong>ERROR</strong>: The username field is empty."
-msgstr "<strong>ERROR</strong>: O campo do nome de utilizador está vazio."
-
 #: wp-includes/functions.php:4791 wp-includes/user.php:191
 msgid "Please log in again."
 msgstr "Por favor reinicie a sessão."
@@ -6863,6 +6859,10 @@ msgstr "Submetido em:"
 msgid "Border"
 msgstr "Borda"
 
+#: wp-includes/user.php:128
+msgid "<strong>ERROR</strong>: The username field is empty."
+msgstr "<strong>ERRO</strong>: O campo do nome de utilizador está vazio."
+
 #: wp-includes/feed-atom-comments.php:32
 msgid "Comments on %s"
 msgstr "Comentários em %s"
@@ -6917,10 +6917,6 @@ msgstr "Widgets"
 msgid "<strong>ERROR</strong>: Please enter a username."
 msgstr "<strong>ERRO</strong>:  introduza um nome de utilizador."
 
-#: wp-includes/user.php:2576
-msgid "<strong>ERROR</strong>: This email is already registered, please choose another one."
-msgstr "<strong>ERROR</strong>: este endereço de email já está registado, escolha outro."
-
 #: wp-includes/widgets.php:139
 msgid "There are no options for this widget."
 msgstr "Este widget não tem opções."
@@ -6942,7 +6938,7 @@ msgstr "Visual"
 #: wp-includes/default-widgets.php:555 wp-includes/default-widgets.php:624
 #: wp-includes/default-widgets.php:758 wp-includes/default-widgets.php:907
 #: wp-includes/default-widgets.php:1075 wp-includes/default-widgets.php:1465
-#: wp-includes/default-widgets.php:1587
+#: wp-includes/default-widgets.php:1586
 msgid "Title:"
 msgstr "Título:"
 
@@ -7163,7 +7159,7 @@ msgstr "Email"
 msgid "Separate tags with commas"
 msgstr "Separe as etiquetas com vírgulas"
 
-#: wp-includes/category-template.php:1305
+#: wp-includes/category-template.php:1306
 msgid "Tags: "
 msgstr "Etiquetas:"
 
@@ -7223,6 +7219,10 @@ msgstr "Inicie a sessão para deixar um comentário"
 #: wp-includes/capabilities.php:1036
 msgid "Usage of user levels by plugins and themes is deprecated. Use roles and capabilities instead."
 msgstr "A utilização de níveis de utilizadores através de plugins e temas está ultrapassada. Utilize antes as funções e capacidades dos utilizadores."
+
+#: wp-includes/user.php:2576
+msgid "<strong>ERROR</strong>: This email is already registered, please choose another one."
+msgstr "<strong>ERRO</strong>: este endereço de email já está registado, escolha outro."
 
 #: wp-includes/post.php:82
 msgid "Revisions"
