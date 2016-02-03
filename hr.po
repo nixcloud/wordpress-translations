@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-08-18 08:51:36+0000\n"
+"PO-Revision-Date: 2015-09-14 08:49:12+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -33,7 +33,7 @@ msgstr "Odaberi dio: %s"
 #. Asian characters), enter 'characters_excluding_spaces' or
 #. 'characters_including_spaces'. Otherwise, enter 'words'. Do not translate
 #. into your own language.
-#: wp-includes/formatting.php:2862 wp-includes/script-loader.php:409
+#: wp-includes/formatting.php:2864 wp-includes/script-loader.php:409
 msgctxt "Word count type. Do not translate!"
 msgid "words"
 msgstr "words"
@@ -54,7 +54,7 @@ msgstr "Uredi stavku izbornika: %1$s (%2$s)"
 
 #: wp-includes/script-loader.php:377
 msgid "Your new password has not been saved."
-msgstr "Vaša nova lozinka nije snimaljena."
+msgstr "Vaša nova lozinka nije spremljena."
 
 #: wp-includes/script-loader.php:382
 msgid "Hide password"
@@ -96,11 +96,11 @@ msgstr "Opcije izbornika"
 msgid "Registration confirmation will be e-mailed to you."
 msgstr "Potvrda registracije biti će poslana na adresu vaše e-pošte. "
 
-#: wp-includes/script-loader.php:378
+#: wp-includes/script-loader.php:379
 msgid "Hide"
 msgstr "Sakrij"
 
-#: wp-includes/script-loader.php:377
+#: wp-includes/script-loader.php:378
 msgid "Show"
 msgstr "Pokaži"
 
@@ -150,7 +150,7 @@ msgstr "Proširi bočnu traku"
 
 #: wp-includes/class-wp-customize-manager.php:1368
 msgid "The Site Icon is used as a browser and app icon for your site. Icons must be square, and at least 512px wide and tall."
-msgstr "Ikona stranice se koristi kao ikona pretraživača i ikona aplikacije za vašu stranicu. Ikone moraju biti u obliku kvadrata i široke i visoke barem 512px."
+msgstr "Ikona stranice se koristi kao ikona pretraživača i ikona aplikacije za vašu stranicu. Ikone moraju biti u kvadratnom obliku, široke i visoke barem 512px."
 
 #: wp-includes/class-wp-customize-manager.php:1334
 msgid "Site Identity"
@@ -177,7 +177,7 @@ msgstr "Izgleda da je vaša poveznica za resetiranje lozinke neispravna. Molimo 
 msgid "Your password reset link has expired. Please request a new link below."
 msgstr "Izgleda da je vaša poveznica za resetiranje lozinke istekla. Molimo vas da ispod pošaljete zahtjev za novu poveznicu."
 
-#: wp-includes/pluggable.php:1730
+#: wp-includes/pluggable.php:1740
 msgid "To set your password, visit the following address:"
 msgstr "Za postavljanje lozinke, idite na sljedeću adresu:"
 
@@ -197,10 +197,6 @@ msgstr "Presloži stavke izbornika"
 #: wp-includes/class-wp-customize-nav-menus.php:353
 msgid "Close reorder mode"
 msgstr "Zatvori način rada za preslagavanje"
-
-#: wp-includes/class-wp-customize-control.php:1581
-msgid "When in reorder mode, additional controls to reorder menu items will be available in the items list above."
-msgstr "U načinu rada za preslagavanje, bit će dostupne dodatne kontrole za preslagavanje izbornika u gornjem popisu stavki."
 
 #: wp-includes/class-wp-customize-nav-menus.php:326
 #: wp-includes/class-wp-customize-setting.php:1837
@@ -252,6 +248,10 @@ msgstr "Pozvana konstruktor metoda za %1$s se smatra <strong>zastarjelim</strong
 #: wp-includes/locale.php:199
 msgid "The %s directory of the develop repository must be used for RTL."
 msgstr "%s mapa developerskog repozitorija se mora koristiti za RTL."
+
+#: wp-includes/class-wp-customize-control.php:1581
+msgid "When in reorder mode, additional controls to reorder menu items will be available in the items list above."
+msgstr "U načinu rada za preslagivanje, bit će dostupne dodatne kontrole za preslagivanje izbornika u gornjem popisu stavki."
 
 #: wp-includes/user.php:2272
 msgid "[%s] Notice of Email Change"
@@ -866,7 +866,7 @@ msgstr "<strong>GREŠKA</strong>: Lozinka koju ste upisali za korisničko ime <s
 msgid "<strong>ERROR</strong>: Invalid username. <a href=\"%s\">Lost your password?</a>"
 msgstr "<strong>GREŠKA</strong>: Neispravno korisničko ime. <a href=\"%s\">Zaboravili ste lozinku?</a>"
 
-#: wp-includes/media.php:3042
+#: wp-includes/media.php:3044
 msgid "Drag and drop to reorder media files."
 msgstr "Reorganizirajte media zapise povlačeći ih kursorom. "
 
@@ -1145,7 +1145,7 @@ msgstr "Komentar: %s"
 msgid "URL: %s"
 msgstr "URL: %s"
 
-#: wp-includes/media.php:3060
+#: wp-includes/media.php:3062
 msgctxt "noun"
 msgid "Trash"
 msgstr "Smeće"
@@ -1378,11 +1378,11 @@ msgstr "Izvorno"
 msgid "<strong>You have successfully updated WordPress!</strong> Please log back in to see what&#8217;s new."
 msgstr "<strong>Uspješno ste ažurirali WordPress!</strong> Ponovno se prijavite kako bi vidjeli što je novo."
 
-#: wp-includes/media.php:3067
+#: wp-includes/media.php:3069
 msgid "Trash Selected"
 msgstr "Smeće odabrano"
 
-#: wp-includes/media.php:3068
+#: wp-includes/media.php:3070
 msgid "Untrash Selected"
 msgstr "Odabrano vrati iz smeća"
 
@@ -1390,7 +1390,7 @@ msgstr "Odabrano vrati iz smeća"
 msgid "Untrash"
 msgstr "Vrati iz smeća"
 
-#: wp-includes/media.php:3064
+#: wp-includes/media.php:3066
 msgid ""
 "You are about to trash these items.\n"
 "  'Cancel' to stop, 'OK' to delete."
@@ -1402,15 +1402,15 @@ msgstr ""
 msgid "Press return or enter to open this panel"
 msgstr "Pritisnite return ili enter za otvaranje ovog panela."
 
-#: wp-includes/media.php:3065
+#: wp-includes/media.php:3067
 msgid "Bulk Select"
 msgstr "Grupni odabir"
 
-#: wp-includes/media.php:3066
+#: wp-includes/media.php:3068
 msgid "Cancel Selection"
 msgstr "Otkaži odabir"
 
-#: wp-includes/media.php:3069
+#: wp-includes/media.php:3071
 msgid "Delete Selected"
 msgstr "Obriši odabrano"
 
@@ -1430,7 +1430,7 @@ msgstr "%s: %l."
 msgid "Maximum upload file size: %s."
 msgstr "Maksimalno dozvoljena veličina: %s."
 
-#: wp-includes/media.php:1520
+#: wp-includes/media.php:1522
 msgid "Bitrate"
 msgstr "Bitrate"
 
@@ -1482,19 +1482,19 @@ msgstr "Pogledaj stranicu privitka"
 msgid "Edit more details"
 msgstr "Uredi više detalja"
 
-#: wp-includes/media.php:1521
+#: wp-includes/media.php:1523
 msgid "Bitrate Mode"
 msgstr "Bitrate Mode"
 
-#: wp-includes/media.php:3056
+#: wp-includes/media.php:3058
 msgid "All dates"
 msgstr "Svi datumi"
 
-#: wp-includes/media.php:3059
+#: wp-includes/media.php:3061
 msgid "Unattached"
 msgstr "Nezalijepljeno"
 
-#: wp-includes/media.php:3063
+#: wp-includes/media.php:3065
 msgid ""
 "You are about to permanently delete these items.\n"
 "  'Cancel' to stop, 'OK' to delete."
@@ -1502,11 +1502,11 @@ msgstr ""
 "Trajno ćete obrisati ove stavke.\n"
 "  'Cancel' prekid, 'OK' za brisanje."
 
-#: wp-includes/media.php:3072
+#: wp-includes/media.php:3074
 msgid "Filter by date"
 msgstr "Filtriraj po datumu"
 
-#: wp-includes/media.php:3073
+#: wp-includes/media.php:3075
 msgid "Filter by type"
 msgstr "Filtriraj po vrsti"
 
@@ -1542,7 +1542,7 @@ msgstr "Vrsta zapisa:"
 msgid "File size:"
 msgstr "Veličina zapisa:"
 
-#: wp-includes/media.php:3074
+#: wp-includes/media.php:3076
 msgid "Search Media"
 msgstr "Pretraži medijske zapise"
 
@@ -1624,53 +1624,53 @@ msgid "Image CSS Class"
 msgstr "CSS klasa slike"
 
 #: wp-includes/media-template.php:389 wp-includes/media-template.php:569
-#: wp-includes/media.php:1511
+#: wp-includes/media.php:1513
 msgid "Artist"
 msgstr "Umjetnik"
 
 #: wp-includes/media-template.php:390 wp-includes/media-template.php:570
-#: wp-includes/media.php:1512
+#: wp-includes/media.php:1514
 msgid "Album"
 msgstr "Album"
 
-#: wp-includes/media.php:1516
+#: wp-includes/media.php:1518
 msgid "Genre"
 msgstr "Žanr"
 
-#: wp-includes/media.php:1517
+#: wp-includes/media.php:1519
 msgid "Year"
 msgstr "Godina"
 
-#: wp-includes/media.php:1518
+#: wp-includes/media.php:1520
 msgctxt "video or audio"
 msgid "Length"
 msgstr "Duljina"
 
-#: wp-includes/media.php:3111
+#: wp-includes/media.php:3113
 msgid "There has been an error cropping your image."
 msgstr "Dogodila se greška prilikom izrezivanja vaše slike."
 
-#: wp-includes/media.php:3130
+#: wp-includes/media.php:3132
 msgid "Edit Audio Playlist"
 msgstr "Uredi audio playlistu"
 
-#: wp-includes/media.php:3131
+#: wp-includes/media.php:3133
 msgid "&#8592; Cancel Audio Playlist"
 msgstr "&#8592; Otkaži audio playlistu"
 
-#: wp-includes/media.php:3132
+#: wp-includes/media.php:3134
 msgid "Insert audio playlist"
 msgstr "Unesi audio playlistu"
 
-#: wp-includes/media.php:3133
+#: wp-includes/media.php:3135
 msgid "Update audio playlist"
 msgstr "Ažuriraj audio playlistu"
 
-#: wp-includes/media.php:3134
+#: wp-includes/media.php:3136
 msgid "Add to audio playlist"
 msgstr "Dodaj u audio playlistu"
 
-#: wp-includes/media.php:3135
+#: wp-includes/media.php:3137
 msgid "Add to Audio Playlist"
 msgstr "Dodaj u audio playlistu"
 
@@ -1695,7 +1695,7 @@ msgstr "Veličine fontova"
 msgid "Split table cell"
 msgstr "Podijeli ćeliju tablice"
 
-#: wp-includes/media-template.php:241 wp-includes/media.php:3110
+#: wp-includes/media-template.php:241 wp-includes/media.php:3112
 msgid "Suggested image dimensions:"
 msgstr "Predložene dimenzije slike:"
 
@@ -1760,7 +1760,7 @@ msgstr "Auto"
 msgid "Move to another area&hellip;"
 msgstr "Premjesti u drugo područje&hellip;"
 
-#: wp-includes/media.php:3109
+#: wp-includes/media.php:3111
 msgid "Cropping&hellip;"
 msgstr "Izrezivanje&hellip;"
 
@@ -2012,7 +2012,7 @@ msgstr "Dodaj alternativni izvor za maksimalno HTML5 izvođenje:"
 #: wp-includes/class-wp-customize-panel.php:369
 #: wp-includes/class-wp-customize-panel.php:459
 #: wp-includes/class-wp-customize-section.php:356
-#: wp-includes/class-wp-customize-widgets.php:688 wp-includes/media.php:3036
+#: wp-includes/class-wp-customize-widgets.php:688 wp-includes/media.php:3038
 msgid "Back"
 msgstr "Povratak"
 
@@ -2021,17 +2021,17 @@ msgid "Playlist Settings"
 msgstr "Postavke playliste"
 
 #. translators: used to join items in a list with more than 2 items
-#: wp-includes/formatting.php:3897
+#: wp-includes/formatting.php:3899
 msgid "%s, %s"
 msgstr "%s, %s"
 
 #. translators: used to join last two items in a list with more than 2 times
-#: wp-includes/formatting.php:3899
+#: wp-includes/formatting.php:3901
 msgid "%s, and %s"
 msgstr "%s, i %s"
 
 #. translators: used to join items in a list with only 2 items
-#: wp-includes/formatting.php:3901
+#: wp-includes/formatting.php:3903
 msgid "%s and %s"
 msgstr "%s i %s"
 
@@ -2051,7 +2051,7 @@ msgstr "Autoplay"
 msgid "Poster Image"
 msgstr "Poster slika"
 
-#: wp-includes/media.php:3098
+#: wp-includes/media.php:3100
 msgid "Image Details"
 msgstr "Detalji slike"
 
@@ -2072,112 +2072,112 @@ msgstr "Prikaži ime umjetnika u listi zapisa"
 msgid "There are no associated subtitles."
 msgstr "Nema dodijeljenih podnatpisa"
 
-#: wp-includes/media.php:3052
+#: wp-includes/media.php:3054
 msgid "Create a new playlist"
 msgstr "Kreiraj novu playlistu"
 
-#: wp-includes/media.php:3053
+#: wp-includes/media.php:3055
 msgid "Create a new video playlist"
 msgstr "Kreiraj novu video playlistu"
 
-#: wp-includes/media.php:3099
+#: wp-includes/media.php:3101
 msgid "Replace Image"
 msgstr "Zamjeni sliku"
 
-#: wp-includes/media.php:3100 wp-includes/media.php:3117
-#: wp-includes/media.php:3123
+#: wp-includes/media.php:3102 wp-includes/media.php:3119
+#: wp-includes/media.php:3125
 msgid "Cancel Edit"
 msgstr "Otkaži uređivanje"
 
-#: wp-includes/class-wp-customize-control.php:924 wp-includes/media.php:3104
+#: wp-includes/class-wp-customize-control.php:924 wp-includes/media.php:3106
 msgid "Choose Image"
 msgstr "Odaberi sliku"
 
-#: wp-includes/media.php:3105
+#: wp-includes/media.php:3107
 msgid "Select and Crop"
 msgstr "Odaberi i izreži"
 
-#: wp-includes/media.php:3106
+#: wp-includes/media.php:3108
 msgid "Skip Cropping"
 msgstr "Preskoči izrezivanje"
 
-#: wp-includes/media.php:3107
+#: wp-includes/media.php:3109
 msgid "Crop Image"
 msgstr "Izreži sliku"
 
-#: wp-includes/media.php:3108
+#: wp-includes/media.php:3110
 msgid "Crop your image"
 msgstr "Izrežite vašu sliku"
 
-#: wp-includes/media.php:3114
+#: wp-includes/media.php:3116
 msgid "Audio Details"
 msgstr "Audio detalji"
 
-#: wp-includes/media.php:3115
+#: wp-includes/media.php:3117
 msgid "Replace Audio"
 msgstr "Zamjeni audio"
 
-#: wp-includes/media.php:3116
+#: wp-includes/media.php:3118
 msgid "Add Audio Source"
 msgstr "Dodaj audio izvor"
 
-#: wp-includes/media.php:3120
+#: wp-includes/media.php:3122
 msgid "Video Details"
 msgstr "Video detalji"
 
-#: wp-includes/media.php:3121
+#: wp-includes/media.php:3123
 msgid "Replace Video"
 msgstr "Zamjeni video"
 
-#: wp-includes/media.php:3122
+#: wp-includes/media.php:3124
 msgid "Add Video Source"
 msgstr "Dodaj video izvor"
 
-#: wp-includes/media.php:3124
+#: wp-includes/media.php:3126
 msgid "Select Poster Image"
 msgstr "Odaberi poster sliku"
 
-#: wp-includes/media.php:3125
+#: wp-includes/media.php:3127
 msgid "Add Subtitles"
 msgstr "Dodaj podnatpise"
 
-#: wp-includes/media.php:3128
+#: wp-includes/media.php:3130
 msgid "Drag and drop to reorder tracks."
 msgstr "Povuci i ispusti za reorganiziranje zapisa."
 
-#: wp-includes/media.php:3129
+#: wp-includes/media.php:3131
 msgid "Create Audio Playlist"
 msgstr "Kreiraj audio playlistu"
 
-#: wp-includes/media.php:3138
+#: wp-includes/media.php:3140
 msgid "Drag and drop to reorder videos."
 msgstr "Povuci i ispusti za reorganiziranje videa."
 
-#: wp-includes/media.php:3139
+#: wp-includes/media.php:3141
 msgid "Create Video Playlist"
 msgstr "Kreiraj video playlistu"
 
-#: wp-includes/media.php:3140
+#: wp-includes/media.php:3142
 msgid "Edit Video Playlist"
 msgstr "Uredi video playlistu"
 
-#: wp-includes/media.php:3141
+#: wp-includes/media.php:3143
 msgid "&#8592; Cancel Video Playlist"
 msgstr "&#8592; Otkaži video playlistu"
 
-#: wp-includes/media.php:3142
+#: wp-includes/media.php:3144
 msgid "Insert video playlist"
 msgstr "Unesi video playlistu"
 
-#: wp-includes/media.php:3143
+#: wp-includes/media.php:3145
 msgid "Update video playlist"
 msgstr "Ažuriraj video playlistu"
 
-#: wp-includes/media.php:3144
+#: wp-includes/media.php:3146
 msgid "Add to video playlist"
 msgstr "Dodaj u video playlistu"
 
-#: wp-includes/media.php:3145
+#: wp-includes/media.php:3147
 msgid "Add to Video Playlist"
 msgstr "Dodaj u video playlistu"
 
@@ -2356,7 +2356,7 @@ msgstr "Ispod zalijepite vaš kod za ugradnju:"
 msgid "Paste as text"
 msgstr "Zalijepi kao tekst"
 
-#: wp-includes/media-template.php:892 wp-includes/media.php:3034
+#: wp-includes/media-template.php:892 wp-includes/media.php:3036
 msgid "Replace"
 msgstr "Zamijeni"
 
@@ -2704,21 +2704,21 @@ msgstr "Preuzmi video"
 msgid "Download File"
 msgstr "Preuzmi zapis"
 
-#: wp-includes/formatting.php:2754
+#: wp-includes/formatting.php:2756
 msgid "%s week"
 msgid_plural "%s weeks"
 msgstr[0] "%s tjedan"
 msgstr[1] "%s tjedna"
 msgstr[2] "%s tjedana"
 
-#: wp-includes/formatting.php:2759
+#: wp-includes/formatting.php:2761
 msgid "%s month"
 msgid_plural "%s months"
 msgstr[0] "%s mjesec"
 msgstr[1] "%s mjeseca"
 msgstr[2] "%s mjeseci"
 
-#: wp-includes/formatting.php:2764
+#: wp-includes/formatting.php:2766
 msgid "%s year"
 msgid_plural "%s years"
 msgstr[0] "%s godina"
@@ -2891,11 +2891,11 @@ msgstr "Nasumičan redoslijed"
 #. If there is not a word you can use in your language to avoid issues with
 #. the 		   lack of plural support here, turn it into "selected: %d" then
 #. translate it.
-#: wp-includes/media.php:3041
+#: wp-includes/media.php:3043
 msgid "%d selected"
 msgstr "odabrano: %d"
 
-#: wp-includes/media.php:3081
+#: wp-includes/media.php:3083
 msgid "Insert from URL"
 msgstr "Dodaj s URL-a"
 
@@ -2904,15 +2904,15 @@ msgctxt "Links widget"
 msgid "Random"
 msgstr "Nasumice"
 
-#: wp-includes/media-template.php:1236 wp-includes/media.php:3057
+#: wp-includes/media-template.php:1236 wp-includes/media.php:3059
 msgid "No items found."
 msgstr "Nije pronađena nijedna stavka."
 
-#: wp-includes/media.php:3094
+#: wp-includes/media.php:3096
 msgid "Add to Gallery"
 msgstr "Dodaj u galeriju"
 
-#: wp-includes/media.php:3095
+#: wp-includes/media.php:3097
 msgid "Reverse order"
 msgstr "Obrnuti redoslijed"
 
@@ -2929,7 +2929,7 @@ msgstr "Odznači"
 msgid "Sorry, that file cannot be edited."
 msgstr "Nažalost, ovaj zapis nije moguće uređivati."
 
-#: wp-includes/media.php:3062
+#: wp-includes/media.php:3064
 msgid ""
 "You are about to permanently delete this item.\n"
 "  'Cancel' to stop, 'OK' to delete."
@@ -2938,7 +2938,7 @@ msgstr ""
 " 'Cancel' za prekid, 'OK' za brisanje."
 
 #: wp-includes/media-template.php:442 wp-includes/media-template.php:544
-#: wp-includes/media.php:3070
+#: wp-includes/media.php:3072
 msgid "Delete Permanently"
 msgstr "Trajno izbrisati"
 
@@ -2950,7 +2950,7 @@ msgstr "Limit prijenosa je prevršen"
 msgid "Dismiss Errors"
 msgstr "Zanemari greške"
 
-#: wp-includes/media.php:2556
+#: wp-includes/media.php:2558
 msgid "No editor could be selected."
 msgstr "Uređivač nije mogao biti odabran."
 
@@ -2995,11 +2995,11 @@ msgstr "Upravljanje audio zapisima"
 msgid "Manage Video"
 msgstr "Upravljanje video zapisima"
 
-#: wp-includes/media.php:3058
+#: wp-includes/media.php:3060
 msgid "Insert into page"
 msgstr "Unesi u stranicu"
 
-#: wp-includes/media.php:3061
+#: wp-includes/media.php:3063
 msgid "Uploaded to this page"
 msgstr "Prenijeto na ovu stranicu"
 
@@ -3007,15 +3007,15 @@ msgstr "Prenijeto na ovu stranicu"
 msgid "Audio"
 msgstr "Audio"
 
-#: wp-includes/media.php:3055
+#: wp-includes/media.php:3057
 msgid "All media items"
 msgstr "Sve medijske stavke"
 
-#: wp-includes/media.php:3061
+#: wp-includes/media.php:3063
 msgid "Uploaded to this post"
 msgstr "Prenijeto u ovu objavu"
 
-#: wp-includes/media.php:3054
+#: wp-includes/media.php:3056
 msgid "&#8592; Return to library"
 msgstr "&#8592; Povratak u medijsku zbirku"
 
@@ -3028,7 +3028,7 @@ msgstr "Prilagođeni URL"
 msgid "Columns"
 msgstr "Stupci"
 
-#: wp-includes/media-template.php:500 wp-includes/media.php:3078
+#: wp-includes/media-template.php:500 wp-includes/media.php:3080
 msgid "Attachment Details"
 msgstr "Detalji privitka"
 
@@ -3038,7 +3038,7 @@ msgid "Alt Text"
 msgstr "Alt tekst"
 
 #: wp-includes/media-template.php:696 wp-includes/media-template.php:771
-#: wp-includes/media-template.php:945 wp-includes/media.php:2787
+#: wp-includes/media-template.php:945 wp-includes/media.php:2789
 msgid "Large"
 msgstr "Velika"
 
@@ -3050,11 +3050,11 @@ msgstr "Postavke galerije"
 msgid "Attachment Display Settings"
 msgstr "Postavke prikaza privitka"
 
-#: wp-includes/media.php:3046
+#: wp-includes/media.php:3048
 msgid "Upload Images"
 msgstr "Prijenos slika"
 
-#: wp-includes/media.php:3090
+#: wp-includes/media.php:3092
 msgid "&#8592; Cancel Gallery"
 msgstr "&#8592; Otkaži galeriju"
 
@@ -3066,11 +3066,11 @@ msgstr "WordPress &rsaquo; Uspjeh"
 msgid "Drop files anywhere to upload"
 msgstr "Ispustite zapise bilo gdje za prijenos"
 
-#: wp-includes/media.php:3045
+#: wp-includes/media.php:3047
 msgid "Upload Files"
 msgstr "Prijenos zapisa"
 
-#: wp-includes/media.php:3091
+#: wp-includes/media.php:3093
 msgid "Insert gallery"
 msgstr "Unesi galeriju"
 
@@ -3078,11 +3078,11 @@ msgstr "Unesi galeriju"
 msgid "Drop files to upload"
 msgstr "Ispustite zapise za prijenos"
 
-#: wp-includes/media.php:3088
+#: wp-includes/media.php:3090
 msgid "Create Gallery"
 msgstr "Kreiraj galeriju"
 
-#: wp-includes/media.php:3049
+#: wp-includes/media.php:3051
 msgid "Media Library"
 msgstr "Zbirka medija"
 
@@ -3161,7 +3161,7 @@ msgstr "Opišite ovaj audio zapis&hellip;"
 msgid "Describe this media file&hellip;"
 msgstr "Opišite ovaj medijski zapis&hellip;"
 
-#: wp-includes/media.php:3092
+#: wp-includes/media.php:3094
 msgid "Update gallery"
 msgstr "Ažuriraj galeriju"
 
@@ -3219,11 +3219,11 @@ msgstr "Zapis nije slika."
 msgid "Whoops, the provided date is invalid."
 msgstr "Uups, ponuđeni datum nije ispravan."
 
-#: wp-includes/media.php:3051
+#: wp-includes/media.php:3053
 msgid "Create a new gallery"
 msgstr "Kreiraj novu galeriju"
 
-#: wp-includes/media.php:3093
+#: wp-includes/media.php:3095
 msgid "Add to gallery"
 msgstr "Dodaj u galeriju"
 
@@ -3253,11 +3253,11 @@ msgstr "Odaberi boju"
 msgid "Current Color"
 msgstr "Trenutna boja"
 
-#: wp-includes/media.php:3050
+#: wp-includes/media.php:3052
 msgid "Insert Media"
 msgstr "Unesi medijski zapis"
 
-#: wp-includes/media.php:3058
+#: wp-includes/media.php:3060
 msgid "Insert into post"
 msgstr "Unesi u objavu"
 
@@ -3504,7 +3504,7 @@ msgstr "Stranica objava"
 #: wp-includes/class-wp-customize-control.php:1754
 #: wp-includes/class-wp-customize-widgets.php:653
 #: wp-includes/class-wp-editor.php:1035 wp-includes/media-template.php:473
-#: wp-includes/media.php:3035
+#: wp-includes/media.php:3037
 msgid "Remove"
 msgstr "Ukloni"
 
@@ -3514,7 +3514,7 @@ msgstr "Dopušteni zapisi"
 
 #: wp-includes/post.php:1659
 msgid "Featured Image"
-msgstr "Istaknuta Slika"
+msgstr "Istaknuta slika"
 
 #: wp-includes/class-wp-xmlrpc-server.php:1820
 msgid "You are not allowed to create terms in this taxonomy."
@@ -3607,7 +3607,7 @@ msgstr "GREŠKA: Direktorij tema je prazan ili ne postoji. Provjerite vašu inst
 
 #: wp-includes/class-wp-customize-control.php:481
 #: wp-includes/class-wp-customize-nav-menus.php:480
-#: wp-includes/default-widgets.php:1593
+#: wp-includes/default-widgets.php:1592
 msgid "&mdash; Select &mdash;"
 msgstr "&mdash; Odaberi &mdash;"
 
@@ -3746,7 +3746,7 @@ msgid "F Y"
 msgstr "F Y."
 
 #. translators: opening curly double quote
-#: wp-includes/formatting.php:88 wp-includes/formatting.php:4148
+#: wp-includes/formatting.php:88 wp-includes/formatting.php:4150
 msgctxt "opening curly double quote"
 msgid "&#8220;"
 msgstr "&#8220;"
@@ -3916,7 +3916,7 @@ msgstr "Dokumentacija"
 msgid "Support Forums"
 msgstr "Forumi podrške"
 
-#: wp-includes/formatting.php:2851 wp-includes/general-template.php:2853
+#: wp-includes/formatting.php:2853 wp-includes/general-template.php:2853
 msgid "&hellip;"
 msgstr "&hellip;"
 
@@ -3976,7 +3976,7 @@ msgctxt "admin color scheme"
 msgid "Blue"
 msgstr "Plava"
 
-#: wp-includes/formatting.php:3683
+#: wp-includes/formatting.php:3685
 msgid "The timezone you have entered is not valid. Please select a valid timezone."
 msgstr "Vremenska zona koju ste unijeli nije ispravna. Izaberite valjanu vremensku zonu."
 
@@ -4012,7 +4012,7 @@ msgstr "Vaš račun je sada aktiviran. <a href=\"%1$s\">Pogledajte svoju web str
 
 #: wp-includes/admin-bar.php:188
 msgid "Howdy, %1$s"
-msgstr "Vozdra, %1$s"
+msgstr "Pozdrav, %1$s"
 
 #: wp-includes/script-loader.php:474
 msgid "Approve and Reply"
@@ -4640,7 +4640,7 @@ msgstr "Nažalost, da biste pregledali kategorije, morate imati dopuštenje za u
 msgid "Sorry, you are not allowed to publish pages on this site."
 msgstr "Nažalost, nemate dopuštenje za objavu stranica na ovoj web stranici."
 
-#: wp-includes/pluggable.php:1705
+#: wp-includes/pluggable.php:1715
 msgid "New user registration on your site %s:"
 msgstr "Registracija novog korisnika na vašoj web stranici %s:"
 
@@ -4752,15 +4752,15 @@ msgstr "Ime izbornika <strong>%s</strong> je u konfliktu s jednim drugim imenom 
 msgid "The given object ID is not that of a menu item."
 msgstr "Upisani ID objekta ne pripada stavci izbornika."
 
-#: wp-includes/formatting.php:3514
+#: wp-includes/formatting.php:3516
 msgid "The email address entered did not appear to be a valid email address. Please enter a valid email address."
 msgstr "Upisana adresa e-pošte ne izgleda kao valjana adresa e-pošte. Upišite valjanu adresu e-pošte."
 
-#: wp-includes/formatting.php:3615
+#: wp-includes/formatting.php:3617
 msgid "The WordPress address you entered did not appear to be a valid URL. Please enter a valid URL."
 msgstr "WordPress adresa koju ste unijeli ne izgleda kao valjani URL. Unesite valjani URL."
 
-#: wp-includes/formatting.php:3628
+#: wp-includes/formatting.php:3630
 msgid "The Site address you entered did not appear to be a valid URL. Please enter a valid URL."
 msgstr "Upisana adresa web stranice ne izgleda kao valjani URL. Unesite valjani URL."
 
@@ -4869,7 +4869,7 @@ msgstr "Navigacijski izbornici"
 msgid "Links for %s"
 msgstr "Poveznice za %s"
 
-#: wp-includes/default-widgets.php:1583
+#: wp-includes/default-widgets.php:1582
 msgid "No menus have been created yet. <a href=\"%s\">Create some</a>."
 msgstr "Nijedan izbornik još nije kreiran. <a href=\"%s\">Kreiraj izbornik</a>."
 
@@ -5003,7 +5003,7 @@ msgstr "Registracija web stranica trenutno nije moguća."
 msgid "Taxonomy:"
 msgstr "Taksonomija:"
 
-#: wp-includes/default-widgets.php:1591
+#: wp-includes/default-widgets.php:1590
 msgid "Select Menu:"
 msgstr "Odaberi izbornik:"
 
@@ -5490,11 +5490,11 @@ msgstr "Zaštićeno: %s"
 msgid "Private: %s"
 msgstr "Privatno: %s"
 
-#: wp-includes/pluggable.php:1709
+#: wp-includes/pluggable.php:1719
 msgid "[%s] New User Registration"
 msgstr "[%s] Registracija novog korisnika"
 
-#: wp-includes/pluggable.php:1706 wp-includes/pluggable.php:1729
+#: wp-includes/pluggable.php:1716 wp-includes/pluggable.php:1739
 #: wp-login.php:371
 msgid "Username: %s"
 msgstr "Korisničko ime: %s"
@@ -5857,7 +5857,7 @@ msgid "Page not found"
 msgstr "Stranica nije pronađena."
 
 #. translators: 1: month name, 2: 4-digit year
-#: wp-includes/general-template.php:1475 wp-includes/media.php:2968
+#: wp-includes/general-template.php:1475 wp-includes/media.php:2970
 msgid "%1$s %2$d"
 msgstr "%1$s %2$d"
 
@@ -5900,21 +5900,21 @@ msgid ", "
 msgstr ", "
 
 #. translators: min=minute
-#: wp-includes/formatting.php:2739
+#: wp-includes/formatting.php:2741
 msgid "%s min"
 msgid_plural "%s mins"
 msgstr[0] "%s minuta"
 msgstr[1] "%s minute"
 msgstr[2] "%s minuta"
 
-#: wp-includes/formatting.php:2744
+#: wp-includes/formatting.php:2746
 msgid "%s hour"
 msgid_plural "%s hours"
 msgstr[0] "%s sat"
 msgstr[1] "%s sata"
 msgstr[2] "%s sati"
 
-#: wp-includes/formatting.php:2749
+#: wp-includes/formatting.php:2751
 msgid "%s day"
 msgid_plural "%s days"
 msgstr[0] "%s dan"
@@ -6590,7 +6590,7 @@ msgstr "%1$s %2$s %3$s Kanal oznaka"
 msgid "Fullscreen"
 msgstr "Cijeli zaslon"
 
-#: wp-includes/media.php:3089
+#: wp-includes/media.php:3091
 msgid "Edit Gallery"
 msgstr "Uredi galeriju"
 
@@ -6626,7 +6626,7 @@ msgstr "Poruka e-pošte nije mogla biti poslana."
 msgid "Register For This Site"
 msgstr "Registrirajte se na ovu web stranicu"
 
-#: wp-includes/pluggable.php:1735
+#: wp-includes/pluggable.php:1745
 msgid "[%s] Your username and password info"
 msgstr "[%s] Vaše korisničko ime i lozinka"
 
@@ -6985,7 +6985,7 @@ msgstr "(obavezno)"
 #: wp-includes/default-widgets.php:555 wp-includes/default-widgets.php:624
 #: wp-includes/default-widgets.php:758 wp-includes/default-widgets.php:907
 #: wp-includes/default-widgets.php:1075 wp-includes/default-widgets.php:1465
-#: wp-includes/default-widgets.php:1587
+#: wp-includes/default-widgets.php:1586
 msgid "Title:"
 msgstr "Naslov:"
 
@@ -7037,7 +7037,7 @@ msgstr "Da"
 msgid "Separate tags with commas"
 msgstr "Razdvojite oznake zarezima"
 
-#: wp-includes/category-template.php:1305
+#: wp-includes/category-template.php:1306
 msgid "Tags: "
 msgstr "Oznake:"
 
@@ -7266,12 +7266,12 @@ msgstr "Stranice"
 msgid "Users"
 msgstr "Korisnici"
 
-#: wp-includes/media.php:2761 wp-includes/script-loader.php:396
+#: wp-includes/media.php:2763 wp-includes/script-loader.php:396
 #: wp-includes/script-loader.php:547
 msgid "(no title)"
 msgstr "(bez naslova)"
 
-#: wp-includes/media.php:3031
+#: wp-includes/media.php:3033
 msgid "Select"
 msgstr "Odaberi"
 
@@ -7338,12 +7338,12 @@ msgid "Size"
 msgstr "Veličina"
 
 #: wp-includes/media-template.php:697 wp-includes/media-template.php:772
-#: wp-includes/media-template.php:946 wp-includes/media.php:2788
+#: wp-includes/media-template.php:946 wp-includes/media.php:2790
 msgid "Full Size"
 msgstr "Puna veličina"
 
 #: wp-includes/media-template.php:695 wp-includes/media-template.php:770
-#: wp-includes/media-template.php:944 wp-includes/media.php:2786
+#: wp-includes/media-template.php:944 wp-includes/media.php:2788
 msgid "Medium"
 msgstr "Osrednje"
 
@@ -7382,7 +7382,7 @@ msgid "Content"
 msgstr "Sadržaj"
 
 #: wp-includes/class-wp-editor.php:860 wp-includes/class-wp-editor.php:1445
-#: wp-includes/media.php:3032 wp-includes/script-loader.php:380
+#: wp-includes/media.php:3034 wp-includes/script-loader.php:380
 #: wp-includes/script-loader.php:428 wp-includes/script-loader.php:491
 msgid "Cancel"
 msgstr "Odustani"
@@ -7473,7 +7473,7 @@ msgstr "Predpregled"
 #: wp-includes/class-wp-customize-control.php:1704
 #: wp-includes/class-wp-customize-nav-menus.php:737
 #: wp-includes/class-wp-editor.php:1407 wp-includes/media-template.php:377
-#: wp-includes/media-template.php:557 wp-includes/media.php:3028
+#: wp-includes/media-template.php:557 wp-includes/media.php:3030
 msgid "URL"
 msgstr "URL"
 
@@ -7510,7 +7510,7 @@ msgstr "Dodajte ili uklonite oznake"
 msgid "Links"
 msgstr "Poveznice"
 
-#: wp-includes/media.php:3033 wp-includes/script-loader.php:394
+#: wp-includes/media.php:3035 wp-includes/script-loader.php:394
 #: wp-includes/script-loader.php:501
 msgid "Update"
 msgstr "Ažuriraj"
@@ -7519,7 +7519,7 @@ msgstr "Ažuriraj"
 msgid "Number of comments to show:"
 msgstr "Broj komentara za prikazati:"
 
-#: wp-includes/class-wp-customize-widgets.php:651 wp-includes/media.php:3071
+#: wp-includes/class-wp-customize-widgets.php:651 wp-includes/media.php:3073
 msgid "Apply"
 msgstr "Primjeni"
 
@@ -7545,12 +7545,12 @@ msgid "Redo"
 msgstr "Vrati poništenu radnju"
 
 #: wp-includes/media-template.php:694 wp-includes/media-template.php:769
-#: wp-includes/media-template.php:943 wp-includes/media.php:2785
+#: wp-includes/media-template.php:943 wp-includes/media.php:2787
 msgid "Thumbnail"
 msgstr "Minijatura"
 
 #: wp-includes/pluggable.php:1465 wp-includes/pluggable.php:1595
-#: wp-includes/pluggable.php:1707
+#: wp-includes/pluggable.php:1717
 msgid "E-mail: %s"
 msgstr "E-pošta: %s"
 
@@ -7584,7 +7584,7 @@ msgid "Invalid taxonomy"
 msgstr "Neispravna taksonomija."
 
 #: wp-includes/admin-bar.php:785 wp-includes/admin-bar.php:786
-#: wp-includes/class-wp-editor.php:1420 wp-includes/media.php:3030
+#: wp-includes/class-wp-editor.php:1420 wp-includes/media.php:3032
 msgid "Search"
 msgstr "Pretraži"
 
@@ -7633,7 +7633,7 @@ msgid "<strong>RSS Error</strong>: %s"
 msgstr "<strong>RSS greška</strong>: %s"
 
 #: wp-includes/media-template.php:333 wp-includes/media-template.php:528
-#: wp-includes/media.php:3101
+#: wp-includes/media.php:3103
 msgid "Edit Image"
 msgstr "Uredi sliku"
 
@@ -7655,7 +7655,7 @@ msgctxt "adjective"
 msgid "Spam"
 msgstr "Spam"
 
-#: wp-includes/media.php:3075
+#: wp-includes/media.php:3077
 msgid "No media attachments found."
 msgstr "Medijski privitci nisu pronađeni."
 
@@ -7684,7 +7684,7 @@ msgstr "Zapis &#8220;%s&#8221; ne postoji?"
 msgid "File &#8220;%s&#8221; is not an image."
 msgstr "Zapis &#8220;%s&#8221; nije slika."
 
-#: wp-includes/media.php:3029
+#: wp-includes/media.php:3031
 msgid "Add Media"
 msgstr "Dodaj medijski zapis"
 

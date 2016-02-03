@@ -1142,7 +1142,7 @@ msgctxt "Plugin Installer"
 msgid "Recommended"
 msgstr "Preporučeno"
 
-#: wp-admin/includes/upgrade.php:364
+#: wp-admin/includes/upgrade.php:365
 msgid ""
 "Your new WordPress site has been successfully set up at:\n"
 "\n"
@@ -2546,6 +2546,10 @@ msgstr "Dodajte stavke izbornika iz stupca s lijeve strane."
 msgid "Plugins extend and expand the functionality of WordPress. You may automatically install plugins from the <a href=\"%1$s\">WordPress Plugin Directory</a> or upload a plugin in .zip format via <a href=\"%2$s\">this page</a>."
 msgstr "Dodaci proširuju i povećavaju funkcionalnosti WordPressa. Možete automatski instalirati dodatke iz <a href=\"%1$s\">WordPress direktorija dodataka</a> ili možete prenijeti dodatak u .zip formatu pomoću <a href=\"%2$s\">ove stranice</a>."
 
+#. Plugin URI of the plugin/theme
+msgid "http://wordpress.org/plugins/hello-dolly/"
+msgstr "http://wordpress.org/plugins/hello-dolly/"
+
 #: wp-admin/includes/class-wp-upgrader-skins.php:284
 msgid "An error occurred while updating %1$s: <strong>%2$s</strong>"
 msgstr "Pojavila se greška prilikom ažuriranja %1$s: <strong>%2$s</strong>"
@@ -3679,6 +3683,22 @@ msgstr[2] "Oštećeno <span class=\"count\">(%s)</span>"
 #: wp-admin/includes/theme.php:211
 msgid "Light"
 msgstr "Svijetla"
+
+#. Plugin Name of the plugin/theme
+msgid "Hello Dolly"
+msgstr "Hello Dolly"
+
+#. Description of the plugin/theme
+msgid "This is not just a plugin, it symbolizes the hope and enthusiasm of an entire generation summed up in two words sung most famously by Louis Armstrong: Hello, Dolly. When activated you will randomly see a lyric from <cite>Hello, Dolly</cite> in the upper right of your admin screen on every page."
+msgstr "Ovo nije samo dodatak, simbolizira nade i entuzijazam cijele generacije sumirane u dvije riječi koje je ispjevao poznati Louis Armstrong: Hello, Dolly. Kada je aktiviran, vidjet ćete nasumične riječi pjesme <cite>Hello, Dolly</cite> u gornjem desnom kutu vašeg admin zaslona na svakoj stranici."
+
+#. Author of the plugin/theme
+msgid "Matt Mullenweg"
+msgstr "Matt Mullenweg"
+
+#. Author URI of the plugin/theme
+msgid "http://ma.tt/"
+msgstr "http://ma.tt/"
 
 #: wp-admin/includes/screen.php:1066
 msgid "Show on screen"
@@ -5331,11 +5351,11 @@ msgid "If you want to make changes but don&#8217;t want them to be overwritten w
 msgstr "Ako želite napraviti promjene ali ne želite da budu pregažene kad nadogradite dodatak, možda je vrijeme da razmislite o pisanju vlastitog dodatka. Za informacije o tome kako urediti dodatak, početi od nule ili samo želite bolje razumjeti njihovu anatomiju, provjerite poveznice s desne strane."
 
 #. translators: Default page slug
-#: wp-admin/includes/upgrade.php:227
+#: wp-admin/includes/upgrade.php:228
 msgid "sample-page"
 msgstr "primjer-stranice"
 
-#: wp-admin/includes/upgrade.php:225
+#: wp-admin/includes/upgrade.php:226
 msgid "Sample Page"
 msgstr "Primjer stranice"
 
@@ -6325,7 +6345,7 @@ msgstr "Nije pronađena ni jedna web stranica."
 msgid "My Site"
 msgstr "Moja web stranica"
 
-#: wp-admin/includes/upgrade.php:380
+#: wp-admin/includes/upgrade.php:381
 msgid "New WordPress Site"
 msgstr "Nova WordPress web stranica"
 
