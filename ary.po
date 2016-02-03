@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-09-06 23:44:30+0000\n"
+"PO-Revision-Date: 2015-09-12 20:42:00+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -33,7 +33,7 @@ msgstr "تبديل قسم: %s"
 #. Asian characters), enter 'characters_excluding_spaces' or
 #. 'characters_including_spaces'. Otherwise, enter 'words'. Do not translate
 #. into your own language.
-#: wp-includes/formatting.php:2862 wp-includes/script-loader.php:409
+#: wp-includes/formatting.php:2864 wp-includes/script-loader.php:409
 msgctxt "Word count type. Do not translate!"
 msgid "words"
 msgstr "words"
@@ -181,7 +181,7 @@ msgstr "رابط إعادة تعيين كلمة مرورك إنتهت صلاحي
 msgid "Username may not be longer than 60 characters."
 msgstr "اسم المستخدم لا يجوز أن يكون أطول من 60 حرفًا."
 
-#: wp-includes/pluggable.php:1730
+#: wp-includes/pluggable.php:1733
 msgid "To set your password, visit the following address:"
 msgstr "لتعيين كلمة مرورك، قم بزيارة العنوان التالى:"
 
@@ -2050,17 +2050,17 @@ msgid "Search"
 msgstr "بحث"
 
 #. translators: used to join items in a list with more than 2 items
-#: wp-includes/formatting.php:3897
+#: wp-includes/formatting.php:3899
 msgid "%s, %s"
 msgstr "%s، %s"
 
 #. translators: used to join last two items in a list with more than 2 times
-#: wp-includes/formatting.php:3899
+#: wp-includes/formatting.php:3901
 msgid "%s, and %s"
 msgstr "%s، و %s"
 
 #. translators: used to join items in a list with only 2 items
-#: wp-includes/formatting.php:3901
+#: wp-includes/formatting.php:3903
 msgid "%s and %s"
 msgstr "%s و %s"
 
@@ -2715,7 +2715,7 @@ msgstr "إلغاء كتم الصوت"
 msgid "Captions/Subtitles"
 msgstr "كلمات توضيحية/ترجمات"
 
-#: wp-includes/formatting.php:2754
+#: wp-includes/formatting.php:2756
 msgid "%s week"
 msgid_plural "%s weeks"
 msgstr[0] "%s أسبوع"
@@ -2725,7 +2725,7 @@ msgstr[3] "%s أسابيع"
 msgstr[4] "%s أسبوع"
 msgstr[5] "%s أسابيع"
 
-#: wp-includes/formatting.php:2759
+#: wp-includes/formatting.php:2761
 msgid "%s month"
 msgid_plural "%s months"
 msgstr[0] "0 شهر"
@@ -2735,7 +2735,7 @@ msgstr[3] "%s شهور"
 msgstr[4] "%s شهر"
 msgstr[5] "%s شهر"
 
-#: wp-includes/formatting.php:2764
+#: wp-includes/formatting.php:2766
 msgid "%s year"
 msgid_plural "%s years"
 msgstr[0] "%s سنة"
@@ -3773,7 +3773,7 @@ msgid "F Y"
 msgstr "F Y"
 
 #. translators: opening curly double quote
-#: wp-includes/formatting.php:88 wp-includes/formatting.php:4148
+#: wp-includes/formatting.php:88 wp-includes/formatting.php:4150
 msgctxt "opening curly double quote"
 msgid "&#8220;"
 msgstr "&#8220;"
@@ -3946,7 +3946,7 @@ msgstr "وثائق المساعدة"
 msgid "Support Forums"
 msgstr "منتديات الدعم الفني"
 
-#: wp-includes/formatting.php:2851 wp-includes/general-template.php:2853
+#: wp-includes/formatting.php:2853 wp-includes/general-template.php:2853
 msgid "&hellip;"
 msgstr "&hellip;"
 
@@ -4006,7 +4006,7 @@ msgctxt "admin color scheme"
 msgid "Blue"
 msgstr "الأزرق"
 
-#: wp-includes/formatting.php:3683
+#: wp-includes/formatting.php:3685
 msgid "The timezone you have entered is not valid. Please select a valid timezone."
 msgstr "المنطقة الزمنية التي أدخلتها غير صالحة. المرجو تحديد منطقة زمنية صالحة."
 
@@ -4746,7 +4746,7 @@ msgstr "عذراً، هذا الموقع محجوز!"
 msgid "That site is currently reserved but may be available in a couple days."
 msgstr "هذا الموقع محجوز حالياً لكن هناك احتمال أن يصبح متوفراً خلال يومين."
 
-#: wp-includes/pluggable.php:1705
+#: wp-includes/pluggable.php:1708
 msgid "New user registration on your site %s:"
 msgstr "مستخدم جديد قام بالتسجيل في موقعك - %s: "
 
@@ -4782,15 +4782,15 @@ msgstr "اسم القائمة <strong>%s</strong> يتعارض مع اسم قا�
 msgid "The given object ID is not that of a menu item."
 msgstr "رقم تعريف الكائن (ID) ليس من ضمن عناصر القائمة."
 
-#: wp-includes/formatting.php:3514
+#: wp-includes/formatting.php:3516
 msgid "The email address entered did not appear to be a valid email address. Please enter a valid email address."
 msgstr "عنوان البريد الإلكتروني الذي قمت بإدخاله لا يبدو صحيحاً. من فضلك قم بإدخال عنوان بريد إلكتروني صحيح."
 
-#: wp-includes/formatting.php:3615
+#: wp-includes/formatting.php:3617
 msgid "The WordPress address you entered did not appear to be a valid URL. Please enter a valid URL."
 msgstr "الرابط الذي أدخلته لا يبدو صحيحاً. من فضلك، أدخل رابط صحيح."
 
-#: wp-includes/formatting.php:3628
+#: wp-includes/formatting.php:3630
 msgid "The Site address you entered did not appear to be a valid URL. Please enter a valid URL."
 msgstr "عنوان الموقع الذي قمت بإدخاله لا يبدو صحيحاً. من فضلك قم بإدخال عنوان صحيح."
 
@@ -5477,7 +5477,7 @@ msgid "Protected Comments: Please enter your password to view comments."
 msgstr "التعليقات محمية: رجاءاً أكتب كلمة المرور لمشاهدة التعليقات."
 
 #. translators: min=minute
-#: wp-includes/formatting.php:2739
+#: wp-includes/formatting.php:2741
 msgid "%s min"
 msgid_plural "%s mins"
 msgstr[0] "%s دقيقة"
@@ -5487,7 +5487,7 @@ msgstr[3] "%s دقائق"
 msgstr[4] "%s دقيقة"
 msgstr[5] "%s دقيقة"
 
-#: wp-includes/formatting.php:2744
+#: wp-includes/formatting.php:2746
 msgid "%s hour"
 msgid_plural "%s hours"
 msgstr[0] "%s ساعة"
@@ -5497,7 +5497,7 @@ msgstr[3] "%s ساعات"
 msgstr[4] "%s ساعة"
 msgstr[5] "%s ساعة"
 
-#: wp-includes/formatting.php:2749
+#: wp-includes/formatting.php:2751
 msgid "%s day"
 msgid_plural "%s days"
 msgstr[0] "%s يوم"
@@ -5705,44 +5705,14 @@ msgid "April"
 msgstr "أبريل"
 
 #. translators: month name
-#: wp-includes/locale.php:136 wp-includes/locale.php:151
-msgid "May"
-msgstr "مايو"
-
-#. translators: month name
 #: wp-includes/locale.php:137 wp-includes/locale.php:152
 msgid "June"
 msgstr "يونيو"
 
 #. translators: month name
-#: wp-includes/locale.php:138 wp-includes/locale.php:153
-msgid "July"
-msgstr "يوليو"
-
-#. translators: month name
-#: wp-includes/locale.php:139 wp-includes/locale.php:154
-msgid "August"
-msgstr "أغسطس"
-
-#. translators: month name
-#: wp-includes/locale.php:140 wp-includes/locale.php:155
-msgid "September"
-msgstr "سبتمبر"
-
-#. translators: month name
 #: wp-includes/locale.php:141 wp-includes/locale.php:156
 msgid "October"
 msgstr "أكتوبر"
-
-#. translators: month name
-#: wp-includes/locale.php:142 wp-includes/locale.php:157
-msgid "November"
-msgstr "نوفمبر"
-
-#. translators: month name
-#: wp-includes/locale.php:143 wp-includes/locale.php:158
-msgid "December"
-msgstr "ديسمبر"
 
 #. translators: three-letter abbreviation of the month
 #: wp-includes/locale.php:147
@@ -5765,44 +5735,14 @@ msgid "Apr_April_abbreviation"
 msgstr "أبريل_أبريل_abbreviation"
 
 #. translators: three-letter abbreviation of the month
-#: wp-includes/locale.php:151
-msgid "May_May_abbreviation"
-msgstr "مايو_مايو_abbreviation"
-
-#. translators: three-letter abbreviation of the month
 #: wp-includes/locale.php:152
 msgid "Jun_June_abbreviation"
 msgstr "يونيو_يونيو_abbreviation"
 
 #. translators: three-letter abbreviation of the month
-#: wp-includes/locale.php:153
-msgid "Jul_July_abbreviation"
-msgstr "يوليو_يوليو_abbreviation"
-
-#. translators: three-letter abbreviation of the month
-#: wp-includes/locale.php:154
-msgid "Aug_August_abbreviation"
-msgstr "أغسطس_أغسطس_abbreviation"
-
-#. translators: three-letter abbreviation of the month
-#: wp-includes/locale.php:155
-msgid "Sep_September_abbreviation"
-msgstr "سبتمبر_سبتمبر_abbreviation"
-
-#. translators: three-letter abbreviation of the month
 #: wp-includes/locale.php:156
 msgid "Oct_October_abbreviation"
 msgstr "أكتوبر_أكتوبر_abbreviation"
-
-#. translators: three-letter abbreviation of the month
-#: wp-includes/locale.php:157
-msgid "Nov_November_abbreviation"
-msgstr "نوفمبر_نوفمبر_abbreviation"
-
-#. translators: three-letter abbreviation of the month
-#: wp-includes/locale.php:158
-msgid "Dec_December_abbreviation"
-msgstr "ديسمبر_ديسمبر_abbreviation"
 
 #. translators: weekday
 #: wp-includes/locale.php:100 wp-includes/locale.php:110
@@ -6352,16 +6292,16 @@ msgstr "تم تغيير كلمة المرور المفقودة للعضو: %s"
 msgid "[%s] Password Lost/Changed"
 msgstr "[%s] تغيير كلمة المرور"
 
-#: wp-includes/pluggable.php:1706 wp-includes/pluggable.php:1729
+#: wp-includes/pluggable.php:1709 wp-includes/pluggable.php:1732
 #: wp-login.php:371
 msgid "Username: %s"
 msgstr "اسم المستخدم: %s"
 
-#: wp-includes/pluggable.php:1709
+#: wp-includes/pluggable.php:1712
 msgid "[%s] New User Registration"
 msgstr "[ %s ] تسجيل عضو جديد"
 
-#: wp-includes/pluggable.php:1735
+#: wp-includes/pluggable.php:1738
 msgid "[%s] Your username and password info"
 msgstr "[ %s ] اسم المستخدم وكلمة المرور"
 
@@ -6950,6 +6890,66 @@ msgstr "تم إيقاف التسجيل."
 msgid "User registration has been disabled."
 msgstr "تم تعطيل التسجيل في الموقع."
 
+#. translators: month name
+#: wp-includes/locale.php:140 wp-includes/locale.php:155
+msgid "September"
+msgstr "شتنبر"
+
+#. translators: three-letter abbreviation of the month
+#: wp-includes/locale.php:155
+msgid "Sep_September_abbreviation"
+msgstr "شتنبر_شتنبر_abbreviation"
+
+#. translators: month name
+#: wp-includes/locale.php:136 wp-includes/locale.php:151
+msgid "May"
+msgstr "ماي"
+
+#. translators: three-letter abbreviation of the month
+#: wp-includes/locale.php:151
+msgid "May_May_abbreviation"
+msgstr "ماي_ماي_abbreviation"
+
+#. translators: month name
+#: wp-includes/locale.php:139 wp-includes/locale.php:154
+msgid "August"
+msgstr "غشت"
+
+#. translators: three-letter abbreviation of the month
+#: wp-includes/locale.php:154
+msgid "Aug_August_abbreviation"
+msgstr "غشت_غشت_abbreviation"
+
+#. translators: month name
+#: wp-includes/locale.php:138 wp-includes/locale.php:153
+msgid "July"
+msgstr "يوليوز"
+
+#. translators: three-letter abbreviation of the month
+#: wp-includes/locale.php:153
+msgid "Jul_July_abbreviation"
+msgstr "يوليوز_يوليوز_abbreviation"
+
+#. translators: month name
+#: wp-includes/locale.php:143 wp-includes/locale.php:158
+msgid "December"
+msgstr "دجنبر"
+
+#. translators: three-letter abbreviation of the month
+#: wp-includes/locale.php:158
+msgid "Dec_December_abbreviation"
+msgstr "دجنبر_دجنبر_abbreviation"
+
+#. translators: month name
+#: wp-includes/locale.php:142 wp-includes/locale.php:157
+msgid "November"
+msgstr "نونبر"
+
+#. translators: three-letter abbreviation of the month
+#: wp-includes/locale.php:157
+msgid "Nov_November_abbreviation"
+msgstr "نونبر_نونبر_abbreviation"
+
 #: wp-includes/class-wp-customize-panel.php:375
 #: wp-includes/class-wp-customize-panel.php:469
 msgid "Help"
@@ -7201,7 +7201,7 @@ msgstr "بريدك الإلكتروني (لن يتم نشره)"
 msgid "Submit Comment"
 msgstr "ارسال التعليق"
 
-#: wp-includes/category-template.php:1305
+#: wp-includes/category-template.php:1306
 msgid "Tags: "
 msgstr "الوسوم:"
 
@@ -7730,7 +7730,7 @@ msgid "Uncategorized"
 msgstr "غير مصنف"
 
 #: wp-includes/pluggable.php:1465 wp-includes/pluggable.php:1595
-#: wp-includes/pluggable.php:1707
+#: wp-includes/pluggable.php:1710
 msgid "E-mail: %s"
 msgstr "البريد الإلكتروني: %s"
 

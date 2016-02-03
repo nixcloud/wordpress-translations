@@ -1174,7 +1174,7 @@ msgctxt "Plugin Installer"
 msgid "Recommended"
 msgstr "موصى به"
 
-#: wp-admin/includes/upgrade.php:364
+#: wp-admin/includes/upgrade.php:365
 msgid ""
 "Your new WordPress site has been successfully set up at:\n"
 "\n"
@@ -5479,11 +5479,11 @@ msgid "If you want to make changes but don&#8217;t want them to be overwritten w
 msgstr "إذا رغبت بتحديث إضافة ما والاحتفاظ بالتعديلات السابقة التي أجريتها عليها فمنّ المفضّل أن تفكر بإنشاء إضافة خاصة بك. للمزيد من المعلومات عن تحرير الإضافات وعن كيفية البدء بتطوير إضافة من الصفر راجع وثائق المساعدة في الرابط التالي."
 
 #. translators: Default page slug
-#: wp-admin/includes/upgrade.php:227
+#: wp-admin/includes/upgrade.php:228
 msgid "sample-page"
 msgstr "مثال-على-صفحة"
 
-#: wp-admin/includes/upgrade.php:225
+#: wp-admin/includes/upgrade.php:226
 msgid "Sample Page"
 msgstr "مثال على صفحة"
 
@@ -6489,7 +6489,7 @@ msgstr "لا يسمح لك بإنشاء صفحات في هذا الموقع."
 msgid "My Site"
 msgstr "موقعي"
 
-#: wp-admin/includes/upgrade.php:380
+#: wp-admin/includes/upgrade.php:381
 msgid "New WordPress Site"
 msgstr "موقع ووردبريس جديد"
 
