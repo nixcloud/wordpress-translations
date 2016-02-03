@@ -96,11 +96,11 @@ msgstr "Opsi Menu"
 msgid "Registration confirmation will be e-mailed to you."
 msgstr "Konfirmasi registrasi akan dikirimkan ke email Anda."
 
-#: wp-includes/script-loader.php:378
+#: wp-includes/script-loader.php:379
 msgid "Hide"
 msgstr "Sembunyikan"
 
-#: wp-includes/script-loader.php:377
+#: wp-includes/script-loader.php:378
 msgid "Show"
 msgstr "Tampilkan"
 
@@ -3606,7 +3606,7 @@ msgstr "Slogan"
 
 #: wp-includes/class-wp-customize-control.php:481
 #: wp-includes/class-wp-customize-nav-menus.php:480
-#: wp-includes/default-widgets.php:1593
+#: wp-includes/default-widgets.php:1592
 msgid "&mdash; Select &mdash;"
 msgstr "&mdash; Pilih &mdash;"
 
@@ -4859,7 +4859,7 @@ msgstr "Menu Navigasi"
 msgid "Links for %s"
 msgstr "Taut untuk %s"
 
-#: wp-includes/default-widgets.php:1583
+#: wp-includes/default-widgets.php:1582
 msgid "No menus have been created yet. <a href=\"%s\">Create some</a>."
 msgstr "Tidak ada menu yang telah dibuat. <a href=\"%s\">Buat beberapa</a>."
 
@@ -4987,7 +4987,7 @@ msgstr "Lacakbalik baru pada pos \"%s\" Anda"
 msgid "If you are the owner of this network please check that MySQL is running properly and all tables are error free."
 msgstr "Jika Anda pemilik jaringan ini, silakan pastikan MySQL berjalan dengan baik dan seluruh tabel bebas dari galat."
 
-#: wp-includes/default-widgets.php:1591
+#: wp-includes/default-widgets.php:1590
 msgid "Select Menu:"
 msgstr "Pilih Menu:"
 
@@ -6938,7 +6938,7 @@ msgstr "Visual"
 #: wp-includes/default-widgets.php:555 wp-includes/default-widgets.php:624
 #: wp-includes/default-widgets.php:758 wp-includes/default-widgets.php:907
 #: wp-includes/default-widgets.php:1075 wp-includes/default-widgets.php:1465
-#: wp-includes/default-widgets.php:1587
+#: wp-includes/default-widgets.php:1586
 msgid "Title:"
 msgstr "Judul:"
 
@@ -7045,7 +7045,7 @@ msgstr "Surat (tidak akan dipublikasikan)"
 msgid "Submit Comment"
 msgstr "Kirim Komentar"
 
-#: wp-includes/category-template.php:1305
+#: wp-includes/category-template.php:1306
 msgid "Tags: "
 msgstr "Tag:"
 

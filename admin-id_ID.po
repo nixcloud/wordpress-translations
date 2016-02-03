@@ -1131,7 +1131,7 @@ msgctxt "Plugin Installer"
 msgid "Recommended"
 msgstr "Disarankan"
 
-#: wp-admin/includes/upgrade.php:364
+#: wp-admin/includes/upgrade.php:365
 msgid ""
 "Your new WordPress site has been successfully set up at:\n"
 "\n"
@@ -2515,6 +2515,10 @@ msgstr "Tambahkan item menu dari kolom di sebelah kiri."
 msgid "Plugins extend and expand the functionality of WordPress. You may automatically install plugins from the <a href=\"%1$s\">WordPress Plugin Directory</a> or upload a plugin in .zip format via <a href=\"%2$s\">this page</a>."
 msgstr "Plugin memperlebar dan memperluas fungsionalitas WordPress. Anda bisa menginstal plugin secara otomatis dari <a href=\"%1$s\">Direktori Plugin WordPress</a> atau mengunggah plugin dalam format .zip via <a href=\"%2$s\">laman ini</a>."
 
+#. Plugin URI of the plugin/theme
+msgid "http://wordpress.org/plugins/hello-dolly/"
+msgstr "http://wordpress.org/plugins/hello-dolly/"
+
 #: wp-admin/includes/class-wp-upgrader.php:131
 msgid "The package contains no files."
 msgstr "Paket ini tidak memiliki berkas apapun."
@@ -3647,6 +3651,22 @@ msgstr[1] "Rusak <span class=\"count\">(%s)</span>"
 #: wp-admin/includes/theme.php:211
 msgid "Light"
 msgstr "Terang"
+
+#. Plugin Name of the plugin/theme
+msgid "Hello Dolly"
+msgstr "Hello Dolly"
+
+#. Author of the plugin/theme
+msgid "Matt Mullenweg"
+msgstr "Matt Mullenweg"
+
+#. Author URI of the plugin/theme
+msgid "http://ma.tt/"
+msgstr "http://ma.tt/"
+
+#. Description of the plugin/theme
+msgid "This is not just a plugin, it symbolizes the hope and enthusiasm of an entire generation summed up in two words sung most famously by Louis Armstrong: Hello, Dolly. When activated you will randomly see a lyric from <cite>Hello, Dolly</cite> in the upper right of your admin screen on every page."
+msgstr "Ini bukan hanya sebuah plugin, namun mewakili harapan dan antusiasme dari sebuah generasi utuh yang dirangkum oleh dua kata yang dinyanyikan oleh Louis Armstrong yang terkenal: Hello, Dolly. Ketika diaktifkan Anda akan disuguhi oleh potongan lirik dari <cite>Hello, Dolly</cite> secara acak di sisi kanan atas setiap halaman layar admin."
 
 #: wp-admin/includes/screen.php:1066
 msgid "Show on screen"
@@ -5288,11 +5308,11 @@ msgid "If you want to make changes but don&#8217;t want them to be overwritten w
 msgstr "Jika Anda ingin membuat perubahan tapi tidak ingin mereka tertimpa ketika plugin diperbarui, Anda mungkin mulai berpikir untuk membuat plugin sendiri. Untuk informasi tentang bagaimana menyunting plugin, menulis sendiri dari dasar, atau hanya untuk mengerti anatominya lebih baik, periksa tautan di bawah ini."
 
 #. translators: Default page slug
-#: wp-admin/includes/upgrade.php:227
+#: wp-admin/includes/upgrade.php:228
 msgid "sample-page"
 msgstr "laman-contoh"
 
-#: wp-admin/includes/upgrade.php:225
+#: wp-admin/includes/upgrade.php:226
 msgid "Sample Page"
 msgstr "Laman Contoh"
 
@@ -6266,7 +6286,7 @@ msgstr "Anda tidak diizinkan untuk membuat halaman di situs ini."
 msgid "My Site"
 msgstr "Situs Saya"
 
-#: wp-admin/includes/upgrade.php:380
+#: wp-admin/includes/upgrade.php:381
 msgid "New WordPress Site"
 msgstr "Situs Wordpress yang Baru"
 
