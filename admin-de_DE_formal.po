@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-09-04 18:39:36+0000\n"
+"PO-Revision-Date: 2015-09-08 13:22:03+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1131,7 +1131,7 @@ msgctxt "Plugin Installer"
 msgid "Recommended"
 msgstr "Empfohlen"
 
-#: wp-admin/includes/upgrade.php:364
+#: wp-admin/includes/upgrade.php:365
 msgid ""
 "Your new WordPress site has been successfully set up at:\n"
 "\n"
@@ -5308,11 +5308,11 @@ msgstr ""
 "Ziehen Sie den folgenden Link in Ihre Favoritenleiste oder fügen Sie ihn über einen Rechtsklick zu Ihren Favoriten hinzu, um einen schnellen Zugriff zu gewährleisten."
 
 #. translators: Default page slug
-#: wp-admin/includes/upgrade.php:227
+#: wp-admin/includes/upgrade.php:228
 msgid "sample-page"
 msgstr "beispiel-seite"
 
-#: wp-admin/includes/upgrade.php:225
+#: wp-admin/includes/upgrade.php:226
 msgid "Sample Page"
 msgstr "Beispiel-Seite"
 
@@ -6286,7 +6286,7 @@ msgstr "Benutzen Sie Press This, um Text, Bilder und Videos aus jeder beliebigen
 msgid "My Site"
 msgstr "Mein Blog"
 
-#: wp-admin/includes/upgrade.php:380
+#: wp-admin/includes/upgrade.php:381
 msgid "New WordPress Site"
 msgstr "Neuer WordPress-Blog"
 
@@ -8033,10 +8033,6 @@ msgstr ""
 "Sie sind im Begriff, dieses Theme zu löschen: '%s'\n"
 "'Abbrechen' zum Stoppen, 'OK' zum Löschen."
 
-#: wp-admin/update-core.php:108
-msgid "This localized version contains both the translation and various other localization fixes. You can skip upgrading if you want to keep your current translation."
-msgstr "Die lokalisierte Version beinhaltet beides, die Übersetzung und verschiedenene andere Lokalisationsanpassungen. Sie können die Aktualisierung abbrechen, wenn Sie Ihre momentane Übersetzung beibehalten möchten."
-
 #: wp-admin/includes/update-core.php:863
 msgid "The update cannot be installed because WordPress %1$s requires PHP version %2$s or higher. You are running version %3$s."
 msgstr "Das Update konnte nicht installiert werden, da WordPress %1$s mindestens die PHP-Version %2$s benötigt. Sie verwenden die Version %3$s."
@@ -8294,6 +8290,10 @@ msgstr "Ansehen"
 #: wp-admin/options-discussion.php:171
 msgid "Hold a comment in the queue if it contains %s or more links. (A common characteristic of comment spam is a large number of hyperlinks.)"
 msgstr "Einen Kommentar in die Warteschlange schieben, wenn er %s oder mehr Links enthält. (Eine hohe Anzahl von Links ist ein typisches Merkmal von Kommentar-Spam.)"
+
+#: wp-admin/update-core.php:108
+msgid "This localized version contains both the translation and various other localization fixes. You can skip upgrading if you want to keep your current translation."
+msgstr "Die lokalisierte Version beinhaltet beides, die Übersetzung und verschiedene andere Lokalisationsanpassungen. Sie können die Aktualisierung abbrechen, wenn Sie Ihre momentane Übersetzung beibehalten möchten."
 
 #: wp-admin/comment.php:134
 msgid "Permanently Delete Comment"
