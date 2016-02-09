@@ -30,6 +30,48 @@ this is an example of how i'm using it with the nix programming language on nixo
 
 in essence: based on a GIT revision this gives us reproducible downloads in comparison to the wordpress portal (3.7.2015).
 
+# versioning
+
+WP upstream seems to be using x.y versioning for the languages, this is why this repo has branches like this:
+
+    ...
+    tr_TR-4.0
+    tr_TR-4.1
+    tr_TR-4.2
+    tr_TR-4.3
+    tr_TR-4.4
+    ug_CN-4.1
+    ug_CN-4.2
+    ug_CN-4.3
+    ug_CN-4.4
+    uk-4.2
+    uk-4.3
+    uk-4.4
+    vi-4.3
+    vi-4.4
+    zh_CN-4.0
+    zh_CN-4.1
+    zh_CN-4.2
+    zh_CN-4.3
+    zh_CN-4.4
+    zh_TW-4.0
+    zh_TW-4.1
+    zh_TW-4.2
+    zh_TW-4.3
+    zh_TW-4.4
+
+zh_TW-4.4 should contain the latest zh_TW locales after running ./udpate! 
+
+use:
+
+    git branch -l
+
+and inside the branch use:
+
+    git log 
+
+to find the respective hash which needs to be filled, from the example above,  a attribute called revision=...
+
 # who
 
 contact js@lastlog.de for inquiries
