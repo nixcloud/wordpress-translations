@@ -1,0 +1,968 @@
+# Translation of Network Admin in Icelandic
+# This file is distributed under the same license as the Network Admin package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-12-07 13:01:04+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n % 100 != 1 && n % 100 != 21 && n % 100 != 31 && n % 100 != 41 && n % 100 != 51 && n % 100 != 61 && n % 100 != 71 && n % 100 != 81 && n % 100 != 91);\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
+"Project-Id-Version: Network Admin\n"
+
+#: wp-admin/network/site-users.php:329 wp-admin/network/user-new.php:106
+msgid "A password reset link will be sent to the user via email."
+msgstr "Vefslóð til að endursetja lykilorð verður send notanda í tölvupósti."
+
+#. translators: 1: NOBLOGREDIRECT 2: wp-config.php
+#: wp-admin/network/settings.php:142
+msgid "If registration is disabled, please set %1$s in %2$s to a URL you will redirect visitors to if they visit a non-existent site."
+msgstr "Ef lokað er fyrir skráningu, stilltu vinsamlegast %1$s í %2$s á vefslóð sem þú vísar notendum á ef þeir heimsækja vef sem er ekki til nú þegar."
+
+#. translators: 1: WP_ALLOW_MULTISITE 2: wp-config.php
+#: wp-admin/network.php:44
+msgid "You must define the %1$s constant as true in your %2$s file to allow creation of a Network."
+msgstr "Þú verður að setja %1$s fastann sem true í %2$s skránni til þess að hægt sé að stofna net."
+
+#: wp-admin/network/site-users.php:41
+msgid "Site users list navigation"
+msgstr "Leiðarkerfi lista yfir notendur vefs"
+
+#: wp-admin/network/site-users.php:42
+msgid "Site users list"
+msgstr "Listi yfir notendur vefs"
+
+#: wp-admin/network/sites.php:50
+msgid "Sites list navigation"
+msgstr "Leiðarkerfi lista yfir vefi"
+
+#: wp-admin/network/sites.php:51
+msgid "Sites list"
+msgstr "Listi yfir vefi"
+
+#: wp-admin/network/themes.php:256
+msgid "Themes list navigation"
+msgstr "Leiðarkerfi lista yfir þemu"
+
+#: wp-admin/network/site-new.php:178
+msgid "Only lowercase letters (a-z) and numbers are allowed."
+msgstr "Eingöngu lágstafir (a-z) og tölustafir eru leyfilegir."
+
+#: wp-admin/network/site-new.php:95
+msgid "The domain or path entered conflicts with an existing username."
+msgstr "Lénið eða slóðin sem þú gafst upp rekst á við notandanafn sem er til nú þegar."
+
+#: wp-admin/network/site-themes.php:37
+msgid "Filter site themes list"
+msgstr "Sía lista yfir þemu vefs"
+
+#: wp-admin/network/site-themes.php:38
+msgid "Site themes list navigation"
+msgstr "Leiðarkerfi lista yfir þemu vefs"
+
+#: wp-admin/network/site-themes.php:39
+msgid "Site themes list"
+msgstr "Listi yfir þemu vefs"
+
+#: wp-admin/network/site-users.php:40
+msgid "Filter site users list"
+msgstr "Sía lista yfir notendur vefs"
+
+#: wp-admin/network/sites.php:69
+msgid "You are about to mark the site %s as mature."
+msgstr "Þú ert að fara að skilgreina vefinn %s bannaðan börnum."
+
+#: wp-admin/network/sites.php:70
+msgid "You are about to mark the site %s as not mature."
+msgstr "Þú ert að fara að skilgreina vefinn %s leyfilegan öllum aldurshópum."
+
+#: wp-admin/network/sites.php:78
+msgid "The requested action is not valid."
+msgstr "Ekki hægt að framkvæma umbeðna aðgerð."
+
+#: wp-admin/network/sites.php:68
+msgid "You are about to delete the site %s."
+msgstr "Þú ert við það að eyða vefnum %s."
+
+#: wp-admin/network/sites.php:67
+msgid "You are about to mark the site %s as spam."
+msgstr "Þú ert við það að merkja vef %s sem rusl."
+
+#: wp-admin/network/sites.php:66
+msgid "You are about to unspam the site %s."
+msgstr "Þú ert við það að afmerkja vef sem rusl %s."
+
+#: wp-admin/network/sites.php:65
+msgid "You are about to archive the site %s."
+msgstr "Þú ert við það að þjappa vef %s."
+
+#: wp-admin/network/sites.php:64
+msgid "You are about to unarchive the site %s."
+msgstr "Þú ert við það að afþjappa vef %s."
+
+#: wp-admin/network/sites.php:63
+msgid "You are about to deactivate the site %s"
+msgstr "Þú ert við það að afvirkja vef %s"
+
+#: wp-admin/network/sites.php:62
+msgid "You are about to activate the site %s"
+msgstr "Þú ert við það að virkja vef %s"
+
+#: wp-admin/network/site-info.php:46 wp-admin/network/site-settings.php:43
+#: wp-admin/network/site-themes.php:66 wp-admin/network/site-users.php:59
+msgid "The requested site does not exist."
+msgstr "Umbeðinn vefur er ekki til."
+
+#: wp-admin/network/site-info.php:170 wp-admin/network/site-info.php:177
+msgid "Site URL"
+msgstr "Slóð síðu"
+
+#: wp-admin/network/upgrade.php:32
+msgid "<a href=\"https://codex.wordpress.org/Network_Admin_Updates_Screen\" target=\"_blank\">Documentation on Upgrade Network</a>"
+msgstr "<a href=\"https://codex.wordpress.org/Network_Admin_Updates_Screen\" target=\"_blank\">Skjölun á net-uppfærslum</a>"
+
+#: wp-admin/network/user-new.php:29 wp-admin/network/users.php:171
+msgid "<a href=\"https://codex.wordpress.org/Network_Admin_Users_Screen\" target=\"_blank\">Documentation on Network Users</a>"
+msgstr "<a href=\"https://codex.wordpress.org/Network_Admin_Users_Screen\" target=\"_blank\">Skjölun á netnotendum</a>"
+
+#: wp-admin/network.php:67 wp-admin/network.php:78
+msgid "<a href=\"https://codex.wordpress.org/Tools_Network_Screen\" target=\"_blank\">Documentation on the Network Screen</a>"
+msgstr "<a href=\"https://codex.wordpress.org/Tools_Network_Screen\" target=\"_blank\">Skjölun á netskjámynd</a>"
+
+#: wp-admin/network/index.php:53
+msgid "<a href=\"https://codex.wordpress.org/Network_Admin\" target=\"_blank\">Documentation on the Network Admin</a>"
+msgstr "<a href=\"https://codex.wordpress.org/Network_Admin\" target=\"_blank\">Skjölun um netstjóra hlutverkið</a>"
+
+#: wp-admin/network/site-info.php:34 wp-admin/network/site-new.php:32
+#: wp-admin/network/site-settings.php:32 wp-admin/network/site-themes.php:32
+#: wp-admin/network/site-users.php:35 wp-admin/network/sites.php:45
+msgid "<a href=\"https://codex.wordpress.org/Network_Admin_Sites_Screen\" target=\"_blank\">Documentation on Site Management</a>"
+msgstr "<a href=\"https://codex.wordpress.org/Network_Admin_Sites_Screen\" target=\"_blank\">Skjölun um vefstjórnun</a>"
+
+#: wp-admin/network.php:66 wp-admin/network.php:77
+msgid "<a href=\"https://codex.wordpress.org/Create_A_Network\" target=\"_blank\">Documentation on Creating a Network</a>"
+msgstr "<a href=\"https://codex.wordpress.org/Create_A_Network\" target=\"_blank\">Skjölun á stofnun neta</a>"
+
+#: wp-admin/network/themes.php:250
+msgid "<a href=\"https://codex.wordpress.org/Network_Admin_Themes_Screen\" target=\"_blank\">Documentation on Network Themes</a>"
+msgstr "<a href=\"https://codex.wordpress.org/Network_Admin_Themes_Screen\" target=\"_blank\">Skjölun á net-þemum</a>"
+
+#: wp-admin/network/settings.php:43
+msgid "<a href=\"https://codex.wordpress.org/Network_Admin_Settings_Screen\" target=\"_blank\">Documentation on Network Settings</a>"
+msgstr "<a href=\"https://codex.wordpress.org/Network_Admin_Settings_Screen\" target=\"_blank\">Skjölun og net-stillingar</a>"
+
+#. translators: 1: site url, 2: server error message
+#: wp-admin/network/upgrade.php:76
+msgid "Warning! Problem updating %1$s. Your server may not be able to connect to sites running on it. Error message: %2$s"
+msgstr "Viðvörun! Vandamál við uppfærslu %1$s. Netþjónninn þinn nær líklega ekki samband við vefi hýsta á honum. Villuskilaboð: %2$s"
+
+#: wp-admin/network/themes.php:170
+msgid "Are you sure you wish to delete this theme?"
+msgstr "Ertu viss um að þú viljir eyða þessu þema?"
+
+#: wp-admin/network/themes.php:158
+msgid "These themes may be active on other sites in the network."
+msgstr "Þessi þemu gætu verið virk á öðrum vefjum á netinu þínu."
+
+#: wp-admin/network/themes.php:159
+msgid "You are about to remove the following themes:"
+msgstr "Þú ert að fara að eyða eftirfarandi þemum:"
+
+#: wp-admin/network/site-themes.php:172 wp-admin/network/themes.php:281
+msgid "%s theme enabled."
+msgid_plural "%s themes enabled."
+msgstr[0] "%s þema virkjað."
+msgstr[1] "%s þemu virkjuð."
+
+#: wp-admin/network/site-themes.php:180 wp-admin/network/themes.php:289
+msgid "%s theme disabled."
+msgid_plural "%s themes disabled."
+msgstr[0] "%s þema óvirk."
+msgstr[1] "%s þemu óvirk."
+
+#: wp-admin/network/themes.php:157
+msgid "Delete Themes"
+msgstr "Eyða þemum"
+
+#: wp-admin/network/themes.php:297
+msgid "%s theme deleted."
+msgid_plural "%s themes deleted."
+msgstr[0] "%s þema eytt."
+msgstr[1] "%s þemum eytt."
+
+#: wp-admin/network/themes.php:187
+msgid "Yes, delete these themes"
+msgstr "Já, eyða þessum þemum."
+
+#: wp-admin/network/settings.php:304
+msgid "Size in kilobytes"
+msgstr "Stærð í kílóbætum"
+
+#: wp-admin/network/settings.php:134
+msgid "New registrations settings"
+msgstr "Stillingar nýskráninga"
+
+#: wp-admin/network/settings.php:294
+msgid "Allowed file types. Separate types by spaces."
+msgstr "Leyfðar skráartegundir. Aðskildu tegundir með stafabili."
+
+#: wp-admin/network/site-info.php:203
+msgid "Set site attributes"
+msgstr "Skilgreina stillingu vefs"
+
+#: wp-admin/network/settings.php:367
+msgid "Enable menus"
+msgstr "Virkja valmyndir"
+
+#: wp-admin/network/index.php:54 wp-admin/network/site-info.php:35
+#: wp-admin/network/site-new.php:33 wp-admin/network/site-settings.php:33
+#: wp-admin/network/site-themes.php:33 wp-admin/network/site-users.php:36
+#: wp-admin/network/sites.php:46 wp-admin/network/user-new.php:30
+#: wp-admin/network/users.php:172
+msgid "<a href=\"https://wordpress.org/support/forum/multisite/\" target=\"_blank\">Support Forums</a>"
+msgstr "<a href=\"https://wordpress.org/support/forum/multisite/\" target=\"_blank\">Spjallborð f. aðstoð</a>"
+
+#: wp-admin/network/sites.php:103
+msgid "Confirm your action"
+msgstr "Staðfestu aðgerðina þína"
+
+#: wp-admin/network/settings.php:118
+msgid "This email address will receive notifications. Registration and support emails will also come from this address."
+msgstr "Tilkynningar munu berast á þetta netfang. Skráningar- og hjálpartölvupóstar munu einnig verða sendir frá þessu netfangi."
+
+#: wp-admin/network/users.php:162
+msgid "Hover over any user on the list to make the edit links appear. The Edit link on the left will take you to their Edit User profile page; the Edit link on the right by any site name goes to an Edit Site screen for that site."
+msgstr "Sveimaðu yfir hvaða notanda sem er í listanum til þess að sjá breyta tengil. Breyta tengillinn til vinstri flytur þig yfir á Breyta notanda prófíl síðuna; breyta tengillinn til hægri við hvaða vefnafn sem er flytur þig á Breyta vef síðuna fyrir viðkomandi vef."
+
+#: wp-admin/network/index.php:39
+msgid "To add a new user, <strong>click Create a New User</strong>."
+msgstr "Til þess að bæta við nýjum notanda, <strong>smelltu á Stofna nýjan notanda</strong>."
+
+#: wp-admin/network/index.php:40
+msgid "To add a new site, <strong>click Create a New Site</strong>."
+msgstr "Til þess að bæta við nýjum vef, <strong>smelltu á Stofna nýjan vef</strong>."
+
+#: wp-admin/network/index.php:42
+msgid "To search for a user, <strong>enter an email address or username</strong>. Use a wildcard to search for a partial username, such as user&#42;."
+msgstr "Til þess að leita að notanda, <strong>sláðu inn annaðhvort netfang eða notandanafn</strong>. Notaðu algildistákn til þess að leita að hluta úr notandanafni, til dæmis notandi&42;"
+
+#: wp-admin/network/index.php:43
+msgid "To search for a site, <strong>enter the path or domain</strong>."
+msgstr "Til þess að leita að vef, <strong>sláðu inn slóðann eða lén</strong>."
+
+#: wp-admin/network/settings.php:96
+msgid "Options saved."
+msgstr "Stillingar vistaðar."
+
+#: wp-admin/network/index.php:25
+msgid "Welcome to your Network Admin. This area of the Administration Screens is used for managing all aspects of your Multisite Network."
+msgstr "Velkomin(n) í Net-kerfisstjórn. Þetta svæði kerfisstjórnunar er notað til þess að halda utan um alla þætti fjölvefja netsins þíns."
+
+#: wp-admin/network/index.php:30
+msgid "Modify global network settings"
+msgstr "Breyta algildum net stillingum"
+
+#: wp-admin/network/index.php:41
+msgid "To search for a user or site, use the search boxes."
+msgstr "Til þess að leita að notanda eða vef, notaðu leitarreitina."
+
+#: wp-admin/network/index.php:26
+msgid "From here you can:"
+msgstr "Héðan getur þú:"
+
+#: wp-admin/network/index.php:27
+msgid "Add and manage sites or users"
+msgstr "Stofna og sýslað með vefi eða notendur."
+
+#: wp-admin/network/index.php:28
+msgid "Install and activate themes or plugins"
+msgstr "Sett inn og virkjað þemu eða viðbætur"
+
+#: wp-admin/network/index.php:29
+msgid "Update your network"
+msgstr "Uppfært netið þitt"
+
+#: wp-admin/network/index.php:38
+msgid "The Right Now widget on this screen provides current user and site counts on your network."
+msgstr "Aukahluturinn Þessa stundina á þessari skjámynd sýnir núverandi notanda og fjölda vefja í netinu þínu."
+
+#: wp-admin/network/index.php:47
+msgid "Quick Tasks"
+msgstr "Flýtileiðir"
+
+#: wp-admin/network/upgrade.php:25
+msgid "Only use this screen once you have updated to a new version of WordPress through Updates/Available Updates (via the Network Administration navigation menu or the Toolbar). Clicking the Upgrade Network button will step through each site in the network, five at a time, and make sure any database updates are applied."
+msgstr "Notaðu þessa síðu einungis ef þú hefur uppfært í nýja útgáfu af WordPRess í gegnum Uppfærslur/Fáanlegar uppfærslur (í gegnum Netkerfisstjórnar valmyndina eða tækjastikuna). Með því að smella á Uppfæra netkerfi hnappinn verður farið í gegnum hvern vef á netinu, fimm í einu, og gengið úr skugga um að allar gagnagrunnsuppfærslur hafi verið framkvæmdar."
+
+#: wp-admin/network/upgrade.php:115
+msgid "WordPress has been updated! Before we send you on your way, we need to individually upgrade the sites in your network."
+msgstr "WordPress hefur verið uppfært! Áður en við sleppum þér í burtu, þá verðum við að uppfæra hvern vef í netinu þínu."
+
+#: wp-admin/network/menu.php:22 wp-admin/network/upgrade.php:18
+#: wp-admin/network/upgrade.php:42 wp-admin/network/upgrade.php:119
+msgid "Upgrade Network"
+msgstr "Uppfæra netkerfi"
+
+#. translators: 1: user login, 2: site url, 3: site name/title
+#: wp-admin/network/site-new.php:123
+msgid ""
+"New site created by %1$s\n"
+"\n"
+"Address: %2$s\n"
+"Name: %3$s"
+msgstr ""
+"Nýr vefur stofnaður af%1$s\n"
+"\n"
+"Slóð: %2$s\n"
+"Nafn: %3$s"
+
+#: wp-admin/network.php:62
+msgid "Add the designated lines of code to wp-config.php (just before <code>/*...stop editing...*/</code>) and <code>.htaccess</code> (replacing the existing WordPress rules)."
+msgstr "Bættu við þeim línum af kóða sem lagt er til inn í wp-config.php (beint á undan <code>/*...stop editing...*/</code>) og <code>.htaccess</code> (skipta út núverandi WordPress reglum)."
+
+#: wp-admin/network/site-users.php:246
+msgid "User created."
+msgstr "Notandi hefur verið búinn til."
+
+#: wp-admin/network/site-users.php:297 wp-admin/network/user-new.php:110
+msgid "Add User"
+msgstr "Bæta við notanda"
+
+#: wp-admin/network/user-new.php:52
+msgid "Cannot add user."
+msgstr "Get ekki bætt við notanda."
+
+#: wp-admin/network/site-users.php:249
+msgid "Enter the username and email."
+msgstr "Sláðu inn notandanafn og tölvupóstfang."
+
+#: wp-admin/network/site-users.php:243
+msgid "Select a user to remove."
+msgstr "Veldu notanda sem á að fjarlægja."
+
+#: wp-admin/network/sites.php:147
+msgid "You are not allowed to delete the site."
+msgstr "Þú hefur ekki réttindi til að eyða þessum vef."
+
+#: wp-admin/network/site-users.php:228
+msgid "User is already a member of this site."
+msgstr "Þessi notandi er núþegar meðlimur á þessum vef. "
+
+#: wp-admin/network/site-info.php:125
+msgid "Site info updated."
+msgstr "Upplýsingar vefs uppfærðar."
+
+#: wp-admin/network/site-users.php:231
+msgid "Enter the username of an existing user."
+msgstr "Vinsamlegast sláðu inn notandanafn núverandi notanda."
+
+#: wp-admin/network/themes.php:303
+msgid "You cannot delete a theme while it is active on the main site."
+msgstr "Þú getur ekki eytt þemu meðan hún er í notkun á aðalvef."
+
+#: wp-admin/network/site-new.php:151 wp-admin/network/site-new.php:161
+msgid "Add New Site"
+msgstr "Stofna nýjan vef"
+
+#: wp-admin/network/site-info.php:144 wp-admin/network/site-settings.php:101
+#: wp-admin/network/site-themes.php:155 wp-admin/network/site-users.php:210
+msgid "Info"
+msgstr "Upplýsingar"
+
+#: wp-admin/network/themes.php:172
+msgid "Are you sure you wish to delete these themes?"
+msgstr "Ertu viss um að þú viljir eyða þessum þemum?"
+
+#: wp-admin/network/themes.php:17
+msgid "You do not have sufficient permissions to manage network themes."
+msgstr "Þú hefur ekki fullnægjandi réttindi til þess að breyta þemum í þessu neti."
+
+#: wp-admin/network/themes.php:100
+msgid "You do not have sufficient permissions to delete themes for this site."
+msgstr "Þú hefur ekki fullnægjandi réttindi til þess að eyða þemum í þessu neti."
+
+#: wp-admin/network/site-info.php:41 wp-admin/network/site-settings.php:39
+#: wp-admin/network/site-themes.php:60 wp-admin/network/site-users.php:55
+msgid "Invalid site ID."
+msgstr "Ógilt kenni (ID) vefs."
+
+#: wp-admin/network/site-themes.php:184 wp-admin/network/themes.php:301
+msgid "No theme selected."
+msgstr "Ekkert þema valið."
+
+#: wp-admin/network/site-info.php:129 wp-admin/network/site-settings.php:86
+#: wp-admin/network/site-themes.php:142 wp-admin/network/site-users.php:182
+msgid "Edit Site: %s"
+msgstr "Breyta vef: %s"
+
+#: wp-admin/network/settings.php:315
+msgid "Language Settings"
+msgstr "Tungumálavalkostir"
+
+#: wp-admin/network/site-settings.php:83
+msgid "Site options updated."
+msgstr "Valkostir vefs uppfærðir."
+
+#: wp-admin/network/menu.php:28
+msgid "All Sites"
+msgstr "Allir vefir"
+
+#: wp-admin/network/sites.php:236
+msgid "You do not have permission to delete that site."
+msgstr "Þú hefur ekki fullnægjandi réttindi til að eyða þessum vef."
+
+#: wp-admin/network/site-new.php:20
+msgid "You do not have sufficient permissions to add sites to this network."
+msgstr "Þú hefur ekki fullnægjandi réttindi til að bæta við vefjum í þetta net."
+
+#: wp-admin/network/menu.php:41 wp-admin/network/themes.php:270
+msgctxt "theme"
+msgid "Add New"
+msgstr "Bæta við"
+
+#: wp-admin/network/menu.php:19
+msgid "Updates"
+msgstr "Uppfærslur"
+
+#: wp-admin/network/sites.php:40
+msgid "Clicking on bold headings can re-sort this table."
+msgstr "Þú getur endurraðað töflunni með því að smella á feitletraðar fyrirsagnir."
+
+#: wp-admin/network/site-users.php:237
+msgid "Select a user to change role."
+msgstr "Veldu notanda til að gefa nýtt hlutverk."
+
+#: wp-admin/network/user-new.php:23
+msgid "Add User will set up a new user account on the network and send that person an email with username and password."
+msgstr "Stofna notanda mun setja upp nýjan notandaaðgang á netinu, og sendir viðkomandi tölvupóst með notandanafni og lykilorði."
+
+#: wp-admin/network/site-info.php:25 wp-admin/network/site-settings.php:23
+#: wp-admin/network/site-themes.php:23 wp-admin/network/site-users.php:26
+msgid "The menu is for editing information specific to individual sites, particularly if the admin area of a site is unavailable."
+msgstr "Þessi valmynd nýtist til að breyta upplýsingum einstakra vefja, einkum ef að bakendi vefsins reynist óaðgengilegur."
+
+#: wp-admin/network/settings.php:166
+msgid "Allow site administrators to add new users to their site via the \"Users &rarr; Add New\" page."
+msgstr "Leyfa vefstjórum að bæta við notendum í vefinn þeirra á síðunni \"Notendur &rarr; Bæta við\"."
+
+#. translators: 1: dashboard url, 2: network admin edit url
+#: wp-admin/network/site-new.php:145
+msgid "Site added. <a href=\"%1$s\">Visit Dashboard</a> or <a href=\"%2$s\">Edit Site</a>"
+msgstr "Vefur stofnaður. <a href=\"%1$s\">Heimsækja stjórnborð</a> eða <a href=\"%2$s\">breyta vef</a>"
+
+#: wp-admin/network/sites.php:35
+msgid "Dashboard leads to the Dashboard for that site."
+msgstr "Stjórnborð leiðir þig yfir í stjórnborð viðkomandi vefs."
+
+#: wp-admin/network/sites.php:34
+msgid "An Edit link to a separate Edit Site screen."
+msgstr "Breyta hlekkur yfir á sérstaka síðu til þess að breyta vef."
+
+#: wp-admin/network/sites.php:31
+msgid "Add New takes you to the Add New Site screen. You can search for a site by Name, ID number, or IP address. Screen Options allows you to choose how many sites to display on one page."
+msgstr "Bæta við flytur þig yfir á Stofna nýjan vef síðuna. Þar getur þú leitað að vef eftir nafni, raðnúmeri, eða IP tölu. Skjástillingar leyfa þér að velja hversu margir vefir birtast á hverri síðu."
+
+#: wp-admin/network/settings.php:38
+msgid "Super admins can no longer be added on the Options screen. You must now go to the list of existing users on Network Admin > Users and click on Username or the Edit action link below that name. This goes to an Edit User page where you can check a box to grant super admin privileges."
+msgstr "Ekki er lengur hægt að bæta við yfirkerfisstjórum úr Stillingasíðunni. Þú þarft nú að fara í lista yfir notendur undir Netkerfisstjórn > Notendur og smella á notandanafn eða breyta tengilinn undir viðkomandi nafn. Þetta flytur þig á Breyta notanda síðuna þar sem þú getur hakað í reit til þess að virkja yfirkerfisstjóraréttindi."
+
+#: wp-admin/network/themes.php:245
+msgid "Themes can be enabled on a site by site basis by the network admin on the Edit Site screen (which has a Themes tab); get there via the Edit action link on the All Sites screen. Only network admins are able to install or edit themes."
+msgstr "Hægt er að virkja þemu vef fyrir vef í netstjórnborðinu undir Breyta vef (þar er Þemu dálkur); þú kemst þangað með því að ýta á Breyta tengilinn á Allir vefir síðunni. Aðeins netkerfisstjórar geta sett upp eða breytt þemum."
+
+#: wp-admin/network/site-new.php:26
+msgid "This screen is for Super Admins to add new sites to the network. This is not affected by the registration settings."
+msgstr "Þessi síða er fyrir yfir-kerfisstjóra til þess að bæta við vefjum á netið þitt. Skráningastillingar hafa ekki áhrif á þessa síðu."
+
+#: wp-admin/network/sites.php:37
+msgid "Delete which is a permanent action after the confirmation screens."
+msgstr "Eyða er óafturkræf aðgerð eftir staðfestingaskjáina."
+
+#: wp-admin/network/menu.php:55 wp-admin/network/settings.php:22
+msgid "Network Settings"
+msgstr "Net-stillingar"
+
+#: wp-admin/network/menu.php:40
+msgid "Installed Themes"
+msgstr "Uppsett þemu"
+
+#: wp-admin/network/menu.php:36
+msgid "Themes %s"
+msgstr "Þemu %s"
+
+#: wp-admin/network/site-themes.php:17
+msgid "You do not have sufficient permissions to manage themes for this site."
+msgstr "Þú hefur ekki fullnægjandi réttindi til þess að sýsla með þemu á þessum vef."
+
+#: wp-admin/network/site-themes.php:187
+msgid "Network enabled themes are not shown on this screen."
+msgstr "Þemu sem búið er að virkja fyrir allt netið eru ekki birt hér."
+
+#: wp-admin/network/themes.php:185
+msgid "Yes, delete this theme"
+msgstr "Já, eyða þessu þema"
+
+#: wp-admin/network/themes.php:155
+msgid "You are about to remove the following theme:"
+msgstr "Þú ert við það að fjarlægja eftirfarandi þema:"
+
+#: wp-admin/network/themes.php:154
+msgid "This theme may be active on other sites in the network."
+msgstr "Þetta þema gæti verið í notkun á öðrum vefjum á netinu."
+
+#: wp-admin/network/themes.php:153
+msgid "Delete Theme"
+msgstr "Eyða þema"
+
+#: wp-admin/network/site-themes.php:178 wp-admin/network/themes.php:287
+msgid "Theme disabled."
+msgstr "Þema gerð óvirk."
+
+#: wp-admin/network/site-themes.php:170 wp-admin/network/themes.php:279
+msgid "Theme enabled."
+msgstr "Þema virkjað."
+
+#: wp-admin/network/themes.php:195
+msgid "No, return me to the theme list"
+msgstr "Nei, sendu mig aftur í yfirlit yfir þemu"
+
+#: wp-admin/network/site-info.php:27 wp-admin/network/site-settings.php:25
+#: wp-admin/network/site-themes.php:25 wp-admin/network/site-users.php:28
+msgid "<strong>Users</strong> &mdash; This displays the users associated with this site. You can also change their role, reset their password, or remove them from the site. Removing the user from the site does not remove the user from the network."
+msgstr "<strong>Notendur</strong> &mdash; Þetta birtir notendur tengda við þennan vef. Þú getur breytt hlutverki þeirra, endursett lykilorð eða fjarlægt þá úr vefnum. Það að fjarlægja notanda úr vef mun ekki fjarlægja hann af netinu sjálfu."
+
+#: wp-admin/network/site-info.php:26 wp-admin/network/site-settings.php:24
+#: wp-admin/network/site-themes.php:24 wp-admin/network/site-users.php:27
+msgid "<strong>Info</strong> &mdash; The site URL is rarely edited as this can cause the site to not work properly. The Registered date and Last Updated date are displayed. Network admins can mark a site as archived, spam, deleted and mature, to remove from public listings or disable."
+msgstr "<strong>Upplýsingar</strong> &mdash; Léninu og möppunni er sjaldnast breytt þar sem það getur valdið því að vefurinn virki ekki rétt. Dagsetningar skráningar og síðast breytt eru birtar. Netkerfisstjórar geta merkt vef sem geymdan, amavef, eyddan eða fullorðins, til þess að fjarlægja hann úr opinberum listum eða gera óvirkan."
+
+#: wp-admin/network/site-info.php:29 wp-admin/network/site-settings.php:27
+#: wp-admin/network/site-themes.php:27 wp-admin/network/site-users.php:30
+msgid "<strong>Settings</strong> &mdash; This page shows a list of all settings associated with this site. Some are created by WordPress and others are created by plugins you activate. Note that some fields are grayed out and say Serialized Data. You cannot modify these values due to the way the setting is stored in the database."
+msgstr "<strong>Stillingar</strong> &mdash; Þessi síða sýnir lista yfir allar stillingar tengdum þessum vef. Einhverjar hafa verið skilgreindar af WordPress og aðrar af viðbótum sem þú hefur virkjað. Athugaðu að einstaka reitir eru óvirkir og segja Seralized Data. Þú getur ekki breytt þeim gildum vegna þess hvernig þau eru geymd í gagnagrunninum."
+
+#: wp-admin/network/site-info.php:28 wp-admin/network/site-settings.php:26
+#: wp-admin/network/site-themes.php:26 wp-admin/network/site-users.php:29
+msgid "<strong>Themes</strong> &mdash; This area shows themes that are not already enabled across the network. Enabling a theme in this menu makes it accessible to this site. It does not activate the theme, but allows it to show in the site&#8217;s Appearance menu. To enable a theme for the entire network, see the <a href=\"%s\">Network Themes</a> screen."
+msgstr "<strong>Þemu</strong> &mdash; Þetta svæði sýnir þemu sem ekki hafa verið virkjuð á öllu netinu. Það að virkja þema í þessari valmyndi gerir það aðgengilegt þeim vef. Það virkjar ekki þemað, en leyfir það að það birtist í Útlits valmynd vefsins. Til þess að gera þema aðgengilegt öllu netinu, skoðaðu <a href=\"%s\">Net þemu</a> síðuna."
+
+#: wp-admin/network.php:71
+msgid "Network"
+msgstr "Net"
+
+#: wp-admin/network.php:63
+msgid "Once you add this code and refresh your browser, multisite should be enabled. This screen, now in the Network Admin navigation menu, will keep an archive of the added code. You can toggle between Network Admin and Site Admin by clicking on the Network Admin or an individual site name under the My Sites dropdown in the Toolbar."
+msgstr "Eftir að þú hefur bætt þessum kóða við og þú hefur endurfrískað vafrann mun fjölvefjauppsetningin verða virk. Þessi síða, sem er nú undir Netkerfisstjórnarvalmyndinni, geymir afrit af þessum viðbætta kóða. Þú getur skipt á milli Netkerfisstjórnar og Vefstjórnar með vþí að smella á Netkerfisstjórn eða nafn einstaka vefs undir Vefirnir mínir valmyndinni í tækjastikunni."
+
+#: wp-admin/network.php:60
+msgid "Choose subdomains or subdirectories; this can only be switched afterwards by reconfiguring your install. Fill out the network details, and click install. If this does not work, you may have to add a wildcard DNS record (for subdomains) or change to another setting in Permalinks (for subdirectories)."
+msgstr "Veldu undirlén eða undirmöppur; það er einungis hægt að breyta því eftirá með því að endurstilla uppsetninguna þína. Fylltu út upplýsingar um netið, og smelltu á uppsetningu. Ef þetta virkar ekki gætir þú þurft að bæta við algilandi DNS færslu (fyrir undirlén) eða skipta yfir í aðra stillingu fyrir vefslóðir (fyrir undirmöppur)."
+
+#: wp-admin/network.php:29
+msgid "The Network creation panel is not for WordPress MU networks."
+msgstr "Síðan til að stofna net er ekki fyrir WordPress MU netkerfi."
+
+#: wp-admin/network.php:59
+msgid "This screen allows you to configure a network as having subdomains (<code>site1.example.com</code>) or subdirectories (<code>example.com/site1</code>). Subdomains require wildcard subdomains to be enabled in Apache and DNS records, if your host allows it."
+msgstr "Þessi síða leyfir þér að stilla net þannig að það noti undirlén(<code>site1.example.com</code>) eða undirmöppur (<code>example.com/site1</code>). Undirlén krefjast þess að algildar undirlén séu virk í Apache og DNS færslum, ef hýsingin þín styður það."
+
+#: wp-admin/network.php:64
+msgid "The choice of subdirectory sites is disabled if this setup is more than a month old because of permalink problems with &#8220;/blog/&#8221; from the main site. This disabling will be addressed in a future version."
+msgstr "Lokað er fyrir valkostinn að setja upp undirmöppu vefi ef uppsetningin er eldri en eins mánaðar vegna vefslóðar-vandamáls með &#8220;/blog/&#8221; tengdu aðalvefnum. Tekið verður á þessu vandamáli í framtíðarútgáfu."
+
+#: wp-admin/network.php:61
+msgid "The next screen for Network Setup will give you individually-generated lines of code to add to your wp-config.php and .htaccess files. Make sure the settings of your FTP client make files starting with a dot visible, so that you can find .htaccess; you may have to create this file if it really is not there. Make backup copies of those two files."
+msgstr "Næsta skref í Netuppsetningu sýnir sérsniðar línur af kóða handa þér til þess að bæta í skrárnar wp-config.php og .htaccess. Gakktu úr skugga um að stillingar í FTP biðlara geri skrár sem hefjast á punkti sýnilegar, þannig að þú getir fundið .htaccess; þú gætir þurft að búa til þessa skrá ef hún er ekki til staðar. Gerðu öryggisafrit af þessum tveim skrám."
+
+#: wp-admin/network.php:55
+msgid "Create a Network of WordPress Sites"
+msgstr "Stofna net WordPress vefja"
+
+#: wp-admin/network/site-info.php:18 wp-admin/network/site-settings.php:17
+#: wp-admin/network/site-users.php:17
+msgid "You do not have sufficient permissions to edit this site."
+msgstr "Þú hefur ekki fullnægjandi réttindi til að breyta þessum vef."
+
+#: wp-admin/network/users.php:73
+msgid "Warning! User cannot be modified. The user %s is a network administrator."
+msgstr "Viðvörun! Ekki var hægt að breyta notanda. Notandi  %s er er skráður sem netstjóri."
+
+#: wp-admin/network/site-new.php:27
+msgid "If the admin email for the new site does not exist in the database, a new user will also be created."
+msgstr "Ef netfang vefstjóra finnst ekki í gagnagrunninnum verður nýr notandi stofnaður."
+
+#: wp-admin/network/sites.php:39
+msgid "The site ID is used internally, and is not shown on the front end of the site or to users/viewers."
+msgstr "Auðkenni vefs er einungis notað bakvið tjöldin, og er ekki birt á framenda vefs eða notendum/gestum."
+
+#: wp-admin/network/sites.php:33
+msgid "Hovering over each site reveals seven options (three for the primary site):"
+msgstr "Með því að sveima yfir hvern vef birtast sjö stillingar (þrjár fyrir höfuðvef):"
+
+#: wp-admin/network/sites.php:36
+msgid "Deactivate, Archive, and Spam which lead to confirmation screens. These actions can be reversed later."
+msgstr "Afvirkja, gagnasöfn og amavefir leiða þig yfir í staðfestingarskjámyndir. Hægt er að afturkalla þessar aðgerðir síðar."
+
+#: wp-admin/network/settings.php:32
+msgid "Operational settings has fields for the network&#8217;s name and admin email."
+msgstr "Rekstrarstillingar innihalda reiti fyrir nafn nets og netfang kerfisstjóra."
+
+#: wp-admin/network/users.php:163
+msgid "You can also go to the user&#8217;s profile page by clicking on the individual username."
+msgstr "Þú getur einnig farið á prófíl síðu notanda með því að smella á notandanafnið."
+
+#: wp-admin/network/settings.php:35
+msgid "Upload settings control the size of the uploaded files and the amount of available upload space for each site. You can change the default value for specific sites when you edit a particular site. Allowed file types are also listed (space separated only)."
+msgstr "Stillingar fyrir upphal stjórna stærð upphalaðra skráa og því hversu mikið geymslupláss hver vefur hefur. Þú getur breytt sjálfgefnu gildi fyrir ákveðna vefi þegar þú vinnur með stillingar viðkomandi vefs. Leyfðar skráartegundir eru einnig taldar upp (aðeins aðskildar með stafabili)."
+
+#: wp-admin/network/users.php:165
+msgid "The bulk action will permanently delete selected users, or mark/unmark those selected as spam. Spam users will have posts removed and will be unable to sign up again with the same email addresses."
+msgstr "Magnaðgerðin eyðir varanlega völdum notendum, eða merkir/afmerkir þá sem hafa verið valdir sem amanotendur. Færslur amanotenda verða fjarlægðar og ekki verður hægt að nota þetta netfang til nýskráningar."
+
+#: wp-admin/network/sites.php:38
+msgid "Visit to go to the frontend site live."
+msgstr "Heimsækja til að fara á virkan framenda vefs."
+
+#: wp-admin/network/users.php:161
+msgid "This table shows all users across the network and the sites to which they are assigned."
+msgstr "Þessi tafla sýnir alla notendur á netinu og vefina sem þeir tengjast."
+
+#: wp-admin/network/upgrade.php:27
+msgid "If this process fails for any reason, users logging in to their sites will force the same update."
+msgstr "Ef þessi aðgerð misheppnast af einhverri ástæðu, þá munu notendur þvinga áfram uppfærsluma þegar þeir skrá sig inn á vefinn sinn."
+
+#: wp-admin/network/upgrade.php:26
+msgid "If a version update to core has not happened, clicking this button won&#8217;t affect anything."
+msgstr "Ef kjarninn hefur ekki verið uppfærður þá mun þessi hnappur ekki hafa nein áhrif."
+
+#: wp-admin/network/settings.php:37
+msgid "Menu setting enables/disables the plugin menus from appearing for non super admins, so that only super admins, not site admins, have access to activate plugins."
+msgstr "Stillingar valmynda stjórna birtingu á valmyndum viðbóta fyrir notendur án ofurkerfisstjóraréttinda, þannig að aðeins ofurkerfisstjórar, ekki vefstjórar, hafa aðgang til þess að virkja viðbætur."
+
+#: wp-admin/network/themes.php:244
+msgid "If the network admin disables a theme that is in use, it can still remain selected on that site. If another theme is chosen, the disabled theme will not appear in the site&#8217;s Appearance > Themes screen."
+msgstr "Ef netkerfisstjóri gerir þemu í notkun óvirkt, þá er það ennþá valið fyrir þann vef. Ef annað þema er valið mun óvirka þemað ekki birtast á vefnum undir Útlit > Þemu."
+
+#: wp-admin/network/settings.php:34
+msgid "New site settings are defaults applied when a new site is created in the network. These include welcome email for when a new site or user account is registered, and what&#8127;s put in the first post, page, comment, comment author, and comment URL."
+msgstr "Stillingar nýs vefs eru sjálfgefin gildi sem eru skilgreind þegar vefur er stofnaður á netinu. Það inniheldur kynningartölvupóst fyrir það þegar vefur er stofnaður eða nýr notandi skráður, og hvað er í fyrstu færslunni, síðunni, athugasemdinni, höfundur athugasemdarinnar og slóð athugasemdarinnar."
+
+#: wp-admin/network/users.php:166
+msgid "You can make an existing user an additional super admin by going to the Edit User profile page and checking the box to grant that privilege."
+msgstr "Þú getur bætt notanda við sem yfir kerfisstjóra með því að fara yfir á Breyta notanda prófíl síðuna og haka við reitinn til þess að virkja þau réttindi."
+
+#: wp-admin/network/users.php:164
+msgid "You can sort the table by clicking on any of the bold headings and switch between list and excerpt views by using the icons in the upper right."
+msgstr "Þú getur raðað í töflunni með því að smella á einhverja af feitletruðu fyrirsögnunum og skipt á milli lista og útdráttar með því að nota táknmyndirnar efst til hægri."
+
+#: wp-admin/network/sites.php:32
+msgid "This is the main table of all sites on this network. Switch between list and excerpt views by using the icons above the right side of the table."
+msgstr "Þetta er höfuðtafla fyrir alla vefi á þessu neti. Skiptu á milli lista og útdráttar með því að nota táknmyndirnar til hægri við töfluna."
+
+#: wp-admin/network/user-new.php:24
+msgid "Users who are signed up to the network without a site are added as subscribers to the main or primary dashboard site, giving them profile pages to manage their accounts. These users will only see Dashboard and My Sites in the main navigation until a site is created for them."
+msgstr "Notendum sem skrá sig inn á netkerfið án vefs verður bætt við sem áskrifendum á aðal- eða höfuðstjórnborðsvefinn, sem gefur þeim prófil síður til þess að sýsla með aðganginn sinn. Þessir notendur koma aðeins til með að sjá stjórnborðið og vefirnir mínir í aðalvalmynd, þar til að vefur hefur verið stofnaður fyrir þá."
+
+#: wp-admin/network/settings.php:31
+msgid "This screen sets and changes options for the network as a whole. The first site is the main site in the network and network options are pulled from that original site&#8217;s options."
+msgstr "Þessi síða setur og breytir stillingum fyrir netið í heild. Fyrsti vefurinn er aðalvefurinn á netinu og netstillingar eru sóttar frá upprunalegum stillingum þess vefs."
+
+#: wp-admin/network/themes.php:243
+msgid "This screen enables and disables the inclusion of themes available to choose in the Appearance menu for each site. It does not activate or deactivate which theme a site is currently using."
+msgstr "Þessi síða skilgreinir hvaða þemu birtast í Útlits valmyndinni fyrir hvern vef. Það hefur ekki áhrif á það hvaða þema er virkt."
+
+#: wp-admin/network/settings.php:33
+msgid "Registration settings can disable/enable public signups. If you let others sign up for a site, install spam plugins. Spaces, not commas, should separate names banned as sites for this network."
+msgstr "Skráningastillingar geta afvirkjað/virkjað opna skráningu. Ef þú leyfir öðrum að skrá sig fyrir vef, settu upp amaviðbætur. Bil en ekki kommur eiga að aðskilja nöfn sem eru bönnuð í vefjum á þessu neti."
+
+#: wp-admin/network/site-new.php:52
+msgid "The following words are reserved for use by WordPress functions and cannot be used as blog names: <code>%s</code>"
+msgstr "Eftirfarandi orð eru frátekin og eru notuð í WordPress föllum og eru því ekki nothæf sem nafn á vef: <code>%s</code>"
+
+#: wp-admin/network/site-new.php:40
+msgid "Can&#8217;t create an empty site."
+msgstr "Get ekki stofnað tóman vef."
+
+#: wp-admin/network/upgrade.php:100
+msgid "If your browser doesn&#8217;t start loading the next page automatically, click this link:"
+msgstr "Ef vafrinn þinn hleður ekki sjálfkrafa næstu síðu, smelltu á þennan tengil:"
+
+#: wp-admin/network/settings.php:188
+msgid "If you want to limit site registrations to certain domains. One domain per line."
+msgstr "Ef þú vilt takmarka nýskráningar vefja við ákveðin lén. Eitt lén í línu."
+
+#: wp-admin/network/settings.php:199
+msgid "If you want to ban domains from site registrations. One domain per line."
+msgstr "Ef þú vilt útiloka lén frá nýskráningu vefja. Eitt lén í línu."
+
+#: wp-admin/network/sites.php:254
+msgid "Site marked as spam."
+msgstr "Vefur merktur sem amavefur."
+
+#: wp-admin/network/sites.php:227
+msgid "Sites marked as spam."
+msgstr "Vefir merktir sem amavefir."
+
+#: wp-admin/network/sites.php:224
+msgid "Sites removed from spam."
+msgstr "Vefir afmerktir sem amavefir."
+
+#: wp-admin/network/users.php:195
+msgid "Users removed from spam."
+msgstr "Notendur afmerktir sem amanotendur."
+
+#: wp-admin/network/sites.php:251
+msgid "Site removed from spam."
+msgstr "Vefur fjarlægður úr amavefjum."
+
+#: wp-admin/network/sites.php:230
+msgid "Sites deleted."
+msgstr "Vefum eytt."
+
+#: wp-admin/network/sites.php:233
+msgid "Site deleted."
+msgstr "Vefum eytt."
+
+#: wp-admin/network/sites.php:248
+msgid "Site deactivated."
+msgstr "Vefur hefur verið afvirkjaður"
+
+#: wp-admin/network/sites.php:245
+msgid "Site activated."
+msgstr "Vefur hefur verið virkjaður"
+
+#: wp-admin/network/sites.php:242
+msgid "Site unarchived."
+msgstr "Vefur afþjappaður."
+
+#: wp-admin/network/users.php:198
+msgid "Users deleted."
+msgstr "Notendum hefur verið eytt."
+
+#: wp-admin/network/sites.php:239
+msgid "Site archived."
+msgstr "Vefur þjappaður."
+
+#: wp-admin/network/users.php:192
+msgid "Users marked as spam."
+msgstr "Notandi merktur sem ruslnotandi."
+
+#: wp-admin/network/site-new.php:79
+msgid "Invalid email address."
+msgstr "Ógilt tölvupóstfang."
+
+#: wp-admin/network/sites.php:94 wp-admin/network/sites.php:160
+msgid "You are not allowed to change the current site."
+msgstr "Þú hefur ekki heimild til að breyta núverandi vef."
+
+#: wp-admin/network/site-new.php:100
+msgid "There was an error creating the user."
+msgstr "Villa kom upp við að stofna notandann."
+
+#: wp-admin/network/settings.php:302
+msgctxt "File size in kilobytes"
+msgid "%s KB"
+msgstr "%s KB"
+
+#: wp-admin/network/settings.php:290
+msgid "Upload file types"
+msgstr "Upphlaðanlegar skráargerðir"
+
+#: wp-admin/network/settings.php:282
+msgid "Limit total size of files uploaded to %s MB"
+msgstr "Takmarka stærð innsendra skráa við %s MB"
+
+#: wp-admin/network/settings.php:234
+msgid "The first post on a new site."
+msgstr "Fyrsta færslan á nýjum vef."
+
+#: wp-admin/network/settings.php:244
+msgid "The first page on a new site."
+msgstr "Fyrsta síðan á nýjum vef."
+
+#: wp-admin/network/settings.php:254
+msgid "The first comment on a new site."
+msgstr "Fyrstu ummælin á nýjum vef."
+
+#: wp-admin/network/settings.php:263
+msgid "The author of the first comment on a new site."
+msgstr "Höfundur fyrstu ummæla á nýjum vef. "
+
+#: wp-admin/network/settings.php:272
+msgid "The URL for the first comment on a new site."
+msgstr "Slóðin á fyrstu athugasemdina á nýjum vef."
+
+#: wp-admin/network/upgrade.php:60
+msgid "All done!"
+msgstr "Öllu lokið!"
+
+#: wp-admin/network/settings.php:135
+msgid "Registration is disabled."
+msgstr "Nýskráning er óvirk."
+
+#: wp-admin/network/settings.php:136
+msgid "User accounts may be registered."
+msgstr "Nýskráningar notenda eru leyfðar."
+
+#: wp-admin/network/settings.php:137
+msgid "Logged in users may register new sites."
+msgstr "Innskráðir notendur mega stofna nýja vefi."
+
+#: wp-admin/network/settings.php:138
+msgid "Both sites and user accounts can be registered."
+msgstr "Það er hægt að stofna bæði notendur og vefi."
+
+#: wp-admin/network/settings.php:277
+msgid "Upload Settings"
+msgstr "Upplhleðslustillingar"
+
+#: wp-admin/network/settings.php:205
+msgid "New Site Settings"
+msgstr "Stillingar á nýjum vefs"
+
+#: wp-admin/network/settings.php:345
+msgid "Enable administration menus"
+msgstr "Virkja valmynd fyrir kerfisstjórn"
+
+#: wp-admin/network/settings.php:123
+msgid "Registration Settings"
+msgstr "Skráningastillingar"
+
+#: wp-admin/network/settings.php:104
+msgid "Operational Settings"
+msgstr "Rekstrarstillingar"
+
+#: wp-admin/network/site-new.php:74
+msgid "Missing email address."
+msgstr "Tölvupóstfang vantar."
+
+#: wp-admin/network/site-new.php:71
+msgid "Missing or invalid site address."
+msgstr "Vefslóð röng eða vantar."
+
+#: wp-admin/network/site-new.php:131
+msgid "[%s] New Site Created"
+msgstr "Nýr vefur [%s] hefur verið stofnaður"
+
+#: wp-admin/network/settings.php:280
+msgid "Site upload space"
+msgstr "Hámarkskvóti vefs til upphleðslu"
+
+#: wp-admin/network/upgrade.php:100
+msgid "Next Sites"
+msgstr "Næstu vefir"
+
+#: wp-admin/network/settings.php:175
+msgid "Users are not allowed to register these sites. Separate names by spaces."
+msgstr "Notendur hafa ekki leyfi til að skrá eftirfarandi vefi. Aðskilja skal nöfn með línubili. "
+
+#: wp-admin/network/settings.php:214
+msgid "The welcome email sent to new site owners."
+msgstr "Tölvupóstur sem býður nýja eigendur vefja velkomna."
+
+#: wp-admin/network/settings.php:159
+msgid "Send the network admin an email notification every time someone registers a site or user account."
+msgstr "Senda netstjóra tölvupóst í hvert sinn einhver býr til vef eða notanda."
+
+#: wp-admin/network/index.php:20 wp-admin/network/settings.php:20
+#: wp-admin/network/site-info.php:50 wp-admin/network/site-settings.php:47
+#: wp-admin/network/site-themes.php:70 wp-admin/network/site-users.php:63
+#: wp-admin/network/sites.php:17 wp-admin/network/sites.php:129
+#: wp-admin/network/upgrade.php:39 wp-admin/network/user-new.php:37
+#: wp-admin/network/users.php:17 wp-admin/network/users.php:26
+#: wp-admin/network/users.php:47 wp-admin/network/users.php:60
+#: wp-admin/network/users.php:109
+msgid "You do not have permission to access this page."
+msgstr "Þú hefur ekki tilskilin leyfi til að fara á þessa síðu."
+
+#: wp-admin/network/sites.php:110
+msgid "Confirm"
+msgstr "Staðfesta"
+
+#: wp-admin/network/user-new.php:40
+msgid "Cannot create an empty user."
+msgstr "Ekki er hægt að stofna tóman notanda."
+
+#: wp-admin/network/settings.php:126
+msgid "Allow new registrations"
+msgstr "Leyfa nýskráningar"
+
+#: wp-admin/network/settings.php:153
+msgid "Registration notification"
+msgstr "Tilkynningar um nýskráningar"
+
+#: wp-admin/network/settings.php:164
+msgid "Add New Users"
+msgstr "Bæta við nýjum notendum"
+
+#: wp-admin/network/settings.php:171
+msgid "Banned Names"
+msgstr "Bönnuð nöfn"
+
+#: wp-admin/network/settings.php:181
+msgid "Limited Email Registrations"
+msgstr "Takmörkuð tölvupóstskráning"
+
+#: wp-admin/network/settings.php:194
+msgid "Banned Email Domains"
+msgstr "Bönnuð tölvupóstlén"
+
+#: wp-admin/network/settings.php:239
+msgid "First Page"
+msgstr "Fyrsta síða"
+
+#: wp-admin/network/settings.php:249
+msgid "First Comment"
+msgstr "Fyrstu ummæli"
+
+#: wp-admin/network/settings.php:259
+msgid "First Comment Author"
+msgstr "Höfundur fyrstu ummæla"
+
+#: wp-admin/network/settings.php:268
+msgid "First Comment URL"
+msgstr "Vefslóð fyrstu ummæla"
+
+#: wp-admin/network/settings.php:300
+msgid "Max upload file size"
+msgstr "Hámarksstærð sem hlaða má upp"
+
+#: wp-admin/network/settings.php:318
+msgid "Default Language"
+msgstr "Sjálfgefið tungumál"
+
+#: wp-admin/network/site-new.php:223
+msgid "Add Site"
+msgstr "Bæta við vef"
+
+#: wp-admin/network/site-new.php:171
+msgid "Site Address"
+msgstr "Veffang:"
+
+#: wp-admin/network/site-new.php:216
+msgid "Admin Email"
+msgstr "Netfang kerfisstjóra"
+
+#: wp-admin/network/site-new.php:220
+msgid "A new user will be created if the above email address is not in the database."
+msgstr "Nýr notandi verður stofnaður með meðfylgjandi netfangi finnist hann ekki í gagnagrunni."
+
+#: wp-admin/network/site-new.php:220
+msgid "The username and password will be mailed to this email address."
+msgstr "Notandanafn og lykilorð verður sent í tölvupósti á þetta netfang."
+
+#: wp-admin/network/settings.php:224
+msgid "The welcome email sent to new users."
+msgstr "Tölvupóstur sem býður notanda velkominn hefur verið sendur."
+
+#: wp-admin/network/settings.php:219
+msgid "Welcome User Email"
+msgstr "Tölvupóstur sem býður notanda velkominn"
+
+#: wp-admin/network/settings.php:209
+msgid "Welcome Email"
+msgstr "Tölvupóstur sem býður notendur velkomna"
+
+#: wp-admin/network/site-users.php:252
+msgid "Duplicated username or email address."
+msgstr "Notandanafn eða netfang nú þegar skráð."
