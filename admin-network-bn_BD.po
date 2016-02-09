@@ -1,0 +1,1184 @@
+# Translation of Network Admin in Bengali
+# This file is distributed under the same license as the Network Admin package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-08-18 16:32:37+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
+"Project-Id-Version: Network Admin\n"
+
+#: wp-admin/network.php:277 wp-admin/network.php:287
+msgid "Sub-directory Install"
+msgstr "সাব ডিরেক্টরি ইনস্টল"
+
+#: wp-admin/network.php:198
+msgid "ERROR: The network could not be created."
+msgstr "ইরোর: নেটওয়ার্ক তৈরি করা যায়নি।"
+
+#: wp-admin/network.php:243
+msgid "Sub-directories"
+msgstr "সাব-ডিরেক্টরি সমূহ"
+
+#: wp-admin/network.php:231
+msgid "You will need a wildcard DNS record if you are going to use the virtual host (sub-domain) functionality."
+msgstr "আপনি যদি ভার্চুয়্যাল হোস্ট (সাব-ডোমেইন)-এর ব্যবহার করতে চান তাহলে আপনার ওয়াইল্ডকার্ড ডিএনএস রেকর্ড প্রয়োজন। "
+
+#: wp-admin/network.php:185
+msgid "You cannot use port numbers such as <code>%s</code>."
+msgstr "আপনি পোর্ট নাম্বার ব্যবহার করতে পারবেন না, যেমন: <code>%s</code>"
+
+#: wp-admin/network.php:184
+msgid "You cannot install a network of sites with your server address."
+msgstr "আপনার সার্ভারের ঠিকানায় ওয়ার্ডপ্রেস নেটওয়ার্ক বানাতে পারবেন না।  "
+
+#: wp-admin/network.php:209
+msgid "Fill in the information below and you&#8217;ll be on your way to creating a network of WordPress sites. We will create configuration files in the next step."
+msgstr "নিচের তথ্যগুলো পূরণ করুন এবং আপনি&#8217;ll আপনার স্থানে একটা WordPress নেটওয়ার্ক তৈরি করার পথে আছেন। আমরা কনফিগার ফাইলগুলো পরের ধাপে বানাব। "
+
+#: wp-admin/network.php:401
+msgid "<strong>Caution:</strong> We recommend you back up your existing <code>wp-config.php</code> file."
+msgstr "<strong>সতর্কতাঃ</strong> আপনার বর্তমান <code>wp-config.php</code> ফাইলটির ব্যাকআপ রাখার জন্য আমরা সুপারিশ করছি।"
+
+#: wp-admin/network.php:407
+msgid "Add the following to your <code>wp-config.php</code> file in <code>%s</code> <strong>above</strong> the line reading <code>/* That&#8217;s all, stop editing! Happy blogging. */</code>:"
+msgstr "<code>%s</code> এ থাকা <code>wp-config.php</code> ফাইলে নিচের গুলো যুক্ত করুন। যেখানে দেখবেন লেখা আছে <code>/* That&#8217;s all, stop editing! Happy blogging. */</code>, ঠিক <strong>তার উপরে</strong>ঃ"
+
+#: wp-admin/network.php:282 wp-admin/network.php:292 wp-admin/network.php:299
+msgid "The main site in a sub-directory install will need to use a modified permalink structure, potentially breaking existing links."
+msgstr "সাব-ডিরেক্টরী ইন্সটলেশন গুলোর ক্ষেত্রে মূল সাইটের পার্মালিংক গঠন হালনাগাদ করতে করতে হবে, যা আপনার আগের লিংকগুলোকে ভেঙে দিতে পারে।"
+
+#: wp-admin/network.php:279
+msgid "Because you are using <code>localhost</code>, the sites in your WordPress network must use sub-directories. Consider using <code>localhost.localdomain</code> if you wish to use sub-domains."
+msgstr "যেহেতু আপনি <code>localhost</code> ব্যবহার করছেন, আপনার ওয়ার্ডপ্রেস নেটওয়ার্ক অবশ্যই সাব-ডিরেক্টরি ইন্সটলেশন হতে হবে। সাবডোমেইন ব্যবহার করতে চাইলে আপনি <code>localhost.localdomain</code> ব্যবহার করতে পারেন।"
+
+#: wp-admin/network.php:175 wp-admin/network.php:381 wp-admin/network.php:513
+#: wp-admin/network.php:550
+msgid "Warning:"
+msgstr "সতর্কবাণীঃ"
+
+#: wp-admin/network.php:229
+msgid "Addresses of Sites in your Network"
+msgstr "আপনার নেটওয়ার্কে থাকা সাইটগুলোর ঠিকানা"
+
+#: wp-admin/network.php:175
+msgid "Once the network is created, you may reactivate your plugins."
+msgstr "একবার নেটওয়ার্ক তৈরি করা হয়ে গেলে, আপনি আপনার প্লাগিনগুলো পুনরায় সক্রিয় করতে পারবেন।"
+
+#: wp-admin/network.php:267 wp-admin/network.php:307
+msgid "The internet address of your network will be <code>%s</code>."
+msgstr "আপনার নেটওয়ার্কের ইন্টারনেট অ্যাড্রেস হবে <code>%s</code>।"
+
+#: wp-admin/network.php:208
+msgid "Welcome to the Network installation process!"
+msgstr "নেটওয়ার্ক ইনস্টলেশন প্রক্রিয়ায় আপনাকে স্বাগতম!"
+
+#: wp-admin/network.php:134
+msgid "Network"
+msgstr "নেটওয়ার্ক"
+
+#: wp-admin/network.php:186
+msgid "Return to Dashboard"
+msgstr "ড্যাশবোর্ডে ফিরুন"
+
+#: wp-admin/network.php:175
+msgid "Please <a href=\"%s\">deactivate your plugins</a> before enabling the Network feature."
+msgstr "নেটওয়ার্ক ফিচার চালু করার আগে অনুগ্রহ করে <a href=\"%s\">আপনার প্লাগইনগুলো নিষ্ক্রিয় করুন</a>।"
+
+#: wp-admin/network.php:223
+msgid "It looks like the Apache <code>mod_rewrite</code> module is not installed."
+msgstr "মনে হচ্ছে Apache <code>mod_rewrite</code> মডিউল ইন্সটল করা হয়নি।"
+
+#: wp-admin/network.php:256 wp-admin/network.php:513 wp-admin/network.php:550
+msgid "Subdirectory networks may not be fully compatible with custom wp-content directories."
+msgstr "সাব ডিরেক্টরিতে থাকা নেটওয়ার্ক কাস্টম wp-content ডিরেক্টরির সাথে কম্প্যাটিবল নাও হতে পারে।"
+
+#: wp-admin/network.php:397 wp-admin/network.php:399
+msgid "<strong>Caution:</strong> We recommend you back up your existing <code>wp-config.php</code> and <code>%s</code> files."
+msgstr "<strong>সতর্কতাঃ</strong> আমরা অনুরোধ করি আপনার বর্তমান <code>wp-config.php</code> এবং <code>%s</code> ব্যাকআপ রাখার জন্য।"
+
+#: wp-admin/network.php:167
+msgid "The constant DO_NOT_UPGRADE_GLOBAL_TABLES cannot be defined when creating a network."
+msgstr "DO_NOT_UPGRADE_GLOBAL_TABLES এই ধ্রুবকটিকে নেটওয়ার্ক তৈরি করার সময় সংজ্ঞায়িত / বর্ণনা করা যায় না।"
+
+#: wp-admin/network.php:382
+msgid "Please complete the configuration steps. To create a new network, you will need to empty or remove the network database tables."
+msgstr "দয়া করে কনফিগারেশনের ধাপগুলো সম্পন্ন করুন। একটি নতুন নেটওয়ার্ক তৈরি করার জন্য, আপনাকে নেটওয়ার্ক ডাটাবেস টেবিল খালি অথবা অপসারণ করতে হবে।"
+
+#: wp-admin/network.php:273
+msgid "Network Details"
+msgstr "নেটওয়ার্ক-এর বিস্তারিত"
+
+#: wp-admin/network.php:394
+msgid "Complete the following steps to enable the features for creating a network of sites."
+msgstr "নেটওয়ার্ক সাইট তৈরি করার জন্য ফিচারগুলো চালু করতে এই প্রসেসগুলো শেষ করুন।"
+
+#: wp-admin/network.php:381
+msgid "An existing WordPress network was detected."
+msgstr "আপনার ইতোমধ্যে একটি ওয়ার্ডপ্রেস নেটওয়ার্ক আছে।"
+
+#: wp-admin/network.php:376
+msgid "The original configuration steps are shown here for reference."
+msgstr "রেফারেন্সের জন্য কফিগারেশনের মূল ধাপগুলো এখানে দেখানো হয়েছে।"
+
+#: wp-admin/network.php:298
+msgid "Because your install is not new, the sites in your WordPress network must use sub-domains."
+msgstr "যেহেতু আপনার ইনস্টলেশন নতুন নয়, আপনার ওয়ার্ডপ্রেস নেটওয়ার্কের সাইটগুলোকে অবশ্যই সাব-ডোমেইন ব্যবহার করতে হবে।"
+
+#: wp-admin/network.php:289
+msgid "Because your install is in a directory, the sites in your WordPress network must use sub-directories."
+msgstr "যেহেতু আপনার মূল ইনস্টলেশন একটি ডিরেক্টরির মধ্যে করা হয়েছে, আপনার ওয়ার্ডপ্রেস নেটওয়ার্কের সাইটগুলোকে অবশ্যই সাব-ডিরেক্টরি ব্যবহার করতে হবে।"
+
+#: wp-admin/network.php:559
+msgid "Once you complete these steps, your network is enabled and configured. You will have to log in again."
+msgstr "একবার আপনি এই ধাপ গুলো সম্পন্ন করার পর, আপনার নেটওয়ার্ক সক্রিয় হবে এবং কনফিগার হবে। আপনাকে আবার লগিন করতে হবে।"
+
+#: wp-admin/network.php:446
+msgid "To make your installation more secure, you should also add:"
+msgstr "আপনার ইনস্টলেশন আরও নিরাপদ করার জন্য আপনার আরও যোগ করা উচিত:"
+
+#: wp-admin/network.php:235
+msgid "Sub-domains"
+msgstr "সাব ডোমেইন সমুহ"
+
+#: wp-admin/network.php:223 wp-admin/network.php:256 wp-admin/network.php:282
+#: wp-admin/network.php:292
+msgid "Warning!"
+msgstr "সতর্কতা!"
+
+#: wp-admin/network.php:205
+msgctxt "Default network name"
+msgid "%s Sites"
+msgstr "%s টি সাইট"
+
+#: wp-admin/network.php:393
+msgid "Enabling the Network"
+msgstr "নেটওয়ার্ক সক্রিয় করুন"
+
+#: wp-admin/network.php:325
+msgid "Your email address."
+msgstr "আপনার ইমেইল অ্যাড্রেস।"
+
+#: wp-admin/network.php:316
+msgid "What would you like to call your network?"
+msgstr "আপনি আপনার নেটওয়ার্ককে কি নাম দিতে চান?"
+
+#: wp-admin/network.php:297
+msgid "Sub-domain Install"
+msgstr "সাব ডোমেইন ইনস্টল"
+
+#: wp-admin/network.php:261 wp-admin/network.php:265 wp-admin/network.php:305
+msgid "Server Address"
+msgstr "সার্ভার অ্যাড্রেস"
+
+#. translators: 1: hostname
+#: wp-admin/network.php:246
+msgctxt "subdirectory examples"
+msgid "like <code>%1$s/site1</code> and <code>%1$s/site2</code>"
+msgstr "যেমন <code>%1$s/site1</code> এবং <code>%1$s/site2</code>"
+
+#: wp-admin/network.php:129 wp-admin/network.php:140
+msgid "<a href=\"https://codex.wordpress.org/Create_A_Network\" target=\"_blank\">Documentation on Creating a Network</a>"
+msgstr "<a href=\"https://codex.wordpress.org/Create_A_Network\" target=\"_blank\">একটি নেটওয়ার্ক তৈরি উপর ডকুমেন্টেশন</a>"
+
+#: wp-admin/network.php:130 wp-admin/network.php:141
+msgid "<a href=\"https://codex.wordpress.org/Tools_Network_Screen\" target=\"_blank\">Documentation on the Network Screen</a>"
+msgstr "<a href=\"https://codex.wordpress.org/Tools_Network_Screen\" target=\"_blank\">নেটওয়ার্ক স্ক্রিনের ডকুমেন্টেশন</a>"
+
+#. translators: 1: a filename like .htaccess. 2: a file path.
+#: wp-admin/network.php:509 wp-admin/network.php:546
+msgid "Add the following to your %1$s file in %2$s, <strong>replacing</strong> other WordPress rules:"
+msgstr "ওয়ার্ডপ্রেস এর অন্যান্য রূল কে <strong>স্থানান্তর</strong> করতে নিচের কোড আপনার %1$s ফাইলের %2$s এ যুক্ত করুন।"
+
+#: wp-admin/network.php:443
+msgid "These unique authentication keys are also missing from your <code>wp-config.php</code> file."
+msgstr "এই স্বতন্ত্র অথেনটিকেশন কি সমূহ আপনার <code>wp-config.php</code> ফাইলেও অনুপস্থিত।"
+
+#: wp-admin/network.php:441
+msgid "This unique authentication key is also missing from your <code>wp-config.php</code> file."
+msgstr "<code>wp-config.php</code> ফাইলে ইউনিক অথেনটিকেশন কী পাওয়া যায়নি।"
+
+#: wp-admin/network.php:221
+msgid "Please make sure the Apache <code>mod_rewrite</code> module is installed as it will be used at the end of this installation."
+msgstr "যেহেতু, ইনস্টলেশনের শেষে প্রয়োজন হবে, অনুগ্রহ করে নিশ্চিত করুন এপাচি <code>mod_rewrite</code> মডিউল ইনস্টল করা আছে।"
+
+#. translators: 1: hostname
+#: wp-admin/network.php:238
+msgctxt "subdomain examples"
+msgid "like <code>site1.%1$s</code> and <code>site2.%1$s</code>"
+msgstr "যেমন <code>site1.%1$s</code> এবং <code>site2.%1$s</code>"
+
+#: wp-admin/network.php:225
+msgid "If <code>mod_rewrite</code> is disabled, ask your administrator to enable that module, or look at the <a href=\"http://httpd.apache.org/docs/mod/mod_rewrite.html\">Apache documentation</a> or <a href=\"http://www.google.com/search?q=apache+mod_rewrite\">elsewhere</a> for help setting it up."
+msgstr "যদি <code>mod_rewrite</code> বন্ধ করা থাকে, তবে আপনার প্রশাসক কে বলুন এই মডিউল সক্রিয় করতে, অথবা <a href=\"http://httpd.apache.org/docs/mod/mod_rewrite.html\">এ্যাপাচি নির্দেশিকা</a> দেখুন বা <a href=\"http://www.google.com/search?q=apache+mod_rewrite\">অন্য কোথাও</a> দেখুন সেট আপ এর সাহায্যের জন্য।"
+
+#: wp-admin/network.php:230
+msgid "Please choose whether you would like sites in your WordPress network to use sub-domains or sub-directories. <strong>You cannot change this later.</strong>"
+msgstr "অনুগ্রহ করে বেছে নিন যে, আপনার ওয়ার্ডপ্রেস নেটওয়ার্ক-এর সাইটগুলোতে আপনি sub-domains না sub-directories ব্যবহার করতে চান। <strong>এই সিদ্ধান্ত আপনি পরবর্তীতে পরিবর্তন করতে পারবেন না।</strong>"
+
+#: wp-admin/network.php:262
+msgid "We recommend you change your siteurl to <code>%1$s</code> before enabling the network feature. It will still be possible to visit your site using the <code>www</code> prefix with an address like <code>%2$s</code> but any links will not have the <code>www</code> prefix."
+msgstr "নেটওয়ার্ক ফিচার চালু করার পূর্বে আমাদের পরামর্শ হল, আপনি আপনার সাইট ইউআরএল <code>%1$s</code>-এ পরিবর্তন করে নিন। আপনার সাইটে তখনও ভিজিট করা সম্ভব হবে <code>%2$s</code>-জাতীয় কোনো লিংক-এর আগে <code>www</code> প্রিফিক্স ব্যবহার করে, কিন্তু কোনো লিংক-এ <code>www</code> প্রিফিক্স থাকবে না।"
+
+#: wp-admin/network.php:125
+msgid "Add the designated lines of code to wp-config.php (just before <code>/*...stop editing...*/</code>) and <code>.htaccess</code> (replacing the existing WordPress rules)."
+msgstr "এই নির্দিষ্ট কোডের লাইনগুলি wp-config.php ফাইলে ( <code>/*...stop editing...*/</code>-এর ঠিক উপরে) যোগ করুন এবং <code>.htaccess</code>-এ (ওয়ার্ডপ্রেস-এর বিদ্যমান নিয়মগুলো পরিবর্তন করে)"
+
+#: wp-admin/network.php:124
+msgid "The next screen for Network Setup will give you individually-generated lines of code to add to your wp-config.php and .htaccess files. Make sure the settings of your FTP client make files starting with a dot visible, so that you can find .htaccess; you may have to create this file if it really is not there. Make backup copies of those two files."
+msgstr "নেটয়ার্ক সেটআপের জন্য পরবর্তি পর্দাটি স্বতন্ত্র তৈরি করা কিছু কোড দিবে যেটি আপনার wp-config.php এবং .htaccess ফাইলে যোগ করতে হবে। নিশ্চিৎ করুন আপনার FTP ক্লায়েন্টে ডট (.) দিয়ে শুরু হওয়া ফাইলগুলো দেখা যাচ্ছে, যাতে আপনি .htaccess  ফাইলটাকে খুজে পেতে পারেন। আপনার এই ফাইলটি তৈরি করা লাগতে পারে যদি ফাইলটি ইতোপূর্বে ওখানে থেকে না থাকে। ফাইল দুটির ব্যাকআপ রেখে নিন।"
+
+#: wp-admin/network.php:126
+msgid "Once you add this code and refresh your browser, multisite should be enabled. This screen, now in the Network Admin navigation menu, will keep an archive of the added code. You can toggle between Network Admin and Site Admin by clicking on the Network Admin or an individual site name under the My Sites dropdown in the Toolbar."
+msgstr "যখন আপনি এই কোডটি যোগ করবেন এবং আপনার ব্রাউজারকে রিফ্রেশ করবেন, তখন মাল্টিসাইট সক্রিয় হবে। নেটওয়ার্ক অ্যাডমিন নেভিগেশন মেনুর মধ্যকার এই পর্দাটি, এই সংযুক্ত কোডগুলোর একটা খসড়া সংরক্ষণ করে রাখবে। আপনি টুলবার থেকে নেটওয়ার্ক অ্যাডমিন অথবা আমার সাইটসমূহ-এর ড্রপডাউন থেকে নির্দিষ্ট সাইটের নামে ক্লিক করে নেটওয়ার্ক অ্যাডমিন ও সাইট অ্যাডমিনের ভেতর যাতায়াত করতে পারবেন।"
+
+#: wp-admin/network.php:127
+msgid "The choice of subdirectory sites is disabled if this setup is more than a month old because of permalink problems with &#8220;/blog/&#8221; from the main site. This disabling will be addressed in a future version."
+msgstr "সাবডিরেক্টরি সাইট পছন্দ করার ক্ষেত্রে তার বয়স যদি এক মাসের বেশি হয় তাহলে তা &#8220;/blog/&#8221; পার্মালিংক সমস্যার জন্য মূল সাইট থেকে নিষ্ক্রীয় করা হবে। এই নিষ্ক্রীয় সমস্যা পরবর্তি সংস্করণে সমাধান করা হবে।"
+
+#: wp-admin/network/sites.php:63
+msgid "You are about to delete the site %s."
+msgstr "আপনি এই %s সাইট মুছে ফেলতে যাচ্ছেন।"
+
+#: wp-admin/network/sites.php:62
+msgid "You are about to mark the site %s as spam."
+msgstr "আপনি এই সাইটকে %s স্প্যাম হিসেবে চিহ্নিত করতে যাচ্ছেন।"
+
+#: wp-admin/network/sites.php:61
+msgid "You are about to unspam the site %s."
+msgstr "আপনি এই %s সাইটকে স্প্যাম থেকে অব্যহতি দিতে চলেছেন।"
+
+#: wp-admin/network/sites.php:60
+msgid "You are about to archive the site %s."
+msgstr "আপনি এই সাইট আর্কাইভ করতে যাচ্ছেন %s।"
+
+#: wp-admin/network/sites.php:59
+msgid "You are about to unarchive the site %s."
+msgstr "আপনি %s সাইটটি সংরক্ষাণাগার থেকে সরাতে যাচ্ছেন।"
+
+#: wp-admin/network/sites.php:58
+msgid "You are about to deactivate the site %s"
+msgstr "আপনি এই সাইটকে নিষ্ক্রিয় করতে যাচ্ছেন %s"
+
+#: wp-admin/network/sites.php:57
+msgid "You are about to activate the site %s"
+msgstr "আপনি %s সাইটটি সক্রিয় করতে যাচ্ছেন"
+
+#: wp-admin/network/settings.php:333
+msgid "Default Language"
+msgstr "ডিফল্ট ভাষা"
+
+#: wp-admin/network/settings.php:315
+msgid "Max upload file size"
+msgstr "সর্বোচ্চ ফাইল আপলোড সাইজ"
+
+#: wp-admin/network/settings.php:283
+msgid "First Comment URL"
+msgstr "প্রথম মন্তব্যের লিঙ্ক"
+
+#: wp-admin/network/settings.php:264
+msgid "First Comment"
+msgstr "প্রথম মন্তব্য"
+
+#: wp-admin/network/settings.php:239
+msgid "The welcome email sent to new users."
+msgstr "নতুন ইউজারদের কাছে স্বাগতম জানিয়ে মেইল করা হয়েছে।"
+
+#: wp-admin/network/settings.php:234
+msgid "Welcome User Email"
+msgstr "ইউজারকে স্বাগত জানানোর জন্য ইমেইল"
+
+#: wp-admin/network/settings.php:224
+msgid "Welcome Email"
+msgstr "স্বাগত মেইল"
+
+#: wp-admin/network/settings.php:209
+msgid "Banned Email Domains"
+msgstr "নিষিদ্ধ ইমেইল ডোমেইন সমূহ"
+
+#: wp-admin/network/settings.php:196
+msgid "Limited Email Registrations"
+msgstr "সীমিত ইমেইল নিবন্ধন"
+
+#: wp-admin/network.php:27
+msgid "The Network creation panel is not for WordPress MU networks."
+msgstr "নেটওয়ার্ক তৈরি করার প্যানেল ওয়ার্ডপ্রেস MU নেটওয়ার্কের জন্য নয়।"
+
+#: wp-admin/network/users.php:182
+msgid "Warning! User cannot be modified. The user %s is a network administrator."
+msgstr "সতর্কতা! ইউজার মডিফাই করা যাবে না। %s ইউজার একজন নেটওয়ার্ক প্রশাসক।"
+
+#: wp-admin/network/site-info.php:18 wp-admin/network/site-settings.php:17
+#: wp-admin/network/site-users.php:17
+msgid "You do not have sufficient permissions to edit this site."
+msgstr "এই সাইট সম্পাদনা করার জন্য আপনার পর্যাপ্ত অনুমতি নেই।"
+
+#: wp-admin/network/settings.php:147
+msgid "Allow new registrations"
+msgstr "নতুন নিবন্ধীকরণের অনুমতি দিন"
+
+#: wp-admin/network/site-users.php:234
+msgid "Duplicated username or email address."
+msgstr "অনুরূপ ব্যবহারকারীর নাম বা ইমেইল ঠিকানা।"
+
+#: wp-admin/network/settings.php:229
+msgid "The welcome email sent to new site owners."
+msgstr "নতুন সাইট মালিকদের কাছে পাঠানো স্বাগতম ইমেইল।"
+
+#: wp-admin/network/settings.php:135 wp-admin/network.php:321
+msgid "Network Admin Email"
+msgstr "নেটওয়ার্ক প্রশাসকের ইমেইল"
+
+#: wp-admin/network/settings.php:295
+msgid "Site upload space"
+msgstr "সাইটের আপলোডের জায়গা"
+
+#: wp-admin/network/settings.php:190
+msgid "Users are not allowed to register these sites. Separate names by spaces."
+msgstr "ব্যবহারকারীদের এই সাইটগুলো নিবন্ধন করার অনুমতি নেই। স্পেস দ্বারা নাম পৃথক করুন।"
+
+#: wp-admin/network/site-new.php:103
+msgid "[%s] New Site Created"
+msgstr "[%s] নতুন সাইট তৈরি করা হয়েছে"
+
+#: wp-admin/network/site-new.php:55
+msgid "Missing or invalid site address."
+msgstr "সাইটের ঠিকানা বাদ পড়েছে অথবা বৈধ নয়।"
+
+#: wp-admin/network/site-new.php:58
+msgid "Missing email address."
+msgstr "ইমেল ঠিকানা বাদ পড়েছে।"
+
+#: wp-admin/network/settings.php:360
+msgid "Enable administration menus"
+msgstr "অ্যাডমিনিস্ট্রেশন মেনু সক্রিয় করুন"
+
+#: wp-admin/network/settings.php:125
+msgid "Operational Settings"
+msgstr "পরিচালনাগত সেটিংস"
+
+#: wp-admin/network/settings.php:292
+msgid "Upload Settings"
+msgstr "আপলোডের সেটিংস"
+
+#: wp-admin/network/settings.php:220
+msgid "New Site Settings"
+msgstr "নতুন সাইটের সেটিংস"
+
+#: wp-admin/network/settings.php:144
+msgid "Registration Settings"
+msgstr "নিবন্ধন সেটিংস"
+
+#: wp-admin/network/settings.php:159
+msgid "Both sites and user accounts can be registered."
+msgstr "সাইট এবং ব্যবহারকারী উভয় অ্যাকাউন্ট নিবন্ধিত করা যাবে।"
+
+#: wp-admin/network/settings.php:157
+msgid "User accounts may be registered."
+msgstr "ব্যবহারকারী অ্যাকাউন্ট নিবন্ধীকৃত হতে পারে।"
+
+#: wp-admin/network/settings.php:156
+msgid "Registration is disabled."
+msgstr "নিবন্ধন বন্ধ আছে।"
+
+#: wp-admin/network/settings.php:158
+msgid "Logged in users may register new sites."
+msgstr "লগইন করা ব্যবহারকারীরা নতুন সাইট নিবন্ধন করতে পারবেন।"
+
+#: wp-admin/network/settings.php:278
+msgid "The author of the first comment on a new site."
+msgstr "নতুন সাইটের প্রথম মন্তব্যের লেখক।"
+
+#: wp-admin/network/settings.php:249
+msgid "The first post on a new site."
+msgstr "নতুন সাইটের প্রথম পোস্ট।"
+
+#: wp-admin/network/settings.php:259
+msgid "The first page on a new site."
+msgstr "নতুন সাইটের প্রথম পাতা।"
+
+#: wp-admin/network/settings.php:287
+msgid "The URL for the first comment on a new site."
+msgstr "নতুন কোন সাইটের প্রথম মন্তব্যের URL।"
+
+#: wp-admin/network/settings.php:297
+msgid "Limit total size of files uploaded to %s MB"
+msgstr "আপলোড করা ফাইলগুলোর মোট আকার %s মেগাবাইট পর্যন্ত নির্দিষ্ট করুন"
+
+#: wp-admin/network/settings.php:305
+msgid "Upload file types"
+msgstr "আপলোড ফাইলের ধরন"
+
+#: wp-admin/network/site-new.php:80
+msgid "There was an error creating the user."
+msgstr "ব্যবহারকারী তৈরি করার সময় একটি ত্রুটি হয়েছে।"
+
+#: wp-admin/network/site-info.php:25 wp-admin/network/site-settings.php:23
+#: wp-admin/network/site-themes.php:23 wp-admin/network/site-users.php:26
+msgid "The menu is for editing information specific to individual sites, particularly if the admin area of a site is unavailable."
+msgstr "মেনুটি কোন সাইটের তথ্য সম্পাদনার জন্য ব্যবহৃত হয়, বিশেষ করে যদি সাইটের এডমিন এরিয়া অনুপস্থিত হয়।"
+
+#: wp-admin/network/user-new.php:23
+msgid "Add User will set up a new user account on the network and send that person an email with username and password."
+msgstr "ব্যবহারকারী যুক্তকরণ একটি নতুন ব্যবহারকারীর একাউন্ট সেটআপ করবে এবং ঐ ব্যক্তিকে ইউজারনেম ও পাসওয়ার্ড সহ একটি ইমেইল পাঠাবে।"
+
+#: wp-admin/network/settings.php:203
+msgid "If you want to limit site registrations to certain domains. One domain per line."
+msgstr "আপনি যদি সাইটের নিবন্ধীকরণ সীমিত করতে চান কিছু নির্দিষ্ট ডোমেইন-এ। তাহলে প্রতি লাইনে একটি ডোমেইন।"
+
+#: wp-admin/network/settings.php:214
+msgid "If you want to ban domains from site registrations. One domain per line."
+msgstr "আপনি যদি কোন ডোমেইনকে সাইটের নিবন্ধীকরণের থেকে নিষিদ্ধ করতে চান। তাহলে প্রতি লাইনে একটি ডোমেইন।"
+
+#: wp-admin/network/upgrade.php:60
+msgid "All done!"
+msgstr "সব কাজ সম্পন্ন করা শেষ!"
+
+#: wp-admin/network/settings.php:269
+msgid "The first comment on a new site."
+msgstr "নতুন সাইটের প্রথম মন্তব্য।"
+
+#: wp-admin/network/themes.php:185
+msgid "Yes, delete this theme"
+msgstr "হ্যাঁ, এই থিমগুলো মুছে ফেলো"
+
+#: wp-admin/network.php:118
+msgid "Create a Network of WordPress Sites"
+msgstr "ওয়ার্ডপ্রেস সাইট এর একটি নেটওয়ার্ক তৈরি করুন"
+
+#: wp-admin/network/site-info.php:170 wp-admin/network/site-info.php:177
+msgid "Site URL"
+msgstr "সাইটের লিঙ্ক "
+
+#: wp-admin/network/users.php:272
+msgid "You can also go to the user&#8217;s profile page by clicking on the individual username."
+msgstr "আপনি প্রত্যেক ব্যবহারকারীর নামের উপর ক্লিক করেও তার প্রোফাইল পাতাতে যেতে পারবেন।"
+
+#: wp-admin/network/user-new.php:40
+msgid "Cannot create an empty user."
+msgstr "ফাঁকা কোন ব্যবহারকারী তৈরি করতে পারবেন না।"
+
+#: wp-admin/network/sites.php:105
+msgid "Confirm"
+msgstr "অনুমোদন করুন"
+
+#: wp-admin/network/settings.php:317
+msgctxt "File size in kilobytes"
+msgid "%s KB"
+msgstr "%s KB"
+
+#: wp-admin/network/sites.php:89 wp-admin/network/sites.php:155
+msgid "You are not allowed to change the current site."
+msgstr "বর্তমান সাইটটি বদলানোর জন্য আপনি অনুমতিপ্রাপ্ত নন।"
+
+#: wp-admin/network/site-new.php:37
+msgid "Can&#8217;t create an empty site."
+msgstr "ফাঁকা কোন সাইট তৈরি করতে পারবেন না।"
+
+#: wp-admin/network/index.php:20 wp-admin/network/settings.php:20
+#: wp-admin/network/site-info.php:50 wp-admin/network/site-settings.php:47
+#: wp-admin/network/site-themes.php:64 wp-admin/network/site-users.php:57
+#: wp-admin/network/sites.php:17 wp-admin/network/sites.php:124
+#: wp-admin/network/upgrade.php:39 wp-admin/network/user-new.php:37
+#: wp-admin/network/users.php:17 wp-admin/network/users.php:135
+#: wp-admin/network/users.php:156 wp-admin/network/users.php:169
+#: wp-admin/network/users.php:218
+msgid "You do not have permission to access this page."
+msgstr "এই পাতাটিতে প্রবেশ করার অনুমতি আপনার নেই।"
+
+#: wp-admin/network/upgrade.php:100
+msgid "Next Sites"
+msgstr "পরবর্তী সাইটগুলো"
+
+#: wp-admin/network/sites.php:234
+msgid "Site archived."
+msgstr "সাইটটি আর্কাইভভুক্ত করা হয়েছে।"
+
+#: wp-admin/network/site-new.php:63
+msgid "Invalid email address."
+msgstr "অযথাযথ ইমেইল ঠিকানা।"
+
+#: wp-admin/network/users.php:301
+msgid "Users deleted."
+msgstr "ব্যবহারকারীদের মুছে ফেলা হয়েছে।"
+
+#: wp-admin/network/sites.php:237
+msgid "Site unarchived."
+msgstr "সাইটটি আর্কাইভ থেকে সরিয়ে ফেলা হয়েছে।"
+
+#: wp-admin/network/sites.php:240
+msgid "Site activated."
+msgstr "সাইটটি সক্রিয় করা হয়েছে।"
+
+#: wp-admin/network/sites.php:243
+msgid "Site deactivated."
+msgstr "সাইটটি নিষ্ক্রিয় করা হয়েছে।"
+
+#: wp-admin/network/users.php:295
+msgid "Users marked as spam."
+msgstr "ব্যবহারকারীদেরকে স্প্যাম হিসেবে চিহ্নিত করা হয়েছে।"
+
+#: wp-admin/network/sites.php:228
+msgid "Site deleted."
+msgstr "সাইটটি মুছে ফেলা হয়েছে।"
+
+#: wp-admin/network/sites.php:225
+msgid "Sites deleted."
+msgstr "সাইটগুলো মুছে ফেলা হয়েছে।"
+
+#: wp-admin/network/sites.php:246
+msgid "Site removed from spam."
+msgstr "সাইটটি স্প্যাম থেকে সরিয়ে ফেলা হয়েছে।"
+
+#: wp-admin/network/users.php:298
+msgid "Users removed from spam."
+msgstr "ব্যবহারকারীদের স্প্যাম থেকে সরিয়ে ফেলা হয়েছে।"
+
+#: wp-admin/network/sites.php:219
+msgid "Sites removed from spam."
+msgstr "সাইটগুলো স্প্যাম থেকে সরিয়ে ফেলা হয়েছে।"
+
+#: wp-admin/network/sites.php:222
+msgid "Sites marked as spam."
+msgstr "সাইটগুলো স্প্যাম হিসেবে চিহ্নিত করা হয়েছে।"
+
+#: wp-admin/network/sites.php:249
+msgid "Site marked as spam."
+msgstr "সাইটটি স্প্যাম হিসেবে চিহ্নিত করা হয়েছে।"
+
+#: wp-admin/network/sites.php:31
+msgid "Add New takes you to the Add New Site screen. You can search for a site by Name, ID number, or IP address. Screen Options allows you to choose how many sites to display on one page."
+msgstr "নতুন যোগ (করুন) আপনাকে নতুন সাইট যোগ করার পর্দায় নিয়ে যাবে | আপনি একটি সাইটের নাম, আইডি নম্বর, অথবা IP (ইন্টারনেট প্রোটোকল) ঠিকানা দিয়ে অনুসন্ধান করতে পারেন |  পর্দায় বিভিন্ন বিকল্পগুলির মাধ্যমে আপনি একটি পৃষ্ঠায় কতগুলো সাইট প্রদর্শন করতে চান তা নির্বাচন করতে পারবেন |"
+
+#: wp-admin/network/site-new.php:163
+msgid "The username and password will be mailed to this email address."
+msgstr "ইউজারনেম ও পাসওয়ার্ড এই ইমেইল এ পাঠানো হবে।"
+
+#: wp-admin/network/site-new.php:163
+msgid "A new user will be created if the above email address is not in the database."
+msgstr "উপরের ইমেইল ঠিকানা ডাটাবেসের মধ্যে না থাকলে একটি নতুন ব্যবহারকারী তৈরি করা হবে."
+
+#: wp-admin/network/settings.php:179
+msgid "Add New Users"
+msgstr "নতুন ব্যবহারকারী যোগ"
+
+#: wp-admin/network/settings.php:168
+msgid "Registration notification"
+msgstr "রেজিস্ট্রেশন নোটিফিকেশন"
+
+#: wp-admin/network/settings.php:274
+msgid "First Comment Author"
+msgstr "প্রথম মন্তব্য লেখক"
+
+#: wp-admin/network/themes.php:100
+msgid "You do not have sufficient permissions to delete themes for this site."
+msgstr "এই সাইট থেকে থিম ডিলিট করার জন্য অাপনার পর্যপ্ত অনুমতি নেই। "
+
+#: wp-admin/network/themes.php:17
+msgid "You do not have sufficient permissions to manage network themes."
+msgstr "নেটওয়ার্ক থিম ব্যবস্থাপনার জন্য অাপনার পর্যপ্ত অনুমতি নেই।"
+
+#: wp-admin/network/users.php:53
+msgid "Warning! User cannot be deleted. The user %s is a network administrator."
+msgstr "সাবধান! ইউজার ডিলিট করা যাবে না। ইউজার %s একজন নেটওয়ার্ক অ্যাডমিনিস্ট্রেটর। "
+
+#: wp-admin/network/index.php:38
+msgid "The Right Now widget on this screen provides current user and site counts on your network."
+msgstr "এই স্ক্রিনের Right Now উইজেট আপনার নেটওয়ার্কে বর্তমান ইউজার এবং সাইটের সংখ্যা প্রদর্শন করে।"
+
+#: wp-admin/network/index.php:42
+msgid "To search for a user, <strong>enter an email address or username</strong>. Use a wildcard to search for a partial username, such as user&#42;."
+msgstr "ব্যবহারকারী অনুসন্ধান করার জন্য, <strong>ইউজারনেম অথবা একটি ইমেইল ঠিকানা লিখুন</strong>। ব্যবহারকারীর আংশিক নাম অনুসন্ধান করার জন্য একটি ওয়াইল্ডকার্ড ব্যবহার করুন যেমন user&#42;।"
+
+#: wp-admin/network/settings.php:254
+msgid "First Page"
+msgstr "প্রথম পাতা"
+
+#: wp-admin/network/settings.php:186
+msgid "Banned Names"
+msgstr "নিষিদ্ধ নাম"
+
+#: wp-admin/network/site-new.php:143
+msgid "Site Address"
+msgstr "সাইটের ঠিকানা"
+
+#: wp-admin/network/site-new.php:166
+msgid "Add Site"
+msgstr "সাইট যোগ"
+
+#: wp-admin/network/site-new.php:159
+msgid "Admin Email"
+msgstr "অ্যাডমিন ইমেইল"
+
+#: wp-admin/network/themes.php:297
+msgid "You cannot delete a theme while it is active on the main site."
+msgstr "প্রধান সাইটে সক্রিয় থাকা অবস্থায় আপনি কোন থিম মুছে ফেলতে পারবেন না।"
+
+#: wp-admin/network/site-users.php:213
+msgid "Enter the username of an existing user."
+msgstr "বিদ্যমান ব্যবহারকারীদের মধ্য থেকে একজনের ইউজারনেম লিখুন।"
+
+#: wp-admin/network/themes.php:187
+msgid "Yes, delete these themes"
+msgstr "হ্যাঁ, এই থিমগুলো মুছে ফেলো"
+
+#: wp-admin/network/themes.php:291
+msgid "%s theme deleted."
+msgid_plural "%s themes deleted."
+msgstr[0] "%s টি থিম মুছে ফেলা হয়েছে।"
+msgstr[1] "%s টি থিম মুছে ফেলা হয়েছে।"
+
+#: wp-admin/network/site-themes.php:166 wp-admin/network/themes.php:275
+msgid "%s theme enabled."
+msgid_plural "%s themes enabled."
+msgstr[0] "%s টি থিম সক্রিয় করা হয়েছে।"
+msgstr[1] "%s টি থিম সক্রিয় করা হয়েছে।"
+
+#: wp-admin/network/site-themes.php:174 wp-admin/network/themes.php:283
+msgid "%s theme disabled."
+msgid_plural "%s themes disabled."
+msgstr[0] "%s টি থিম নিষ্ক্রিয় করা হয়েছে।"
+msgstr[1] "%s টি থিম নিষ্ক্রিয় করা হয়েছে।"
+
+#: wp-admin/network/index.php:41
+msgid "To search for a user or site, use the search boxes."
+msgstr "ব্যবহারকারী অথবা সাইট খুঁজে পেতে সার্চ বক্সগুলো ব্যবহার করুন।"
+
+#: wp-admin/network/upgrade.php:118
+msgid "The database upgrade process may take a little while, so please be patient."
+msgstr "ডাটাবেস হালনাগাদকরণে কিছু সময় লাগতে পারে, তাই অনুগ্রহ করে ধৈর্য ধরুন।"
+
+#: wp-admin/network/index.php:43
+msgid "To search for a site, <strong>enter the path or domain</strong>."
+msgstr "একটি সাইট খুঁজতে, <strong>পাথ অথবা ডোমেইন লিখুন</strong>।"
+
+#: wp-admin/network/site-new.php:17
+msgid "You do not have sufficient permissions to add sites to this network."
+msgstr "এই নেটওয়ার্কে সাইট যোগ করার যথাযোগ্য অনুমতি আপনার নেই।"
+
+#: wp-admin/network/sites.php:231
+msgid "You do not have permission to delete that site."
+msgstr "ঐ সাইট মুছে ফেলার অনুমতি আপনার নেই।"
+
+#: wp-admin/network/user-new.php:17
+msgid "You do not have sufficient permissions to add users to this network."
+msgstr "এই নেটওয়ার্কে ইউজার যোগ করার যথাযোগ্য অনুমতি আপনার নেই। "
+
+#: wp-admin/network/settings.php:128 wp-admin/network.php:312
+msgid "Network Title"
+msgstr "নেটওয়ার্ক টাইটেল"
+
+#: wp-admin/network/menu.php:19
+msgid "Updates"
+msgstr "আপডেট"
+
+#: wp-admin/network/site-new.php:23
+msgid "This screen is for Super Admins to add new sites to the network. This is not affected by the registration settings."
+msgstr "এই স্ক্রিন সুপার অ্যাডমিনদের নেটওয়ার্কে নতুন সাইট তৈরি করার জন্য । এটা রেজিস্ট্রেশন সেটিংস এর উপর কোন প্রভাব ফেলে না।"
+
+#: wp-admin/network/sites.php:34
+msgid "An Edit link to a separate Edit Site screen."
+msgstr "এডিট সাইট স্ক্রিনের জন্য একটি এডিট লিঙ্ক।"
+
+#: wp-admin/network/sites.php:37
+msgid "Delete which is a permanent action after the confirmation screens."
+msgstr "ডিলিট একটি স্থায়ী অ্যাকশন। এটি একটি নিশ্চিতকরণ স্ক্রিনের পর কাজ করে।"
+
+#: wp-admin/network/sites.php:40
+msgid "Clicking on bold headings can re-sort this table."
+msgstr "বোল্ড হেডিংস এ ক্লিক করলে এই টেবিল সর্ট করা যাবে।"
+
+#: wp-admin/network/menu.php:41 wp-admin/network/themes.php:264
+msgctxt "theme"
+msgid "Add New"
+msgstr "নতুন থিম যোগ করুন"
+
+#. translators: 1: dashboard url, 2: network admin edit url
+#: wp-admin/network/site-new.php:117
+msgid "Site added. <a href=\"%1$s\">Visit Dashboard</a> or <a href=\"%2$s\">Edit Site</a>"
+msgstr "সাইট যুক্ত করা হয়েছে। <a href=\"%1$s\">ড্যাশবোর্ড দেখুন</a> অথবা <a href=\"%2$s\">সাইট সম্পাদনা করুন</a>"
+
+#: wp-admin/network/site-themes.php:17
+msgid "You do not have sufficient permissions to manage themes for this site."
+msgstr "এই সাইটের থিম ব্যবস্থাপনার জন্য আপনার পর্যাপ্ত অনুমতি নেই।"
+
+#: wp-admin/network/menu.php:28
+msgid "All Sites"
+msgstr "সকল সাইট"
+
+#: wp-admin/network/menu.php:29 wp-admin/network/sites.php:279
+msgctxt "site"
+msgid "Add New"
+msgstr "নতুন সাইট যুক্ত করুন"
+
+#: wp-admin/network/menu.php:36
+msgid "Themes %s"
+msgstr "থিম %s"
+
+#: wp-admin/network/menu.php:40
+msgid "Installed Themes"
+msgstr "ইনস্টল করা থিম"
+
+#: wp-admin/network/site-settings.php:79
+msgid "Site options updated."
+msgstr "সাইট অপশন আপডেট হয়েছে।"
+
+#: wp-admin/network/settings.php:330
+msgid "Language Settings"
+msgstr "ভাষা সেটিংস"
+
+#: wp-admin/network/sites.php:35
+msgid "Dashboard leads to the Dashboard for that site."
+msgstr "ড্যাশবোর্ড ওই সাইটের ড্যাশবোর্ডের নিয়ে যায়।"
+
+#: wp-admin/network/themes.php:195
+msgid "No, return me to the theme list"
+msgstr "না, আমাকে থিমের তালিকায় ফিরে নিয়ে চল"
+
+#: wp-admin/network/site-info.php:129 wp-admin/network/site-settings.php:82
+#: wp-admin/network/site-themes.php:136 wp-admin/network/site-users.php:164
+msgid "Edit Site: %s"
+msgstr "সাইট সম্পাদনা: %s"
+
+#: wp-admin/network/site-themes.php:164 wp-admin/network/themes.php:273
+msgid "Theme enabled."
+msgstr "থিম সক্রিয় হয়েছে।"
+
+#: wp-admin/network/site-themes.php:178 wp-admin/network/themes.php:295
+msgid "No theme selected."
+msgstr "কোন থিম নির্বাচন করা হয়নি।"
+
+#: wp-admin/network/site-info.php:41 wp-admin/network/site-settings.php:39
+#: wp-admin/network/site-themes.php:54 wp-admin/network/site-users.php:49
+msgid "Invalid site ID."
+msgstr "সাইট আইডি সঠিক নয়।"
+
+#: wp-admin/network/site-themes.php:172 wp-admin/network/themes.php:281
+msgid "Theme disabled."
+msgstr "থিম নিষ্ক্রিয় করা হয়েছে।"
+
+#: wp-admin/network/site-themes.php:181
+msgid "Network enabled themes are not shown on this screen."
+msgstr "এই স্ক্রিনে নেটওয়ার্কে সক্রিয় করা থিম দেখানো হচ্ছে না।"
+
+#: wp-admin/network/themes.php:153
+msgid "Delete Theme"
+msgstr "থিম ডিলিট"
+
+#: wp-admin/network/menu.php:55 wp-admin/network/settings.php:22
+msgid "Network Settings"
+msgstr "নেটওয়ার্ক সেটিংস"
+
+#: wp-admin/network/themes.php:154
+msgid "This theme may be active on other sites in the network."
+msgstr "এই থিম নেটওয়ার্কের অন্যান্য সাইটে সক্রিয় থাকতে পারে।"
+
+#: wp-admin/network/themes.php:155
+msgid "You are about to remove the following theme:"
+msgstr "আপনি এই থিমগুলো ডিলিট করতে যাচ্ছেন:"
+
+#: wp-admin/network/themes.php:172
+msgid "Are you sure you wish to delete these themes?"
+msgstr "আপনি কি নিশ্চিত যে, এই থিমগুলো ডিলিট করবেন?"
+
+#: wp-admin/network/site-info.php:144 wp-admin/network/site-settings.php:97
+#: wp-admin/network/site-themes.php:149 wp-admin/network/site-users.php:192
+msgid "Info"
+msgstr "তথ্য"
+
+#: wp-admin/network/site-new.php:123 wp-admin/network/site-new.php:133
+msgid "Add New Site"
+msgstr "নতুন সাইট যুক্ত করুন"
+
+#: wp-admin/network/index.php:40
+msgid "To add a new site, <strong>click Create a New Site</strong>."
+msgstr "একটি নতুন সাইট যুক্ত করতে, <strong>একটি নতুন সাইট তৈরি করুন </strong> এ ক্লিক করুন।"
+
+#: wp-admin/network/index.php:39
+msgid "To add a new user, <strong>click Create a New User</strong>."
+msgstr "একটি নতুন ব্যবহারকারী যোগ করার জন্য, <strong>একটি নতুন ব্যবহারকারী তৈরি ক্লিক করুন.</strong>"
+
+#: wp-admin/network/themes.php:250
+msgid "<a href=\"https://codex.wordpress.org/Network_Admin_Themes_Screen\" target=\"_blank\">Documentation on Network Themes</a>"
+msgstr "<a href=\"https://codex.wordpress.org/Network_Admin_Themes_Screen\" target=\"_blank\">নেটওয়ার্ক বিষয়বস্তুর ওপর ডকুমেন্টেশন</a>"
+
+#: wp-admin/network/site-info.php:34 wp-admin/network/site-new.php:29
+#: wp-admin/network/site-settings.php:32 wp-admin/network/site-themes.php:32
+#: wp-admin/network/site-users.php:35 wp-admin/network/sites.php:45
+msgid "<a href=\"https://codex.wordpress.org/Network_Admin_Sites_Screen\" target=\"_blank\">Documentation on Site Management</a>"
+msgstr "<a href=\"https://codex.wordpress.org/Network_Admin_Sites_Screen\" target=\"_blank\">সাইট ম্যানেজমেন্ট ডকুমেন্টেশন</a>"
+
+#: wp-admin/network/index.php:53
+msgid "<a href=\"https://codex.wordpress.org/Network_Admin\" target=\"_blank\">Documentation on the Network Admin</a>"
+msgstr "<a href=\"https://codex.wordpress.org/Network_Admin\" target=\"_blank\">নেটওয়ার্ক অ্যাডমিনের ডকুমেন্টেশন</a>"
+
+#: wp-admin/network/user-new.php:29 wp-admin/network/users.php:280
+msgid "<a href=\"https://codex.wordpress.org/Network_Admin_Users_Screen\" target=\"_blank\">Documentation on Network Users</a>"
+msgstr "<a href=\"https://codex.wordpress.org/Network_Admin_Users_Screen\" target=\"_blank\">নেটওয়ার্ক ব্যবহারকারীদের উপর ডকুমেন্টেশন</a>"
+
+#: wp-admin/network/upgrade.php:32
+msgid "<a href=\"https://codex.wordpress.org/Network_Admin_Updates_Screen\" target=\"_blank\">Documentation on Upgrade Network</a>"
+msgstr "<a href=\"https://codex.wordpress.org/Network_Admin_Updates_Screen\" target=\"_blank\">নেটওয়ার্ক আপগ্রেড বিষয়ক ডকুমেন্টেশন</a>"
+
+#: wp-admin/network/settings.php:64
+msgid "<a href=\"https://codex.wordpress.org/Network_Admin_Settings_Screen\" target=\"_blank\">Documentation on Network Settings</a>"
+msgstr "<a href=\"https://codex.wordpress.org/Network_Admin_Settings_Screen\" target=\"_blank\">নেটওয়ার্ক সেটিংস এর পর ডকুমেন্টেশন</a>"
+
+#: wp-admin/network/users.php:271
+msgid "Hover over any user on the list to make the edit links appear. The Edit link on the left will take you to their Edit User profile page; the Edit link on the right by any site name goes to an Edit Site screen for that site."
+msgstr "সম্পাদনা করার জন্য যেকোনো ব্যবহারকারীর নামের উপর মাউস পয়েন্টার রাখুন। বাম পাশের সম্পাদনা লিঙ্ক আপনাকে ব্যবহারকারীর প্রোফাইল সম্পাদনার পাতায় নিয়ে যাবে; ডান পাশের যেকোনো সাইটের নামের পাশের সম্পাদনার লিঙ্ক আপনাকে সেই সাইটের সম্পাদনার পাতায় নিয়ে যাবে।"
+
+#: wp-admin/network/settings.php:139
+msgid "This email address will receive notifications. Registration and support emails will also come from this address."
+msgstr "এই ইমেইল ঠিকানায় নোটিফিকেশন যাবে। নিবন্ধন এবং সহায়তা সংক্রান্ত মেইলও এখান থেকেই পাঠানো হবে।"
+
+#: wp-admin/network/settings.php:309
+msgid "Allowed file types. Separate types by spaces."
+msgstr "অনুমোদিত ফাইলের ধরণ। প্রত্যেকটি ধরণকে স্পেস দিয়ে আলাদা করুন।"
+
+#: wp-admin/network/users.php:116
+msgid "Once you hit &#8220;Confirm Deletion&#8221;, the user will be permanently removed."
+msgstr "একবার আপনি &#8220; ডিলিট নিশ্চিত &#8220; এ ক্লিক করলে এই ব্যবহারকারীকে স্থায়ীভাবে অপসারণ করা হবে।"
+
+#. translators: 1: site url, 2: server error message
+#: wp-admin/network/upgrade.php:76
+msgid "Warning! Problem updating %1$s. Your server may not be able to connect to sites running on it. Error message: %2$s"
+msgstr "সতর্কতা! %1$s আপডেটে ত্রুটি হয়েছে। আপনার সার্ভার হয়তঃ এতে চলা সাইটে যুক্ত হতে পারছে না। ইরোর মেসেজ: %2$s"
+
+#: wp-admin/network/users.php:34
+msgid "You have chosen to delete the following users from all networks and sites."
+msgstr "আপনি এই ব্যবহারকারীদের সকল নেটওয়ার্ক এবং সাইট থেকে ডিলিট করার সিদ্ধান্ত নিয়েছেন।"
+
+#: wp-admin/network/users.php:32
+msgid "You have chosen to delete the user from all networks and sites."
+msgstr "আপনি এই ব্যবহারকারীকে সকল নেটওয়ার্ক এবং সাইট থেকে ডিলিট করার সিদ্ধান্ত নিয়েছেন।"
+
+#: wp-admin/network/users.php:118
+msgid "Once you hit &#8220;Confirm Deletion&#8221;, these users will be permanently removed."
+msgstr "একবার আপনি &#8220; ডিলিট নিশ্চিত &#8220; এ ক্লিক করলে এই ব্যবহারকারীদের স্থায়ীভাবে অপসারণ করা হবে।"
+
+#: wp-admin/network/users.php:102
+msgid "User has no sites or content and will be deleted."
+msgstr "ব্যবহারকারীর কোন সাইট ও কন্টেন্ট নেই এবং ডিলিট করে দেয়া হবে।"
+
+#: wp-admin/network/users.php:49
+msgid "Warning! User %s cannot be deleted."
+msgstr "সতর্ক বার্তা! %s ব্যবহারকারী ডিলিট করা যাবে না।"
+
+#: wp-admin/network/site-info.php:125
+msgid "Site info updated."
+msgstr "সাইটের তথ্য আপডেট হয়েছে।"
+
+#: wp-admin/network/site-users.php:210
+msgid "User is already a member of this site."
+msgstr "ব্যবহারকারী ইতোমধ্যে এই সাইটের সদস্য।"
+
+#: wp-admin/network/user-new.php:52
+msgid "Cannot add user."
+msgstr "ব্যবহারকারী যোগ করা যায়নি।"
+
+#: wp-admin/network/sites.php:142
+msgid "You are not allowed to delete the site."
+msgstr "আপনার সাইট ডিলিট করার অনুমতি নেই।"
+
+#: wp-admin/network/site-users.php:228
+msgid "User created."
+msgstr "ব্যবহারকারী তৈরি হয়ে গেছে।"
+
+#: wp-admin/network/users.php:89
+msgid "Site: %s"
+msgstr "সাইট: %s"
+
+#: wp-admin/network/site-users.php:279 wp-admin/network/user-new.php:103
+msgid "Add User"
+msgstr "ব্যবহারকারী যোগ"
+
+#: wp-admin/network/site-users.php:225
+msgid "Select a user to remove."
+msgstr "অপসারণ করার জন্য একজন ব্যবহারকারী নির্বাচন করুন।"
+
+#: wp-admin/network/site-users.php:231
+msgid "Enter the username and email."
+msgstr "ইউজারনেম এবং ইমেইল লিখুন।"
+
+#: wp-admin/network/site-users.php:219
+msgid "Select a user to change role."
+msgstr "ক্ষমতা পরিবর্তনের জন্য একজন ব্যবহারকারী নির্বাচন করুন।"
+
+#. translators: 1: user login, 2: site url, 3: site name/title
+#: wp-admin/network/site-new.php:95
+msgid ""
+"New site created by %1$s\n"
+"\n"
+"Address: %2$s\n"
+"Name: %3$s"
+msgstr ""
+"নতুন সাইট তৈরি করেছেন: %1$s\n"
+"\n"
+"ঠিকানা: %2$s\n"
+"নাম: %3$s"
+
+#: wp-admin/network/upgrade.php:115
+msgid "WordPress has been updated! Before we send you on your way, we need to individually upgrade the sites in your network."
+msgstr "ওয়ার্ডপ্রেস আপডেট করা হয়েছে! শেষ করার আগে, আপনার নেটওয়ার্কের সাইটগুলো আলাদাভাবে আপগ্রেড করা প্রয়োজন।"
+
+#: wp-admin/network/upgrade.php:114
+msgid "Database Upgrade Required"
+msgstr "ডাটাবেজ আপগ্রেড আবশ্যক"
+
+#: wp-admin/network/menu.php:22 wp-admin/network/upgrade.php:18
+#: wp-admin/network/upgrade.php:42 wp-admin/network/upgrade.php:119
+msgid "Upgrade Network"
+msgstr "নেটওয়ার্ক আপগ্রেড"
+
+#: wp-admin/network/index.php:47
+msgid "Quick Tasks"
+msgstr "কুইক টাস্ক"
+
+#: wp-admin/network/index.php:30
+msgid "Modify global network settings"
+msgstr "গ্লোবাল নেটওয়ার্ক সেটিংস পরিবর্তন"
+
+#: wp-admin/network/index.php:29
+msgid "Update your network"
+msgstr "আপনার নেটওয়ার্ক আপডেট"
+
+#: wp-admin/network/index.php:28
+msgid "Install and activate themes or plugins"
+msgstr "থিম এবং প্লাগিন ইনস্টল ও সক্রিয়"
+
+#: wp-admin/network/index.php:27
+msgid "Add and manage sites or users"
+msgstr "সাইট অথবা ইউজার যুক্ত এবং ব্যবস্থাপনা"
+
+#: wp-admin/network/index.php:26
+msgid "From here you can:"
+msgstr "এখান থেকে আপনি করতে পারেন:"
+
+#: wp-admin/network/settings.php:117
+msgid "Options saved."
+msgstr "অপশন সেভ করা হয়েছে।"
+
+#: wp-admin/network/index.php:25
+msgid "Welcome to your Network Admin. This area of the Administration Screens is used for managing all aspects of your Multisite Network."
+msgstr "আপনার নেটওয়ার্ক অ্যাডমিনে স্বাগতম। অ্যাডমিনিস্ট্রেশন স্ক্রিনের এর অংশটি আপনার মাল্টি সাইটের সার্বিক নিয়ন্ত্রণের জন্য ব্যবহার করা হবে।"
+
+#: wp-admin/network/sites.php:98
+msgid "Confirm your action"
+msgstr "আপনার সিদ্ধান্ত নিশ্চিত করুন"
+
+#: wp-admin/network/index.php:54 wp-admin/network/site-info.php:35
+#: wp-admin/network/site-new.php:30 wp-admin/network/site-settings.php:33
+#: wp-admin/network/site-themes.php:33 wp-admin/network/site-users.php:36
+#: wp-admin/network/sites.php:46 wp-admin/network/user-new.php:30
+#: wp-admin/network/users.php:281
+msgid "<a href=\"https://wordpress.org/support/forum/multisite/\" target=\"_blank\">Support Forums</a>"
+msgstr "<a href=\"https://wordpress.org/support/forum/multisite/\" target=\"_blank\">সহায়তা ফোরাম</a>"
+
+#. translators: user login
+#: wp-admin/network/users.php:66
+msgid "What should be done with content owned by %s?"
+msgstr "%s এর মালিকানাধীন কনটেন্টের কি হবে?"
+
+#: wp-admin/network/settings.php:155
+msgid "New registrations settings"
+msgstr "নতুন নিবন্ধন সেটিংস"
+
+#: wp-admin/network/settings.php:319
+msgid "Size in kilobytes"
+msgstr "কিলোবাইটে সাইজ"
+
+#: wp-admin/network/site-info.php:203
+msgid "Set site attributes"
+msgstr "সাইট অ্যাট্রিবিউট সেট করুন"
+
+#: wp-admin/network/settings.php:382
+msgid "Enable menus"
+msgstr "মেনু সক্রিয় করুন"
+
+#: wp-admin/network/users.php:74
+msgid "Select a user"
+msgstr "একজন ব্যবহারকারী নির্বাচন করুন"
+
+#: wp-admin/network/themes.php:159
+msgid "You are about to remove the following themes:"
+msgstr "আপনি এই থিমগুলো অপসারণ করতে যাচ্ছেন:"
+
+#: wp-admin/network/themes.php:158
+msgid "These themes may be active on other sites in the network."
+msgstr "এই থিমগুলো এই নেটওয়ার্কের অন্য সাইটে সক্রিয় থাকতে পারে।"
+
+#: wp-admin/network/themes.php:170
+msgid "Are you sure you wish to delete this theme?"
+msgstr "আপনি কি নিশ্চিত যে এই থিমটি ডিলিট করতে চান?"
+
+#: wp-admin/network/themes.php:157
+msgid "Delete Themes"
+msgstr "থিম ডিলিট"
+
+#: wp-admin/network/site-new.php:49
+msgid "The following words are reserved for use by WordPress functions and cannot be used as blog names: <code>%s</code>"
+msgstr "নিচের শব্দ গুলি WordPress এর ফাংশনের জন্য সংরক্ষিত এবং তা কোন ব্লগের নাম হিসাবে ব্যবহার করা যাবে নাঃ <code>%s</code>"
+
+#: wp-admin/network/upgrade.php:100
+msgid "If your browser doesn&#8217;t start loading the next page automatically, click this link:"
+msgstr "যদি আপনার ব্রাউজার পরবর্তি পেইজটি নিজে নিজে লোড না করে, তাহলে এই লিংকে ক্লিক করুনঃ"
+
+#: wp-admin/network/settings.php:174
+msgid "Send the network admin an email notification every time someone registers a site or user account."
+msgstr "প্রতিবার কোন একজন একটি সাইট কিংবা একটি ব্যবহারকারী একাউন্ট খুললে নেটওয়ার্ক এডমিনকে একটি ইমেইল পাঠান।"
+
+#: wp-admin/network/sites.php:38
+msgid "Visit to go to the frontend site live."
+msgstr "ফ্রন্টএন্ড সাইট লাইভ দেখার জন্য ভিজিট করুন।"
+
+#: wp-admin/network/sites.php:36
+msgid "Deactivate, Archive, and Spam which lead to confirmation screens. These actions can be reversed later."
+msgstr "ডিএকটিভেট, আর্কাইভ এবং স্প্যামের জন্য নিশ্চিতকরণ পাতা দেখানো হবে। এই পদক্ষেপ গুলো পুনরায় এডিট করা যাবে।"
+
+#: wp-admin/network/sites.php:64
+msgid "You are about to mark the site %s as mature."
+msgstr "আপনি %s সাইটকে ম্যাচিউর হিসেবে চিহ্নিত করতে চলেছেন।"
+
+#: wp-admin/network/sites.php:65
+msgid "You are about to mark the site %s as not mature."
+msgstr "আপনি %s সাইটকে ইমম্যাচিউর হিসেবে চিহ্নিত করতে চলেছেন।"
+
+#: wp-admin/network/sites.php:73
+msgid "The requested action is not valid."
+msgstr "অনুরোধকৃত অ্যাকশন সঠিক নয়।"
+
+#: wp-admin/network/site-info.php:46 wp-admin/network/site-settings.php:43
+#: wp-admin/network/site-themes.php:60 wp-admin/network/site-users.php:53
+msgid "The requested site does not exist."
+msgstr "আপনার কাঙ্খিত সাইট পাওয়া যায়নি।"
+
+#: wp-admin/network/settings.php:181
+msgid "Allow site administrators to add new users to their site via the \"Users &rarr; Add New\" page."
+msgstr "সাইট এডমিনিস্ট্রেটরদের  \"ইউজার &rarr; নতুন\" পাতার মাধ্যমে নতুন ইউজার যোগ করার অনুমতি দিন।"
+
+#: wp-admin/network/sites.php:39
+msgid "The site ID is used internally, and is not shown on the front end of the site or to users/viewers."
+msgstr "সাইট আইডি অভ্যন্তরীণ ব্যবহারের জন্য, এবং এটা সাইটের ফ্রন্টএন্ডে বা ইউজার/ভিউয়ারদের কাছে দেখানো হবে না।"
+
+#: wp-admin/network/sites.php:33
+msgid "Hovering over each site reveals seven options (three for the primary site):"
+msgstr "প্রত্যেকটা সাইটের উপরে হোভার করলে সাতটি অপশন দেখা যাবে (মূল সাইটের জন্য তিনটি):"
+
+#: wp-admin/network/site-new.php:24
+msgid "If the admin email for the new site does not exist in the database, a new user will also be created."
+msgstr "নতুন সাইটের জন্য অ্যাডমিনের ইমেইল ডাটাবেজে না পাওয়া গেলে, একটি নতুন ইউজার তৈরি করা হবে।"
+
+#: wp-admin/network/users.php:270
+msgid "This table shows all users across the network and the sites to which they are assigned."
+msgstr "এই টেবিলটি নেটওয়ার্কে থাকা সকল ব্যবহারকারী এবং তাদের অধীনে থাকা সকল সাইট দেখাবে।"
+
+#: wp-admin/network/users.php:275
+msgid "You can make an existing user an additional super admin by going to the Edit User profile page and checking the box to grant that privilege."
+msgstr "আপনি পূর্বেই থাকা কোন ব্যবহারকারী প্রোফাইল সম্পাদনা পাতায় গিয়ে এবং বক্সে টিক চিহ্ন দিয়ে একজন অতিরিক্ত সুপার এডমিন তৈরি ও এর বিশেষাধিকার প্রদান করতে পারবেন।"
+
+#: wp-admin/network/upgrade.php:26
+msgid "If a version update to core has not happened, clicking this button won&#8217;t affect anything."
+msgstr "যদি কোর-এর একটি সংস্করন হালনাগাদ না হয়, তবে এই বাটনে ক্লিক করলে কোন কিছু প্রভাবিত হবে না।"
+
+#: wp-admin/network/upgrade.php:27
+msgid "If this process fails for any reason, users logging in to their sites will force the same update."
+msgstr "যদি কোন কারনে এই প্রক্রিয়াটি ব্যর্থ হয়, তবে যেইসব ব্যবহারকারীরা তাদের সাইটে লগইন করছে, তাদের ও এই একই হালনাগাদ বাধ্য করা হবে।"
+
+#: wp-admin/network/settings.php:161
+msgid "If registration is disabled, please set <code>NOBLOGREDIRECT</code> in <code>wp-config.php</code> to a URL you will redirect visitors to if they visit a non-existent site."
+msgstr "যদি নিবন্ধন বন্ধ থাকে, তবে ভিজিটরকে নির্দিষ্ট কোন লিংকে রিডাইরেক্ট করার জন্য <code>wp-config.php</code> এ <code>NOBLOGREDIRECT</code> লিংক সেট করুন যদি তারা একটি অবর্তমান সাইট ভিজিট করে।"
+
+#: wp-admin/network/settings.php:53
+msgid "Operational settings has fields for the network&#8217;s name and admin email."
+msgstr "কার্যকর সেটিংস-এ নেটওয়ার্ক-এর নাম এবং অ্যাডমিন ই-মেইল লেখার ফিল্ড আছে।"
+
+#: wp-admin/network.php:112
+msgid "You must define the <code>WP_ALLOW_MULTISITE</code> constant as true in your wp-config.php file to allow creation of a Network."
+msgstr "নেটওয়ার্ক তৈরির জন্য আপনাকে অবশ্যই wp-config.php-এ গিয়ে  <code>WP_ALLOW_MULTISITE</code>-কে true করে নিতে হবে।"
+
+#: wp-admin/network/site-info.php:28 wp-admin/network/site-settings.php:26
+#: wp-admin/network/site-themes.php:26 wp-admin/network/site-users.php:29
+msgid "<strong>Themes</strong> - This area shows themes that are not already enabled across the network. Enabling a theme in this menu makes it accessible to this site. It does not activate the theme, but allows it to show in the site&#8217;s Appearance menu. To enable a theme for the entire network, see the <a href=\"%s\">Network Themes</a> screen."
+msgstr "<strong>থিম</strong> - এখানে সেই থিমগুলি দেখায় যেগুলি ইতোমধ্যে নেটওয়ার্কে সক্রীয় নয়। এই মেনু থেকে একটি থিম সক্রীয় করলে সাইটে কার্যকর হবে। এটা থিম সক্রীয় করবে না, তবে সাইটের শৈলী মেনুতে দেখানোর অনুমতি দেবে। সমগ্র নেটওয়ার্কে থিম সক্রীয় করতে, <a href=\"%s\">নেটওয়ার্ক থিম</a>-এ দেখুন। "
+
+#: wp-admin/network/site-info.php:29 wp-admin/network/site-settings.php:27
+#: wp-admin/network/site-themes.php:27 wp-admin/network/site-users.php:30
+msgid "<strong>Settings</strong> - This page shows a list of all settings associated with this site. Some are created by WordPress and others are created by plugins you activate. Note that some fields are grayed out and say Serialized Data. You cannot modify these values due to the way the setting is stored in the database."
+msgstr "<strong>সেটিংসমূহ</strong> - এই পাতাটি সাইট সম্পর্কিত সকল সেটিং-এর তালিকা দেখায়। কিছু ওয়ার্ডপ্রেস তৈরি করেছে এবং কিছু আপনি যে প্লাগিনগুলি সক্রীয় করেছেন সেগুলি তৈরি করেছে। জেনে রাখুন যে, কিছু কিছু ফিল্ড ধুসর করে রাখা হয়েছে এবং বলছে যে, এগুলো সিরিয়ালাইয্‌ড ডাটা। এই সেটিংগুলি ডাটাবেজে সংরক্ষণের ধরণের কারণে আপনি সেগুলি পরিবর্তন করতে পারবেন না।"
+
+#: wp-admin/network/settings.php:56
+msgid "Upload settings control the size of the uploaded files and the amount of available upload space for each site. You can change the default value for specific sites when you edit a particular site. Allowed file types are also listed (space separated only)."
+msgstr "আপলোড সেটিংস আপলোড ফাইলের আকার এবং প্রতিটি সাইটের জন্য আপলোডের পর্যাপ্ত স্থানের পরিমাণ নিয়ন্ত্রণ করে। আপনি একটি নির্দিষ্ট সাইট সম্পাদনা করে এর নির্ধারিত মান পরিবর্তন করতে পারেন। অনুমোদিত ফাইলের ধরণ-এর তালিকাও (ফাঁকা স্থান দিয়ে আলাদা আলাদা করে) নথিবদ্ধ আছে।"
+
+#: wp-admin/network/themes.php:244
+msgid "If the network admin disables a theme that is in use, it can still remain selected on that site. If another theme is chosen, the disabled theme will not appear in the site&#8217;s Appearance > Themes screen."
+msgstr "যদি নেটওয়ার্ক অ্যাডমিন কোনো ব্যবহৃত থিম বন্ধ করে দেন তবুও সেই থিম সেভাবেই সাইটে বিদ্যমান থাকবে। যদি অন্য কোনো থীম পছন্দ করা হয় তবে বন্ধ করা সেই থিমটি আর সাইটের শৈলী > থিম পাতায় পাওয়া যাবেনা।"
+
+#: wp-admin/network/user-new.php:24
+msgid "Users who are signed up to the network without a site are added as subscribers to the main or primary dashboard site, giving them profile pages to manage their accounts. These users will only see Dashboard and My Sites in the main navigation until a site is created for them."
+msgstr "যেসকল ব্যবহারকারী কোনো সাইট ব্যতীত নেটওয়ার্ক-এ নিবন্ধন করবেন তাঁরা মূলত সাবস্ক্রাইবার হিসেবে প্রাইমারী সাইটের ড্যাশবোর্ডে যুক্ত হবেন, যেখানে তাঁদের প্রোফাইলে পরিবর্তনের জন্য সুযোগ থাকবে। তাঁরা প্রধান নেভিগেশনে কেবল ড্যাশবোর্ড এবং আমার সাইটসমূহ দেখতে পাবে যতক্ষণ না তাঁদের জন্য কোনো সাইট তৈরি করা হচ্ছে।"
+
+#: wp-admin/network/users.php:274
+msgid "The bulk action will permanently delete selected users, or mark/unmark those selected as spam. Spam users will have posts removed and will be unable to sign up again with the same email addresses."
+msgstr "গুচ্ছ নির্দেশনা নির্বাচিত ব্যবহারকারীদের স্থায়ীভাবে মুছে ফেলবে, অথবা স্প্যাম হিসেবে বাছাইকৃতদের নির্বাচন করুন/ইতোমধ্যে নির্বাচিতদের থেকে নির্বাচন বাতিল করুন। যারা স্প্যাম হিসাবে চিহ্নিত হয়েছেন তাদের প্রকাশনা মুছে ফেলা হবে এবং একই ইমেইল ঠিকানা দিয়ে আর সাইন আপ করতে পারবেন না।"
+
+#: wp-admin/network/users.php:273
+msgid "You can sort the table by clicking on any of the bold headings and switch between list and excerpt views by using the icons in the upper right."
+msgstr "আপনি যেকোনো বোল্ড করা হেডিং-এ ক্লিক করে টেবিল ক্রমানুসারে সাজাতে পারবেন এবং লিস্টের মধ্যে পরিবর্তন করতে পারবেন এবং উপরে ডানদিকের চিহ্ন ব্যবহার করে একসার্প্ট দেখতে পারবেন।"
+
+#: wp-admin/network/sites.php:32
+msgid "This is the main table of all sites on this network. Switch between list and excerpt views by using the icons above the right side of the table."
+msgstr "এটি হচ্ছে এই নেটওয়ার্কস্থ সকল সাইট-এর প্রধান টেবিল। টেবিলের ডান পাশের উপরের আইকন ব্যবহার করে তালিকা অথবা একসার্প্ট আকারে দেখা যাবে।"
+
+#: wp-admin/network/settings.php:54
+msgid "Registration settings can disable/enable public signups. If you let others sign up for a site, install spam plugins. Spaces, not commas, should separate names banned as sites for this network."
+msgstr "নিবন্ধন সেটিংসমূহ নিষ্ক্রীয়/সক্রীয় করে নিবন্ধন উন্মুক্ত করা যায়। আপনি যদি একটি সাইটে অন্যদের নিবন্ধন উন্মুক্ত করে দিয়ে থাকেন, তাহলে স্প্যাম প্লাগইন ইনস্টল করুন। এই নেটওয়ার্কের সাইটগুলোতে নিষিদ্ধ নামগুলিকে আলাদা করতে স্পেস ব্যবহার করুন, কমা নয়।"
+
+#: wp-admin/network.php:123
+msgid "Choose subdomains or subdirectories; this can only be switched afterwards by reconfiguring your install. Fill out the network details, and click install. If this does not work, you may have to add a wildcard DNS record (for subdomains) or change to another setting in Permalinks (for subdirectories)."
+msgstr "সাবডোমেইন অথবা সাবডিরেক্টরী পছন্দ করুন; এটা শুধুমাত্র আপনার ইন্সটলকে কনফিগার করার পরে সুইচ করতে পারবেন। নেটওয়ার্ক-এর বিস্তারিত পূরণ করুন, এবং ইন্সটলে ক্লিক করুন। যদি এটা কাজ না করে, তাহলে আপনার ওয়াইল্ডকার্ড ডিএনএস রেকর্ড (সাবডোমেইনের জন্য) সংযোজন করা লাগতে পারে অথবা পার্মালিংক-এ (সাব ডিরেক্টরির জন্য) গিয়ে অন্য একটি সেটিংসে বদলে নেয়া লাগতে পারে।"
+
+#: wp-admin/network.php:122
+msgid "This screen allows you to configure a network as having subdomains (<code>site1.example.com</code>) or subdirectories (<code>example.com/site1</code>). Subdomains require wildcard subdomains to be enabled in Apache and DNS records, if your host allows it."
+msgstr "এই পর্দাটি সাবডোমেইন (<code>site1.example.com</code>) অথবা সাবডিরেক্টরি (<code>example.com/site1</code>) তৈরি করে নেটওয়ার্ক কনফিগার করতে দেয়। সাবডোমেইনের ক্ষেত্রে অ্যাপাচি এবং ডিএনএস রেকর্ডে ওয়াইল্ডকার্ড সাবডোমেইন সক্রীয় থাকা লাগবে, যদি আপনার হোস্ট একে অনুমোদন দেয়।"
+
+#: wp-admin/network/settings.php:52
+msgid "This screen sets and changes options for the network as a whole. The first site is the main site in the network and network options are pulled from that original site&#8217;s options."
+msgstr "এই পর্দায় সামগ্রিকভাবে নেটওয়ার্কের বিভিন্ন সেটিং সেট ও পরিবর্তন করা যায়। নেটওয়ার্কের প্রথম সাইটটি হলো প্রধান সাইট এবং নেটওয়ার্কের অপশনগুলো সেই প্রধান সাইটের আপশন থেকে এনে দেখানো হয়েছে।"
+
+#: wp-admin/network/settings.php:58
+msgid "Menu setting enables/disables the plugin menus from appearing for non super admins, so that only super admins, not site admins, have access to activate plugins."
+msgstr "সুপার অ্যাডমিন নন এমন ব্যবহারকারীদেরকে প্লাগইন মেনু দেখানো বা আড়াল করার কাজটি মেনু সেটিং থেকে নিয়ন্ত্রণ করা যায়, যাতে সাইট অ্যাডমিন নন, শুধু সুপার অ্যাডমিনরাই প্লাগইনসমূহ সক্রীয় করার অধিকার পান।"
+
+#: wp-admin/network/site-info.php:27 wp-admin/network/site-settings.php:25
+#: wp-admin/network/site-themes.php:25 wp-admin/network/site-users.php:28
+msgid "<strong>Users</strong> - This displays the users associated with this site. You can also change their role, reset their password, or remove them from the site. Removing the user from the site does not remove the user from the network."
+msgstr "<strong>ব্যবহারকারী</strong> - এটা সাইটের সাথে সম্পৃক্ত ব্যবহারকারীদের দেখায়। আপনি তাঁদের রোলকেও পরিবর্তন করতে পারবেন, তাঁদের পাসওয়ার্ড রিসেট করতে পারবেন অথবা তাঁদেরকে সাইট থেকে সরিয়ে ফেলতে পারবেন। ব্যবহারকারীকে সাইট থেকে সরিয়ে ফেললেই নেটয়ার্ক থেকে সরিয়ে ফেলা হয় না।"
+
+#: wp-admin/network/settings.php:55
+msgid "New site settings are defaults applied when a new site is created in the network. These include welcome email for when a new site or user account is registered, and what&#8127;s put in the first post, page, comment, comment author, and comment URL."
+msgstr "নেটওয়ার্কের ভেতরে যখন একটি নতুন সাইট তৈরি করা হয় তখন নতুন সাইটের সেটিংসসমুহ স্বয়ংক্রীয়ভাবেই প্রয়োগ করা হয়। এর মধ্যে রয়েছে নতুন সাইট কিংবা নতুন ব্যবহারকারী রেজিস্ট্রেশনের সময় পাঠানো স্বাগত ইমেইল এবং প্রথম প্রকাশনা, পাতা, মন্তব্য, মন্তব্যদাতা, এবং মন্তব্য ইউআরএল-এ সম্পৃক্ত করা হয়।"
+
+#: wp-admin/network/settings.php:59
+msgid "Super admins can no longer be added on the Options screen. You must now go to the list of existing users on Network Admin > Users and click on Username or the Edit action link below that name. This goes to an Edit User page where you can check a box to grant super admin privileges."
+msgstr "এই অপশন পর্দায় আর সুপার অ্যাডমিন যোগ করা যাবে না। আপনাকে এখন অবশ্যই বর্তমান ব্যবহারকারীদের তালিকায় নেটওয়ার্ক অ্যাডমিন > ব্যবহারকারীগণ-এ গিয়ে ব্যবহারকারীর নাম অথবা নামের নিচে সম্পাদনা লিঙ্কে ক্লিক করতে হবে। এতে আপনাকে একটি সম্পাদনা পাতায় নিয়ে যাওয়া হবে যেখানে আপনি একটি বাক্সে টিক দিয়ে সুপার অ্যাডমিন সুবিধা দিতে পারবেন।"
+
+#: wp-admin/network/site-info.php:26 wp-admin/network/site-settings.php:24
+#: wp-admin/network/site-themes.php:24 wp-admin/network/site-users.php:27
+msgid "<strong>Info</strong> - The domain and path are rarely edited as this can cause the site to not work properly. The Registered date and Last Updated date are displayed. Network admins can mark a site as archived, spam, deleted and mature, to remove from public listings or disable."
+msgstr "<strong>তথ্য</strong> - ডোমেইন এবং পাথ কদাচিৎ পরিবর্তন করা হয় কারণ এতে সাইট কাজ না-ও করতে পারে। রেজিস্ট্রেশন করা তারিখ ও হালনাগাদের তারিখ প্রদর্শন করা হচ্ছে। একজন নেটওয়ার্ক অ্যাডমিন সাধারণ্যের থেকে সরিয়ে ফেলতে সাইটটিকে সংরক্ষিত, স্প্যাম, মুছে ফেলা ও পরিপক্ক করা হয়েছে হিসেবে চিহ্নিত করতে পারেন।"
+
+#: wp-admin/network/upgrade.php:25
+msgid "Only use this screen once you have updated to a new version of WordPress through Updates/Available Updates (via the Network Administration navigation menu or the Toolbar). Clicking the Upgrade Network button will step through each site in the network, five at a time, and make sure any database updates are applied."
+msgstr "যখন আপনি হালনাগাদ/সম্ভাব্য হালনাগাদের (নেটওয়ার্ক নিয়ন্ত্রক নেভিগেশন মেনু অথবা টুলবার) মাধ্যমে আপনার সাইটকে ওয়ার্ডপ্রেসের নতুন সংস্করণে হালনাগাদ করবেন শুধুমাত্র তখন এই পর্দাটি ব্যবহার করুন। নেটওর্য়াক হালনাগাদ বোতামে ক্লিকের মাধ্যমে হালনাগাদ প্রক্রিয়া প্রতিটা সাইটের মধ্য দিয়ে যাবে, একসাথে ৫টা সাইট হালনাগাদ হবে এবং নিশ্চিত করুন যেকোনো ডাটাবেজ হালনাগাদ যেন করা হয়।"
+
+#: wp-admin/network/themes.php:245
+msgid "Themes can be enabled on a site by site basis by the network admin on the Edit Site screen (which has a Themes tab); get there via the Edit action link on the All Sites screen. Only network admins are able to install or edit themes."
+msgstr "নেটওয়ার্ক অ্যাডমিনের এডিট সাইট স্ক্রিন (যাতে একটা থিম ট্যাব রয়েছে) থেকে থিম, সাইট ধরে ধরে সক্রীয় করা যায়; সকল সাইটসমূহ পর্দায় সম্পাদনা অ্যাকশনটি থেকে সেখানে যান। শুধুমাত্র নেটওয়ার্ক অ্যাডমিনই থিম ইন্সটল এবং সম্পাদনা করতে পারেন।"
+
+#: wp-admin/network/themes.php:243
+msgid "This screen enables and disables the inclusion of themes available to choose in the Appearance menu for each site. It does not activate or deactivate which theme a site is currently using."
+msgstr "প্রতিটি সাইটের শৈলী মেনুর এই পর্দায় লভ্য থিমগুলোর অন্তর্ভুক্তি সক্রীয় কিংবা নিষ্ক্রীয় করা যায়। সাইট এখন যে থিম ব্যবহার করছে তা সক্রিয় কিংবা নিষ্ক্রীয় করে না।"
