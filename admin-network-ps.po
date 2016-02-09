@@ -1,0 +1,1095 @@
+# Translation of Network Admin in Pashto
+# This file is distributed under the same license as the Network Admin package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-03-26 16:09:05+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
+"Project-Id-Version: Network Admin\n"
+
+#: wp-admin/network/settings.php:263
+msgid "First Comment"
+msgstr "لومړۍ تبصره"
+
+#: wp-admin/network/settings.php:253
+msgid "First Page"
+msgstr "لومړۍ پاڼه"
+
+#: wp-admin/network/settings.php:273
+msgid "First Comment Author"
+msgstr "لومړی تبصره لیکونکی"
+
+#: wp-admin/network/settings.php:319
+msgid "Default Language"
+msgstr "تلواله ژبه"
+
+#: wp-admin/network/settings.php:282
+msgid "First Comment URL"
+msgstr "د لومړی تبصرې URL"
+
+#: wp-admin/network/site-new.php:146
+msgid "Admin Email"
+msgstr "د پازوال پرېښنالیک"
+
+#: wp-admin/network/site-new.php:130
+msgid "Site Address"
+msgstr "ویب پاڼې پته"
+
+#: wp-admin/network/settings.php:185
+msgid "Banned Names"
+msgstr "بند نومونه"
+
+#: wp-admin/network/settings.php:223
+msgid "Welcome Email"
+msgstr "ښه راغلاست برېښناليک"
+
+#: wp-admin/network/settings.php:233
+msgid "Welcome User Email"
+msgstr "ښه راغلاست د غړی برېښناليک"
+
+#: wp-admin/network/sites.php:77
+msgid "Confirm"
+msgstr "تاييد"
+
+#: wp-admin/network/settings.php:208
+msgid "Banned Email Domains"
+msgstr "بند برېښنالیک ډومینونه"
+
+#: wp-admin/network/settings.php:167
+msgid "Registration notification"
+msgstr "د نومکښنې خبرتيا"
+
+#: wp-admin/network/settings.php:147
+msgid "Allow new registrations"
+msgstr "نوي نومکښنې پريږده"
+
+#: wp-admin/network/user-new.php:39
+msgid "Cannot create an empty user."
+msgstr "تش غړی نشو جوړولای."
+
+#: wp-admin/network/settings.php:238
+msgid "The welcome email sent to new users."
+msgstr "د ښه راغلاست برېښناليک نویو غړو ته واستول شو."
+
+#: wp-admin/network/settings.php:306
+msgid "Max upload file size"
+msgstr "د دوتنې د پورته کولو تر ټولو لوړه کچه"
+
+#: wp-admin/network/settings.php:195
+msgid "Limited Email Registrations"
+msgstr "محدوده برېښناليک نومکښنې"
+
+#: wp-admin/network/site-users.php:233
+msgid "Duplicated username or email address."
+msgstr "دوه ګونی کارن نوم او یا هم برېښناليک پته."
+
+#: wp-admin/network/index.php:20 wp-admin/network/settings.php:20
+#: wp-admin/network/site-info.php:43 wp-admin/network/site-settings.php:43
+#: wp-admin/network/site-themes.php:60 wp-admin/network/site-users.php:53
+#: wp-admin/network/sites.php:17 wp-admin/network/sites.php:100
+#: wp-admin/network/upgrade.php:39 wp-admin/network/user-new.php:36
+#: wp-admin/network/users.php:17 wp-admin/network/users.php:97
+#: wp-admin/network/users.php:118 wp-admin/network/users.php:131
+#: wp-admin/network/users.php:180
+msgid "You do not have permission to access this page."
+msgstr "تاسو کافي اجازه نلرئ چې دې پاڼې ته رسی پیدا کړئ."
+
+#: wp-admin/network/settings.php:178
+msgid "Add New Users"
+msgstr "نوي غړي زیات کړه"
+
+#: wp-admin/network/site-new.php:150
+msgid "The username and password will be mailed to this email address."
+msgstr "ستاسو کارن نوم او پټ توری به دغه برېښناليک ته واستول شي."
+
+#: wp-admin/network/site-new.php:153
+msgid "Add Site"
+msgstr "ویب پاڼه زیاته کړه"
+
+#: wp-admin/network/site-new.php:150
+msgid "A new user will be created if the above email address is not in the database."
+msgstr "نوی غړی به جوړ شي که چېرې پاسنۍ برېښناليک پته په ډيټابېس کې شتون و نه لري."
+
+#: wp-admin/network/site-users.php:310 wp-admin/network/user-new.php:98
+msgid "Username and password will be mailed to the above email address."
+msgstr "کارن نوم او پټ توری به دغه پاسني برېښناليک ته واستول شي."
+
+#: wp-admin/network/site-new.php:95
+msgid "[%s] New Site Created"
+msgstr "[%s] نوې ويب پاڼه جوړه شوه"
+
+#: wp-admin/network/settings.php:228
+msgid "The welcome email sent to new site owners."
+msgstr "د ښه راغلاست برېښناليک د پاڼو نویو څېښتنانو ته واستول شو."
+
+#: wp-admin/network/settings.php:135 wp-admin/network.php:303
+msgid "Network Admin Email"
+msgstr "د شبکې د پازوال برېښناليک"
+
+#: wp-admin/network/settings.php:294
+msgid "Site upload space"
+msgstr "د پاڼې د پورته کولو تشه"
+
+#: wp-admin/network/settings.php:173
+msgid "Send the network admin an email notification every time someone registers a site or user account."
+msgstr "د شبکې پازوال ته برېښناليک وليږه چې هرکله څوک د نوې پاڼې یا کارن نوم لپاره نومکښنه کوي."
+
+#: wp-admin/network/upgrade.php:88
+msgid "Next Sites"
+msgstr "نورې ويبپاڼې"
+
+#: wp-admin/network/settings.php:189
+msgid "Users are not allowed to register these sites. Separate names by spaces."
+msgstr "غړي نشي کولای دغه ويبپاڼې راجستر کړي. نومونه یې په فاصله سره جلا کړئ."
+
+#: wp-admin/network/settings.php:219
+msgid "New Site Settings"
+msgstr "نوې پاڼه امستنې"
+
+#: wp-admin/network/site-new.php:55
+msgid "Missing or invalid site address."
+msgstr "د ویب پاڼې پته باوري نه ده او یا هم شتون نلري."
+
+#: wp-admin/network/site-new.php:58
+msgid "Missing email address."
+msgstr "برېښناليک پته شتون نلري."
+
+#: wp-admin/network/settings.php:291
+msgid "Upload Settings"
+msgstr "پورته کولو امستنې"
+
+#: wp-admin/network/settings.php:144
+msgid "Registration Settings"
+msgstr "نومکښنې امستنې"
+
+#: wp-admin/network/settings.php:125
+msgid "Operational Settings"
+msgstr "عملياتي امستنې"
+
+#: wp-admin/network/settings.php:346
+msgid "Enable administration menus"
+msgstr "د پازوال غورنۍ فعالول"
+
+#: wp-admin/network/settings.php:154
+msgid "Registration is disabled."
+msgstr "نومکښنه غیرفعاله شوې."
+
+#: wp-admin/network/settings.php:155
+msgid "User accounts may be registered."
+msgstr "د غړي ګڼونونه ښايي نومکښل شوي وي."
+
+#: wp-admin/network/settings.php:157
+msgid "Both sites and user accounts can be registered."
+msgstr "دواړه ویبپاڼې او غړي ګڼوڼونه راجستر کيدای شي."
+
+#: wp-admin/network/settings.php:248
+msgid "The first post on a new site."
+msgstr "لومړۍ ليکنه په نوې پاڼه."
+
+#: wp-admin/network/upgrade.php:57
+msgid "All done!"
+msgstr "ټول بشپړ!"
+
+#: wp-admin/network/settings.php:156
+msgid "Logged in users may register new sites."
+msgstr "دننه شوي غړي ښايي نوې ويبپاڼې راجستر کړي."
+
+#: wp-admin/network/settings.php:277
+msgid "The author of the first comment on a new site."
+msgstr "په نوې پاڼه د لومړي څرګندون ليکوال."
+
+#: wp-admin/network/settings.php:258
+msgid "The first page on a new site."
+msgstr "لومړۍ پاڼه په نوې ځای کې."
+
+#: wp-admin/network/settings.php:268
+msgid "The first comment on a new site."
+msgstr "لومړی څرګندون په نوې پاڼه."
+
+#: wp-admin/network/settings.php:286
+msgid "The URL for the first comment on a new site."
+msgstr "په نوې پاڼه لومړي څرګندون ته تړونی."
+
+#: wp-admin/network/settings.php:296
+msgid "Limit total size of files uploaded to %s MB"
+msgstr "د ټولو پورته شويو دوتنو کچه %s MB ته محدوده کړه."
+
+#: wp-admin/network/settings.php:301
+msgid "Upload file types"
+msgstr "پورته کولو دوتنې بڼې"
+
+#: wp-admin/network/settings.php:307
+msgctxt "File size in kilobytes"
+msgid "%s KB"
+msgstr "%s کيلوبايټ (KB)"
+
+#: wp-admin/network/site-new.php:63
+msgid "Invalid email address."
+msgstr "بې اعتباره برېښناليک پته."
+
+#: wp-admin/network/site-new.php:80
+msgid "There was an error creating the user."
+msgstr "د غړي په جوړلو کې ستونزه رامنځ ته شوه."
+
+#: wp-admin/network/sites.php:203
+msgid "Site deleted."
+msgstr "پاڼه ړنګه شوه."
+
+#: wp-admin/network/sites.php:64 wp-admin/network/sites.php:131
+msgid "You are not allowed to change the current site."
+msgstr "تاسو اجازه نلرئ چې اوسنۍ پاڼې ته بدلون ورکړئ."
+
+#: wp-admin/network/sites.php:218
+msgid "Site deactivated."
+msgstr "پاڼه غيرفعاله شوه."
+
+#: wp-admin/network/sites.php:215
+msgid "Site activated."
+msgstr "پاڼه فعاله شوه."
+
+#: wp-admin/network/sites.php:212
+msgid "Site unarchived."
+msgstr "پاڼه له ارشيف و ايستل شوه."
+
+#: wp-admin/network/users.php:263
+msgid "Users deleted."
+msgstr "غړي ړنګ شول."
+
+#: wp-admin/network/sites.php:209
+msgid "Site archived."
+msgstr "پاڼه ارشيف شوه."
+
+#: wp-admin/network/users.php:257
+msgid "Users marked as spam."
+msgstr "غړی په سپم لړ کې کډ شو."
+
+#: wp-admin/network/site-info.php:142
+msgid "Update <code>siteurl</code> and <code>home</code> as well."
+msgstr "<code>siteurl</code> او <code>home</code> هم اوسمهاليز کړه."
+
+#: wp-admin/network/sites.php:200
+msgid "Sites deleted."
+msgstr "ويبپاڼې ړنګې شوې."
+
+#: wp-admin/network/sites.php:224
+msgid "Site marked as spam."
+msgstr "پاڼه د سپم په توګه په نښه شوه."
+
+#: wp-admin/network/users.php:260
+msgid "Users removed from spam."
+msgstr "غړي له سپم څخه و ايستل شول."
+
+#: wp-admin/network/sites.php:221
+msgid "Site removed from spam."
+msgstr "پاڼه له سپم څخه ووتله."
+
+#: wp-admin/network/sites.php:194
+msgid "Sites removed from spam."
+msgstr "ويبپاڼې له سپم څخه و ايستل شوې."
+
+#: wp-admin/network/sites.php:197
+msgid "Sites marked as spam."
+msgstr "ويبپاڼې د سپم په توګه په نښه شوې."
+
+#: wp-admin/network/site-new.php:37
+msgid "Can&#8217;t create an empty site."
+msgstr "تشه ویب پاڼه نشو جوړولای."
+
+#: wp-admin/network/settings.php:202
+msgid "If you want to limit site registrations to certain domains. One domain per line."
+msgstr "که تاسو غواړئ چې پر ځينو ډومينونو د ويپ پاڼو نومکښنې محدوده کړئ. يو ډومين پر يوه کرښه."
+
+#: wp-admin/network/settings.php:213
+msgid "If you want to ban domains from site registrations. One domain per line."
+msgstr "که تاسو غواړئ چې ډومينونه له ويب پاڼو نومکښنې څخه بند کړئ. يو ډومين پر يوه کرښه"
+
+#: wp-admin/network/upgrade.php:88
+msgid "If your browser doesn&#8217;t start loading the next page automatically, click this link:"
+msgstr "که ستاسو لټونی (browser) په اوتوماتيک ډول بله پاڼه خلاصه نه کړي نو پر دې تړوني کلېک وکړئ:"
+
+#: wp-admin/network/settings.php:160
+msgid "If registration is disabled, please set <code>NOBLOGREDIRECT</code> in <code>wp-config.php</code> to a URL you will redirect visitors to if they visit a non-existent site."
+msgstr "که نومکښنه غيرفعاله وي نو مهرباني وکړئ په خپله <code>wp-config.php</code> دوتنه کې <code>NOBLOGREDIRECT</code> کوډ هغه ويب پتې (URL) ته برابر کړئ کوم چې دوی د پاڼو د نه شتون په حالت کې وړل کيږي."
+
+#: wp-admin/network/upgrade.php:69
+msgid "Warning! Problem updating %1$s. Your server may not be able to connect to sites running on it. Error message: <em>%2$s</em>"
+msgstr "اخطار! ستونزه د %1$s په اوسمهاليزولو کې. ستاسو پالنګر ښايي له ويبپاڼې سره چې پرې چليږي و نه تړل شي. تېروتنې پيغام: <em>%2$s</em>"
+
+#: wp-admin/network/site-new.php:49
+msgid "The following words are reserved for use by WordPress functions and cannot be used as blog names: <code>%s</code>"
+msgstr "دغه لاندې ټکي د ورډپرېس د فنکشنونو لپاره خوندي شوي او د بلاګ د نومونو په توګه نشي کارېدلی: <code>%s</code>"
+
+#: wp-admin/network/settings.php:52
+msgid "This screen sets and changes options for the network as a whole. The first site is the main site in the network and network options are pulled from that original site&#8217;s options."
+msgstr "دغه پرده ځای پر ځای او غوراوي بدلوي د ټولې شبکې لپاره. لومړی پاڼه په شبکه کې اصلي پاڼه ده او د شبکې غوراوي د لومړنۍ پاڼې له غوراويو څخه را کاږل شوي."
+
+#: wp-admin/network/upgrade.php:27
+msgid "If this process fails for any reason, users logging in to their sites will force the same update."
+msgstr "که دغه بهير له کومې وجې ناکام شو، غړي چې خپلو ويبپاڼو ته دننه کيږي همدا اوسمهاليز به پرې تحميل شي."
+
+#: wp-admin/network/users.php:235
+msgid "You can sort the table by clicking on any of the bold headings and switch between list and excerpt views by using the icons in the upper right."
+msgstr "تاسو لښتيال ترتيبولی شئ د هر یوه زغرد سريز په کلېک کولو سره او د لېست او وينالېږد ليد تر منځ يو بل ته اوښتی شئ د نښان په کارولو کوم چې د لښتيال د پاسه کين لوري ته دی."
+
+#: wp-admin/network/upgrade.php:26
+msgid "If a version update to core has not happened, clicking this button won&#8217;t affect anything."
+msgstr "که د نسخې اوسمهاليزول پر هسته نه وي تر سره شوي، نو پر تڼۍ کلېک کول به پر هيڅ شي اغيز و نکړي."
+
+#: wp-admin/network/users.php:237
+msgid "You can make an existing user an additional super admin by going to the Edit User profile page and checking the box to grant that privilege."
+msgstr "که غواړی چې شته غړی لوی پازوال جوړ کړئ نو د غړي د پېژنيال سمون پاڼې ته ورشئ او د امتيازاتو چک بکسونه خوښ کړئ کوم چې تاسو یې ورکول غواړئ."
+
+#: wp-admin/network/settings.php:55
+msgid "New site settings are defaults applied when a new site is created in the network. These include welcome email for when a new site or user account is registered, and what&#8127;s put in the first post, page, comment, comment author, and comment URL."
+msgstr "د وييبپاڼې امستنې په تلوالی سره تطبيقيږي چې کله نوې وييبپاڼه په شبکه کې جوړوئ. په دغو کې د ښه راغلاست برېښناليک د نوې ويبپاڼې یا نوي غړي د ګڼون د نومکښنې برېښناليکونه شامل دي، او همداراز چې څه په لومړی ليکنه، پاڼه، څرګندون، د څرګندون ليکوال او څرګندون ويب پته کې وي هم شامل دي."
+
+#: wp-admin/network/sites.php:32
+msgid "This is the main table of all sites on this network. Switch between list and excerpt views by using the icons above the right side of the table."
+msgstr "دغه د ټولو ويبپاڼو لښتيال دی په دې شبکه کې. تاسو د لېست او ويناليږد د ليد ترمنځ يو بل ته اړولی شئ د نښان په کارولو کوم چې د دې لښتيال د پاسه کيڼ لوري ته دی."
+
+#: wp-admin/network/settings.php:54
+msgid "Registration settings can disable/enable public signups. If you let others sign up for a site, install spam plugins. Spaces, not commas, should separate names banned as sites for this network."
+msgstr "د نومکښنې امستنې د عامو ليدونکو لپاره فعاله او یا هم غيرفعالېدی شي. که غواړی چې نور د ويبپاڼې لپاره نومکښنه وکړي نو د سپم لګونونه انسټال کړئ. تشې (فاصلې)، کامې نه، بايد بند شوي نومونه پر دغه شبکه سره جلا کړي."
+
+#: wp-admin/network/settings.php:58
+msgid "Menu setting enables/disables the plugin menus from appearing for non super admins, so that only super admins, not site admins, have access to activate plugins."
+msgstr "د غورنۍ امستنې فعالوي/غيرفعالوي د لګون غورنۍ له ښکاريدو څخه د هغو غړو لپاره چې پازوال نه دي، یوازې لوی پازوالان د لګونونو فعالولو ته لاسرسی لري نه د ويبپاڼو پازوالان."
+
+#: wp-admin/network/user-new.php:24
+msgid "Users who are signed up to the network without a site are added as subscribers to the main or primary dashboard site, giving them profile pages to manage their accounts. These users will only see Dashboard and My Sites in the main navigation until a site is created for them."
+msgstr "هغه غړي چې پر شبکه نومکښل شوي پرته له ويبپاڼې نو دوی به د ګډونوالو په توګه اصلي د مديريت پاڼې ته ور زيات شي، او دوی ته به د پېژنيال پاڼې ورکړل شي د دوي د ګڼون د مديريت لپاره. دغه غړي به یوازې د مديريت پاڼه او زما ويبپاڼې په اصلي چلونه کې ويني تر څو چې د دوی لپاره ويبپاڼه جوړه شي."
+
+#: wp-admin/network/users.php:232
+msgid "This table shows all users across the network and the sites to which they are assigned."
+msgstr "دغه لښتيال ټول غړي په شبکه کې او هغه ويبپاڼې چې دوی ورته ټاکل شوي ښکاره کوي."
+
+#: wp-admin/network/themes.php:226
+msgid "This screen enables and disables the inclusion of themes available to choose in the Appearance menu for each site. It does not activate or deactivate which theme a site is currently using."
+msgstr "دغه پرده د هرې پاڼې په څېره غورنۍ کې د ويينو شمول فعال او غير فعالوي  کومې چې د خوښولو لپاره شتون لري. لاکن دا هغه ويينې چې د پاڼې له خوا اوس کارول کيږي نه فعالوي يا غير فعالوي."
+
+#: wp-admin/network/themes.php:227
+msgid "If the network admin disables a theme that is in use, it can still remain selected on that site. If another theme is chosen, the disabled theme will not appear in the site&#8217;s Appearance > Themes screen."
+msgstr "که د شبکې پازوال هغه ویینه غيرفعاله کړي چې کارول کيږي نو پر هغه ویبپاڼه به ویینه ترهغو دوی ته ښکاريږي چې تر څو یې د ويبپاڼې ویینه بلې ویینه نه وي اړولې. چې کله ويينه بدله کړي نو غير فعاله شوې ویینې به نور د دوي د ويبپاڼې پر (څېره <-- ویینې) نه ښکار کيږي."
+
+#: wp-admin/network/sites.php:38
+msgid "Visit to go to the frontend site live."
+msgstr "وګورئ چې د خپلې پاڼې ژوندی مخپاڼې ته ورشئ."
+
+#: wp-admin/network/users.php:234
+msgid "You can also go to the user&#8217;s profile page by clicking on the individual username."
+msgstr "تاسو همداراز د غړو پېژنيال پاڼې ته ورتلی شئ د ځانګړو غړو په کارن نوم کلېک کولو سره."
+
+#: wp-admin/network/users.php:236
+msgid "The bulk action will permanently delete selected users, or mark/unmark those selected as spam. Spam users will have posts removed and will be unable to sign up again with the same email addresses."
+msgstr "ډليز چار به غړي د تل لپاره ړنګ کړي يا هم غړي د سپم په توګه په نښه / له نښې لېرې کړي. د سپم غړو ليکنې به ړنګې شي او نور به و نه شي کړای چې په دغه برېښناليک پته نومکښنه وکړي."
+
+#: wp-admin/network/settings.php:56
+msgid "Upload settings control the size of the uploaded files and the amount of available upload space for each site. You can change the default value for specific sites when you edit a particular site. Allowed file types are also listed (space separated only)."
+msgstr "د پورته کولو امستنې د پورته شوو دوتنو کچه او پر هره یوه وییبپاڼه شته تشه کنټرولوي. تاسو کولای شئ د خاصو ويبپاڼو لپاره د تلواله قيمت بدل کړئ چې کله د یوې ځانکړې ويبپاڼې سمون کوئ. هغه دوتنې چې د پورته کېدو اجازه لري هم لېست شوي (يوازې په فاصله سره جلا شوي)."
+
+#: wp-admin/network/settings.php:53
+msgid "Operational settings has fields for the network&#8217;s name and admin email."
+msgstr "عملياتي امستنې د شبکې د نوم او پازوال برېښناليک ځایونه لري."
+
+#: wp-admin/network/site-new.php:24
+msgid "If the admin email for the new site does not exist in the database, a new user will also be created."
+msgstr "که د پازوال برېښناليک د نوې ويب پاڼې لپاره په ډېټابېس کې شتون و نه لري نو نوی غړی به هم ورسره جوړ شي."
+
+#: wp-admin/network/sites.php:36
+msgid "Deactivate, Archive, and Spam which lead to confirmation screens. These actions can be reversed later."
+msgstr "غيرفعال، فعال او سپم چې تاسو د تصديق پردو ته وړي. دغه چارې وروسته بېرته راګرځېدلی شي."
+
+#: wp-admin/network/sites.php:39
+msgid "The site ID is used internally, and is not shown on the front end of the site or to users/viewers."
+msgstr "دغه ويب پاڼې پېژند (ID) داخلي کارول شوی، او د دې ويب پاڼې پر مخپاڼه نه ښوول کيږي او یا هم غړو/ليدونکو ته."
+
+#: wp-admin/network/sites.php:33
+msgid "Hovering over each site reveals seven options (three for the primary site):"
+msgstr "د کمپيوټر موږک وړل د هرې پاڼې پر سر اوه ۷ غوراوي ښکاره کوي ( درې ۳ د اصلي ويب پاڼې لپاره):"
+
+#: wp-admin/network/users.php:144
+msgid "Warning! User cannot be modified. The user %s is a network administrator."
+msgstr "اخطار! غړی نشي بدلېدلی. دغه %s غړی د شبکې پازوال دی."
+
+#: wp-admin/network/site-info.php:17 wp-admin/network/site-settings.php:17
+#: wp-admin/network/site-users.php:17
+msgid "You do not have sufficient permissions to edit this site."
+msgstr "تاسو کافي اجازه نلرئ چې د دې پاڼې سمون وکړئ."
+
+#: wp-admin/network.php:213 wp-admin/network.php:238 wp-admin/network.php:264
+#: wp-admin/network.php:274
+msgid "Warning!"
+msgstr "خبرتيا !"
+
+#: wp-admin/network.php:243 wp-admin/network.php:247 wp-admin/network.php:287
+msgid "Server Address"
+msgstr "پالنګرپته"
+
+#: wp-admin/network.php:165 wp-admin/network.php:359 wp-admin/network.php:483
+#: wp-admin/network.php:520
+msgid "Warning:"
+msgstr "خبرتيا:"
+
+#: wp-admin/network.php:307
+msgid "Your email address."
+msgstr "ستاسو برېښناليک پته."
+
+#: wp-admin/network.php:225
+msgid "Sub-domains"
+msgstr "ښكته ډومېن"
+
+#: wp-admin/network.php:176
+msgid "Return to Dashboard"
+msgstr "مدیریت ته ستنېدل"
+
+#: wp-admin/network.php:230
+msgctxt "subdirectory examples"
+msgid "like <code>%1$s/site1</code> and <code>%1$s/site2</code>"
+msgstr "خوښ <code>%1$s/site1</code> او <code>%1$s/site2</code>"
+
+#: wp-admin/network.php:226
+msgctxt "subdomain examples"
+msgid "like <code>site1.%1$s</code> and <code>site2.%1$s</code>"
+msgstr "خوښ <code>site1.%1$s</code> او <code>site2.%1$s</code>"
+
+#: wp-admin/network.php:385
+msgid "Add the following to your <code>wp-config.php</code> file in <code>%s</code> <strong>above</strong> the line reading <code>/* That&#8217;s all, stop editing! Happy blogging. */</code>:"
+msgstr "دغه لاندې خپلې %1$s دوتنې ته په %2$s کې ورزيات کړئ د <code>/* That&#8217;s all, stop editing! Happy blogging. */</code> ليکې د پاسه:"
+
+#: wp-admin/network.php:379
+msgid "<strong>Caution:</strong> We recommend you back up your existing <code>wp-config.php</code> file."
+msgstr "<strong>احتياط:</strong> موږ سپارښتنه کوو چې تاسو زېرمه کړئ خپل شته <code>wp-config.php</code> دوتنه."
+
+#: wp-admin/network.php:175
+msgid "You cannot use port numbers such as <code>%s</code>."
+msgstr "تاسو نشئ کارولای پورټ (port) شمېرې لکه <code>%s</code>."
+
+#: wp-admin/network.php:221
+msgid "You will need a wildcard DNS record if you are going to use the virtual host (sub-domain) functionality."
+msgstr "د ژورو ښوونو، او نورو اشارو او چلونو لپاره وګورئ <a href=\"%s\">دوه زره څوارلس مستندونه</a>."
+
+#: wp-admin/network.php:229
+msgid "Sub-directories"
+msgstr "فرعي پوښۍ (دوسیې)"
+
+#: wp-admin/network.php:354
+msgid "The original configuration steps are shown here for reference."
+msgstr "د اصلي سازونې ګامونه دلته د مرجع لپاره ښکاره کيږي."
+
+#: wp-admin/network/settings.php:128 wp-admin/network.php:294
+msgid "Network Title"
+msgstr "د شبکې سرليک"
+
+#: wp-admin/network.php:298
+msgid "What would you like to call your network?"
+msgstr "څه غواړئ چې ستاسو شبکه په کوم نامه و نومول شي؟"
+
+#: wp-admin/network.php:359
+msgid "An existing WordPress network was detected."
+msgstr "له مخکې نه شته ورډپرېس شبکه کشف شوه."
+
+#: wp-admin/network.php:371
+msgid "Enabling the Network"
+msgstr "د شبکه فعالول"
+
+#: wp-admin/network.php:211
+msgid "Please make sure the Apache <code>mod_rewrite</code> module is installed as it will be used at the end of this installation."
+msgstr "د مهربانی له مخې ډاډ ترلاسه کړې چې د (Apache) اپاچي <code>mod_rewrite</code> رغبېلګه (module) انسټال شوی ځکه چې د دغه انسټالېشن په پای کې کارول کيږي."
+
+#: wp-admin/network.php:215
+msgid "If <code>mod_rewrite</code> is disabled, ask your administrator to enable that module, or look at the <a href=\"http://httpd.apache.org/docs/mod/mod_rewrite.html\">Apache documentation</a> or <a href=\"http://www.google.com/search?q=apache+mod_rewrite\">elsewhere</a> for help setting it up."
+msgstr "که <code>mod_rewrite</code> غير فعال وي نو خپل پازوال ته ووایاست چې هغه ماډيول فعال کړي، یا هم د <a href=\"http://httpd.apache.org/docs/mod/mod_rewrite.html\">اپاچي (Apache) مستندونه</a> يا هم له <a href=\"http://www.google.com/search?q=apache+mod_rewrite\">نورځایونو</a> څخه د دې ماډیول د امستنې په اړ مرسته ترلاسه کړئ."
+
+#: wp-admin/network.php:249 wp-admin/network.php:289
+msgid "The internet address of your network will be <code>%s</code>."
+msgstr "ستاسو د شبکې د انټرنېټ پته به <code>%s</code> وي."
+
+#: wp-admin/network.php:255
+msgid "Network Details"
+msgstr "د شبکې سپړنې"
+
+#: wp-admin/network.php:198
+msgid "Welcome to the Network installation process!"
+msgstr "د شبکې انسټالولو پروسې ته ښه راغلاست !"
+
+#: wp-admin/network.php:165
+msgid "Once the network is created, you may reactivate your plugins."
+msgstr "چې کله شبکه جوړه شوه، نو تاسو ښايي خپل لګونونه بېرته فعال کړئ."
+
+#: wp-admin/network.php:165
+msgid "Please <a href=\"%s\">deactivate your plugins</a> before enabling the Network feature."
+msgstr "مهرباني وکړئ <a href=\"%s\">خپل لګونونه غيرفعال کړئ</a> د شبکې د فعالولو مخکې."
+
+#: wp-admin/network.php:244
+msgid "We recommend you change your siteurl to <code>%1$s</code> before enabling the network feature. It will still be possible to visit your site using the <code>www</code> prefix with an address like <code>%2$s</code> but any links will not have the <code>www</code> prefix."
+msgstr "موږ سپارښتنه کوو چې مخکې له شبکې فعالولو تاسو د خپلې ويب پاڼې پته <code>%1$s</code> ته بدله کړئ. بيا هم شونې ده چې تاسو خپله پاڼه د <code>www</code> مختاړئ په کارولو د ويب پتې لکه <code>%2$s</code> سره وګورئ لاکن هر یو تړونی به د <code>www</code> مختاړی و نه لري."
+
+#: wp-admin/network.php:128
+msgid "Network"
+msgstr "شبکه"
+
+#: wp-admin/network.php:259 wp-admin/network.php:269
+msgid "Sub-directory Install"
+msgstr "فرعي دوسیې انسټال"
+
+#: wp-admin/network.php:188
+msgid "ERROR: The network could not be created."
+msgstr "تېروتنه: دغه شبکه مو جوړه نشو کړی."
+
+#: wp-admin/network.php:264 wp-admin/network.php:274 wp-admin/network.php:281
+msgid "The main site in a sub-directory install will need to use a modified permalink structure, potentially breaking existing links."
+msgstr "اصلي پاڼه په فرعي دوسيه کې به بدل شوي دايم تړوني جوړښت ته اړتيا ولري، د شته تړونيو د ماتېدو احتمال هم شته."
+
+#: wp-admin/network.php:279
+msgid "Sub-domain Install"
+msgstr "فرعي ډومېن انسټال"
+
+#: wp-admin/network.php:360
+msgid "Please complete the configuration steps. To create a new network, you will need to empty or remove the network database tables."
+msgstr "مهرباني وکړئ د سازونې مرحلې بشپړې کړئ. د نوې شبکې جوړولو لپاره تاسو بايد د شبکې د ډيټابېس لښتيال تش او يا هم ړنګ کړئ."
+
+#: wp-admin/network.php:375 wp-admin/network.php:377
+msgid "<strong>Caution:</strong> We recommend you back up your existing <code>wp-config.php</code> and <code>%s</code> files."
+msgstr "<strong>احتياط:</strong> موږ سپارښتنه کوو چې تاسو خپلې شته دوتنې <code>wp-config.php</code> او <code>%s</code> زېرمه کړئ."
+
+#: wp-admin/network.php:417
+msgid "This unique authentication key is also missing from your <code>wp-config.php</code> file."
+msgid_plural "These unique authentication keys are also missing from your <code>wp-config.php</code> file."
+msgstr[0] "دغه بې ساري د اعتبار کيلی ستاسو په <code>wp-config.php</code> دوتنه کې شتون نه لري."
+msgstr[1] "دغه بې ساري د اعتبار کيلی ګانې  ستاسو په <code>wp-config.php</code> دوتنه کې شتون نه لري."
+
+#: wp-admin/network.php:417
+msgid "To make your installation more secure, you should also add:"
+msgstr "که غواړی چې ستاسو انسټالېشن نور هم خوندي کړئ نو همداراز تاسو باید زیات کړئ:"
+
+#: wp-admin/network.php:529
+msgid "Once you complete these steps, your network is enabled and configured. You will have to log in again."
+msgstr "چې کله مو دغه ګامونه بشپړ کړل نو ستاسو شبکه به فعاله او وسازول شي. تاسو بايد بیا له سره دننه شئ."
+
+#: wp-admin/network.php:157
+msgid "The constant DO_NOT_UPGRADE_GLOBAL_TABLES cannot be defined when creating a network."
+msgstr "دغه <code>DO_NOT_UPGRADE_GLOBAL_TABLES</code> ثابت نشي تعريفېدلی چې کله شبکه جوړوئ."
+
+#: wp-admin/network.php:213
+msgid "It looks like the Apache <code>mod_rewrite</code> module is not installed."
+msgstr "داسې ښکاري چې د (Apache) اپاچي <code>mod_rewrite</code> رغبېلګه (module) نه ده انسټال شوې."
+
+#: wp-admin/network.php:123 wp-admin/network.php:134
+msgid "<a href=\"http://codex.wordpress.org/Create_A_Network\" target=\"_blank\">Documentation on Creating a Network</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Create_A_Network\" target=\"_blank\">مستندونه د شبکې جوړولو په اړه</a>"
+
+#: wp-admin/network.php:27
+msgid "The Network creation panel is not for WordPress MU networks."
+msgstr "د ورډپرېس جوړولو چوکاټ د ورډپرېس (MU) شبکو لپاره نه دی."
+
+#: wp-admin/network.php:124 wp-admin/network.php:135
+msgid "<a href=\"http://codex.wordpress.org/Tools_Network_Screen\" target=\"_blank\">Documentation on the Network Screen</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Tools_Network_Screen\" target=\"_blank\">مستندونه د شبکې د پردې په اړه</a>"
+
+#: wp-admin/network.php:106
+msgid "You must define the <code>WP_ALLOW_MULTISITE</code> constant as true in your wp-config.php file to allow creation of a Network."
+msgstr "تاسو باید <code>WP_ALLOW_MULTISITE</code> ثابت په خپله <code>wp-config.php</code> دوتنه کې په <code>true</code> سره تعريف کړئ ترڅو تاسو ته د شبکې جوړول اجازه درکړي."
+
+#: wp-admin/network.php:261
+msgid "Because you are using <code>localhost</code>, the sites in your WordPress network must use sub-directories. Consider using <code>localhost.localdomain</code> if you wish to use sub-domains."
+msgstr "ځکه چې تاسو <code>localhost</code> کاروئ نو ويبپاڼې ستاسو په ورډپرېس شبکه کې باید فرعي ډومينونه وکاروي. د <code>localhost.localdomain</code> کارول په پام کې ونيسئ که چېرې تاسو د فرغي ډومېنونو د کارولو هيله لرئ."
+
+#: wp-admin/network.php:271
+msgid "Because your install is in a directory, the sites in your WordPress network must use sub-directories."
+msgstr "ځکه چې ستاسو انسټال په یوه دوسیه کې دی، نو ويبباڼې ستاسو د ورډپرېس په شبکه کې باید فرعي - دوسیې وکاروي."
+
+#: wp-admin/network.php:280
+msgid "Because your install is not new, the sites in your WordPress network must use sub-domains."
+msgstr "ځکه چې ستاسو انسټال نوی نه دی، ويبباڼې ستاسو د ورډپرېس په شبکه کې باید فرعي - دوسیې وکاروي."
+
+#: wp-admin/network.php:372
+msgid "Complete the following steps to enable the features for creating a network of sites."
+msgstr "دغه لاندې ګامونه تر سره کړئ تر څو د ویبپاڼو د شبکې جوړول فعال کړئ."
+
+#: wp-admin/network.php:199
+msgid "Fill in the information below and you&#8217;ll be on your way to creating a network of WordPress sites. We will create configuration files in the next step."
+msgstr "لاندې د مالومات ځایونه ډک کړئ او تاسو به د ورډپرېس د ویبپاڼو د شبکې جوړولو ته په لاره شئ. موږ به د سازونې دوتنې په بل قدم کې جوړې کړو."
+
+#: wp-admin/network.php:174
+msgid "You cannot install a network of sites with your server address."
+msgstr "تاسو د خپل پالنګر (server) پر پتې سره د ویبپاڼو شبکه نشئ اسټالولی."
+
+#: wp-admin/network.php:195
+msgctxt "Default network name"
+msgid "%s Sites"
+msgstr "%s ويبپاڼې"
+
+#: wp-admin/network.php:117
+msgid "Choose subdomains or subdirectories; this can only be switched afterwards by reconfiguring your install. Fill out the network details, and click install. If this does not work, you may have to add a wildcard DNS record (for subdomains) or change to another setting in Permalinks (for subdirectories)."
+msgstr "فرعي ډومېن يا فرعي دوسيه خوښه کړئ، دا به یوازې هغه وخت بل ته واوړي چې کله خپل انسټال بيا وسازوئ. د شبکې سپړنې دننه کړئ او پر انسټال کلېک وکړئ. که دا کار ونکړي نو تاسو ښايي په خپل (DNS) کې (wildcard) ورزیات کړئ (د فرعي ډومېنونو لپاره) او يا یې هم نورو امستنو ته بدل کړئ په دایم تړونيو کې (د فرعي دوسيو لپاره)."
+
+#: wp-admin/network.php:118
+msgid "The next screen for Network Setup will give you individually-generated lines of code to add to your wp-config.php and .htaccess files. Make sure the settings of your FTP client make files starting with a dot visible, so that you can find .htaccess; you may have to create this file if it really is not there. Make backup copies of those two files."
+msgstr "د شبکې نصبولو په بله پرده کې به تاسو ته ځنګړی تولید شوی کوډ درکړي چې په خپلو <code>wp-config.php</code> او <code>.htaccess</code> دوتنې کې یې ورزيات کړئ. او همدا راز ډاډ ترلاسه کړئ چې ستاسو د (FTP client) هغه دوتنې چې په ټکي سره پليږي ښکار کړي ترڅو تاسو <code>.htaccess</code> دوتنه پيدا کړی شئ، که چېرې دغه دوتنه شتون و نلري نو ښايي تاسو یې په خپله جوړه کړئ. کوښښ وکړئ چې د دغو دوتنې يوه کاپي مخکې له بدلولو خوندي کړئ."
+
+#: wp-admin/network.php:121
+msgid "The choice of subdirectory sites is disabled if this setup is more than a month old because of permalink problems with &#8220;/blog/&#8221; from the main site. This disabling will be addressed in a future version."
+msgstr "د فرعي دوسيو ويبپاڼو ټاکنه غيرفعاله ده که سېټپ له یوې مياشتې څخه زوړ وي د دايم تړوني د ستونزو د &#8220;/blog/&#8221; له اصلي ويبپاڼې سره د وجې. دغه د غيرفعالېدو ستونزه به په راتلونکې نسخو کې ورغول شي."
+
+#: wp-admin/network.php:116
+msgid "This screen allows you to configure a network as having subdomains (<code>site1.example.com</code>) or subdirectories (<code>example.com/site1</code>). Subdomains require wildcard subdomains to be enabled in Apache and DNS records, if your host allows it."
+msgstr "دغه پرده اجازه درکوي چې شبکه وسازوئ چې فرعي ډومېن ولري لکه (<code>site1.realafghan.com</code>) یا هم فرعي دوسيې لکه (<code>realafghan.com/site1</code>). فرعي ډومېنونه (wildcard) فرعي ډومېنونو ته اړتيا لري چې په اپاچې (Apache) او ډي اېن اېس (DNS) کې فعال وي که ستاسو ويب کوربه یې اجازه ورکړي."
+
+#: wp-admin/network.php:112
+msgid "Create a Network of WordPress Sites"
+msgstr "د ورډ پرېس ويبپاڼو لپاره نوې شبکه جوړه کړئ"
+
+#: wp-admin/network.php:219
+msgid "Addresses of Sites in your Network"
+msgstr "د ویبپاڼو پتې ستاسو په شبکه کې"
+
+#: wp-admin/network.php:220
+msgid "Please choose whether you would like sites in your WordPress network to use sub-domains or sub-directories. <strong>You cannot change this later.</strong>"
+msgstr "د مهربانۍ له خوښ کړئ چې وييبپاڼې مو  د ورډپرېس په شبکه کې فرعي ډومينونه او یا که فرعي دوسيې وکاروي. <strong>تاسو دا وروسته نشئ بدلولی.</strong>"
+
+#: wp-admin/network.php:120
+msgid "Once you add this code and refresh your browser, multisite should be enabled. This screen, now in the Network Admin navigation menu, will keep an archive of the added code. You can toggle between Network Admin and Site Admin by clicking on the Network Admin or an individual site name under the My Sites dropdown in the Toolbar."
+msgstr "چې کله تاسو دغه کوډ زيات کړ او پاڼه مو تازه کړه نو متعددې ويبپاڼې به فعاله شي. دغه پرده اوس به د شبکې د پازوال په غورنۍ چلونه کې د ورزیات شوي کوډ زېرمتون وساتي. تاسو د شبکې د پازوال او ويبپاڼې د پازول تر منځ يو بل ته اوښتی شئ په ټولبار کې (زما ويبپاڼې) له لېست څخه په کلېک کولو."
+
+#: wp-admin/network/users.php:66
+msgid "Site: %s"
+msgstr "پاڼې: %s"
+
+#: wp-admin/network/site-info.php:104 wp-admin/network/site-settings.php:94
+#: wp-admin/network/site-themes.php:146 wp-admin/network/site-users.php:191
+msgid "Info"
+msgstr "مالومات"
+
+#: wp-admin/network/site-info.php:90 wp-admin/network/site-settings.php:80
+#: wp-admin/network/site-themes.php:134 wp-admin/network/site-users.php:162
+msgid "Edit Site: %s"
+msgstr "وپب پاڼه سمون: %s"
+
+#: wp-admin/network/site-info.php:89 wp-admin/network/site-settings.php:79
+#: wp-admin/network/site-themes.php:133 wp-admin/network/site-users.php:161
+msgid "Edit Site: <a href=\"%1$s\">%2$s</a>"
+msgstr "وپب پاڼه سمون: <a href=\"%1$s\">%2$s</a>"
+
+#: wp-admin/network/site-users.php:224
+msgid "Select a user to remove."
+msgstr "غړی د لركولو لپاره په نښه کړئ."
+
+#: wp-admin/network/site-users.php:230
+msgid "Enter the username and email."
+msgstr "د غړيتوب نوم او برېښناليک دننه کړئ."
+
+#: wp-admin/network/user-new.php:51
+msgid "Cannot add user."
+msgstr "غړی نشو ور زیاتولی."
+
+#: wp-admin/network/sites.php:118
+msgid "You are not allowed to delete the site."
+msgstr "تاسو د پاڼې د ړنګولو اجازه نلرئ."
+
+#: wp-admin/network/site-users.php:209
+msgid "User is already a member of this site."
+msgstr "کارکونکی له پخوا د دې ځای غړيتوب لري."
+
+#: wp-admin/network/users.php:38
+msgid "Warning! User %s cannot be deleted."
+msgstr "خبرتیا ! غړی %s نشئ ړنګولای."
+
+#: wp-admin/network/themes.php:261
+msgctxt "network"
+msgid "Theme deleted."
+msgid_plural "%s themes deleted."
+msgstr[0] "ویینه ړنګه شوه."
+msgstr[1] "%s ویینې ړنګې شوې."
+
+#: wp-admin/network/site-users.php:212
+msgid "Enter the username of an existing user."
+msgstr "د شته غړي کارن نوم دلته دننه کړئ."
+
+#: wp-admin/network/site-new.php:110 wp-admin/network/site-new.php:120
+msgid "Add New Site"
+msgstr "نوې پاڼه زیاتول"
+
+#: wp-admin/network/menu.php:58
+msgid "Available Updates"
+msgstr "شته اوسمهالیزې"
+
+#: wp-admin/network/settings.php:316
+msgid "Language Settings"
+msgstr "ژبه امستنې"
+
+#: wp-admin/network/themes.php:153
+msgid "Delete Theme"
+msgid_plural "Delete Themes"
+msgstr[0] "ویینه ړنګول"
+msgstr[1] "ویینې ړنګول"
+
+#: wp-admin/network/menu.php:27
+msgid "Themes %s"
+msgstr "ویینې %s"
+
+#: wp-admin/network/menu.php:53
+msgid "Updates"
+msgstr "اوسمهاليزې"
+
+#: wp-admin/network/site-users.php:227
+msgid "User created."
+msgstr "غړی جوړ شو."
+
+#: wp-admin/network/themes.php:175
+msgid "Yes, Delete this theme"
+msgid_plural "Yes, Delete these themes"
+msgstr[0] "هو دا ویینه ړنګه کړه"
+msgstr[1] "هو دا ویینې ړنګې کړه"
+
+#: wp-admin/network/site-info.php:39 wp-admin/network/site-settings.php:39
+#: wp-admin/network/site-themes.php:54 wp-admin/network/site-users.php:49
+msgid "Invalid site ID."
+msgstr "ناباوري د پاڼې پېژند."
+
+#: wp-admin/network/site-themes.php:160 wp-admin/network/themes.php:255
+msgid "Theme enabled."
+msgid_plural "%s themes enabled."
+msgstr[0] "ویینه فعاله شوه."
+msgstr[1] "%s ویینې فعاله شوې."
+
+#: wp-admin/network/site-themes.php:130 wp-admin/network/themes.php:220
+msgctxt "themes per page (screen options)"
+msgid "Themes"
+msgstr "ویینې"
+
+#: wp-admin/network/site-themes.php:165 wp-admin/network/themes.php:263
+msgid "No theme selected."
+msgstr "هیڅ ویینه غوره شوې نه ده."
+
+#: wp-admin/network/site-users.php:218
+msgid "Select a user to change role."
+msgstr "غړی غوره کړئ چې دنده (رول) یې بدل کړئ."
+
+#: wp-admin/network/site-info.php:85
+msgid "Site info updated."
+msgstr "د پاڼې مالومات اوسمهالیز شول."
+
+#: wp-admin/network/themes.php:165
+msgid "Are you sure you wish to delete these themes?"
+msgstr "تاسو ډاډه یاست او غواړی چې دغه ویینه ړنګه کړئ؟"
+
+#: wp-admin/network/themes.php:156
+msgid "You are about to remove the following theme:"
+msgid_plural "You are about to remove the following themes:"
+msgstr[0] "تاسو د لاندې ویینې د ړنګول په حالت کې یاست:"
+msgstr[1] "تاسو د لاندې ویینو د ړنګول په حالت کې یاست:"
+
+#: wp-admin/network/themes.php:100
+msgid "You do not have sufficient permissions to delete themes for this site."
+msgstr "تاسو کافي اجازه نلرئ چې ویینې د دې پاڼه لپاره ړنګې کړئ."
+
+#: wp-admin/network/themes.php:17
+msgid "You do not have sufficient permissions to manage network themes."
+msgstr "تاسو کافي اجازه نلرئ چې دجال د ويينو مديریت وکړئ."
+
+#: wp-admin/network/themes.php:178
+msgid "No, Return me to the theme list"
+msgstr "نه، بېرته مې د ویینو لړ ته ستون کړه"
+
+#: wp-admin/network/sites.php:206
+msgid "You do not have permission to delete that site."
+msgstr "تاسو کافي اجازه نلرئ چې دغه پاڼه ړنګه کړئ."
+
+#: wp-admin/network/user-new.php:17
+msgid "You do not have sufficient permissions to add users to this network."
+msgstr "تاسو کافي اجازه نلرئ چې دې جاله ته غړي ورزیات کړئ."
+
+#: wp-admin/network/site-new.php:107
+msgid "Site added. <a href=\"%1$s\">Visit Dashboard</a> or <a href=\"%2$s\">Edit Site</a>"
+msgstr "ویب پاڼه زیاته شوه. <a href=\"%1$s\">مديریت پاڼه وګورئ</a> یا <a href=\"%2$s\">پاڼه سمه کړئ</a>"
+
+#: wp-admin/network/site-themes.php:17
+msgid "You do not have sufficient permissions to manage themes for this site."
+msgstr "تاسو کافي اجازه نلرئ چې د دې پاڼې لپاره د ویینو مديریت وکړئ."
+
+#: wp-admin/network/site-settings.php:75
+msgid "Site options updated."
+msgstr "د پاڼې غوراوي اوسمهالیز شول."
+
+#: wp-admin/network/sites.php:35
+msgid "Dashboard leads to the Dashboard for that site."
+msgstr "مدیریت پاڼه لارښونه کوي د هغه پاڼې مدیریت پاڼې ته."
+
+#: wp-admin/network/themes.php:265
+msgid "You cannot delete a theme while it is active on the main site."
+msgstr "تاسو ویینه نشئ ړنګولی چې کله هغه په اساسي ویب سايټ فعاله وي ."
+
+#: wp-admin/network/users.php:41
+msgid "Warning! User cannot be deleted. The user %s is a network administrator."
+msgstr "اخطار! غړی نشي ړنګېدلی. دغه %s غړی د شبکې پازوال دی."
+
+#: wp-admin/network/themes.php:155
+msgid "This theme may be active on other sites in the network."
+msgid_plural "These themes may be active on other sites in the network."
+msgstr[0] "دغه ویینه ښايي په دې شبکه کې پر نورو ویبپاڼو فعاله وي."
+msgstr[1] "دغه ویینې ښايي په دې شبکه کې پر نورو ویبپاڼو فعالې وي."
+
+#: wp-admin/network/site-themes.php:168
+msgid "Network enabled themes are not shown on this screen."
+msgstr "پر شبکې فعاله شوې ویینې پر دې پرده نه ښکاري."
+
+#: wp-admin/network/menu.php:46 wp-admin/network/settings.php:22
+msgid "Network Settings"
+msgstr "د شبکې امستنې"
+
+#: wp-admin/network/themes.php:233
+msgid "<a href=\"http://codex.wordpress.org/Network_Admin_Themes_Screen\" target=\"_blank\">Documentation on Network Themes</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Network_Admin_Themes_Screen\" target=\"_blank\">مستندونه د شبکې د ویینو په اړه</a>"
+
+#: wp-admin/network/site-users.php:278 wp-admin/network/user-new.php:102
+msgid "Add User"
+msgstr "غړی زیات کړه"
+
+#: wp-admin/network/settings.php:64
+msgid "<a href=\"http://codex.wordpress.org/Network_Admin_Settings_Screen\" target=\"_blank\">Documentation on Network Settings</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Network_Admin_Settings_Screen\" target=\"_blank\">مستندونه د شبکې د امستنو په اړه</a> "
+
+#: wp-admin/network/site-themes.php:163 wp-admin/network/themes.php:258
+msgid "Theme disabled."
+msgid_plural "%s themes disabled."
+msgstr[0] "ویینه غيرفعاله شوه."
+msgstr[1] "%s ویینې غيرفعاله شوې."
+
+#: wp-admin/network/user-new.php:23
+msgid "Add User will set up a new user account on the network and send that person an email with username and password."
+msgstr "نوی غړی زياتول به په شبکه کې نوی د غړي ګڼون جوړ کړي او هغه غړي ته به برېښناليک سره د کارن نوم او پټ توري ور وليږي."
+
+#: wp-admin/network/settings.php:180
+msgid "Allow site administrators to add new users to their site via the \"Users &rarr; Add New\" page."
+msgstr "د پاڼې پازوالانو ته اجازه ورکړه چې خپلې پاڼې ته نوي غړي د  \"غړي&rarr; نوی غړی زيات کړه\" پاڼې له لارې زيات کړي."
+
+#: wp-admin/network/site-info.php:32 wp-admin/network/site-new.php:29
+#: wp-admin/network/site-settings.php:32 wp-admin/network/site-themes.php:32
+#: wp-admin/network/site-users.php:35 wp-admin/network/sites.php:45
+msgid "<a href=\"http://codex.wordpress.org/Network_Admin_Sites_Screen\" target=\"_blank\">Documentation on Site Management</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Network_Admin_Sites_Screen\" target=\"_blank\">مستندونه د پاڼې د مديریت په اړه</a>"
+
+#: wp-admin/network/menu.php:31
+msgid "Installed Themes"
+msgstr "انسټال شوې ویینې"
+
+#: wp-admin/network/menu.php:18 wp-admin/network/sites.php:254
+msgctxt "site"
+msgid "Add New"
+msgstr "نوې پاڼه زیاته کړه"
+
+#: wp-admin/network/index.php:53
+msgid "<a href=\"http://codex.wordpress.org/Network_Admin\" target=\"_blank\">Documentation on the Network Admin</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Network_Admin\" target=\"_blank\">مستندونه د شبکې د پازوال په اړه</a> "
+
+#: wp-admin/network/menu.php:32 wp-admin/network/themes.php:247
+msgctxt "theme"
+msgid "Add New"
+msgstr "نوې ويينه زیاته کړه"
+
+#: wp-admin/network/user-new.php:29 wp-admin/network/users.php:242
+msgid "<a href=\"http://codex.wordpress.org/Network_Admin_Users_Screen\" target=\"_blank\">Documentation on Network Users</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Network_Admin_Users_Screen\" target=\"_blank\">مستندونه د شبکې د غړو په اړه</a>"
+
+#: wp-admin/network/sites.php:40
+msgid "Clicking on bold headings can re-sort this table."
+msgstr "په زغردو سريزونو کلېک کول به دغه لښتيال بيا ترتيب کړي."
+
+#: wp-admin/network/sites.php:37
+msgid "Delete which is a permanent action after the confirmation screens."
+msgstr "ړنګول چې یو دايمي چار دی له تصديق پردې وروسته."
+
+#: wp-admin/network/sites.php:34
+msgid "An Edit link to a separate Edit Site screen."
+msgstr "د سمون تړونی چې د پاڼې سمون پرده جلا کړي."
+
+#: wp-admin/network/site-info.php:26 wp-admin/network/site-settings.php:26
+#: wp-admin/network/site-themes.php:26 wp-admin/network/site-users.php:29
+msgid "<strong>Themes</strong> - This area shows themes that are not already enabled across the network. Enabling a theme in this menu makes it accessible to this site. It does not activate the theme, but allows it to show in the site&#8217;s Appearance menu. To enable a theme for the entire network, see the <a href=\"%s\">Network Themes</a> screen."
+msgstr "<strong>ویینې</strong> - دغه ځای هغه ويينې ښکاره کوي چې تراوسه پر شبکه فعالې شوې نه دي. د ويينې فعالول په دغه غورنۍ کې ويينه دغه پاڼې ته دلاسرسي وړ ګرځوي. دا ويينه نه فعالوي، لاکن اجازه ورکوي چې د ويب پاڼې د څېرې په غورنۍ کې ښکاره شي. که غواړئ چې ويينه پر ټوله شبکه فعاله کړئ نو <a href=\"%s\"> دشبکې ويينې</a> پرده وګورئ."
+
+#: wp-admin/network/site-info.php:27 wp-admin/network/site-settings.php:27
+#: wp-admin/network/site-themes.php:27 wp-admin/network/site-users.php:30
+msgid "<strong>Settings</strong> - This page shows a list of all settings associated with this site. Some are created by WordPress and others are created by plugins you activate. Note that some fields are grayed out and say Serialized Data. You cannot modify these values due to the way the setting is stored in the database."
+msgstr "<strong>امستنې</strong> - دغه پاڼه د هغو امستنو لېست ښکاره کوي چې له دې ويب پاڼې سره تړلي. ځينې د ورډپرېس له لوري جوړې شوې او ځينې يې د لګون لخوا چې تاسو فعال کړي جوړې شوې. ياد لرۍ چې ځينې ځايونه خړ شوي او وايي <code>Serialized Data</code>. تاسو نشئ کولای دغه امستنو ته بدلون ورکړئ د هغه طريقې له وجې چې امستنې په ډېټابېس کې خوندي شوي."
+
+#: wp-admin/network/site-info.php:24 wp-admin/network/site-settings.php:24
+#: wp-admin/network/site-themes.php:24 wp-admin/network/site-users.php:27
+msgid "<strong>Info</strong> - The domain and path are rarely edited as this can cause the site to not work properly. The Registered date and Last Updated date are displayed. Network admins can mark a site as archived, spam, deleted and mature, to remove from public listings or disable."
+msgstr "<strong>مالومات</strong> - د ډومېن او يونلور سمون ډېر نادره (کم) دی او د دې له وجې کيدای شي پاڼې  په سمه توګه کار ونکړي.  د ثبت او ورستۍ اوسمهاليزې ڼېټې پر دې مخ ښکاره کيږي. د شبکې پازوال کولای شي ويب پاڼه د زېرمې، سپم، ړنګې شوې او د پخې يا رسېدلې په توګه په نښه کړي ترڅو د عامو ليدونکو د لېست څخه لېرې يا غير فعاله شي."
+
+#: wp-admin/network/site-info.php:25 wp-admin/network/site-settings.php:25
+#: wp-admin/network/site-themes.php:25 wp-admin/network/site-users.php:28
+msgid "<strong>Users</strong> - This displays the users associated with this site. You can also change their role, reset their password, or remove them from the site. Removing the user from the site does not remove the user from the network."
+msgstr "<strong>غړي</strong> - دا پرده هغه غړي ښکار کوي چې له دې پاڼې سره تړلي وي. تاسو کولای شئ د دوی دندې بدلې کړئ، د دوی پټ توري بدل کړئ او یا یې هم له خپلې پاڼې څخه پاک کړئ. له پاڼې څخه غړی پاکول به غړی له شبکې څخه پاک نه کړي."
+
+#: wp-admin/network/site-info.php:23 wp-admin/network/site-settings.php:23
+#: wp-admin/network/site-themes.php:23 wp-admin/network/site-users.php:26
+msgid "The menu is for editing information specific to individual sites, particularly if the admin area of a site is unavailable."
+msgstr "دغه غورنۍ د ځانګړو ويبپاڼو د مالوماتو د سمون لپاره ده، په خاصه توګه که چېرې د پاڼې د مديريت برخې ته رسی شتون و نه لري."
+
+#: wp-admin/network/menu.php:17
+msgid "All Sites"
+msgstr "ټولې ويبپاڼې"
+
+#: wp-admin/network/sites.php:25
+msgctxt "sites per page (screen options)"
+msgid "Sites"
+msgstr "ويبپاڼې"
+
+#: wp-admin/network/sites.php:31
+msgid "Add New takes you to the Add New Site screen. You can search for a site by Name, ID number, or IP address. Screen Options allows you to choose how many sites to display on one page."
+msgstr "نوې ويبپاڼه زياته کړه تاسو د نوې ويبپاڼې د زياتولو پردې ته وړي. تاسو خپلې ويبپاڼې پر نوم، پېژند شمېره، يا (IP) پته هم لټولی شئ. د پردې غوراوي تاسو ته اجازه درکوي چې څو ويبپاڼې پر دغه پاڼه ښکاره کړئ."
+
+#: wp-admin/network/site-new.php:17
+msgid "You do not have sufficient permissions to add sites to this network."
+msgstr "تاسو کافي اجازه نلرئ چې دې جاله ته ويبپاڼې ورزیاتې کړئ."
+
+#: wp-admin/network/themes.php:228
+msgid "Themes can be enabled on a site by site basis by the network admin on the Edit Site screen (which has a Themes tab); get there via the Edit action link on the All Sites screen. Only network admins are able to install or edit themes."
+msgstr "ویینې د شبکې د پازوال له لوري د هرې ويبپاڼې پر بنسټ (یوه په يوه ويبپاڼه) هم فعالېدی شي د وييبپاڼې د سمون له پردې څخه (چې د ویینې برخه لري) هغه پاڼې ته تاسو د (ټولې ويبپاڼې) له غواروي څخه د پاڼې پر سمون تړوني کلېک کولو سره هم ورتلی شئ. يوازې د شبکې پازوال کولای شي ویینې انسټال او سمون یې وکړي."
+
+#: wp-admin/network/site-new.php:23
+msgid "This screen is for Super Admins to add new sites to the network. This is not affected by the registration settings."
+msgstr "دغه پرده د لوی پازوال لپاره ده چې شبکې ته نوې ویبپاڼې ورزياتې کړي. د راجسترېدو امستنې پر دې کومه اغېزه نه لري."
+
+#: wp-admin/network/settings.php:59
+msgid "Super admins can no longer be added on the Options screen. You must now go to the list of existing users on Network Admin > Users and click on Username or the Edit action link below that name. This goes to an Edit User page where you can check a box to grant super admin privileges."
+msgstr "لوی پازول تر دې ورسته د پردې پر غوراويو نور نش اضافه کيدای. تاسو بايد د (شبکې پر پازوال --> غړي)  برخه کې د شته غړو لېست ته ورشئ او پر کارن نوم کلېک وکړي او يا هم سمون تړوني ته ورشي د غړي تر نامه لاندې. دا دغړي د سمون پاڼې ته ځي او تاسو کولای شئ غړي ته د لوی پازوال امتيازات ورکړئ د چک بکس په کلېک کولو سره."
+
+#: wp-admin/network.php:119
+msgid "Add the designated lines of code to wp-config.php (just before <code>/*...stop editing...*/</code>) and <code>.htaccess</code> (replacing the existing WordPress rules)."
+msgstr "دغه اختصاص شوې ليکې د کوډ wp-config.php دوتنې ته ورزيات کړئ (فقط مخکې له <code>/*...stop editing...*/</code>) او <code>.htaccess</code> (د ورډپرېس شته قوانينو ځايناستول)."
+
+#: wp-admin/network.php:238 wp-admin/network.php:483 wp-admin/network.php:520
+msgid "Subdirectory networks may not be fully compatible with custom wp-content directories."
+msgstr "د فرعي-دوسيو شبکه ښايي له خپلخوښه wp-content دوسيو سره په بشپړه توګه جوړ را نشي."
+
+#: wp-admin/network/upgrade.php:102
+msgid "Database Upgrade Required"
+msgstr "د ډېټابېس لوړولو ته اړتیا ده"
+
+#: wp-admin/network/menu.php:59 wp-admin/network/upgrade.php:18
+#: wp-admin/network/upgrade.php:42 wp-admin/network/upgrade.php:107
+msgid "Upgrade Network"
+msgstr "شبکه لوړه کړه (اپګرېډ)"
+
+#: wp-admin/network/site-new.php:91
+msgid ""
+"New site created by %1$s\n"
+"\n"
+"Address: %2$s\n"
+"Name: %3$s"
+msgstr ""
+"نوې پاڼه جوړه شوې په مرسته د %1$s\n"
+"\n"
+"پته: %2$s\n"
+"نوم: %3$s"
+
+#: wp-admin/network/upgrade.php:32
+msgid "<a href=\"http://codex.wordpress.org/Network_Admin_Updates_Screen\" target=\"_blank\">Documentation on Upgrade Network</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Network_Admin_Updates_Screen\" target=\"_blank\">مستندونه د شبکې د لوړولو (اپګرېډ) په اړه</a>"
+
+#: wp-admin/network/upgrade.php:25
+msgid "Only use this screen once you have updated to a new version of WordPress through Updates/Available Updates (via the Network Administration navigation menu or the Toolbar). Clicking the Upgrade Network button will step through each site in the network, five at a time, and make sure any database updates are applied."
+msgstr "دغه پرده یوازې هغه وخت وکاروئ چې کله تاسو د ورډپرېس نوې نسخې ته اوسمهاليز کړ د اوسمهاليز شته په ذريعه. د شبکې د لوړولو تڼۍ په کلېک کولو به تاسو د په شبکه کې د هرې یوې ويبپاڼې (۵ په یوه وخت) اوسمهاليزولو برخې ته یوسي او ډاډ ترلاسه کړئ چې د ډېټابېس هر یو اوسمهاليز هم تطبيق شي."
+
+#: wp-admin/network/upgrade.php:103
+msgid "WordPress has been updated! Before we send you on your way, we need to individually upgrade the sites in your network."
+msgstr "ورډپرېس اوسمهاليز شو! مخکې له دې چې په خپله لار مو ولېږو، موږ بايد ستاسو په شبکه کې ويبپاڼې په ځانګړې توګه لوړې (اپګرېډ) کړو."
+
+#: wp-admin/network/index.php:26
+msgid "From here you can:"
+msgstr "له دې ځایه تاسو کولای شئ:"
+
+#: wp-admin/network/index.php:47
+msgid "Quick Tasks"
+msgstr "ژر دندې"
+
+#: wp-admin/network/index.php:30
+msgid "Modify global network settings"
+msgstr "د شبکې نړیوالو امستنو ته بدلون ورکړئ"
+
+#: wp-admin/network/index.php:25
+msgid "Welcome to your Network Admin. This area of the Administration Screens is used for managing all aspects of your Multisite Network."
+msgstr "خپلې شبکې ته ښه راغلاست پازواله. د پازوالۍ د پردې دغه ځای ستا د متعددو پاڼو شبکو د ټولو اړخونو د مديریت لپاره کارول کېږي."
+
+#: wp-admin/network/index.php:28
+msgid "Install and activate themes or plugins"
+msgstr "ویینې یا لګونونه انسټال او فعال کړئ"
+
+#: wp-admin/network/index.php:29
+msgid "Update your network"
+msgstr "خپله شبکه اوسومهاليزه کړئ"
+
+#: wp-admin/network/index.php:38
+msgid "The Right Now widget on this screen provides current user and site counts on your network."
+msgstr "د (همدا اوس) کاروونی پر دغه پرده ستاسو په شبکه کې د اوسنيو ويب پاڼو او غړو شمېر جوتوي."
+
+#: wp-admin/network/index.php:27
+msgid "Add and manage sites or users"
+msgstr "ويبپاڼې یا غړي ورزیات او سمبال کړئ"
+
+#: wp-admin/network/index.php:41
+msgid "To search for a user or site, use the search boxes."
+msgstr "د غړي او یا ویبپاڼې د لټون لپاره، لټون بکس وکاروئ."
+
+#: wp-admin/network/settings.php:117
+msgid "Options saved."
+msgstr "غوراوي ساتل شوي."
+
+#: wp-admin/network/upgrade.php:106
+msgid "The database upgrade process may take a little while, so please be patient."
+msgstr "د ډېټابېس د پوړ لوړلو بهیر ښايي څه وخت ونيسي نو لږ زغم ولرئ."
+
+#: wp-admin/network/index.php:39
+msgid "To add a new user, <strong>click Create a New User</strong>."
+msgstr "د نوي غړي زیاتولو لپاره پر <strong> نوی غړی جوړ کړئ</strong> کلېک وکړئ."
+
+#: wp-admin/network/index.php:40
+msgid "To add a new site, <strong>click Create a New Site</strong>."
+msgstr "د نوې پاڼې زیاتول لپاره پر <strong>نوې ويبپاڼه جوړه کړئ</strong> کلېک وکړئ."
+
+#: wp-admin/network/index.php:42
+msgid "To search for a user, <strong>enter an email address or username</strong>. Use a wildcard to search for a partial username, such as user&#42;."
+msgstr "د غړي د لټون لپاره <strong>د هغوی کارن نوم او یا هم برېښناليک پته دننه کړئ</strong>. تاسو (wildcard) هم کارولی شئ د غړو د لټون لپاره چې کله د غړي پوره کارن نوم تاسو ته مالوم نه وي لکه user&#42;."
+
+#: wp-admin/network/index.php:43
+msgid "To search for a site, <strong>enter the path or domain</strong>."
+msgstr "د پاڼې د پلټولو لپاره <strong>یونلور او یا ډومېن دننه کړئ</strong>."
+
+#: wp-admin/network/users.php:233
+msgid "Hover over any user on the list to make the edit links appear. The Edit link on the left will take you to their Edit User profile page; the Edit link on the right by any site name goes to an Edit Site screen for that site."
+msgstr "په لېست کې د هر غړي پر سر چې د کمپيوټړ موږک وروړی نو د سمون تړونۍ به ښکاره شي. د سمون تړونی ښي لوري ته تاسو د غړي د پېژنيال پاڼې ته وړي، د سمون تړونۍ کيڼ لوري ته د هر یوې پاڼې پر نامه به تاسو د هغه پاڼې د سمون پردې ته يوسي."
+
+#: wp-admin/network/settings.php:139
+msgid "This email address will receive notifications. Registration and support emails will also come from this address."
+msgstr "دغه برېښناليک به يادښتونه ترلاسه کړي. نومکښنه او د برېښنالیکونو ملاتړ به هم له دغې پتې څخه راشي. "
+
+#: wp-admin/network/index.php:54 wp-admin/network/site-info.php:33
+#: wp-admin/network/site-new.php:30 wp-admin/network/site-settings.php:33
+#: wp-admin/network/site-themes.php:33 wp-admin/network/site-users.php:36
+#: wp-admin/network/sites.php:46 wp-admin/network/user-new.php:30
+#: wp-admin/network/users.php:243
+msgid "<a href=\"https://wordpress.org/support/forum/multisite/\" target=\"_blank\">Support Forums</a>"
+msgstr "<a href=\"https://wordpress.org/support/forum/multisite/\" target=\"_blank\">د ملاتړ فورم</a>"
+
+#: wp-admin/network/sites.php:70
+msgid "Confirm your action"
+msgstr "خپل چار تایید کړئ"
+
+#: wp-admin/network/users.php:25
+msgid "Transfer or delete content before deleting users."
+msgstr "د کارنانو ړنګولو نه مخکې منځپانګه یا ولېږدوه یا ړنګه کړه."
+
+#: wp-admin/network/users.php:48
+msgid "What should be done with content owned by %s?"
+msgstr "څه باید وشي د هغه مطالب سره چې څېښتن یې %s وي؟"
+
+#. translators: 1: a filename like .htaccess. 2: a file path.
+#: wp-admin/network.php:479 wp-admin/network.php:516
+msgid "Add the following to your %1$s file in %2$s, <strong>replacing</strong> other WordPress rules:"
+msgstr "دغه لاندې خپلې %1$s دوتنې ته په %2$s کې ورزيات کړئ تر څو د ورډپرېس د نورو قوانينو <strong>ځایناستی</strong> وي."
