@@ -1,0 +1,1110 @@
+# Translation of Network Admin in Scottish Gaelic
+# This file is distributed under the same license as the Network Admin package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2014-09-05 15:26:10+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1 || n==11) ? 0 : (n==2 || n==12) ? 1 : (n > 2 && n < 20) ? 2 : 3;\n"
+"X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: Network Admin\n"
+
+#: wp-admin/network.php:477 wp-admin/network.php:513
+msgid "Add the following to your %1$s file in %2$s, <strong>replacing</strong> other WordPress rules:"
+msgstr "Cuir na leanas ris an fhaidhle %1$s agad ann an %2$s, <strong>'ga chur an àite</strong> riaghailtean WordPress eile:"
+
+#: wp-admin/network/users.php:48
+msgid "What should be done with content owned by %s?"
+msgstr "Dè nithear le susbaint aig %s?"
+
+#: wp-admin/network/index.php:54 wp-admin/network/site-info.php:33
+#: wp-admin/network/site-new.php:30 wp-admin/network/site-settings.php:33
+#: wp-admin/network/site-themes.php:33 wp-admin/network/site-users.php:36
+#: wp-admin/network/sites.php:46 wp-admin/network/user-new.php:30
+#: wp-admin/network/users.php:243
+msgid "<a href=\"https://wordpress.org/support/forum/multisite/\" target=\"_blank\">Support Forums</a>"
+msgstr "<a href=\"https://wordpress.org/support/forum/multisite/\" target=\"_blank\">Fòraman taice</a>"
+
+#: wp-admin/network/sites.php:70
+msgid "Confirm your action"
+msgstr "Dearbhaich an gnìomh seo"
+
+#: wp-admin/network/users.php:25
+msgid "Transfer or delete content before deleting users."
+msgstr "Tar-chuir no sguab susbaint mus sguab thu às cleachdaiche."
+
+#: wp-admin/network/settings.php:104
+msgid "This email address will receive notifications. Registration and support emails will also come from this address."
+msgstr "Gheibhear brathan air a' phost-d seo. Thig puist-d clàraidh is taice on t-seòladh seo cuideachd."
+
+#: wp-admin/network/users.php:233
+msgid "Hover over any user on the list to make the edit links appear. The Edit link on the left will take you to their Edit User profile page; the Edit link on the right by any site name goes to an Edit Site screen for that site."
+msgstr "Ma dh'fhanas tu os cionn cleachdaiche sam bith air an liosta, nochdaidh na ceanglaichean deasachaidh. Ma bhriogas tu air a' cheangal deasachaidh air an taobh chlì, ruigidh tu an duilleag pròifil far an urrainn dhut an cleachdaiche a dheasachadh; ma bhriogas tu air a' cheangal deasachaidh a tha deas air ainm làraich sam bith, ruigidh tu an sgrìn gus an làrach ud a dheasachadh."
+
+#: wp-admin/network/index.php:39
+msgid "To add a new user, <strong>click Create a New User</strong>."
+msgstr "Airson cleachdaiche ùr a chur ris, <strong>briog air \"Cuir cleachdaiche ùr ris\"</strong>."
+
+#: wp-admin/network/index.php:40
+msgid "To add a new site, <strong>click Create a New Site</strong>."
+msgstr "Airson làrach ùr a chur ris, <strong>briog air \"Cuir làrach ùr ris\"</strong>."
+
+#: wp-admin/network/index.php:42
+msgid "To search for a user, <strong>enter an email address or username</strong>. Use a wildcard to search for a partial username, such as user&#42;."
+msgstr "Airson cleachdaiche a lorg, <strong>cuir a-steach post-d no ainm-cleachdaiche</strong>. cleachd saorag airson lorg a dhèanamh le pàirt de dh'ainm, m.e. nicdh&#42;."
+
+#: wp-admin/network/index.php:43
+msgid "To search for a site, <strong>enter the path or domain</strong>."
+msgstr "Airson làrach a lorg, <strong>cuir a-steach slighe no àrainn</strong>."
+
+#: wp-admin/network/upgrade.php:106
+msgid "The database upgrade process may take a little while, so please be patient."
+msgstr "Faodaidh gum feum àrdachadh an stòir-dhàta greiseag. Glacaidh foighidinn iasg!"
+
+#: wp-admin/network/settings.php:82
+msgid "Options saved."
+msgstr "Chaidh na roghainnean a shàbhaladh."
+
+#: wp-admin/network/index.php:25
+msgid "Welcome to your Network Admin. This area of the Administration Screens is used for managing all aspects of your Multisite Network."
+msgstr "Fàilte gu raon rianairean an lìonraidh. 'S urrainn dhut gach rud mun lìonra Multisite agad a stiùireadh air an sgrìn rianachd seo."
+
+#: wp-admin/network/index.php:26
+msgid "From here you can:"
+msgstr "'S urrainn dhut na leanas a dhèanamh an-seo:"
+
+#: wp-admin/network/index.php:27
+msgid "Add and manage sites or users"
+msgstr "Cuir ris is stiùirich làraichean is cleachdaichean"
+
+#: wp-admin/network/index.php:28
+msgid "Install and activate themes or plugins"
+msgstr "Stàlaich is gnìomhaich ùrlaran no plugain"
+
+#: wp-admin/network/index.php:29
+msgid "Update your network"
+msgstr "Ùraich an lìonra agad"
+
+#: wp-admin/network/index.php:30
+msgid "Modify global network settings"
+msgstr "Atharraich roghainnean uile-choitcheann an lìonraidh"
+
+#: wp-admin/network/index.php:38
+msgid "The Right Now widget on this screen provides current user and site counts on your network."
+msgstr "Bheir a' widget \"An-dràsta fhèin\" air an sgrìn seo àireamh nan làraichean is nan cleachdaichean air an lìonra agad aig an àm seo."
+
+#: wp-admin/network/index.php:41
+msgid "To search for a user or site, use the search boxes."
+msgstr "Gus cleachdaiche no làrach a lorg, cleachd na bogsaichean luirg."
+
+#: wp-admin/network/index.php:47
+msgid "Quick Tasks"
+msgstr "Grad-shaothraichean"
+
+#: wp-admin/network/menu.php:59 wp-admin/network/upgrade.php:18
+#: wp-admin/network/upgrade.php:42 wp-admin/network/upgrade.php:107
+msgid "Upgrade Network"
+msgstr "Àrdaich an lìonra"
+
+#: wp-admin/network/upgrade.php:25
+msgid "Only use this screen once you have updated to a new version of WordPress through Updates/Available Updates (via the Network Administration navigation menu or the Toolbar). Clicking the Upgrade Network button will step through each site in the network, five at a time, and make sure any database updates are applied."
+msgstr "Na cleachd an sgrìn seo ach aon turas as dèidh dhut tionndadh ùr de WordPress fhaighinn slighe \"Ùrachaidhean\"/\"Ùrachaidhean a tha ri fhaighinn\" (ann an clàr-taice \"Rianachd an lìonraidh\" no am \"Bàr-inneal\"). Ma bhriogas tu air a' phutan \"Àrdaich an lìonra\", thèid an siostam tro gach làrach air an lìonra, còig dhiubh aig an aon àm, agus nì seo cinnteach gun dèid gach ùrachadh a chur an sàs sna stòir-dhàta."
+
+#: wp-admin/network/upgrade.php:32
+msgid "<a href=\"http://codex.wordpress.org/Network_Admin_Updates_Screen\" target=\"_blank\">Documentation on Upgrade Network</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Network_Admin_Updates_Screen\" target=\"_blank\">Treòrachadh mu àrdachadh an lìonraidh</a>"
+
+#: wp-admin/network/upgrade.php:102
+msgid "Database Upgrade Required"
+msgstr "Feumaidh tu an stòr-dàta àrdachadh"
+
+#: wp-admin/network/upgrade.php:103
+msgid "WordPress has been updated! Before we send you on your way, we need to individually upgrade the sites in your network."
+msgstr "Chaidh WordPress àrdachadh! Mus lean thu air adhart, feumaidh sinn na làraichean air an lìonra agad àrdachadh aon air aon an toiseach."
+
+#: wp-admin/network/site-new.php:87
+msgid ""
+"New site created by %1$s\n"
+"\n"
+"Address: %2$s\n"
+"Name: %3$s"
+msgstr ""
+"Làrach ùr air a chruthachadh le %1$s\n"
+"\n"
+"Seòladh: %2$s\n"
+"Ainm: %3$s"
+
+#: wp-admin/network.php:119
+msgid "Add the designated lines of code to wp-config.php (just before <code>/*...stop editing...*/</code>) and <code>.htaccess</code> (replacing the existing WordPress rules)."
+msgstr "Cuir na loidhnichean còd ri wp-config.php (dìreach ro <code>/*...stop editing...*/</code>) agus <code>.htaccess</code> ('ga chur an àite nan riaghailtean WordPress a tha ann)."
+
+#: wp-admin/network.php:238 wp-admin/network.php:481 wp-admin/network.php:517
+msgid "Subdirectory networks may not be fully compatible with custom wp-content directories."
+msgstr "Faodaidh nach bi na lìonraidhean fo-phasgain buileach co-chòrdail le pasgain ghnàthaichte wp-content."
+
+#: wp-admin/network/settings.php:37
+msgid "<a href=\"http://codex.wordpress.org/Network_Admin_Settings_Screen\" target=\"_blank\">Documentation on Network Settings</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Network_Admin_Settings_Screen\" target=\"_blank\">Treòrachadh mu roghainnean an lìonraidh</a>"
+
+#: wp-admin/network/site-users.php:230
+msgid "Enter the username and email."
+msgstr "Cuir a-steach an t-ainm-cleachdaiche is post-d."
+
+#: wp-admin/network/site-users.php:218
+msgid "Select a user to change role."
+msgstr "Tagh cleachdaiche gus a dhreuchdan atharrachadh."
+
+#: wp-admin/network/site-users.php:224
+msgid "Select a user to remove."
+msgstr "Tagh cleachdaiche gus a thoirt air falbh."
+
+#: wp-admin/network/site-users.php:227
+msgid "User created."
+msgstr "Chaidh an cleachdaiche a chruthachadh."
+
+#: wp-admin/network/users.php:41
+msgid "Warning! User cannot be deleted. The user %s is a network administrator."
+msgstr "Rabhadh! Cha ghabh an cleachdaiche seo a sguabadh às. Tha an cleachdaiche %s 'na rianaire lìonraidh."
+
+#: wp-admin/network/users.php:66
+msgid "Site: %s"
+msgstr "Làrach: %s"
+
+#: wp-admin/network/site-users.php:278 wp-admin/network/user-new.php:102
+msgid "Add User"
+msgstr "Cuir cleachdaiche ris"
+
+#: wp-admin/network/user-new.php:51
+msgid "Cannot add user."
+msgstr "Cha ghabh an cleachdaiche a chur ris."
+
+#: wp-admin/network/sites.php:118
+msgid "You are not allowed to delete the site."
+msgstr "Chan eil cead agad am làrach seo a sguabadh às."
+
+#: wp-admin/network/site-users.php:209
+msgid "User is already a member of this site."
+msgstr "Tha an cleachdaiche seo 'na bhall air an làrach seo mu thràth."
+
+#: wp-admin/network/site-info.php:85
+msgid "Site info updated."
+msgstr "Chaidh fiosrachadh na làraich ùrachadh."
+
+#: wp-admin/network/users.php:38
+msgid "Warning! User %s cannot be deleted."
+msgstr "Rabhadh! Cha ghabh an cleachdaiche %s a sguabadh às."
+
+#: wp-admin/network/site-users.php:212
+msgid "Enter the username of an existing user."
+msgstr "Cuir a-steach ainm-cleachdaiche de chleachdaiche a tha ann."
+
+#: wp-admin/network/themes.php:240
+msgid "You cannot delete a theme while it is active on the main site."
+msgstr "Chan urrainn dhut ùrlar a sguabadh às fhad 's a tha e an gnìomh air a' phrìomh-làrach."
+
+#: wp-admin/network/site-new.php:106 wp-admin/network/site-new.php:116
+msgid "Add New Site"
+msgstr "Cuir làrach ùr ris"
+
+#: wp-admin/network/themes.php:236
+msgctxt "network"
+msgid "Theme deleted."
+msgid_plural "%s themes deleted."
+msgstr[0] "Chaidh an t-ùrlar a sguabadh às."
+msgstr[1] "Chaidh %s ùrlar a sguabadh às."
+msgstr[2] "Chaidh %s ùrlaran a sguabadh às."
+msgstr[3] "Chaidh %s ùrlar a sguabadh às."
+
+#: wp-admin/network/themes.php:208
+msgid "<a href=\"http://codex.wordpress.org/Network_Admin_Themes_Screen\" target=\"_blank\">Documentation on Network Themes</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Network_Admin_Themes_Screen\" target=\"_blank\">Treòrachadh mu ùrlaran lìonraidh</a>"
+
+#: wp-admin/network/site-info.php:104 wp-admin/network/site-settings.php:94
+#: wp-admin/network/site-themes.php:146 wp-admin/network/site-users.php:191
+msgid "Info"
+msgstr "Fiosrachadh"
+
+#: wp-admin/network/themes.php:142
+msgid "Are you sure you wish to delete these themes?"
+msgstr "A bheil thu cinnteach gu bheil thu airson na h-ùrlaran seo a sguabadh às?"
+
+#: wp-admin/network/themes.php:151
+msgid "Yes, Delete this theme"
+msgid_plural "Yes, Delete these themes"
+msgstr[0] "Tha, sguab às an t-ùrlar seo"
+msgstr[1] "Tha, sguab às an dà ùrlar seo"
+msgstr[2] "Tha, sguab às na h-ùrlaran seo"
+msgstr[3] "Tha, sguab às na h-ùrlaran seo"
+
+#: wp-admin/network/themes.php:137
+msgid "You are about to remove the following theme:"
+msgid_plural "You are about to remove the following themes:"
+msgstr[0] "Tha thu an impis an t-ùrlar a leanas a thoirt air falbh:"
+msgstr[1] "Tha thu an impis an dà ùrlar a leanas a thoirt air falbh:"
+msgstr[2] "Tha thu an impis na h-ùrlaran a leanas a thoirt air falbh:"
+msgstr[3] "Tha thu an impis na h-ùrlaran a leanas a thoirt air falbh:"
+
+#: wp-admin/network/themes.php:136
+msgid "This theme may be active on other sites in the network."
+msgid_plural "These themes may be active on other sites in the network."
+msgstr[0] "Faodaidh gu bheil an t-ùrlar seo an gnìomh air làraichean eile air an lìonradh."
+msgstr[1] "Faodaidh gu bheil an dà ùrlar seo an gnìomh air làraichean eile air an lìonradh."
+msgstr[2] "Faodaidh gu bheil na h-ùrlaran seo an gnìomh air làraichean eile air an lìonradh."
+msgstr[3] "Faodaidh gu bheil na h-ùrlaran seo an gnìomh air làraichean eile air an lìonradh."
+
+#: wp-admin/network/themes.php:134
+msgid "Delete Theme"
+msgid_plural "Delete Themes"
+msgstr[0] "Sguab às an t-ùrlar"
+msgstr[1] "Sguab às an dà ùrlar"
+msgstr[2] "Sguab às na h-ùrlaran"
+msgstr[3] "Sguab às na h-ùrlaran"
+
+#: wp-admin/network/menu.php:46 wp-admin/network/settings.php:19
+msgid "Network Settings"
+msgstr "Roghainnean an lìonraidh"
+
+#: wp-admin/network/site-themes.php:168
+msgid "Network enabled themes are not shown on this screen."
+msgstr "Chan fhaic thu ùrlaran air an sgrìn seo a chaidh a chur an comas air an lìonradh."
+
+#: wp-admin/network/themes.php:17
+msgid "You do not have sufficient permissions to manage network themes."
+msgstr "Chan eil cead gu leòr agad ùrlaran lìonraidh a rianachadh."
+
+#: wp-admin/network/menu.php:58
+msgid "Available Updates"
+msgstr "Ùrachaidhean a tha ri fhaighinn"
+
+#: wp-admin/network/user-new.php:23
+msgid "Add User will set up a new user account on the network and send that person an email with username and password."
+msgstr "Ma bhriogas tu air \"Cuir ris cleachdaiche\", cruthaichidh tu cunntas cleachdaiche ùr agus cuiridh tu post-d dhan neach ud leis an ainm-chleachdaiche 's leis an fhacal-fhaire aca."
+
+#: wp-admin/network/site-info.php:89 wp-admin/network/site-settings.php:79
+#: wp-admin/network/site-themes.php:133 wp-admin/network/site-users.php:161
+msgid "Edit Site: <a href=\"%1$s\">%2$s</a>"
+msgstr "Deasaich an làrach: <a href=\"%1$s\">%2$s</a>"
+
+#: wp-admin/network/themes.php:100
+msgid "You do not have sufficient permissions to delete themes for this site."
+msgstr "Chan eil cead gu leòr agad ùrlaran a sguabadh às air an làrach seo."
+
+#: wp-admin/network/site-themes.php:163 wp-admin/network/themes.php:233
+msgid "Theme disabled."
+msgid_plural "%s themes disabled."
+msgstr[0] "Chaidh an t-ùrlar a chur à comas."
+msgstr[1] "Chaidh %s ùrlar a chur à comas."
+msgstr[2] "Chaidh %s ùrlaran a chur à comas."
+msgstr[3] "Chaidh %s ùrlar a chur à comas."
+
+#: wp-admin/network/site-info.php:39 wp-admin/network/site-settings.php:39
+#: wp-admin/network/site-themes.php:54 wp-admin/network/site-users.php:49
+msgid "Invalid site ID."
+msgstr "ID làraich mhì-dhligheach."
+
+#: wp-admin/network/site-themes.php:160 wp-admin/network/themes.php:230
+msgid "Theme enabled."
+msgid_plural "%s themes enabled."
+msgstr[0] "Chaidh an t-ùrlar a chur an comas."
+msgstr[1] "Chaidh %s ùrlar a chur an comas."
+msgstr[2] "Chaidh %s ùrlaran a chur an comas."
+msgstr[3] "Chaidh %s ùrlar a chur an comas."
+
+#: wp-admin/network/site-themes.php:165 wp-admin/network/themes.php:238
+msgid "No theme selected."
+msgstr "Cha deach ùrlar a thaghadh."
+
+#: wp-admin/network/site-info.php:26 wp-admin/network/site-settings.php:26
+#: wp-admin/network/site-themes.php:26 wp-admin/network/site-users.php:29
+msgid "<strong>Themes</strong> - This area shows themes that are not already enabled across the network. Enabling a theme in this menu makes it accessible to this site. It does not activate the theme, but allows it to show in the site&#8217;s Appearance menu. To enable a theme for the entire network, see the <a href=\"%s\">Network Themes</a> screen."
+msgstr "<strong>Ùrlaran</strong> - Seallaidh an raon seo ùrlaran nach eil an comas air feadh an lìonraidh mu thràth. Ma chuireas tu ùrlar an comas sa chlàr-taice seo, bidh e ri làimh na làraich sin. Cha chuir e an gnìomh an t-ùrlar ach leis a sin, bidh cothrom agad a shealltainn sa chlàr-taice \"Coltas\". Gus ùrlar a chur an gnìomh air feadh an lìonraidh air fad, thoir sùil air <a href=\"%s\">na h-ùrlaran lìonraidh</a> screen."
+
+#: wp-admin/network/site-info.php:90 wp-admin/network/site-settings.php:80
+#: wp-admin/network/site-themes.php:134 wp-admin/network/site-users.php:162
+msgid "Edit Site: %s"
+msgstr "Deasaich an làrach: %s"
+
+#: wp-admin/network/themes.php:154
+msgid "No, Return me to the theme list"
+msgstr "Cha bu toil, air ais leam gu liosta nan ùrlaran"
+
+#: wp-admin/network/site-info.php:27 wp-admin/network/site-settings.php:27
+#: wp-admin/network/site-themes.php:27 wp-admin/network/site-users.php:30
+msgid "<strong>Settings</strong> - This page shows a list of all settings associated with this site. Some are created by WordPress and others are created by plugins you activate. Note that some fields are grayed out and say Serialized Data. You cannot modify these values due to the way the setting is stored in the database."
+msgstr "<strong>Roghainnean</strong> - Seallaidh an duilleag seo liosta de gach roghainn a tha co-cheangailte ris an làrach seo. Thèid cuid dhiubh a chruthachadh le WordPress agus cuid eile le plugain a chuir thu an gnìomh. Thoir an aire gu bheil cuid dhe na raointean liath 's sanas riutha a tha ag ràdh \"Dàta sreathaichte\". Chan urrainn dhut na luachan seo atharrachadh leis mar a tha an roghainn 'ga stòradh san stòr-dàta."
+
+#: wp-admin/network/site-themes.php:130 wp-admin/network/themes.php:195
+msgctxt "themes per page (screen options)"
+msgid "Themes"
+msgstr "Ùrlaran"
+
+#: wp-admin/network/site-info.php:24 wp-admin/network/site-settings.php:24
+#: wp-admin/network/site-themes.php:24 wp-admin/network/site-users.php:27
+msgid "<strong>Info</strong> - The domain and path are rarely edited as this can cause the site to not work properly. The Registered date and Last Updated date are displayed. Network admins can mark a site as archived, spam, deleted and mature, to remove from public listings or disable."
+msgstr "<strong>Fiosrachadh</strong> - Cha dèid an àrainn-lìn is an t-slighe a dheasachadh ro thric oir faodaidh nach obraich an làrach mar bu chòir tuilleadh ma nithear sin. Chithear an latha a chaidh a chlàradh 's latha an ùrachaidh mu dheireadh. 'S urrainn do rianairean an lìonraidh comharra a chur gun deach làrach a chur san tasg-lann, gur e spama a tha ann, gun deach a sguabadh às no gu bheil susbaint inbheach ann gus a thoirt air falbh o liostaichean poblach no gus an cur à comas."
+
+#: wp-admin/network/site-info.php:25 wp-admin/network/site-settings.php:25
+#: wp-admin/network/site-themes.php:25 wp-admin/network/site-users.php:28
+msgid "<strong>Users</strong> - This displays the users associated with this site. You can also change their role, reset their password, or remove them from the site. Removing the user from the site does not remove the user from the network."
+msgstr "<strong>Cleachdaichean</strong> - Seallaidh seo na cleachdaichean a tha co-cheangailte ris an làrach seo. 'S urrainn dhut an cuid dreuchdan atharrachadh, na faclan-faire aca ath-shuidheachadh no an toirt air falbh on làrach. Ma bheir thu air falbh cleachdaiche o làrach, cha dèid a thoirt air falbh on lìonradh, ge-tà."
+
+#: wp-admin/network/site-info.php:23 wp-admin/network/site-settings.php:23
+#: wp-admin/network/site-themes.php:23 wp-admin/network/site-users.php:26
+msgid "The menu is for editing information specific to individual sites, particularly if the admin area of a site is unavailable."
+msgstr "Cleachd an clàr-taice seo gus an dàta aig làrach àraidh a dheasachadh, gu h-àraidh mur eil an raon rianaire aig làrach ri làimh."
+
+#: wp-admin/network/sites.php:35
+msgid "Dashboard leads to the Dashboard for that site."
+msgstr "Tha an deas-bhòrd a' dol dhan deas-bhòrd air an làrach ud."
+
+#: wp-admin/network/settings.php:145
+msgid "Allow site administrators to add new users to their site via the \"Users &rarr; Add New\" page."
+msgstr "Thoir cead do rianairean na làraich cleachdaichean ùra a chur ris an cuid làraichean air an duilleag \"Cleachdaichean &rarr; Cuir fear ùr ris\"."
+
+#: wp-admin/network/settings.php:280
+msgid "Language Settings"
+msgstr "Roghainnean cànain"
+
+#: wp-admin/network/site-settings.php:75
+msgid "Site options updated."
+msgstr "Chaidh roghainnean na làraich ùrachadh."
+
+#: wp-admin/network/menu.php:31
+msgid "Installed Themes"
+msgstr "Ùrlaran a tha air a stàladh"
+
+#: wp-admin/network/menu.php:27
+msgid "Themes %s"
+msgstr "Ùrlaran %s"
+
+#: wp-admin/network/site-info.php:32 wp-admin/network/site-new.php:29
+#: wp-admin/network/site-settings.php:32 wp-admin/network/site-themes.php:32
+#: wp-admin/network/site-users.php:35 wp-admin/network/sites.php:45
+msgid "<a href=\"http://codex.wordpress.org/Network_Admin_Sites_Screen\" target=\"_blank\">Documentation on Site Management</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Network_Admin_Sites_Screen\" target=\"_blank\">Treòrachadh mu rianachd làraich</a>"
+
+#: wp-admin/network/menu.php:18 wp-admin/network/sites.php:254
+msgctxt "site"
+msgid "Add New"
+msgstr "Cuir fear ùr ris"
+
+#: wp-admin/network/menu.php:17
+msgid "All Sites"
+msgstr "Gach làrach"
+
+#: wp-admin/network/index.php:53
+msgid "<a href=\"http://codex.wordpress.org/Network_Admin\" target=\"_blank\">Documentation on the Network Admin</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Network_Admin\" target=\"_blank\">Treòrachadh mu rianaire an lìonraidh</a>"
+
+#: wp-admin/network/site-themes.php:17
+msgid "You do not have sufficient permissions to manage themes for this site."
+msgstr "Chan eil cead gu leòr agad ùrlaran a rianachadh air an làrach seo."
+
+#: wp-admin/network/site-new.php:103
+msgid "Site added. <a href=\"%1$s\">Visit Dashboard</a> or <a href=\"%2$s\">Edit Site</a>"
+msgstr "Làrach air a chur ris. <a href=\"%1$s\">tadhail air an deas-bhòrd</a> no <a href=\"%2$s\">deasaich an làrach</a>"
+
+#: wp-admin/network/sites.php:31
+msgid "Add New takes you to the Add New Site screen. You can search for a site by Name, ID number, or IP address. Screen Options allows you to choose how many sites to display on one page."
+msgstr "Ruigidh tu an sgrìn \"Cuir làrach ùr ris\" ma bhriogas tu air \"Cuir tè ùr ris\". 'S urrainn dhut làrach a lorg a-rèir ainm, dearbh-aithne no seòladh IP. 'S urrainn dhut taghadh co mheud làrach a chithear air an aon duilleag air \"Sgrìn nan roghainnean\"."
+
+#: wp-admin/network/user-new.php:17
+msgid "You do not have sufficient permissions to add users to this network."
+msgstr "Chan eil cead gu leòr agad cleachdaichean a chur ris an lìonradh seo."
+
+#: wp-admin/network/sites.php:25
+msgctxt "sites per page (screen options)"
+msgid "Sites"
+msgstr "Làraichean"
+
+#: wp-admin/network/sites.php:206
+msgid "You do not have permission to delete that site."
+msgstr "Chan eil cead agad an làrach seo a sguabadh às."
+
+#: wp-admin/network/site-new.php:17
+msgid "You do not have sufficient permissions to add sites to this network."
+msgstr "Chan eil cead gu leòr agad làraichean a chur ris an lìonradh seo."
+
+#: wp-admin/network/menu.php:32 wp-admin/network/themes.php:222
+msgctxt "theme"
+msgid "Add New"
+msgstr "Cuir fear ùr ris"
+
+#: wp-admin/network/user-new.php:29 wp-admin/network/users.php:242
+msgid "<a href=\"http://codex.wordpress.org/Network_Admin_Users_Screen\" target=\"_blank\">Documentation on Network Users</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Network_Admin_Users_Screen\" target=\"_blank\">Treòrachadh mu chleachdaichean lìonraidh</a>"
+
+#: wp-admin/network/sites.php:40
+msgid "Clicking on bold headings can re-sort this table."
+msgstr "'S urrainn dhut an clàr seo seòrsachadh as ùr 's tu a' briogadh air ceann-sgrìobhadh trom."
+
+#: wp-admin/network/sites.php:37
+msgid "Delete which is a permanent action after the confirmation screens."
+msgstr "Tha sguabas tu às rud, bidh buaidh bhuan aige seo turas a ruigeas tu an sgrìn dearbhaidh."
+
+#: wp-admin/network/themes.php:203
+msgid "Themes can be enabled on a site by site basis by the network admin on the Edit Site screen (which has a Themes tab); get there via the Edit action link on the All Sites screen. Only network admins are able to install or edit themes."
+msgstr "'S urrainn dhut ùrlaran a chur an sàs air làrach seach làrach air an sgrìn \"Deasaich làrach\" (air a bheil taba Ùrlaran) mas e rianaire lìonraidh a tha annad; ruigidh tu ann ma bhriogas tu air a' cheangal Deasaich air an sgrìn \"Gach làrach\". Chan fhaod ach rianairean lìonraidh ùrlaran a dheasachadh no a stàladh."
+
+#: wp-admin/network/sites.php:34
+msgid "An Edit link to a separate Edit Site screen."
+msgstr "Ceangal deasachaidh gun sgrìn \"Deasaich an làrach\"."
+
+#: wp-admin/network/site-new.php:23
+msgid "This screen is for Super Admins to add new sites to the network. This is not affected by the registration settings."
+msgstr "'S urrainn do shàr-rianairean làraichean ùra a chur ris an lìonradh air an sgrìn seo. Chan eil buaidh air seo aig na roghainnean clàraidh."
+
+#: wp-admin/network/menu.php:53
+msgid "Updates"
+msgstr "Ùrachaidhean"
+
+#: wp-admin/network/settings.php:32
+msgid "Super admins can no longer be added on the Options screen. You must now go to the list of existing users on Network Admin > Users and click on Username or the Edit action link below that name. This goes to an Edit User page where you can check a box to grant super admin privileges."
+msgstr "Chan urrainn dhut sàr-rianairean a chur ris air sgrìn nan roghainnean tuilleadh. Tha agad ri tadhal air liosta nan cleachdaichean làithreach ann an \"Rianaire an lìonraidh\" > \"Cleachdaichean\" agus briogadh air a' cheangal Ainm-cleachdaiche no Deasaich fo ainm. Fosglaidh sinn an duilleag \"Deasaich cleachdaiche\" far an urrainn dhut cromag a chur ann am bogsa gus cead sàr-chleachdaiche a thoirt do chuideigin."
+
+#: wp-admin/network.php:230
+msgctxt "subdirectory examples"
+msgid "like <code>%1$s/site1</code> and <code>%1$s/site2</code>"
+msgstr "mar <code>%1$s/site1</code> agus <code>%1$s/site2</code>"
+
+#: wp-admin/network.php:243 wp-admin/network.php:247 wp-admin/network.php:287
+msgid "Server Address"
+msgstr "Seòladh an fhrithealaiche"
+
+#: wp-admin/network.php:261
+msgid "Because you are using <code>localhost</code>, the sites in your WordPress network must use sub-directories. Consider using <code>localhost.localdomain</code> if you wish to use sub-domains."
+msgstr "A chionn 's gu bheil thu a' cleachdadh <code>localhost</code>, feumaidh na làraichean air an lìonra WordPress agad fo-eòlairean a chleachdadh. Saoil an cleachd thu <code>localhost.localdomain</code> ma tha thu airson fo-àrainnean a chleachdadh?"
+
+#: wp-admin/network.php:264 wp-admin/network.php:274 wp-admin/network.php:281
+msgid "The main site in a sub-directory install will need to use a modified permalink structure, potentially breaking existing links."
+msgstr "Bidh feum aig a' phrìomh làrach, ma stàlaicheas tu e ann am fo-eòlaire, air structar eile de bhuan-cheanglaichean agus faodaidh gum bris seo ceanglaichean a tha ann an-dràsta."
+
+#: wp-admin/network.php:271
+msgid "Because your install is in a directory, the sites in your WordPress network must use sub-directories."
+msgstr "A chionn 's gu bheil thu 'ga stàladh ann an èolaire, feumaidh na làraichean air an lìonra WordPress agad fo-eòlairean a chleachdadh."
+
+#: wp-admin/network.php:279
+msgid "Sub-domain Install"
+msgstr "Staladh fo-àrainne"
+
+#: wp-admin/network.php:280
+msgid "Because your install is not new, the sites in your WordPress network must use sub-domains."
+msgstr "A chionn 's nach e stàladh ùr a tha ann, feumaidh na làraichean air an lìonra WordPress agad fo-àrainnean a chleachdadh."
+
+#: wp-admin/network/settings.php:93 wp-admin/network.php:294
+msgid "Network Title"
+msgstr "Tiotal an lìonaidh"
+
+#: wp-admin/network.php:298
+msgid "What would you like to call your network?"
+msgstr "Dè an t-ainm a bu chaomh leat cur air an lìonra agad?"
+
+#: wp-admin/network.php:307
+msgid "Your email address."
+msgstr "Am post-dealain agad."
+
+#: wp-admin/network.php:354
+msgid "The original configuration steps are shown here for reference."
+msgstr "Chì thu ceuman tùsail an rèiteachaidh an-seo mar fhiosrachadh dhut. "
+
+#: wp-admin/network.php:359
+msgid "An existing WordPress network was detected."
+msgstr "Chaidh lìonra WordPress a lorg a tha ann mu thràth."
+
+#: wp-admin/network.php:360
+msgid "Please complete the configuration steps. To create a new network, you will need to empty or remove the network database tables."
+msgstr "Coilean ceuman an rèiteachaidh. Gus lìonra ùr a chruthachadh, bidh agad ri clàir stòr-dàta an lìonraidh fhalamhadh no a thoirt air falbh."
+
+#: wp-admin/network.php:371
+msgid "Enabling the Network"
+msgstr "A' cur an comas an lìonraidh"
+
+#: wp-admin/network.php:372
+msgid "Complete the following steps to enable the features for creating a network of sites."
+msgstr "Coilean na ceuman a leanas gus na fearan a chur an comas leis a chruthaicheas tu lìonra de làraichean."
+
+#: wp-admin/network.php:375 wp-admin/network.php:377
+msgid "<strong>Caution:</strong> We recommend you back up your existing <code>wp-config.php</code> and <code>%s</code> files."
+msgstr "<strong>Rabhadh:</strong> Mholamaid gun dèan thu lethbhreac-glèidhidh dhe na faidhlichean <code>wp-config.php</code> agus <code>%s</code> agad."
+
+#: wp-admin/network.php:379
+msgid "<strong>Caution:</strong> We recommend you back up your existing <code>wp-config.php</code> file."
+msgstr "<strong>Rabhadh:</strong> Mholamaid gun dèan thu lethbhreac-glèidhidh dhen fhaidhle <code>wp-config.php</code> agad."
+
+#: wp-admin/network.php:385
+msgid "Add the following to your <code>wp-config.php</code> file in <code>%s</code> <strong>above</strong> the line reading <code>/* That&#8217;s all, stop editing! Happy blogging. */</code>:"
+msgstr "Cuir na leanas ris an fhaidhle <code>wp-config.php</code> agad ann an <code>%s</code> <strong>os cionn</strong> na loidhne a tha ag ràdh <code>/* Sin agad e, sguir dhen deasachadh a-nis! Blogadh sona dhut. */</code>:"
+
+#: wp-admin/network.php:199
+msgid "Fill in the information below and you&#8217;ll be on your way to creating a network of WordPress sites. We will create configuration files in the next step."
+msgstr "Cuir a-steach am fiosrachadh gu h-ìosal gus ceum a ghabhail air an t-slighe gu lìonra de làraichean WordPress. Cruthaichidh sinn na faidhlichean rèiteachaidh san ath cheum."
+
+#: wp-admin/network.php:211
+msgid "Please make sure the Apache <code>mod_rewrite</code> module is installed as it will be used at the end of this installation."
+msgstr "Dèan cinnteach gu bheil am mòideal Apache <code>mod_rewrite</code> air a stàladh agad a chionn 's gun dèid a chleachdadh aig ceann thall an stàlaidh seo."
+
+#: wp-admin/network.php:416
+msgid "This unique authentication key is also missing from your <code>wp-config.php</code> file."
+msgid_plural "These unique authentication keys are also missing from your <code>wp-config.php</code> file."
+msgstr[0] "Tha an iuchair dearbhaidh àraid a dhìth air an fhaidhle <code>wp-config.php</code> agad."
+msgstr[1] "Tha an dà iuchair dearbhaidh àraid a dhìth air an fhaidhle <code>wp-config.php</code> agad."
+msgstr[2] "Tha na h-iuchraichean dearbhaidh àraid a dhìth air an fhaidhle <code>wp-config.php</code> agad."
+msgstr[3] "Tha na h-iuchraichean dearbhaidh àraid a dhìth air an fhaidhle <code>wp-config.php</code> agad."
+
+#: wp-admin/network.php:174
+msgid "You cannot install a network of sites with your server address."
+msgstr "Chan urrainn dhut lìonra de làraichean a chruthachadh le seòladh an fhrithealaiche agad."
+
+#: wp-admin/network.php:175
+msgid "You cannot use port numbers such as <code>%s</code>."
+msgstr "Chan urrainn dhut àireamhan puirt leithid <code>%s</code> a chleachdadh."
+
+#: wp-admin/network.php:221
+msgid "You will need a wildcard DNS record if you are going to use the virtual host (sub-domain) functionality."
+msgstr "Bidh feum agad air wildcard DNS record ma tha thu airson feart an òstair mas-fhìor (fo-àrainn) a chleachdadh."
+
+#: wp-admin/network.php:215
+msgid "If <code>mod_rewrite</code> is disabled, ask your administrator to enable that module, or look at the <a href=\"http://httpd.apache.org/docs/mod/mod_rewrite.html\">Apache documentation</a> or <a href=\"http://www.google.com/search?q=apache+mod_rewrite\">elsewhere</a> for help setting it up."
+msgstr "Ma tha <code>mod_rewrite</code> à comas, iarr air an rianaire agad am mòideal sin a chur an comas no coimhead air <a href=\"http://httpd.apache.org/docs/mod/mod_rewrite.html\">treòrachadh Apache</a> no <a href=\"http://www.google.com/search?q=apache+mod_rewrite\">air an lìon</a> airson cuideachadh leis an t-suidheachadh."
+
+#: wp-admin/network.php:195
+msgctxt "Default network name"
+msgid "%s Sites"
+msgstr "Làraichean %s"
+
+#: wp-admin/network.php:249 wp-admin/network.php:289
+msgid "The internet address of your network will be <code>%s</code>."
+msgstr "'S e <code>%s</code> an seòladh-lìn a bhios aig an lìonra agad."
+
+#: wp-admin/network.php:213 wp-admin/network.php:238 wp-admin/network.php:264
+#: wp-admin/network.php:274
+msgid "Warning!"
+msgstr "Rabhadh!"
+
+#: wp-admin/network.php:225
+msgid "Sub-domains"
+msgstr "Fo-àrainnean"
+
+#: wp-admin/network.php:416
+msgid "To make your installation more secure, you should also add:"
+msgstr "Bu chòir dhut na leanas a chur ris gus an stàladh agad a dhèanamh nas tèarainte:"
+
+#: wp-admin/network.php:117
+msgid "Choose subdomains or subdirectories; this can only be switched afterwards by reconfiguring your install. Fill out the network details, and click install. If this does not work, you may have to add a wildcard DNS record (for subdomains) or change to another setting in Permalinks (for subdirectories)."
+msgstr "Tagh fo-àrainnean no fo-eòlairean; cha ghabh seo atharrachadh as a dhèidh seo 's tu ag ath-rèiteachadh an stàlaidh agad. Cuir a-steach mion-fhiosrachadh an lìonraidh is briog air Stàlaich. Mur obraich sin, feuch is cuir wildcard DNS record ris (airson fo-àrainnean) no tagh roghainn eile sna buan-cheanglaichean (airson fo-eòlairean)."
+
+#: wp-admin/network.php:118
+msgid "The next screen for Network Setup will give you individually-generated lines of code to add to your wp-config.php and .htaccess files. Make sure the settings of your FTP client make files starting with a dot visible, so that you can find .htaccess; you may have to create this file if it really is not there. Make backup copies of those two files."
+msgstr "Gheibh thu loidhnichean de chòd àraidh air an ath-sgrìn airson \"Suidheachadh an lìonraidh\" gus a chur ris na faidhlichean wp-config.php agus .htaccess agad. Dèan cinnteach gun urrainn dhut faidhlichean a thòisicheas le dotag fhaicinn sa phrògram FTP agad gus greim fhaighinn air .htaccess; faodaidh gum bi agad am faidhle sin a chruthachadh mur eil e ann. Dèan lethbhreacan-glèidhidh dhen dà fhaidhle seo."
+
+#: wp-admin/network.php:526
+msgid "Once you complete these steps, your network is enabled and configured. You will have to log in again."
+msgstr "Nuair a bhios tu deiseil leis na ceuman seo, bidh an lìonra agad an comas agus air a rèiteachadh. Bidh agad ri logadh a-steach a-rithist."
+
+#: wp-admin/network.php:157
+msgid "The constant DO_NOT_UPGRADE_GLOBAL_TABLES cannot be defined when creating a network."
+msgstr "Cha ghabh an cunbhalachan DO_NOT_UPGRADE_GLOBAL_TABLES a shònrachadh nuair a chruthaicheas tu lìonradh ùr."
+
+#: wp-admin/network.php:255
+msgid "Network Details"
+msgstr "Mion-fhiosrachadh an lìonraidh"
+
+#: wp-admin/network.php:198
+msgid "Welcome to the Network installation process!"
+msgstr "Fàilte gu stàladh an lìonraidh!"
+
+#: wp-admin/network.php:213
+msgid "It looks like the Apache <code>mod_rewrite</code> module is not installed."
+msgstr "Tha coltas nach deach mòideal <code>mod_rewrite</code> Apache a stàladh."
+
+#: wp-admin/network.php:123 wp-admin/network.php:134
+msgid "<a href=\"http://codex.wordpress.org/Create_A_Network\" target=\"_blank\">Documentation on Creating a Network</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Create_A_Network\" target=\"_blank\">Treòrachadh mu chruthachadh lìonraidh</a>"
+
+#: wp-admin/network.php:121
+msgid "The choice of subdirectory sites is disabled if this setup is more than a month old because of permalink problems with &#8220;/blog/&#8221; from the main site. This disabling will be addressed in a future version."
+msgstr "Bidh do roghainn de làraichean fho-eòlairean à comas ma tha an suidheachadh seo nas sine na mìos air sgàth duilgheadasan leis a' bhuan-cheangal &#8220;/blog/&#8221; on phrìomh làrach. Cuiridh sin ceart a' mhearachd seo cho luath 's a ghabhas."
+
+#: wp-admin/network.php:165
+msgid "Once the network is created, you may reactivate your plugins."
+msgstr "Turas a bhios an lìonra air a chruthachadh, 's urrainn dhut na plugain agad a chur an gnìomh a-rithist."
+
+#: wp-admin/network.php:165
+msgid "Please <a href=\"%s\">deactivate your plugins</a> before enabling the Network feature."
+msgstr "<a href=\"%s\">Cuir à comas na plugain agad</a> mus cuir thu an comas feart an lìonraidh."
+
+#: wp-admin/network.php:244
+msgid "We recommend you change your siteurl to <code>%1$s</code> before enabling the network feature. It will still be possible to visit your site using the <code>www</code> prefix with an address like <code>%2$s</code> but any links will not have the <code>www</code> prefix."
+msgstr "Mholamaid dhut an siteurl agad a chur gu <code>%1$s</code> mus cuir thu feart an lìonraidh an comas. Ruigear an làrach agad fhathast leis an ro-leasachan <code>www</code> ann an seòladh mar <code>%2$s</code> ach cha bhith an ro-leasachan <code>www</code> aig ceangal sam bith."
+
+#: wp-admin/network.php:259 wp-admin/network.php:269
+msgid "Sub-directory Install"
+msgstr "Stàladh fo-eòlaire"
+
+#: wp-admin/network.php:116
+msgid "This screen allows you to configure a network as having subdomains (<code>site1.example.com</code>) or subdirectories (<code>example.com/site1</code>). Subdomains require wildcard subdomains to be enabled in Apache and DNS records, if your host allows it."
+msgstr "'S urrainn dhut lìonradh a rèiteachadh air an sgrìn seo agus fo-àrainnean (<code>site1.example.com</code>) no fo-eòlairean (<code>example.com/site1</code>) a shònrachadh dha. Ma tha fo-àrainn gu bhith ann, feumaidh fo-àrainnean wildcard a bhith an comas ann an reacordan Apache agus DNS, ma cheadaicheas an t-òstair agad seo."
+
+#: wp-admin/network.php:112
+msgid "Create a Network of WordPress Sites"
+msgstr "Cruthaich lìonra de làraichean WordPress"
+
+#: wp-admin/network.php:176
+msgid "Return to Dashboard"
+msgstr "Till dhan deas-bhòrd"
+
+#: wp-admin/network.php:27
+msgid "The Network creation panel is not for WordPress MU networks."
+msgstr "Chan ann a chum lìonraidhean WordPress MU a tha panail cruthachadh nan lìonra."
+
+#: wp-admin/network.php:165 wp-admin/network.php:359 wp-admin/network.php:481
+#: wp-admin/network.php:517
+msgid "Warning:"
+msgstr "Rabhadh:"
+
+#: wp-admin/network.php:220
+msgid "Please choose whether you would like sites in your WordPress network to use sub-domains or sub-directories. <strong>You cannot change this later.</strong>"
+msgstr "Cuir romha a bheil thu airson 's gun cleachd làraichean air an lìonra WordPress agad fo-àrainnean no fo-eòlairean. <strong>Chan urrainn dhut seo atharrachadh as a dhèidh seo.</strong>"
+
+#: wp-admin/network.php:124 wp-admin/network.php:135
+msgid "<a href=\"http://codex.wordpress.org/Tools_Network_Screen\" target=\"_blank\">Documentation on the Network Screen</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Tools_Network_Screen\" target=\"_blank\">Treòrachadh mu sgrìn an lìonraidh</a>"
+
+#: wp-admin/network.php:219
+msgid "Addresses of Sites in your Network"
+msgstr "Seòlaidhean nan làraichean air an lìonra agad"
+
+#: wp-admin/network.php:226
+msgctxt "subdomain examples"
+msgid "like <code>site1.%1$s</code> and <code>site2.%1$s</code>"
+msgstr "mar <code>site1.%1$s</code> agus <code>site2.%1$s</code>"
+
+#: wp-admin/network.php:128
+msgid "Network"
+msgstr "Lìonra"
+
+#: wp-admin/network.php:229
+msgid "Sub-directories"
+msgstr "Fo-eòlairean"
+
+#: wp-admin/network.php:106
+msgid "You must define the <code>WP_ALLOW_MULTISITE</code> constant as true in your wp-config.php file to allow creation of a Network."
+msgstr "Feumaidh tu true a thaghadh airson cunbhalachan <code>WP_ALLOW_MULTISITE</code> agad san fhaidhle wp-config.php gus cruthachadh lìonraidh a cheadachadh."
+
+#: wp-admin/network.php:188
+msgid "ERROR: The network could not be created."
+msgstr "MEARACHD: Cha do ghabh an lìonra a chruthachadh."
+
+#: wp-admin/network.php:120
+msgid "Once you add this code and refresh your browser, multisite should be enabled. This screen, now in the Network Admin navigation menu, will keep an archive of the added code. You can toggle between Network Admin and Site Admin by clicking on the Network Admin or an individual site name under the My Sites dropdown in the Toolbar."
+msgstr "Turas a chuireas tu an còd seo ris agus as dèidh dhut am brabhsair agad nuadhachadh, bu chòir do Multisite a bhith an comas. Glèidhidh an sgrìn seo (a tha sa chlàr-taice \"Rianaire an lìonraidh\" a-nis) lethbhreac dhen chòd a chur thu ris. 'S urrainn dhut togladh eadar \"Rianaire an lìonraidh\" agus \"Rianaire na làraich\" 's tu a' briogadh air \"Rianaire an lìonraidh\" no ainm làraich sa chlàr-taice teàrnaidh ann an \"Na làraichean agam\" air a' bhàr-inneal."
+
+#: wp-admin/network/site-info.php:17 wp-admin/network/site-settings.php:17
+#: wp-admin/network/site-users.php:17
+msgid "You do not have sufficient permissions to edit this site."
+msgstr "Chan eil cead gu leòr agad an làrach seo a dheasachadh."
+
+#: wp-admin/network/users.php:144
+msgid "Warning! User cannot be modified. The user %s is a network administrator."
+msgstr "Rabhadh! Cha ghabh an cleachdaiche seo atharrachadh. Tha an cleachdaiche %s 'na rianaire lìonraidh."
+
+#: wp-admin/network/site-new.php:24
+msgid "If the admin email for the new site does not exist in the database, a new user will also be created."
+msgstr "Mur eil post-d an rianaire airson na làraich ùir san stòr-dàta, thèid cleachdaiche ùr a chruthachadh cuideachd."
+
+#: wp-admin/network/sites.php:36
+msgid "Deactivate, Archive, and Spam which lead to confirmation screens. These actions can be reversed later."
+msgstr "Ruigidh tu sgrìn dearbhaidh ri linn cuir à comas, tasglannaich is spama. 'S urrainn dhut na gnìomhan seo neo-dhèanadh an dèidh seo."
+
+#: wp-admin/network/sites.php:39
+msgid "The site ID is used internally, and is not shown on the front end of the site or to users/viewers."
+msgstr "Thèid ID na làraich a chleachdadh am broinn an t-siostaim agus chan fhaic cleachdaichean àbhaisteach na làraich iad."
+
+#: wp-admin/network/sites.php:33
+msgid "Hovering over each site reveals seven options (three for the primary site):"
+msgstr "Ma dh'fhanas tu os cionn làrach, nochdaidh grunn roghainnean (a trì airson na prìomh-làraich):"
+
+#: wp-admin/network/settings.php:27
+msgid "Operational settings has fields for the network&#8217;s name and admin email."
+msgstr "Tha raointean airson ainm an lìonraidh is post-d an rianaire aig na roghainnean obrachaidh."
+
+#: wp-admin/network/users.php:234
+msgid "You can also go to the user&#8217;s profile page by clicking on the individual username."
+msgstr "Ruigidh tu duilleag pròifil a' chleachdaiche cuideachd ma bhriogas tu air ainm a' chleachdaiche."
+
+#: wp-admin/network/users.php:236
+msgid "The bulk action will permanently delete selected users, or mark/unmark those selected as spam. Spam users will have posts removed and will be unable to sign up again with the same email addresses."
+msgstr "Thèid na cleachdaichean a thagh thu a sguabadh às ri linn a' mhòr-ghnìomh seo no cuir comharra, no thoir air falbh e, gur e spama a tha ann. Thèid na puist aig cleachdaichean spama a thoirt air falbh agus cha bhi iad comasach air clàradh a-rithist leis an dearbh phost-d."
+
+#: wp-admin/network/settings.php:30
+msgid "Upload settings control the size of the uploaded files and the amount of available upload space for each site. You can change the default value for specific sites when you edit a particular site. Allowed file types are also listed (space separated only)."
+msgstr "'S urrainn dhut smachd a chumail air meud nam faidhle a thèid a luchdadh suas ann an roghainnean an luchdaidh agus an t-àite a tha ri làimh air gach làrach. 'S urrainn dhut a' bhun-roghainn airson gach làrach atharrachadh nuair a dheasaicheas tu an làrach sin. Tha liosta dhe na faidhlichean a tha ceadaichte ann (liosta le cromagan eatarra a-mhàin)."
+
+#: wp-admin/network/sites.php:38
+msgid "Visit to go to the frontend site live."
+msgstr "Dèan tadhal gus an làrach bheò fhaicinn mar a chì càch e."
+
+#: wp-admin/network/settings.php:29
+msgid "New site settings are defaults applied when a new site is created in the network. These include welcome email for when a new site or user account is registered, and what&#8127;s put in the first post, page, comment, comment author, and comment URL."
+msgstr "'S iad roghainnean nan làrach ùra a bhios an sàs nuair a chruthaicheas tu làrach ùr air an lìonra. Tha iad a' gabhail a-steach post-d fàilte a chithear nuair a chlàraichear làrach ùr no cunntas ùr agus na chithear sa chiad phost, beachd, ùghdar beachd is URL beachd is air a' chiad duilleag."
+
+#: wp-admin/network/themes.php:201
+msgid "This screen enables and disables the inclusion of themes available to choose in the Appearance menu for each site. It does not activate or deactivate which theme a site is currently using."
+msgstr "'S urrainn dhut cur romhad air an sgrìn seo dè na h-ùrlaran a bhios ri làimh ann an clàr-taice a' choltais air gach làrach. Cha chuir e an gnìomh - no à gnìomh - dè an t-ùrlar beò a bhios ag làrach."
+
+#: wp-admin/network/themes.php:202
+msgid "If the network admin disables a theme that is in use, it can still remain selected on that site. If another theme is chosen, the disabled theme will not appear in the site&#8217;s Appearance > Themes screen."
+msgstr "Ma chuireas rianaire an lìonraidh ùrlar à comas a thathar 'ga chleachdadh, faodaidh gum fan e mar roghainn na làraich sin fhathast. Ma thèid ùrlar eile a thaghadh an uairsin, cha nochd an t-ùrlar a chuir thu à comas air sgrìn Coltas > Ùrlaran na làraich ud tuilleadh."
+
+#: wp-admin/network/settings.php:26
+msgid "This screen sets and changes options for the network as a whole. The first site is the main site in the network and network options are pulled from that original site&#8217;s options."
+msgstr "'S urrainn dhut roghainnean atharrachadh is a thaghadh airson na làraich air fad air an sgrìn seo. Tha a' chiad làrach 'na prìomh làrach air an lìonra agus thèid roghainnean an lìonraidh a tharraing o roghainnean na làraich thùsail ud."
+
+#: wp-admin/network/settings.php:28
+msgid "Registration settings can disable/enable public signups. If you let others sign up for a site, install spam plugins. Spaces, not commas, should separate names banned as sites for this network."
+msgstr "'S urrainn dhut clàradh poblach a chur air is dheth leis na roghainnean clàraidh. Ma leigeas tu le daoine eile clàradh air làrach, feuch is stàlaich plugain an aghaidh spama. Bu chòir dhut beàrnan a chur eadar ainmean nan làraichean a tha caisgte air an lìonra seo, na cleachd cromagan."
+
+#: wp-admin/network/settings.php:31
+msgid "Menu setting enables/disables the plugin menus from appearing for non super admins, so that only super admins, not site admins, have access to activate plugins."
+msgstr "'S urrainn dhut clàir-thaice nam plugan a chur air is dheth le roghainnean a' chlàir-thaice gus co-dhùnadh am faic daoine nach eil 'nan sàr-rianairean iad gus nach fhaic. Ma nì thu sin, chan urrainn ach do shàr-rianairean, seach rianairean làraich, plugain a chur an gnìomh."
+
+#: wp-admin/network/sites.php:32
+msgid "This is the main table of all sites on this network. Switch between list and excerpt views by using the icons above the right side of the table."
+msgstr "Seo prìomh chlàr nan làraichean uile air an lìonra seo. Cleachd na h-ìomhaigheagan os cionn taobh deas a' chlàir gus an liosta no na gearr-chunntasan fhaicinn."
+
+#: wp-admin/network/user-new.php:24
+msgid "Users who are signed up to the network without a site are added as subscribers to the main or primary dashboard site, giving them profile pages to manage their accounts. These users will only see Dashboard and My Sites in the main navigation until a site is created for them."
+msgstr "Bidh cleachdaichean a tha air clàradh air an lìonra ach aig nach eil làrach 'nam fo-sgrìobhaichean aig a' phrìomh làrach no aig a' phrìomh dheas-bhòrd agus leis a sin, gheibh iad duilleag pròifil gus an cunntas aca a stiùireadh. Chan fhaic iad ach an deas-bhòrd agus \"Na làraichean agam\" sa phrìomh sheòladaireachd gus an deach làrach a chruthachadh dhaibh."
+
+#: wp-admin/network/users.php:235
+msgid "You can sort the table by clicking on any of the bold headings and switch between list and excerpt views by using the icons in the upper right."
+msgstr "'S urrainn dhut an clàr a sheòrsachadh 's tu a' briogadh air gin dhe na ceann-sgrìobhaidhean troma agus cleachd na h-ìomhaigheagan gu h-àrd aig an taobh deas gus an liosta no na gearr-chunntasan fhaicinn."
+
+#: wp-admin/network/upgrade.php:27
+msgid "If this process fails for any reason, users logging in to their sites will force the same update."
+msgstr "Mur obraich seo air sgàth adhbhar air choireigin, èignichidh cleachdaichean an dearbh ùrachadh 's iad a' logadh a-steach dha na làraichean aca."
+
+#: wp-admin/network/upgrade.php:26
+msgid "If a version update to core has not happened, clicking this button won&#8217;t affect anything."
+msgstr "Mur an do thachair ùrachadh tionndaidh airson an \"core\", cha bhi buaidh sam bith aig a' phutan seo."
+
+#: wp-admin/network/users.php:232
+msgid "This table shows all users across the network and the sites to which they are assigned."
+msgstr "Seallaidh an clàr seo a h-uile cleachdaiche air an lìonra 's na làraichean a chaidh an sònrachadh dhaibh."
+
+#: wp-admin/network/users.php:237
+msgid "You can make an existing user an additional super admin by going to the Edit User profile page and checking the box to grant that privilege."
+msgstr "'S urrainn dhut sàr-rianaire a dhèanamh de chleachdaiche àbhaisteach ma thèid thu gun duilleag phròifil \"Deasaich cleachdaiche\" agus ma chuireas tu cromag sa bhogsa a bheir seachad a' phribhleid sin."
+
+#: wp-admin/network/site-new.php:49
+msgid "The following words are reserved for use by WordPress functions and cannot be used as blog names: <code>%s</code>"
+msgstr "Ghlèidh WordPress na faclan a leanas a chum cleachdadh leis an t-siostam agus chan urrainn dhut an cur ann an ainmean bhlogaichean: <code>%s</code>"
+
+#: wp-admin/network/upgrade.php:69
+msgid "Warning! Problem updating %1$s. Your server may not be able to connect to sites running on it. Error message: <em>%2$s</em>"
+msgstr "Rabhadh! Mearachd le ùrachadh %1$s. Faodaidh nach urrainn dhan fhrithealaiche agad ceangal a dhèanamh ri làraichean a tha 'ga chleachdadh. Teachdaireachd na mearachd: <em>%2$s</em>"
+
+#: wp-admin/network/settings.php:167
+msgid "If you want to limit site registrations to certain domains. One domain per line."
+msgstr "Ma tha thu airson clàradh air an làrach a cheadachadh do dh'àrainnean àraid. Cuir aon àrainn anns gach loidhne."
+
+#: wp-admin/network/settings.php:178
+msgid "If you want to ban domains from site registrations. One domain per line."
+msgstr "Ma tha thu airson casg a chur air clàradh air an làrach le àrainnean àraid. Cuir aon àrainn anns gach loidhne."
+
+#: wp-admin/network/settings.php:125
+msgid "If registration is disabled, please set <code>NOBLOGREDIRECT</code> in <code>wp-config.php</code> to a URL you will redirect visitors to if they visit a non-existent site."
+msgstr "Ma tha an clàradh à comas, suidhich <code>NOBLOGREDIRECT</code> ann am <code>wp-config.php</code> gu URL dhan a chuirear cèilichean ma thadhlas iad air làrach nach eil ann."
+
+#: wp-admin/network/site-new.php:37
+msgid "Can&#8217;t create an empty site."
+msgstr "Cha ghabh làrach fhalamh a chruthachadh."
+
+#: wp-admin/network/upgrade.php:88
+msgid "If your browser doesn&#8217;t start loading the next page automatically, click this link:"
+msgstr "Mura luchdaich am brabhsair agad an ath dhuilleag leis fhèin, briog air a' cheangal seo:"
+
+#: wp-admin/network/sites.php:224
+msgid "Site marked as spam."
+msgstr "Comharra gur e spama a tha san làrach."
+
+#: wp-admin/network/sites.php:197
+msgid "Sites marked as spam."
+msgstr "Comharra gur e spama a tha sna làraichean."
+
+#: wp-admin/network/sites.php:194
+msgid "Sites removed from spam."
+msgstr "Làraichean air a thoirt air falbh on spama."
+
+#: wp-admin/network/users.php:260
+msgid "Users removed from spam."
+msgstr "Cleachdaichean air a thoirt air falbh on spama."
+
+#: wp-admin/network/sites.php:221
+msgid "Site removed from spam."
+msgstr "Làrach air a thoirt air falbh on spama."
+
+#: wp-admin/network/sites.php:200
+msgid "Sites deleted."
+msgstr "Làraichean air a sguabadh às."
+
+#: wp-admin/network/sites.php:203
+msgid "Site deleted."
+msgstr "Làrach air a sguabadh às."
+
+#: wp-admin/network/users.php:257
+msgid "Users marked as spam."
+msgstr "Comharra gur e spama a tha sna cleachdaichean."
+
+#: wp-admin/network/site-info.php:141
+msgid "Update <code>siteurl</code> and <code>home</code> as well."
+msgstr "Ùraich <code>siteurl</code> agus <code>home</code> cuideachd."
+
+#: wp-admin/network/sites.php:218
+msgid "Site deactivated."
+msgstr "Làrach air a chur à gnìomh."
+
+#: wp-admin/network/sites.php:215
+msgid "Site activated."
+msgstr "Làrach air a chur an gnìomh."
+
+#: wp-admin/network/sites.php:212
+msgid "Site unarchived."
+msgstr "Làrach air a thoirt às an tasg-lann."
+
+#: wp-admin/network/users.php:263
+msgid "Users deleted."
+msgstr "Cleachdaichean air a sguabadh às."
+
+#: wp-admin/network/sites.php:209
+msgid "Site archived."
+msgstr "Làrach air a chur san tasg-lann."
+
+#: wp-admin/network/site-new.php:60
+msgid "Invalid email address."
+msgstr "Post-dealan mì-dhligheach."
+
+#: wp-admin/network/site-new.php:76
+msgid "There was an error creating the user."
+msgstr "Bha mearachd ann le cruthachadh a' chleachdaiche."
+
+#: wp-admin/network/sites.php:64 wp-admin/network/sites.php:131
+msgid "You are not allowed to change the current site."
+msgstr "Chan eil cead agad an làrach làithreach atharrachadh."
+
+#: wp-admin/network/settings.php:272
+msgctxt "File size in kilobytes"
+msgid "%s KB"
+msgstr "%s KB"
+
+#: wp-admin/network/settings.php:266
+msgid "Upload file types"
+msgstr "Seòrsa fhaidhlichean a ghabhas luchdadh a-nuas"
+
+#: wp-admin/network/settings.php:261
+msgid "Limit total size of files uploaded to %s MB"
+msgstr "Cuingich meud iomlan nam faidhle gu %s MB"
+
+#: wp-admin/network/settings.php:242
+msgid "The author of the first comment on a new site."
+msgstr "Ùghdar dhen chiad bheachd air làrach ùr."
+
+#: wp-admin/network/settings.php:213
+msgid "The first post on a new site."
+msgstr "A' chiad phost air làrach ùr."
+
+#: wp-admin/network/settings.php:223
+msgid "The first page on a new site."
+msgstr "A' chiad duilleag air làrach ùr."
+
+#: wp-admin/network/settings.php:233
+msgid "The first comment on a new site."
+msgstr "A' chiad bheachd air làrach ùr."
+
+#: wp-admin/network/settings.php:251
+msgid "The URL for the first comment on a new site."
+msgstr "An URL airson a' chiad bheachd air làrach ùr."
+
+#: wp-admin/network/upgrade.php:57
+msgid "All done!"
+msgstr "Deiseil uile gu lèir!"
+
+#: wp-admin/network/settings.php:121
+msgid "Logged in users may register new sites."
+msgstr "Faodaidh cleachdaichean a tha air logadh a-steach làraichean ùra a chlàradh."
+
+#: wp-admin/network/settings.php:122
+msgid "Both sites and user accounts can be registered."
+msgstr "Faodar an dà chuid làraichean is cunntasan chleachdaichean a chlàradh."
+
+#: wp-admin/network/settings.php:120
+msgid "User accounts may be registered."
+msgstr "Faodar cunntasan chleachdaichean a chlàradh."
+
+#: wp-admin/network/settings.php:119
+msgid "Registration is disabled."
+msgstr "Tha an clàradh à comas."
+
+#: wp-admin/network/settings.php:308
+msgid "Enable administration menus"
+msgstr "Cuir an comas clàir-thaice na rianachd"
+
+#: wp-admin/network/settings.php:90
+msgid "Operational Settings"
+msgstr "Roghainnean obrachaidh"
+
+#: wp-admin/network/settings.php:256
+msgid "Upload Settings"
+msgstr "Roghainnean an luchdaidh suas"
+
+#: wp-admin/network/settings.php:184
+msgid "New Site Settings"
+msgstr "Roghainnean nan làrach ùra"
+
+#: wp-admin/network/settings.php:109
+msgid "Registration Settings"
+msgstr "Roghainnean a' chlàraidh"
+
+#: wp-admin/network/site-new.php:56
+msgid "Missing or invalid site address."
+msgstr "Tha seòladh làraich a dhìth no tha e mì-dhligheach."
+
+#: wp-admin/network/site-new.php:58
+msgid "Missing email address."
+msgstr "Tha seòladh puist-dhealain a dhìth."
+
+#: wp-admin/network/settings.php:100 wp-admin/network.php:303
+msgid "Network Admin Email"
+msgstr "Post-d rianaire an lìonraidh"
+
+#: wp-admin/network/site-new.php:91
+msgid "[%s] New Site Created"
+msgstr "[%s] Làrach ùr air a chruthachadh"
+
+#: wp-admin/network/settings.php:193
+msgid "The welcome email sent to new site owners."
+msgstr "Am post-d a chuireas fàilte air sealbhadairean làraich ùra."
+
+#: wp-admin/network/settings.php:259
+msgid "Site upload space"
+msgstr "Àite air an làrach a chum luchdaidh suas"
+
+#: wp-admin/network/settings.php:138
+msgid "Send the network admin an email notification every time someone registers a site or user account."
+msgstr "Cuir teachdaireachd gu rianaire an lìonraidh air a' phost-d gach turas a chlàraicheas cuideigin làrach no cunntas cleachdaiche."
+
+#: wp-admin/network/settings.php:154
+msgid "Users are not allowed to register these sites. Separate names by spaces."
+msgstr "Chan eil cead aig cleachdaichean seo làraichean a chlàradh. Cuir beàrnan eadar na h-ainmean."
+
+#: wp-admin/network/upgrade.php:88
+msgid "Next Sites"
+msgstr "An ath bhadan de làraichean"
+
+#: wp-admin/network/index.php:20 wp-admin/network/settings.php:17
+#: wp-admin/network/site-info.php:43 wp-admin/network/site-settings.php:43
+#: wp-admin/network/site-themes.php:60 wp-admin/network/site-users.php:53
+#: wp-admin/network/sites.php:17 wp-admin/network/sites.php:100
+#: wp-admin/network/upgrade.php:39 wp-admin/network/user-new.php:36
+#: wp-admin/network/users.php:17 wp-admin/network/users.php:97
+#: wp-admin/network/users.php:118 wp-admin/network/users.php:131
+#: wp-admin/network/users.php:180
+msgid "You do not have permission to access this page."
+msgstr "Chan eil cead agad inntrigeadh a dhèanamh dhan duilleag seo."
+
+#: wp-admin/network/sites.php:77
+msgid "Confirm"
+msgstr "Dearbhaich"
+
+#: wp-admin/network/user-new.php:39
+msgid "Cannot create an empty user."
+msgstr "Cha ghabh cleachdaiche falamh a chruthachadh."
+
+#: wp-admin/network/site-users.php:233
+msgid "Duplicated username or email address."
+msgstr "Ainm-cleachdaiche no post-d dùblaichte."
+
+#: wp-admin/network/settings.php:112
+msgid "Allow new registrations"
+msgstr "Ceadaich clàraidhean ùra"
+
+#: wp-admin/network/settings.php:132
+msgid "Registration notification"
+msgstr "Brathan clàraidh"
+
+#: wp-admin/network/settings.php:143
+msgid "Add New Users"
+msgstr "Cuir cleachdaichean ùra ris"
+
+#: wp-admin/network/settings.php:150
+msgid "Banned Names"
+msgstr "Ainmean air a bheil casg"
+
+#: wp-admin/network/settings.php:160
+msgid "Limited Email Registrations"
+msgstr "Cuingich clàradh de phuist-d"
+
+#: wp-admin/network/settings.php:173
+msgid "Banned Email Domains"
+msgstr "Àrainnean puist-dhealain air a bheil casg"
+
+#: wp-admin/network/settings.php:188
+msgid "Welcome Email"
+msgstr "Am post-d fàilte"
+
+#: wp-admin/network/settings.php:198
+msgid "Welcome User Email"
+msgstr "Am post-d fàilte do chleachdaichean"
+
+#: wp-admin/network/settings.php:203
+msgid "The welcome email sent to new users."
+msgstr "Am post-d a chuireas fàilte air cleachdaichean ùra."
+
+#: wp-admin/network/settings.php:218
+msgid "First Page"
+msgstr "A’ chiad duilleag"
+
+#: wp-admin/network/settings.php:228
+msgid "First Comment"
+msgstr "A' chiad bheachd"
+
+#: wp-admin/network/settings.php:238
+msgid "First Comment Author"
+msgstr "Ùghdar a' chiad bheachd"
+
+#: wp-admin/network/settings.php:247
+msgid "First Comment URL"
+msgstr "URL a' chiad bheachd"
+
+#: wp-admin/network/settings.php:271
+msgid "Max upload file size"
+msgstr "Meud as motha nam faidhle a ghabhas luchdadh suas"
+
+#: wp-admin/network/settings.php:283
+msgid "Default Language"
+msgstr "An cànan bunaiteach"
+
+#: wp-admin/network/site-new.php:149
+msgid "Add Site"
+msgstr "Cuir làrach ris"
+
+#: wp-admin/network/site-new.php:126
+msgid "Site Address"
+msgstr "Seòladh na làraich"
+
+#: wp-admin/network/site-new.php:142
+msgid "Admin Email"
+msgstr "Post-d an rianaire"
+
+#: wp-admin/network/site-new.php:146
+msgid "A new user will be created if the above email address is not in the database."
+msgstr "Thèid cleachdaiche ùr a chruthachadh mur eil am post-d gu h-àrd san stòr-dàta."
+
+#: wp-admin/network/site-new.php:146
+msgid "The username and password will be mailed to this email address."
+msgstr "Thèid an t-ainm-cleachdaiche 's am facal-faire a chur dhan t-seòladh seo."
+
+#: wp-admin/network/site-users.php:310 wp-admin/network/user-new.php:98
+msgid "Username and password will be mailed to the above email address."
+msgstr "Thèid an t-ainm-cleachdaiche 's am facal-faire a chur dhan t-seòladh gu h-àrd."
