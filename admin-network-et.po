@@ -1,0 +1,1384 @@
+# Translation of Network Admin in Estonian
+# This file is distributed under the same license as the Network Admin package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-04-12 11:11:25+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/1.1.0-alpha\n"
+"Project-Id-Version: Network Admin\n"
+
+#. translators: 1: theme name, 2: theme author
+#: wp-admin/network/themes.php:148
+msgctxt "theme"
+msgid "%1$s by %2$s"
+msgstr "%1$s, autor %2$s"
+
+#. translators: %s: edit page url
+#: wp-admin/network/user-new.php:83
+msgid "User added. <a href=\"%s\">Edit user</a>"
+msgstr "Kasutaja lisatud. <a href=\"%s\">Muuda andmeid</a>"
+
+#. translators: 1: wp-config.php
+#: wp-admin/includes/network.php:448
+msgid "This unique authentication key is also missing from your %s file."
+msgstr "See autentimisvõti puudub ka failist %s."
+
+#. translators: 1: wp-config.php
+#: wp-admin/includes/network.php:454
+msgid "These unique authentication keys are also missing from your %s file."
+msgstr "Need autentimisvõtmed puuduvad ka failist %s."
+
+#: wp-admin/network/site-new.php:154
+msgctxt "email \"From\" field"
+msgid "Site Admin"
+msgstr "Haldur"
+
+#: wp-admin/network/site-new.php:204
+msgid "Only lowercase letters (a-z), numbers, and hyphens are allowed."
+msgstr "Lubatud on vaid väiketähed, numbrid ja sidekriips."
+
+#. translators: 1: site url 2: host name 3. www
+#: wp-admin/includes/network.php:227
+msgid "We recommend you change your siteurl to %1$s before enabling the network feature. It will still be possible to visit your site using the %3$s prefix with an address like %2$s but any links will not have the %3$s prefix."
+msgstr "Soovitamae määrata saidi aadressiks %1$s enne võrgustiku sisselülitamist. Saiti saab endiselt külastada, kasutades %3$s prefiksit koos aadressiga %2$s, kuid viidetel %3$s prefiksit ei ole."
+
+#. translators: %s: host name
+#: wp-admin/includes/network.php:238 wp-admin/includes/network.php:287
+msgid "The internet address of your network will be %s."
+msgstr "Sinu võrgustiku internetiaadressiks on %s."
+
+#. translators: 1: localhost 2: localhost.localdomain
+#: wp-admin/includes/network.php:254
+msgid "Because you are using %1$s, the sites in your WordPress network must use sub-directories. Consider using %2$s if you wish to use sub-domains."
+msgstr "Kuna kasutad nime %1$s, peab WordPressi võrgustikus kasutama alamkatalooge. Alamdomeenide kasutamiseks peaksid tarvitama nime %2$s."
+
+#. translators: 1: wp-config.php 2: .htaccess
+#. translators: 1: wp-config.php 2: web.config
+#: wp-admin/includes/network.php:382 wp-admin/includes/network.php:390
+msgid "We recommend you back up your existing %1$s and %2$s files."
+msgstr "Soovitame eelnevalt varundada failid %1$s ja %2$s"
+
+#. translators: 1: wp-config.php
+#: wp-admin/includes/network.php:398
+msgid "We recommend you back up your existing %s file."
+msgstr "Soovitame eelnevalt varundada faili %s."
+
+#. translators: 1: wp-config.php 2: location of wp-config file
+#: wp-admin/includes/network.php:409
+msgid "Add the following to your %1$s file in %2$s <strong>above</strong> the line reading <code>/* That&#8217;s all, stop editing! Happy blogging. */</code>:"
+msgstr "Lisa järgnev %1$s faili kataloogis %2$s, <strong>enne</strong> rida märgendiga <code>/* See on kõik, head kirjutamist! */</code>:"
+
+#. translators: 1: mod_rewrite, 2: mod_rewrite documentation URL, 3: Google
+#. search for mod_rewrite
+#: wp-admin/includes/network.php:181
+msgid "If %1$s is disabled, ask your administrator to enable that module, or look at the <a href=\"%2$s\">Apache documentation</a> or <a href=\"%3$s\">elsewhere</a> for help setting it up."
+msgstr "Kui %1$s on välja lülitatud, palu see halduril sisse lülitada või uuri kas <a href=\"%2$s\">Apache dokumentatsioonist</a> or <a href=\"%3$s\">mujalt</a>, kuidas seda seadistatakse."
+
+#: wp-admin/includes/network.php:192
+msgid "Please choose whether you would like sites in your WordPress network to use sub-domains or sub-directories."
+msgstr "Palun vali, kas WordPressi võrgustikus tuleb kasutada alamdomeene või -katalooge."
+
+#: wp-admin/includes/network.php:193
+msgid "You cannot change this later."
+msgstr "Seda hiljem enam muuta ei saa."
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:41
+#: wp-admin/network/site-info.php:198
+msgid "Archived"
+msgstr "Arhiveeritud"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:42
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:523
+#: wp-admin/network/site-info.php:199
+msgctxt "site"
+msgid "Spam"
+msgstr "Spämm"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:43
+#: wp-admin/network/site-info.php:200
+msgid "Deleted"
+msgstr "Kustutatud"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:44
+#: wp-admin/network/site-info.php:202
+msgid "Mature"
+msgstr "Valmis"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:179
+msgid "No sites found."
+msgstr "Saite pole."
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:190
+msgctxt "site"
+msgid "Mark as Spam"
+msgstr "Märgi spämmiks"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:191
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:521
+msgctxt "site"
+msgid "Not Spam"
+msgstr "Pole spämm"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:217
+#: wp-admin/network/site-info.php:192
+msgid "Last Updated"
+msgstr "Viimati uuendatud"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:218
+#: wp-admin/network/site-info.php:188
+msgctxt "site"
+msgid "Registered"
+msgstr "Registreeritud"
+
+#. translators: 1: site name, 2: site tagline.
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:321
+msgid "%1$s &#8211; %2$s"
+msgstr "%1$s &#8211; %2$s"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:347
+msgid "Never"
+msgstr "Mitte kunagi"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:515
+msgid "Unarchive"
+msgstr "Arhiivist välja"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:517
+msgctxt "verb; site"
+msgid "Archive"
+msgstr "Arhiivi"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:229
+msgid "No themes found."
+msgstr "Teemasid ei leitud."
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:231
+msgid "You do not appear to have any themes available at this time."
+msgstr "Hetkel pole saadaval ühtki teemat."
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:242
+msgid "Theme"
+msgstr "Teema"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:285
+msgctxt "themes"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Kõik <span class=\"count\">(%s)</span>"
+msgstr[1] "Kõik <span class=\"count\">(%s)</span>"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:288
+msgid "Enabled <span class=\"count\">(%s)</span>"
+msgid_plural "Enabled <span class=\"count\">(%s)</span>"
+msgstr[0] "Paigaldatud <span class=\"count\">(%s)</span>"
+msgstr[1] "Paigaldatud <span class=\"count\">(%s)</span>"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:291
+msgid "Disabled <span class=\"count\">(%s)</span>"
+msgid_plural "Disabled <span class=\"count\">(%s)</span>"
+msgstr[0] "Välja lülitatud <span class=\"count\">(%s)</span>"
+msgstr[1] "Välja lülitatud <span class=\"count\">(%s)</span>"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:297
+msgid "Broken <span class=\"count\">(%s)</span>"
+msgid_plural "Broken <span class=\"count\">(%s)</span>"
+msgstr[0] "Katki <span class=\"count\">(%s)</span>"
+msgstr[1] "Katki <span class=\"count\">(%s)</span>"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:328
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:420
+msgid "Enable"
+msgstr "Lülita sisse"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:330
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:442
+msgid "Disable"
+msgstr "Lülita välja"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:330
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:442
+msgid "Network Disable"
+msgstr "Keela võrgustikus"
+
+#. translators: %s: theme name
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:411
+msgid "Enable %s"
+msgstr "Lülita %s sisse"
+
+#. translators: %s: theme name
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:414
+msgid "Network Enable %s"
+msgstr "Lülita %s kõikjal sisse"
+
+#. translators: %s: theme name
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:433
+msgid "Disable %s"
+msgstr "Lülita %s välja"
+
+#. translators: %s: theme name
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:436
+msgid "Network Disable %s"
+msgstr "Lülita %s kõikjal välja"
+
+#. translators: %s: theme name
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:452
+msgid "Open %s in the Theme Editor"
+msgstr "Ava %s teemaredaktoris"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:536
+msgid "Broken Theme:"
+msgstr "Katkine teema:"
+
+#. translators: %s: theme name
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:563
+msgid "Visit %s homepage"
+msgstr "%s: vaata veebist"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:568
+msgid "Visit Theme Site"
+msgstr "Külasta teema veebi"
+
+#: wp-admin/includes/class-wp-ms-users-list-table.php:113
+msgctxt "user"
+msgid "Mark as Spam"
+msgstr "Märgi spämmiks"
+
+#: wp-admin/includes/class-wp-ms-users-list-table.php:114
+msgctxt "user"
+msgid "Not Spam"
+msgstr "Pole spämm"
+
+#: wp-admin/includes/class-wp-ms-users-list-table.php:142
+msgid "Super Admin <span class=\"count\">(%s)</span>"
+msgid_plural "Super Admins <span class=\"count\">(%s)</span>"
+msgstr[0] "Peahaldur <span class=\"count\">(%s)</span>"
+msgstr[1] "Peahaldurid <span class=\"count\">(%s)</span>"
+
+#: wp-admin/includes/class-wp-ms-users-list-table.php:171
+msgctxt "user"
+msgid "Registered"
+msgstr "Registreeritud"
+
+#. translators: %s: port number
+#: wp-admin/includes/network.php:125
+msgid "You cannot use port numbers such as %s."
+msgstr "Pordinumbreid nagu %s ei saa kasutada."
+
+#. translators: %s: mod_rewrite
+#: wp-admin/includes/network.php:165
+msgid "Please make sure the Apache %s module is installed as it will be used at the end of this installation."
+msgstr "Veendu, et Apache %s moodul on olemas, kuna see paigaldus vajab seda hiljem."
+
+#. translators: %s: mod_rewrite
+#: wp-admin/includes/network.php:172
+msgid "It looks like the Apache %s module is not installed."
+msgstr "Näib, et Apache moodulit %s ei ole paigaldatud."
+
+#: wp-admin/network/site-users.php:329 wp-admin/network/user-new.php:120
+msgid "A password reset link will be sent to the user via email."
+msgstr "Paroolivahetuse link saadetakse kasutajale e-postiga."
+
+#. translators: 1: NOBLOGREDIRECT 2: wp-config.php
+#: wp-admin/network/settings.php:142
+msgid "If registration is disabled, please set %1$s in %2$s to a URL you will redirect visitors to if they visit a non-existent site."
+msgstr "Kui kasutajate registreerumine ei ole lubatud,  suuna %2$s-s  %1$s ümber lehele, mis teavitab olematust saidist."
+
+#: wp-admin/network/site-users.php:41
+msgid "Site users list navigation"
+msgstr "Kasutajate nimekirjas liikumine"
+
+#: wp-admin/network/site-users.php:42
+msgid "Site users list"
+msgstr "Kasutajate nimekiri"
+
+#: wp-admin/network/sites.php:50
+msgid "Sites list navigation"
+msgstr "Saitide nimekirjas liikumine"
+
+#: wp-admin/network/sites.php:51
+msgid "Sites list"
+msgstr "Saitide nimekiri"
+
+#: wp-admin/network/themes.php:231
+msgid "Themes list navigation"
+msgstr "Teemade nimekirjas liikumine"
+
+#. translators: 1: WP_ALLOW_MULTISITE 2: wp-config.php
+#: wp-admin/network.php:44
+msgid "You must define the %1$s constant as true in your %2$s file to allow creation of a Network."
+msgstr "Võrgustiku loomise lubamiseks pead määrama failis %2$s konstandile %1$s tõese väärtuse."
+
+#: wp-admin/network/site-new.php:109
+msgid "The domain or path entered conflicts with an existing username."
+msgstr "Sisestatud domeen või kataloogitee läheb konflikti olemasoleva kasutajanimega."
+
+#: wp-admin/network/site-themes.php:37
+msgid "Filter site themes list"
+msgstr "Filtreeri teemade nimekirja"
+
+#: wp-admin/network/site-themes.php:38
+msgid "Site themes list navigation"
+msgstr "Teemade nimekirjas liikumine"
+
+#: wp-admin/network/site-themes.php:39
+msgid "Site themes list"
+msgstr "Teemade nimekiri"
+
+#: wp-admin/network/site-users.php:40
+msgid "Filter site users list"
+msgstr "Filtreeri teemade nimekirja"
+
+#: wp-admin/network/sites.php:69
+msgid "You are about to mark the site %s as mature."
+msgstr "Oled märkimas saiti %s täiskasvanutele mõelduks."
+
+#: wp-admin/network/sites.php:70
+msgid "You are about to mark the site %s as not mature."
+msgstr "Oled eemaldamas saidilt %s märget täiskasvanutele mõeldud sisu kohta."
+
+#: wp-admin/network/sites.php:78
+msgid "The requested action is not valid."
+msgstr "Sellist toimingut ei ole teostatavate asjade nimekirjas."
+
+#: wp-admin/network/sites.php:68
+msgid "You are about to delete the site %s."
+msgstr "Oled kustutamas saiti %s."
+
+#: wp-admin/network/sites.php:67
+msgid "You are about to mark the site %s as spam."
+msgstr "Oled märkimas saiti %s rämpsuks."
+
+#: wp-admin/network/sites.php:66
+msgid "You are about to unspam the site %s."
+msgstr "Sa eemaldad saidilt %s rämpsumärgistuse."
+
+#: wp-admin/network/sites.php:65
+msgid "You are about to archive the site %s."
+msgstr "Oled arhiveerimas saiti %s."
+
+#: wp-admin/network/sites.php:64
+msgid "You are about to unarchive the site %s."
+msgstr "Oled võtmas arhiivist välja saiti %s."
+
+#: wp-admin/network/sites.php:63
+msgid "You are about to deactivate the site %s."
+msgstr "Oled välja lülitamas saiti %s."
+
+#: wp-admin/network/sites.php:62
+msgid "You are about to activate the site %s."
+msgstr "Oled sisse lülitamas saiti %s."
+
+#: wp-admin/network/site-info.php:46 wp-admin/network/site-settings.php:43
+#: wp-admin/network/site-themes.php:66 wp-admin/network/site-users.php:59
+msgid "The requested site does not exist."
+msgstr "Sellist saiti ei ole olemas."
+
+#: wp-admin/network/upgrade.php:32
+msgid "<a href=\"https://codex.wordpress.org/Network_Admin_Updates_Screen\" target=\"_blank\">Documentation on Upgrade Network</a>"
+msgstr "<a href=\"https://codex.wordpress.org/Network_Admin_Updates_Screen\" target=\"_blank\">Võrgustiku uuendamise dokumentatsioon</a>"
+
+#: wp-admin/network/user-new.php:29 wp-admin/network/users.php:171
+msgid "<a href=\"https://codex.wordpress.org/Network_Admin_Users_Screen\" target=\"_blank\">Documentation on Network Users</a>"
+msgstr "<a href=\"https://codex.wordpress.org/Network_Admin_Users_Screen\" target=\"_blank\">Võrgustiku kasutajate dokumentatsioon</a>"
+
+#: wp-admin/network.php:67 wp-admin/network.php:78
+msgid "<a href=\"https://codex.wordpress.org/Tools_Network_Screen\" target=\"_blank\">Documentation on the Network Screen</a>"
+msgstr "<a href=\"https://codex.wordpress.org/Tools_Network_Screen\" target=\"_blank\">Võrgustikupaneeli dokumentatsioon</a>"
+
+#: wp-admin/network/index.php:53
+msgid "<a href=\"https://codex.wordpress.org/Network_Admin\" target=\"_blank\">Documentation on the Network Admin</a>"
+msgstr "<a href=\"https://codex.wordpress.org/Network_Admin\" target=\"_blank\">Võrgustiku halduse dokumentatsioon</a>"
+
+#: wp-admin/network/site-info.php:34 wp-admin/network/site-new.php:32
+#: wp-admin/network/site-settings.php:32 wp-admin/network/site-themes.php:32
+#: wp-admin/network/site-users.php:35 wp-admin/network/sites.php:45
+msgid "<a href=\"https://codex.wordpress.org/Network_Admin_Sites_Screen\" target=\"_blank\">Documentation on Site Management</a>"
+msgstr "<a href=\"https://codex.wordpress.org/Network_Admin_Sites_Screen\" target=\"_blank\">Saidi halduse dokumentatsioon</a>"
+
+#: wp-admin/network.php:66 wp-admin/network.php:77
+msgid "<a href=\"https://codex.wordpress.org/Create_A_Network\" target=\"_blank\">Documentation on Creating a Network</a>"
+msgstr "<a href=\"https://codex.wordpress.org/Create_A_Network\" target=\"_blank\">Võrgustiku loomise dokumentatsioon</a>"
+
+#: wp-admin/network/themes.php:225
+msgid "<a href=\"https://codex.wordpress.org/Network_Admin_Themes_Screen\" target=\"_blank\">Documentation on Network Themes</a>"
+msgstr "<a href=\"https://codex.wordpress.org/Network_Admin_Themes_Screen\" target=\"_blank\">Võrgustiku teemade dokumentatsioon</a>"
+
+#: wp-admin/network/settings.php:43
+msgid "<a href=\"https://codex.wordpress.org/Network_Admin_Settings_Screen\" target=\"_blank\">Documentation on Network Settings</a>"
+msgstr "<a href=\"https://codex.wordpress.org/Network_Admin_Settings_Screen\" target=\"_blank\">Võrgustiku seadete dokumentatsioon</a>"
+
+#. translators: 1: site url, 2: server error message
+#: wp-admin/network/upgrade.php:76
+msgid "Warning! Problem updating %1$s. Your server may not be able to connect to sites running on it. Error message: %2$s"
+msgstr "Hoiatus: %1$s uuendamisel tekkis probleem. Sinu server ei pruugi suuta enda saitidele ligi pääseda. Veateade: %2$s"
+
+#: wp-admin/network/themes.php:139
+msgid "Delete Themes"
+msgstr "Kustuta teemad"
+
+#: wp-admin/network/themes.php:173
+msgid "Yes, delete these themes"
+msgstr "Jah, kustuta need teemad"
+
+#: wp-admin/network/themes.php:275
+msgid "%s theme deleted."
+msgid_plural "%s themes deleted."
+msgstr[0] "%s teema kustutati."
+msgstr[1] "%s teemat kustutati."
+
+#: wp-admin/network/site-themes.php:172 wp-admin/network/themes.php:259
+msgid "%s theme enabled."
+msgid_plural "%s themes enabled."
+msgstr[0] "%s teema sisse lülitatud."
+msgstr[1] "%s teemat sisse lülitatud."
+
+#: wp-admin/network/site-themes.php:180 wp-admin/network/themes.php:267
+msgid "%s theme disabled."
+msgid_plural "%s themes disabled."
+msgstr[0] "%s teema välja lülitatud."
+msgstr[1] "%s teemat välja lülitatud."
+
+#: wp-admin/network/themes.php:156
+msgid "Are you sure you wish to delete this theme?"
+msgstr "Kas oled kindel, et soovid seda teemat kustutada?"
+
+#: wp-admin/network/themes.php:140
+msgid "These themes may be active on other sites in the network."
+msgstr "Need teemad võivad olla kasutusel võrgustiku teistel saitidel."
+
+#: wp-admin/network/themes.php:141
+msgid "You are about to remove the following themes:"
+msgstr "Oled kustutamas järgmisi teemasid:"
+
+#: wp-admin/network/settings.php:367
+msgid "Enable menus"
+msgstr "Luba menüüsid"
+
+#: wp-admin/network/site-info.php:208
+msgid "Set site attributes"
+msgstr "Määra saidi atribuudid"
+
+#: wp-admin/network/settings.php:294
+msgid "Allowed file types. Separate types by spaces."
+msgstr "Lubatud falitüübid. Eralda tüübid tühikutega."
+
+#: wp-admin/network/settings.php:304
+msgid "Size in kilobytes"
+msgstr "Maht kilobaitides"
+
+#: wp-admin/network/settings.php:134
+msgid "New registrations settings"
+msgstr "Uute kasutajate registreerimissätted"
+
+#. translators: 1: a filename like .htaccess. 2: a file path.
+#: wp-admin/includes/network.php:523 wp-admin/includes/network.php:563
+msgid "Add the following to your %1$s file in %2$s, <strong>replacing</strong> other WordPress rules:"
+msgstr "Lisa järgnev %1$s faili kataloogis %2$s (teised WordPressi reeglid <strong>asendatakse</strong>):"
+
+#: wp-admin/network/index.php:54 wp-admin/network/site-info.php:35
+#: wp-admin/network/site-new.php:33 wp-admin/network/site-settings.php:33
+#: wp-admin/network/site-themes.php:33 wp-admin/network/site-users.php:36
+#: wp-admin/network/sites.php:46 wp-admin/network/user-new.php:30
+#: wp-admin/network/users.php:172
+msgid "<a href=\"https://wordpress.org/support/forum/multisite/\" target=\"_blank\">Support Forums</a>"
+msgstr "<a href=\"https://wordpress.org/support/forum/multisite/\" target=\"_blank\">Tugifoorumid</a>"
+
+#: wp-admin/network/sites.php:103
+msgid "Confirm your action"
+msgstr "Kinnita oma tegevus"
+
+#: wp-admin/network/settings.php:118
+msgid "This email address will receive notifications. Registration and support emails will also come from this address."
+msgstr "Sellele epostiaadressile saadetakse kõik teavitused. Registreerimise ja toe epostid saadetakse välja sellelt aadressilt."
+
+#: wp-admin/network/users.php:162
+msgid "Hover over any user on the list to make the edit links appear. The Edit link on the left will take you to their Edit User profile page; the Edit link on the right by any site name goes to an Edit Site screen for that site."
+msgstr "Liigu hiirega nimekirjas kasutaja nime peale nägemaks toimingukäskude linke. Vasakul asuv Muuda link viib su vastava kasutaja profiililehete toimetama; saidinimest paremal olev Muuda link viib vastava saidi seadistamise lehele."
+
+#: wp-admin/network/index.php:39
+msgid "To add a new user, <strong>click Create a New User</strong>."
+msgstr "Uue kasutaja lisamiseks <strong>klõpsa Loo uus kasutaja</strong>."
+
+#: wp-admin/network/index.php:40
+msgid "To add a new site, <strong>click Create a New Site</strong>."
+msgstr "Uue saidi loomiseks <strong>klõpsa Loo uus sait</strong>."
+
+#: wp-admin/network/index.php:42
+msgid "To search for a user, <strong>enter an email address or username</strong>. Use a wildcard to search for a partial username, such as user&#42;."
+msgstr "Kasutaja otsimiseks <strong>sisesta epost või kasutajanimi</strong>. Kasutajanime osa järgi saab otsida kasutades metamärki, nt kasutaja&#42;."
+
+#: wp-admin/network/index.php:43
+msgid "To search for a site, <strong>enter the path or domain</strong>."
+msgstr "Saidi otsimiseks <strong>sisesta kataloogirada või domeeninimi</strong>."
+
+#: wp-admin/network/settings.php:96
+msgid "Options saved."
+msgstr "Seaded salvestatud."
+
+#: wp-admin/network/index.php:25
+msgid "Welcome to your Network Admin. This area of the Administration Screens is used for managing all aspects of your Multisite Network."
+msgstr "Teretulemast Võrgustikuadminni. Siin saad hallata kõiki oma Multisite-võrgustiku seadistusi."
+
+#: wp-admin/network/index.php:26
+msgid "From here you can:"
+msgstr "Siit saad:"
+
+#: wp-admin/network/index.php:27
+msgid "Add and manage sites or users"
+msgstr "Lisa ja halda saite või kasutajaid"
+
+#: wp-admin/network/index.php:28
+msgid "Install and activate themes or plugins"
+msgstr "Paigalda ja aktiveeri teemasid või pluginaid"
+
+#: wp-admin/network/index.php:29
+msgid "Update your network"
+msgstr "Uuenda oma võrgustikku"
+
+#: wp-admin/network/index.php:30
+msgid "Modify global network settings"
+msgstr "Muuda võrgustikuüleseid seadeid"
+
+#: wp-admin/network/index.php:38
+msgid "The Right Now widget on this screen provides current user and site counts on your network."
+msgstr "Sellel lehel olev Hetkel moodul kuvab võrgustiku ja saitide arvu."
+
+#: wp-admin/network/index.php:41
+msgid "To search for a user or site, use the search boxes."
+msgstr "Kasutaja või saidi leidmiseks kasuta vastavat otsingukasti."
+
+#: wp-admin/network/index.php:47
+msgid "Quick Tasks"
+msgstr "Kiired toimingud"
+
+#: wp-admin/network/menu.php:22 wp-admin/network/upgrade.php:18
+#: wp-admin/network/upgrade.php:42 wp-admin/network/upgrade.php:119
+msgid "Upgrade Network"
+msgstr "Uuenda võrgustikku"
+
+#: wp-admin/network/upgrade.php:25
+msgid "Only use this screen once you have updated to a new version of WordPress through Updates/Available Updates (via the Network Administration navigation menu or the Toolbar). Clicking the Upgrade Network button will step through each site in the network, five at a time, and make sure any database updates are applied."
+msgstr "Kasuta seda ainult siis, kui oled uuendanud WordPressi versiooni kasutades Uuendused / Saadaval uuendused (Võrgustikuadminni navigatsioonimenüüs või Tööriistaribal). Kui klõpsad Uuenda võrgustikku käiakse kogu võrgustik viie saidi kaupa läbi ja uuendatakse kõigi saitide andebaasid."
+
+#: wp-admin/network/upgrade.php:115
+msgid "WordPress has been updated! Before we send you on your way, we need to individually upgrade the sites in your network."
+msgstr "WordPress on uuendatud! Aga enne kui me saame sind muude tegevuste juurde lasta oleks vaja uuendada ka kõik võrgustiku saidid."
+
+#. translators: 1: user login, 2: site url, 3: site name/title
+#: wp-admin/network/site-new.php:144
+msgid ""
+"New site created by %1$s\n"
+"\n"
+"Address: %2$s\n"
+"Name: %3$s"
+msgstr ""
+"%1$s lõi uue saidi\n"
+"\n"
+"Aadress: %2$s\n"
+"Nimi: %3$s"
+
+#: wp-admin/network.php:62
+msgid "Add the designated lines of code to wp-config.php (just before <code>/*...stop editing...*/</code>) and <code>.htaccess</code> (replacing the existing WordPress rules)."
+msgstr "Lisa näidatud koodiread wp-config.php faili (täspelt enne <code>/*...stop editing...*/</code>) ja <code>.htaccess</code> faili (asendades olemasolevad WordPressi reeglid)."
+
+#: wp-admin/includes/network.php:219 wp-admin/includes/network.php:529
+#: wp-admin/includes/network.php:569
+msgid "Subdirectory networks may not be fully compatible with custom wp-content directories."
+msgstr "Alamkataloogidega võrgustikud ei pruugi ühilduda kohandatud wp-content-kataloogidega."
+
+#: wp-admin/network/site-users.php:249
+msgid "Enter the username and email."
+msgstr "Sisesta kasutajanimi ja epost."
+
+#: wp-admin/network/site-users.php:237
+msgid "Select a user to change role."
+msgstr "Vali kasutaja kelle rolli soovid muuta."
+
+#: wp-admin/network/site-users.php:243
+msgid "Select a user to remove."
+msgstr "Vali kasutaja kelle soovid eemaldada."
+
+#: wp-admin/network/site-users.php:246
+msgid "User created."
+msgstr "Kasutaja loodud."
+
+#: wp-admin/network/site-users.php:297 wp-admin/network/user-new.php:132
+msgid "Add User"
+msgstr "Lisa kasutaja"
+
+#: wp-admin/network/user-new.php:52
+msgid "Cannot add user."
+msgstr "Kasutajat ei saa lisada."
+
+#: wp-admin/network/sites.php:147
+msgid "You are not allowed to delete the site."
+msgstr "Sul ei ole lubatud seda saiti kustutada."
+
+#: wp-admin/network/site-users.php:228
+msgid "User is already a member of this site."
+msgstr "Kasutaja juba on selle saidi liige."
+
+#: wp-admin/network/site-info.php:130
+msgid "Site info updated."
+msgstr "Saidi info uuendatud."
+
+#: wp-admin/network/site-users.php:231
+msgid "Enter the username of an existing user."
+msgstr "Sisesta olemasoleva kasutaja kasutajanimi."
+
+#: wp-admin/network/themes.php:281
+msgid "You cannot delete a theme while it is active on the main site."
+msgstr "Sa ei saa kustutada teemat mis on põhisaidi teemana kasutusel"
+
+#: wp-admin/network/site-new.php:177 wp-admin/network/site-new.php:187
+msgid "Add New Site"
+msgstr "Lisa uus sait"
+
+#: wp-admin/network/site-info.php:149 wp-admin/network/site-settings.php:101
+#: wp-admin/network/site-themes.php:155 wp-admin/network/site-users.php:210
+msgid "Info"
+msgstr "Info"
+
+#: wp-admin/network/themes.php:158
+msgid "Are you sure you wish to delete these themes?"
+msgstr "Kas oled kindel, et soovid need teemad kustutada?"
+
+#: wp-admin/network/themes.php:171
+msgid "Yes, delete this theme"
+msgstr "Jah, kustuta see teema"
+
+#: wp-admin/network/themes.php:137
+msgid "You are about to remove the following theme:"
+msgstr "Oled kustutamas järgmist teemat:"
+
+#: wp-admin/network/themes.php:136
+msgid "This theme may be active on other sites in the network."
+msgstr "See teema võib olla kasutusel võrgustiku teistel saitidel."
+
+#: wp-admin/network/themes.php:135
+msgid "Delete Theme"
+msgstr "Kustuta teema"
+
+#: wp-admin/network/menu.php:55 wp-admin/network/settings.php:22
+msgid "Network Settings"
+msgstr "Võrgustiku seaded"
+
+#: wp-admin/network/site-themes.php:187
+msgid "Network enabled themes are not shown on this screen."
+msgstr "Võrgustikus lubatud teemasid sellel lehel ei kuvata."
+
+#: wp-admin/network/themes.php:17
+msgid "You do not have sufficient permissions to manage network themes."
+msgstr "Sul ei ole piisavalt õiguseid võrgustiku teemade haldamiseks."
+
+#: wp-admin/network/user-new.php:23
+msgid "Add User will set up a new user account on the network and send that person an email with username and password."
+msgstr "Lisa kasutaja loob uue võrgustikus uue kasutajakonto ja saadab sellele isikule eposti tema kasutajanime ja parooliga."
+
+#: wp-admin/network/themes.php:100
+msgid "You do not have sufficient permissions to delete themes for this site."
+msgstr "Sul ei ole piisavalt õiguseid selle saidi teemade kustutamiseks."
+
+#: wp-admin/network/site-themes.php:178 wp-admin/network/themes.php:265
+msgid "Theme disabled."
+msgstr "Teema välja lülitatud."
+
+#: wp-admin/network/site-info.php:41 wp-admin/network/site-settings.php:39
+#: wp-admin/network/site-themes.php:60 wp-admin/network/site-users.php:55
+msgid "Invalid site ID."
+msgstr "Vigane saidi ID."
+
+#: wp-admin/network/site-themes.php:170 wp-admin/network/themes.php:257
+msgid "Theme enabled."
+msgstr "Teema sisse lülitatud."
+
+#: wp-admin/network/site-themes.php:184 wp-admin/network/themes.php:279
+msgid "No theme selected."
+msgstr "Ühtegi teemat pole valitud."
+
+#: wp-admin/network/site-info.php:28 wp-admin/network/site-settings.php:26
+#: wp-admin/network/site-themes.php:26 wp-admin/network/site-users.php:29
+msgid "<strong>Themes</strong> &mdash; This area shows themes that are not already enabled across the network. Enabling a theme in this menu makes it accessible to this site. It does not activate the theme, but allows it to show in the site&#8217;s Appearance menu. To enable a theme for the entire network, see the <a href=\"%s\">Network Themes</a> screen."
+msgstr "<strong>Teemad</strong> &mdash; Siin on kirjas teemad, mida pole veel võrgustikus sisse lülitatud. Teema sisselülitamine selles menüüs muudab ta kättesaadavaks selle saidi piires. Seda ei lülitata sisse kogu võrgustikus, kuid see muutub nähtavaks saidi Välimuse menüüs. Teema sisselülitamiseks kogu võrgustikus kasuta  <a href=\"%s\">Võrgustiku teemade</a> menüüd."
+
+#: wp-admin/network/site-info.php:134 wp-admin/network/site-settings.php:86
+#: wp-admin/network/site-themes.php:142 wp-admin/network/site-users.php:182
+msgid "Edit Site: %s"
+msgstr "Muuda saiti: %s"
+
+#: wp-admin/network/themes.php:181
+msgid "No, return me to the theme list"
+msgstr "Ei, tagasi teemade nimekirja paluks"
+
+#: wp-admin/network/site-info.php:29 wp-admin/network/site-settings.php:27
+#: wp-admin/network/site-themes.php:27 wp-admin/network/site-users.php:30
+msgid "<strong>Settings</strong> &mdash; This page shows a list of all settings associated with this site. Some are created by WordPress and others are created by plugins you activate. Note that some fields are grayed out and say Serialized Data. You cannot modify these values due to the way the setting is stored in the database."
+msgstr "<strong>Seaded</strong> &mdash; Siin on kirjas selle saidi kõige seadete nimekiri. Mõned neist kuuluvad WordPressi ja teised sisselülitatud pluginate juurde. NB! Mõned seaded on suletud (hallis kirjas) - andmebaasi iseärasuste tõttu neid muuta ei saa."
+
+#: wp-admin/network/site-info.php:26 wp-admin/network/site-settings.php:24
+#: wp-admin/network/site-themes.php:24 wp-admin/network/site-users.php:27
+msgid "<strong>Info</strong> &mdash; The site URL is rarely edited as this can cause the site to not work properly. The Registered date and Last Updated date are displayed. Network admins can mark a site as archived, spam, deleted and mature, to remove from public listings or disable."
+msgstr "<strong>Info</strong> &mdash; Saidi aadressi muudetakse harva, kuna see võib selle toimimist takistada. Siin on kirjas saidi loomise ja viimase muutmise aeg. Võrgustiku haldurid saavad märkida saiti kas arhiveerituks, rämpsuks, kustutatuks või täiskasvanutele mõelduks ning selle nõnda kas avalikust nimekirjast eemaldada või välja lülitada."
+
+#: wp-admin/network/site-info.php:27 wp-admin/network/site-settings.php:25
+#: wp-admin/network/site-themes.php:25 wp-admin/network/site-users.php:28
+msgid "<strong>Users</strong> &mdash; This displays the users associated with this site. You can also change their role, reset their password, or remove them from the site. Removing the user from the site does not remove the user from the network."
+msgstr "<strong>Kasutajad</strong> &mdash;  Siin on kirjas selle saidi kasutajad. Siit saab muuta nende rolli, vahetada parooli või neid saidilt kustutada. Kasutaja kustutamine saidilt ei kustuta teda kogu võrgustikust."
+
+#: wp-admin/network/site-info.php:25 wp-admin/network/site-settings.php:23
+#: wp-admin/network/site-themes.php:23 wp-admin/network/site-users.php:26
+msgid "The menu is for editing information specific to individual sites, particularly if the admin area of a site is unavailable."
+msgstr "See menüü on individuaalseid võrgustiku saite puudutava info muutmiseks, eriti juhul, kui saidi adminn pole ligipäästav."
+
+#: wp-admin/network/sites.php:35
+msgid "Dashboard leads to the Dashboard for that site."
+msgstr "Töölaud viib selle saidi töölauale."
+
+#: wp-admin/network/settings.php:166
+msgid "Allow site administrators to add new users to their site via the \"Users &rarr; Add New\" page."
+msgstr "Luba saidi halduritel uute kasutajate lisamine \"Kasutajad &rarr; Lisa uus\" kaudu."
+
+#: wp-admin/network/settings.php:315
+msgid "Language Settings"
+msgstr "Keeleseaded"
+
+#: wp-admin/network/site-settings.php:83
+msgid "Site options updated."
+msgstr "Saidi seaded uuendatud."
+
+#: wp-admin/network/menu.php:40
+msgid "Installed Themes"
+msgstr "Paigaldatud teemad"
+
+#: wp-admin/network/menu.php:36
+msgid "Themes %s"
+msgstr "Teemad %s"
+
+#: wp-admin/network/menu.php:28
+msgid "All Sites"
+msgstr "Kõik saidid"
+
+#: wp-admin/network/site-themes.php:17
+msgid "You do not have sufficient permissions to manage themes for this site."
+msgstr "Sul ei ole piisavalt õiguseid selle saidi teemade haldamiseks."
+
+#. translators: 1: dashboard url, 2: network admin edit url
+#: wp-admin/network/site-new.php:171
+msgid "Site added. <a href=\"%1$s\">Visit Dashboard</a> or <a href=\"%2$s\">Edit Site</a>"
+msgstr "Sait lisatud. <a href=\"%1$s\">Külasta töölauda</a> või <a href=\"%2$s\">Muuda saiti</a>"
+
+#: wp-admin/network/sites.php:31
+msgid "Add New takes you to the Add New Site screen. You can search for a site by Name, ID number, or IP address. Screen Options allows you to choose how many sites to display on one page."
+msgstr "Lisa uus viib su uue saidi lisamise lehele. Sa saad saiti otsida nime, ID-numbri või IP-aadressi alusel. Ekraani seaded lubab muuta korraga kuvatavate saitide arvu."
+
+#: wp-admin/network/sites.php:240
+msgid "You do not have permission to delete that site."
+msgstr "Sulle ei ole õigust selle saidi kustutamiseks."
+
+#: wp-admin/network/site-new.php:20
+msgid "You do not have sufficient permissions to add sites to this network."
+msgstr "Sul ei ole piisavalt õiguseid saitide lisamiseks sellesse võrgustikku."
+
+#: wp-admin/network/menu.php:41 wp-admin/network/themes.php:245
+msgctxt "theme"
+msgid "Add New"
+msgstr "Lisa uus"
+
+#: wp-admin/network/sites.php:40
+msgid "Clicking on bold headings can re-sort this table."
+msgstr "Klõpsamine rasvases kirjas pealkirjadel muudab tabeli sortimist."
+
+#: wp-admin/network/sites.php:37
+msgid "Delete which is a permanent action after the confirmation screens."
+msgstr "Kustutamine on kinnituse andmise järel lõplik."
+
+#: wp-admin/network/themes.php:220
+msgid "Themes can be enabled on a site by site basis by the network admin on the Edit Site screen (which has a Themes tab); get there via the Edit action link on the All Sites screen. Only network admins are able to install or edit themes."
+msgstr "Võrgustiku haldur saab teemasid sait-haaval lubada Muuda saiti lehe Teemade sakil. Sinna pääseb valides Muuda-lingi lehelt Kõik saidid. Teemasid saavad lisada ja muuta ainult võrgustiku haldurid."
+
+#: wp-admin/network/sites.php:34
+msgid "An Edit link to a separate Edit Site screen."
+msgstr "Muuda link eraldiseisvale Muuda saiti lehele."
+
+#: wp-admin/network/site-new.php:26
+msgid "This screen is for Super Admins to add new sites to the network. This is not affected by the registration settings."
+msgstr "See leht lubab Superhalduril lisada võrgustikku uusi saite. Registreerimise seaded seda ei mõjuta."
+
+#: wp-admin/network/menu.php:19
+msgid "Updates"
+msgstr "Uuendused"
+
+#: wp-admin/network/settings.php:38
+msgid "Super admins can no longer be added on the Options screen. You must now go to the list of existing users on Network Admin > Users and click on Username or the Edit action link below that name. This goes to an Edit User page where you can check a box to grant super admin privileges."
+msgstr "Superhaldureid ei saa enam Seadete lehe kaudu lisada. Sa pead minema olemasolevate kasutajate nimistusse Võrgustiku haldur > Kasutajad, klõpsama kasutajanimel või selle all oleval Muuda lingil. Selle tulemusena satud Muuda kasutajat lehele kus on võimalik märkida superhalduri õiguse lahter."
+
+#. translators: 1: hostname
+#: wp-admin/includes/network.php:209
+msgctxt "subdirectory examples"
+msgid "like <code>%1$s/site1</code> and <code>%1$s/site2</code>"
+msgstr "näiteks <code>%1$s/sait1</code> ja <code>%1$s/sait2</code>"
+
+#: wp-admin/includes/network.php:224 wp-admin/includes/network.php:234
+#: wp-admin/includes/network.php:283
+msgid "Server Address"
+msgstr "Serveri aadress"
+
+#: wp-admin/includes/network.php:260 wp-admin/includes/network.php:270
+#: wp-admin/includes/network.php:277
+msgid "The main site in a sub-directory install will need to use a modified permalink structure, potentially breaking existing links."
+msgstr "Alamkataloogis asuv põhisait peab kasutama muudetud püsiviitestruktuuri, mis võib olemasolevad viited ära rikkuda."
+
+#: wp-admin/includes/network.php:267
+msgid "Because your install is in a directory, the sites in your WordPress network must use sub-directories."
+msgstr "Kuna paigaldus asub kataloogis, pead võrgustikus kasutama alamkatalooge."
+
+#: wp-admin/includes/network.php:275
+msgid "Sub-domain Install"
+msgstr "Alamdomeeniga paigaldus"
+
+#: wp-admin/includes/network.php:276
+msgid "Because your install is not new, the sites in your WordPress network must use sub-domains."
+msgstr "Kuna see ei ole uus paigaldus, pead võrgustikus kasutama alamdomeene."
+
+#: wp-admin/includes/network.php:294 wp-admin/network/settings.php:107
+msgid "Network Title"
+msgstr "Võrgustiku nimi"
+
+#: wp-admin/includes/network.php:298
+msgid "What would you like to call your network?"
+msgstr "Kuidas soovid enda võrgustikku kutsuda?"
+
+#: wp-admin/includes/network.php:307
+msgid "Your email address."
+msgstr "Sinu e-aadress."
+
+#: wp-admin/includes/network.php:358
+msgid "The original configuration steps are shown here for reference."
+msgstr "Siin on infoks kirjas algsed seadistussammud."
+
+#: wp-admin/includes/network.php:363
+msgid "An existing WordPress network was detected."
+msgstr "Leiti olemasolev WordPressi võrgustik."
+
+#: wp-admin/includes/network.php:364
+msgid "Please complete the configuration steps. To create a new network, you will need to empty or remove the network database tables."
+msgstr "Palun läbi kõik seadistussammud. Uue võrgstiku loomiseks pead selle andmebaasitabelid kas tühjendama või kustutama."
+
+#: wp-admin/includes/network.php:375
+msgid "Enabling the Network"
+msgstr "Võrgustiku sisselülitamine"
+
+#: wp-admin/includes/network.php:376
+msgid "Complete the following steps to enable the features for creating a network of sites."
+msgstr "Saidivõrgustiku käivitamiseks teee järgmised tegevused."
+
+#: wp-admin/includes/network.php:151
+msgid "Fill in the information below and you&#8217;ll be on your way to creating a network of WordPress sites. We will create configuration files in the next step."
+msgstr "WordPressi saitide võrgustiku loomiseks täida allolevad väljad. Häälestusfailide loomine on järgmine samm."
+
+#: wp-admin/includes/network.php:122
+msgid "You cannot install a network of sites with your server address."
+msgstr "Sellele aadressile ei saa saitide võrgustikku luua."
+
+#: wp-admin/includes/network.php:194
+msgid "You will need a wildcard DNS record if you are going to use the virtual host (sub-domain) functionality."
+msgstr "Kui tahad kasutada alamdomeeniga virtuaalservereid, pead need seadistama nimeserveris."
+
+#: wp-admin/includes/network.php:147
+msgctxt "Default network name"
+msgid "%s Sites"
+msgstr "%s saidid"
+
+#: wp-admin/includes/network.php:170 wp-admin/includes/network.php:219
+#: wp-admin/includes/network.php:260 wp-admin/includes/network.php:270
+msgid "Warning!"
+msgstr "Hoiatus!"
+
+#: wp-admin/includes/network.php:198
+msgid "Sub-domains"
+msgstr "Alamdomeenid"
+
+#: wp-admin/includes/network.php:459
+msgid "To make your installation more secure, you should also add:"
+msgstr "Paigalduse paremaks turvamiseks peaksid ka lisama:"
+
+#: wp-admin/network.php:60
+msgid "Choose subdomains or subdirectories; this can only be switched afterwards by reconfiguring your install. Fill out the network details, and click install. If this does not work, you may have to add a wildcard DNS record (for subdomains) or change to another setting in Permalinks (for subdirectories)."
+msgstr "Vali kas alamdomeenid või alamkataloogid - seda saab hiljem vahetada vaid palgaldust uuesti häälestades. Sisesta enda võrguinfo ja klõpsa paigaldusel. Kui see ei tööta, peaksid uurima enda võrgusätteid (nimeserveri hulgidomeene alamdomeeni ja püsiviidete häälestust alamkataloogi kasutamiseks)."
+
+#: wp-admin/network.php:61
+msgid "The next screen for Network Setup will give you individually-generated lines of code to add to your wp-config.php and .htaccess files. Make sure the settings of your FTP client make files starting with a dot visible, so that you can find .htaccess; you may have to create this file if it really is not there. Make backup copies of those two files."
+msgstr "Võrgu häälestuspaneel pakub sinu jaoks genereeritud programmiridu, mida võid kasutada wp-config.php ja .htaccess -failides. Kontrolli, et su FTP klient näitaks punktiga algavate nimedega faile. Kui aga .htaccess tõepoolest puudub, siis tasuks see luua. Tee neist kahest failist kindlasti varukoopiad."
+
+#: wp-admin/includes/network.php:578
+msgid "Once you complete these steps, your network is enabled and configured. You will have to log in again."
+msgstr "Kui see kõik on tehtud, on võrgustik häälestatud ja sisse lülitatud. Logi uuesti sisse."
+
+#: wp-admin/includes/network.php:105
+msgid "The constant DO_NOT_UPGRADE_GLOBAL_TABLES cannot be defined when creating a network."
+msgstr "Võrgustiku loomisel ei või konstanti DO_NOT_UPGRADE_GLOBAL_TABLES defineerida."
+
+#: wp-admin/includes/network.php:246
+msgid "Network Details"
+msgstr "Võrgustiku üksikasjad"
+
+#: wp-admin/includes/network.php:150
+msgid "Welcome to the Network installation process!"
+msgstr "Tere tulemast võrgustiku paigaldusse!"
+
+#: wp-admin/network.php:64
+msgid "The choice of subdirectory sites is disabled if this setup is more than a month old because of permalink problems with &#8220;/blog/&#8221; from the main site. This disabling will be addressed in a future version."
+msgstr "Alamkataloogide-põhine lahendus ei toimi, kui tarkvara on vanem kui kuu aega, kuna esineb probleem püsiviidetega. See loodetakse lahendada mõne järgmise väljalaske juures."
+
+#: wp-admin/includes/network.php:113
+msgid "Once the network is created, you may reactivate your plugins."
+msgstr "Peale võrgustiku loomist võid pluginad uuesti sisse lülitada."
+
+#: wp-admin/includes/network.php:113
+msgid "Please <a href=\"%s\">deactivate your plugins</a> before enabling the Network feature."
+msgstr "Enne võrgustiku käivitamist palun <a href=\"%s\">lülita pluginad välja</a>."
+
+#: wp-admin/includes/network.php:250 wp-admin/includes/network.php:265
+msgid "Sub-directory Install"
+msgstr "Alamkataloogiga paigaldus"
+
+#: wp-admin/network.php:59
+msgid "This screen allows you to configure a network as having subdomains (<code>site1.example.com</code>) or subdirectories (<code>example.com/site1</code>). Subdomains require wildcard subdomains to be enabled in Apache and DNS records, if your host allows it."
+msgstr "Siit saad häälestada alamdomeene (<code>osakond.firma.ee</code>) ja alamkatalooge (<code>firma.ee/osakond</code>). Alamdomeenide kasutamine eeldab vastavaid sätteid Apache ja nimeserveri seadetes, kui sinu võrguteenusepakkuja sellist võimalust pakub."
+
+#: wp-admin/network.php:55
+msgid "Create a Network of WordPress Sites"
+msgstr "Loo WordPressi veebilehtede võrgustik."
+
+#: wp-admin/includes/network.php:128
+msgid "Return to Dashboard"
+msgstr "Tagasi töölauale"
+
+#: wp-admin/network.php:29
+msgid "The Network creation panel is not for WordPress MU networks."
+msgstr "Võrgustiku loomise paneel ei sobi WordPress MU võrgustikele."
+
+#: wp-admin/includes/network.php:113 wp-admin/includes/network.php:363
+#: wp-admin/includes/network.php:529 wp-admin/includes/network.php:569
+msgid "Warning:"
+msgstr "Hoiatus:"
+
+#: wp-admin/includes/network.php:191
+msgid "Addresses of Sites in your Network"
+msgstr "Võrgustiku saitide aadressid"
+
+#. translators: 1: hostname
+#: wp-admin/includes/network.php:201
+msgctxt "subdomain examples"
+msgid "like <code>site1.%1$s</code> and <code>site2.%1$s</code>"
+msgstr "näiteks <code>sait1.%1$s</code> ja <code>sait2.%1$s</code>"
+
+#: wp-admin/network.php:71
+msgid "Network"
+msgstr "Võrgustik"
+
+#: wp-admin/includes/network.php:206
+msgid "Sub-directories"
+msgstr "Alamkataloogid"
+
+#: wp-admin/includes/network.php:140
+msgid "ERROR: The network could not be created."
+msgstr "VIGA: Võrgustiku loomine ebaõnnestus."
+
+#: wp-admin/network.php:63
+msgid "Once you add this code and refresh your browser, multisite should be enabled. This screen, now in the Network Admin navigation menu, will keep an archive of the added code. You can toggle between Network Admin and Site Admin by clicking on the Network Admin or an individual site name under the My Sites dropdown in the Toolbar."
+msgstr "Kui oled koodi lisanud ja veebilehitsejat värskendanud, peaks mitme veebilehe režiim toimima. Nüüd on see võrguhalduri menüü ning säilitab ka lisatud koodilõigud.  Võrgustikuhalduri ja veebilehe halduri liideste vahel lülitumiseks klõpsa kas Võrguhaldurile või tööriistaribal Minu veebilehtede all olevale lehe nimele."
+
+#: wp-admin/network/site-info.php:18 wp-admin/network/site-settings.php:17
+#: wp-admin/network/site-users.php:17
+msgid "You do not have sufficient permissions to edit this site."
+msgstr "Sul ei ole selle saidi muutmiseks piisavaid õigusi."
+
+#: wp-admin/network/users.php:73
+msgid "Warning! User cannot be modified. The user %s is a network administrator."
+msgstr "Hoiatus: kasutajat ei saa muuta. Kasutaja %s on võrgustikuhaldur."
+
+#: wp-admin/network/site-new.php:27
+msgid "If the admin email for the new site does not exist in the database, a new user will also be created."
+msgstr "Kui uue  saidi halduri e-postiaadressi andmebaasis pole, luuakse ka uus kasutaja."
+
+#: wp-admin/network/sites.php:36
+msgid "Deactivate, Archive, and Spam which lead to confirmation screens. These actions can be reversed later."
+msgstr "Väljalülitamine, arhiveerimine ja rämpsuksmärkimine küsivad kinnitust. Neid tegevusi saab hiljem tagasi võtta."
+
+#: wp-admin/network/sites.php:39
+msgid "The site ID is used internally, and is not shown on the front end of the site or to users/viewers."
+msgstr "Saidi ID-d kasutatakse sisemiselt, avalikkusele seda ei näidata."
+
+#: wp-admin/network/sites.php:33
+msgid "Hovering over each site reveals seven options (three for the primary site):"
+msgstr "Kursori viimine saidi kohale näitab seitset (peasaidi puhul kolme) valikut:"
+
+#: wp-admin/network/settings.php:32
+msgid "Operational settings has fields for the network&#8217;s name and admin email."
+msgstr "Töösätete alt leiad väljad võrgustiku nime ja halduri e-aadressi jaoks."
+
+#: wp-admin/network/users.php:163
+msgid "You can also go to the user&#8217;s profile page by clicking on the individual username."
+msgstr "Kasutaja profiililehele pääseb kasutajanimele klõpsates."
+
+#: wp-admin/network/users.php:165
+msgid "The bulk action will permanently delete selected users, or mark/unmark those selected as spam. Spam users will have posts removed and will be unable to sign up again with the same email addresses."
+msgstr "See valik kustutab valitud kasutajad jäädavalt või märgib valitud kasutajad rämpsuks (uuesti valimine tühistab selle). Rämpskasutajate kõik postitused kustutatakse ja nad ei saa enam sama e-postiaadressiga sisse logida."
+
+#: wp-admin/network/settings.php:35
+msgid "Upload settings control the size of the uploaded files and the amount of available upload space for each site. You can change the default value for specific sites when you edit a particular site. Allowed file types are also listed (space separated only)."
+msgstr "Üleslaadimissätted määravad ära üleslaetavate failide lubatud suuruse ja iga saidi juures lubatava üleslaadimiste kogumahu. Neid väärtusi saad muuta iga saidi juures eraldi. Samuti on siin loetletud lubatavad failitüübid (need tuleb eraldada tühikutega)."
+
+#: wp-admin/network/sites.php:38
+msgid "Visit to go to the front-end site live."
+msgstr "Vaata saiti väljast"
+
+#: wp-admin/network/settings.php:34
+msgid "New site settings are defaults applied when a new site is created in the network. These include welcome email for when a new site or user account is registered, and what&#8127;s put in the first post, page, comment, comment author, and comment URL."
+msgstr "Uue saidi sätted on vaikimisi valikud, mida kasutab iga võrgustikku loodav uus veebisait. Sinna kuuluvad näiteks uue saidi või kasutajakonto loomisel saadetav tervitustekst, samuti esimese postituse ja lehe sätted nagu vaikimisi kommentaar, selle autor ja tema URL."
+
+#: wp-admin/network/themes.php:218
+msgid "This screen enables and disables the inclusion of themes available to choose in the Appearance menu for each site. It does not activate or deactivate which theme a site is currently using."
+msgstr "Siit saad kõigi saitide teemadeloetellu teemasid lisada ja neid eemaldada. See ei muuda jooksvalt kasutatavat teemat."
+
+#: wp-admin/network/themes.php:219
+msgid "If the network admin disables a theme that is in use, it can still remain selected on that site. If another theme is chosen, the disabled theme will not appear in the site&#8217;s Appearance > Themes screen."
+msgstr "Kui võrgustikuhaldur lülitab välja parajasti mõnel saidil kasutuses oleva teema, saab sellel saidil seda edasi kasutada. Kui seal aga valitakse teine teema, siis eelmine peale seda enam loetellu ei ilmu."
+
+#: wp-admin/network/settings.php:31
+msgid "This screen sets and changes options for the network as a whole. The first site is the main site in the network and network options are pulled from that original site&#8217;s options."
+msgstr "Siit saad sättida kogu lehevõrgustiku seadistusi. Esimesena loodud saiti loetakse peamiseks ning võrgustiku valikud seatakse selle järgi."
+
+#: wp-admin/network/settings.php:33
+msgid "Registration settings can disable/enable public signups. If you let others sign up for a site, install spam plugins. Spaces, not commas, should separate names banned as sites for this network."
+msgstr "Registreerimissätetest saad lugejate registreerumist sisse-välja lülitada. Kui lubad teistel registreeruda, peaksid paigaldama rämpsu filtreeriva plugina.  Keelatud  saidinimed tuleb eraldada tühikute, mitte komadega."
+
+#: wp-admin/network/settings.php:37
+msgid "Menu setting enables/disables the plugin menus from appearing for non super admins, so that only super admins, not site admins, have access to activate plugins."
+msgstr "Menüüsäte lülitab madalama taseme haldurite jaoks pluginamenüüd sisse-välja. Nii võib lubada ligipääsu pluginate käivitamisele vaid peahalduritele (mitte aga üksikute saitide omadele)."
+
+#: wp-admin/network/sites.php:32
+msgid "This is the main table of all sites on this network. Switch between list and excerpt views by using the icons above the right side of the table."
+msgstr "See on kõigi selle võrgustiku veebilehtede tabel. Ülal paremal asuvate ikoonide abil saad lülituda kas nimekirja- või katkendivaatele."
+
+#: wp-admin/network/user-new.php:24
+msgid "Users who are signed up to the network without a site are added as subscribers to the main or primary dashboard site, giving them profile pages to manage their accounts. These users will only see Dashboard and My Sites in the main navigation until a site is created for them."
+msgstr "Kasutajad, kes on registreerunud võrgustikku ilma saiti loomata, lisatakse peasaidile lugeja rollis, andes neile enda konto haldamiseks kasutajaprofiili. Need kasutajad näevad ainult peamenüü valikuid Töölaud ja Minu saidid, kuni neile luuakse omaenda sait."
+
+#: wp-admin/network/users.php:164
+msgid "You can sort the table by clicking on any of the bold headings and switch between list and excerpt views by using the icons in the upper right."
+msgstr "Tabelit saab sorteerida veerupäistele klõpsates, ülal paremal asuvate ikoonidega saab lülituda nimekirja- ja katkendivaate vahel."
+
+#: wp-admin/network/upgrade.php:27
+msgid "If this process fails for any reason, users logging in to their sites will force the same update."
+msgstr "Kui see protsess mingil põhjusel nurjuba, siis tehakse sama uuendus igal veebilehel, kuhu kasutaja sisse logib."
+
+#: wp-admin/network/upgrade.php:26
+msgid "If a version update to core has not happened, clicking this button won&#8217;t affect anything."
+msgstr "Kui süsteemi kesksete osade uuendust ei ole toimunud, siis selle nupu klõpsamine mingit mõju ei oma."
+
+#: wp-admin/network/users.php:161
+msgid "This table shows all users across the network and the sites to which they are assigned."
+msgstr "Tabelis on ära toodud kogu võrgustiku kasutajad ja veebilehed, kus nad on registreeritud."
+
+#: wp-admin/network/users.php:166
+msgid "You can make an existing user an additional super admin by going to the Edit User profile page and checking the box to grant that privilege."
+msgstr "Olemasolevat kasutajat saab määrata peahalduriks tema profiililehel vastavat märkeruutu klõpsates."
+
+#. translators: %s: reserved names list
+#: wp-admin/network/site-new.php:54
+msgid "The following words are reserved for use by WordPress functions and cannot be used as blog names: %s"
+msgstr "Järgmised sõnad on reserveeritud WordPressi funktsioonidele ning neid ei saa nimedes kasutada: %s"
+
+#: wp-admin/network/settings.php:188
+msgid "If you want to limit site registrations to certain domains. One domain per line."
+msgstr "Kui soovitakse piirata uute saitide registreerimist kindlate domeenidega. Domeeninimed tuleb kirjutada eraldi ridadele."
+
+#: wp-admin/network/settings.php:199
+msgid "If you want to ban domains from site registrations. One domain per line."
+msgstr "Kui soovitakse keelata saidi registreerimine teatud domeenidest. Domeeninimed tuleb kirjutada eraldi ridadele."
+
+#: wp-admin/network/site-new.php:40
+msgid "Can&#8217;t create an empty site."
+msgstr "Tühja saiti ei saa luua."
+
+#: wp-admin/network/upgrade.php:100
+msgid "If your browser doesn&#8217;t start loading the next page automatically, click this link:"
+msgstr "Kui sinu veebilehitseja ei ava järgmist lehte automaatselt, klõpsa siia:"
+
+#: wp-admin/network/sites.php:258
+msgid "Site marked as spam."
+msgstr "Sait märgiti rämpsuks."
+
+#: wp-admin/network/sites.php:231
+msgid "Sites marked as spam."
+msgstr "Veebilehed märgiti rämpsuks."
+
+#: wp-admin/network/sites.php:228
+msgid "Sites removed from spam."
+msgstr "Veebilehed eemaldati rämpsuloendist."
+
+#: wp-admin/network/users.php:195
+msgid "Users removed from spam."
+msgstr "Kasutajad eemaldati rämpsunimekirjast."
+
+#: wp-admin/network/sites.php:255
+msgid "Site removed from spam."
+msgstr "Sait eemaldati rämpsuloendist."
+
+#: wp-admin/network/sites.php:234
+msgid "Sites deleted."
+msgstr "Veebilehed kustutati."
+
+#: wp-admin/network/sites.php:237
+msgid "Site deleted."
+msgstr "Sait kustutati."
+
+#: wp-admin/network/users.php:192
+msgid "Users marked as spam."
+msgstr "Kasutajad märgiti rämpsuks."
+
+#: wp-admin/network/sites.php:252
+msgid "Site deactivated."
+msgstr "Sait lülitati välja."
+
+#: wp-admin/network/sites.php:249
+msgid "Site activated."
+msgstr "Sait lülitati sisse."
+
+#: wp-admin/network/sites.php:246
+msgid "Site unarchived."
+msgstr "Sait eemaldati arhiivist."
+
+#: wp-admin/network/users.php:198
+msgid "Users deleted."
+msgstr "Kasutajad kustutati."
+
+#: wp-admin/network/sites.php:243
+msgid "Site archived."
+msgstr "Sait arhiveeriti."
+
+#: wp-admin/network/site-new.php:84
+msgid "Invalid email address."
+msgstr "E-postiaadress on vigane."
+
+#: wp-admin/network/site-new.php:114
+msgid "There was an error creating the user."
+msgstr "Kasutaja loomisel tekkis viga."
+
+#: wp-admin/network/sites.php:94 wp-admin/network/sites.php:160
+msgid "You are not allowed to change the current site."
+msgstr "Sul ei ole õigust seda saiti muuta."
+
+#: wp-admin/network/settings.php:302
+msgctxt "File size in kilobytes"
+msgid "%s KB"
+msgstr "%s KB"
+
+#: wp-admin/network/settings.php:290
+msgid "Upload file types"
+msgstr "Üleslaetavate failide tüübid"
+
+#: wp-admin/network/settings.php:282
+msgid "Limit total size of files uploaded to %s MB"
+msgstr "Piira üleslaetud failide kogumaht %s megabaidiga."
+
+#: wp-admin/network/settings.php:263
+msgid "The author of the first comment on a new site."
+msgstr "Uue saidi esimese kommentaari autor."
+
+#: wp-admin/network/settings.php:234
+msgid "The first post on a new site."
+msgstr "Uue saidi esimene postitus."
+
+#: wp-admin/network/settings.php:244
+msgid "The first page on a new site."
+msgstr "Uue saidi esimene leht."
+
+#: wp-admin/network/settings.php:254
+msgid "The first comment on a new site."
+msgstr "Uue saidi esimene kommentaar."
+
+#: wp-admin/network/settings.php:272
+msgid "The URL for the first comment on a new site."
+msgstr "Uue saidi esimese kommentaari URL."
+
+#: wp-admin/network/upgrade.php:60
+msgid "All done!"
+msgstr "Kõik on valmis!"
+
+#: wp-admin/network/settings.php:137
+msgid "Logged in users may register new sites."
+msgstr "Sisselogitud kasutajad saavad luua uusi veebilehti."
+
+#: wp-admin/network/settings.php:138
+msgid "Both sites and user accounts can be registered."
+msgstr "Lubatud on registreerida nii uusi veebilehti kui kasutajakontosid."
+
+#: wp-admin/network/settings.php:136
+msgid "User accounts may be registered."
+msgstr "Kasutajakontode registreerimine on lubatud."
+
+#: wp-admin/network/settings.php:135
+msgid "Registration is disabled."
+msgstr "Kasutajate registreerumine on keelatud."
+
+#: wp-admin/network/settings.php:345
+msgid "Enable administration menus"
+msgstr "Luba haldamismenüüd"
+
+#: wp-admin/network/settings.php:104
+msgid "Operational Settings"
+msgstr "Töösätted"
+
+#: wp-admin/network/settings.php:277
+msgid "Upload Settings"
+msgstr "Üleslaadimissätted"
+
+#: wp-admin/network/settings.php:205
+msgid "New Site Settings"
+msgstr "Uue saidi sätted"
+
+#: wp-admin/network/settings.php:123
+msgid "Registration Settings"
+msgstr "Registreerimissätted"
+
+#: wp-admin/network/site-new.php:76
+msgid "Missing or invalid site address."
+msgstr "Saidi aadress on puudu või vigane."
+
+#: wp-admin/network/site-new.php:79
+msgid "Missing email address."
+msgstr "E-postiaadress on puudu."
+
+#: wp-admin/includes/network.php:303 wp-admin/network/settings.php:114
+msgid "Network Admin Email"
+msgstr "Võrgustikuhalduri e-post"
+
+#. translators: %s: network name
+#: wp-admin/network/site-new.php:139
+msgid "[%s] New Site Created"
+msgstr "[%s] Uus sait on valmis"
+
+#: wp-admin/network/settings.php:214
+msgid "The welcome email sent to new site owners."
+msgstr "Uue saidi omanikule saadetav tervituskiri."
+
+#: wp-admin/network/settings.php:280
+msgid "Site upload space"
+msgstr "Saidi üleslaadimisruum"
+
+#: wp-admin/network/settings.php:159
+msgid "Send the network admin an email notification every time someone registers a site or user account."
+msgstr "Saada võrgustiku haldurile e-kirjaga teade iga kord, kui keegi registreerib uue saidi või kasutajakonto."
+
+#: wp-admin/network/settings.php:175
+msgid "Users are not allowed to register these sites. Separate names by spaces."
+msgstr "Kasutajad ei saa nende nimedega veebilehti registreerida. Eralda nimed tühkutega."
+
+#: wp-admin/network/upgrade.php:100
+msgid "Next Sites"
+msgstr "Järgmised veebilehed"
+
+#: wp-admin/network/index.php:20 wp-admin/network/settings.php:20
+#: wp-admin/network/site-info.php:50 wp-admin/network/site-settings.php:47
+#: wp-admin/network/site-themes.php:70 wp-admin/network/site-users.php:63
+#: wp-admin/network/sites.php:17 wp-admin/network/sites.php:129
+#: wp-admin/network/upgrade.php:39 wp-admin/network/user-new.php:37
+#: wp-admin/network/users.php:17 wp-admin/network/users.php:26
+#: wp-admin/network/users.php:47 wp-admin/network/users.php:60
+#: wp-admin/network/users.php:109
+msgid "You do not have permission to access this page."
+msgstr "Sul ei ole sellele lehele ligipääsuõigusi."
+
+#: wp-admin/network/sites.php:110
+msgid "Confirm"
+msgstr "Kinnita"
+
+#: wp-admin/network/user-new.php:40
+msgid "Cannot create an empty user."
+msgstr "Tühja kasutajat ei saa luua."
+
+#: wp-admin/network/site-users.php:252
+msgid "Duplicated username or email address."
+msgstr "Kasutajanimi või e-postiaadress on juba olemas."
+
+#: wp-admin/network/settings.php:126
+msgid "Allow new registrations"
+msgstr "Kasutajate registreerumine on lubatud."
+
+#: wp-admin/network/settings.php:153
+msgid "Registration notification"
+msgstr "Registreerimismärguanne"
+
+#: wp-admin/network/settings.php:164
+msgid "Add New Users"
+msgstr "Lisa kasutajaid"
+
+#: wp-admin/network/settings.php:171
+msgid "Banned Names"
+msgstr "Keelatud nimed"
+
+#: wp-admin/network/settings.php:181
+msgid "Limited Email Registrations"
+msgstr "Piiratud registreerimine e-posti teel"
+
+#: wp-admin/network/settings.php:194
+msgid "Banned Email Domains"
+msgstr "Keelatud e-postidomeenid"
+
+#: wp-admin/network/settings.php:209
+msgid "Welcome Email"
+msgstr "Tervituskiri"
+
+#: wp-admin/network/settings.php:219
+msgid "Welcome User Email"
+msgstr "Uue kasutaja tervituskiri"
+
+#: wp-admin/network/settings.php:224
+msgid "The welcome email sent to new users."
+msgstr "Uuele kasutajale saadetav tervituskiri."
+
+#: wp-admin/network/settings.php:239
+msgid "First Page"
+msgstr "Esimene leht"
+
+#: wp-admin/network/settings.php:249
+msgid "First Comment"
+msgstr "Esimene kommentaar"
+
+#: wp-admin/network/settings.php:259
+msgid "First Comment Author"
+msgstr "Esimese kommentaari autor"
+
+#: wp-admin/network/settings.php:268
+msgid "First Comment URL"
+msgstr "Esimese kommentaari URL"
+
+#: wp-admin/network/settings.php:300
+msgid "Max upload file size"
+msgstr "Üleslaetava faili maksimumsuurus"
+
+#: wp-admin/network/settings.php:318
+msgid "Default Language"
+msgstr "Vaikimisi keel"
+
+#: wp-admin/network/site-new.php:258
+msgid "Add Site"
+msgstr "Lisa sait"
+
+#: wp-admin/network/site-new.php:242
+msgid "Admin Email"
+msgstr "Halduri e-aadress"
+
+#: wp-admin/network/site-new.php:246
+msgid "A new user will be created if the above email address is not in the database."
+msgstr "Kui seda aadressi andmebaasis ei ole, luuakse uus kasutaja."
+
+#: wp-admin/network/site-new.php:246
+msgid "The username and password will be mailed to this email address."
+msgstr "Kasutajanimi ja parool saadetakse sellele e-postiaadressile."
