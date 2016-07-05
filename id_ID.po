@@ -2070,50 +2070,50 @@ msgid "Insert link"
 msgstr "Sisipkan taut"
 
 #. translators: 1: blog name, 2: post title
-#: wp-includes/pluggable.php:1501
+#: wp-includes/pluggable.php:1497
 msgid "[%1$s] Comment: \"%2$s\""
 msgstr "[%1$s] Komentar: \"%2$s\""
 
-#: wp-includes/pluggable.php:1509 wp-includes/pluggable.php:1652
+#: wp-includes/pluggable.php:1505 wp-includes/pluggable.php:1648
 msgid "Trash it: %s"
 msgstr "Buang ke tempat sampah: %s"
 
-#: wp-includes/pluggable.php:1511 wp-includes/pluggable.php:1654
+#: wp-includes/pluggable.php:1507 wp-includes/pluggable.php:1650
 msgid "Delete it: %s"
 msgstr "Hapus ini: %s"
 
-#: wp-includes/pluggable.php:1513 wp-includes/pluggable.php:1655
+#: wp-includes/pluggable.php:1509 wp-includes/pluggable.php:1651
 msgid "Spam it: %s"
 msgstr "Spam ini: %s"
 
-#: wp-includes/pluggable.php:1630
+#: wp-includes/pluggable.php:1626
 msgid "Trackback excerpt: "
 msgstr "Kutipan lacak balik:"
 
-#: wp-includes/pluggable.php:1638
+#: wp-includes/pluggable.php:1634
 msgid "Pingback excerpt: "
 msgstr "Kutipan Ping Balik:"
 
-#: wp-includes/pluggable.php:1650
+#: wp-includes/pluggable.php:1646
 msgid "Approve it: %s"
 msgstr "Setujui ini: %s"
 
-#: wp-includes/pluggable.php:1657
+#: wp-includes/pluggable.php:1653
 msgid "Currently %s comment is waiting for approval. Please visit the moderation panel:"
 msgid_plural "Currently %s comments are waiting for approval. Please visit the moderation panel:"
 msgstr[0] "Saat ini %s komentar sedang menunggu persetujuan. Silakan kunjungi panel moderasi:"
 msgstr[1] "Saat ini %s komentar sedang menunggu persetujuan. Silakan kunjungi panel moderasi:"
 
-#: wp-includes/pluggable.php:1661
+#: wp-includes/pluggable.php:1657
 msgid "[%1$s] Please moderate: \"%2$s\""
 msgstr "[%1$s] Mohon moderasi: \"%2$s\""
 
-#: wp-includes/pluggable.php:1764 wp-includes/pluggable.php:1788
+#: wp-includes/pluggable.php:1760 wp-includes/pluggable.php:1784
 #: wp-login.php:324
 msgid "Username: %s"
 msgstr "Nama user: %s"
 
-#: wp-includes/pluggable.php:1767
+#: wp-includes/pluggable.php:1763
 msgid "[%s] New User Registration"
 msgstr "[%s] Pendaftaran User Baru"
 
@@ -2181,7 +2181,7 @@ msgstr "Galat yang tak dapat didefinisikan telah terjadi."
 msgid "Dismiss"
 msgstr "Selesai"
 
-#: wp-includes/pluggable.php:1763
+#: wp-includes/pluggable.php:1759
 msgid "New user registration on your site %s:"
 msgstr "Pendaftaran pengguna baru pada situs Anda %s:"
 
@@ -2278,7 +2278,7 @@ msgctxt "Post format"
 msgid "Standard"
 msgstr "Standar"
 
-#: wp-includes/pluggable.php:1505
+#: wp-includes/pluggable.php:1501
 msgid "Permalink: %s"
 msgstr "Permalink: %s"
 
@@ -2415,7 +2415,7 @@ msgctxt "Comma-separated list of search stopwords in your language"
 msgid "about,an,are,as,at,be,by,com,for,from,how,in,is,it,of,on,or,that,the,this,to,was,what,when,where,who,will,with,www"
 msgstr "tentang,sebuah,adalah,dengan,di,oleh,akan,untuk,dari,bagaimana,dalam,ini,itu,situ,darimana,sini,apa,kapan,ketika,mana,siapa,www"
 
-#: wp-includes/pluggable.php:1789
+#: wp-includes/pluggable.php:1785
 msgid "To set your password, visit the following address:"
 msgstr "Untuk mengatur password Anda, kunjungi alamat di bawah ini:"
 
@@ -2583,7 +2583,7 @@ msgstr "Laman Induk:"
 msgid "Passing an integer number of posts is deprecated. Pass an array of arguments instead."
 msgstr "Mengoper sebuah angka integer dari pos telah ditinggalkan. Oper sebuah array argumen sebagai gantinya."
 
-#: wp-includes/pluggable.php:1724
+#: wp-includes/pluggable.php:1720
 msgid "Password Lost and Changed for user: %s"
 msgstr "Password Hilang dan Diubah untuk pengguna: %s"
 
@@ -2627,7 +2627,7 @@ msgstr "Lihat Laman"
 msgid "View Post"
 msgstr "Lihat Pos"
 
-#: wp-includes/pluggable.php:1728
+#: wp-includes/pluggable.php:1724
 msgid "[%s] Password Lost/Changed"
 msgstr "[%s] Password Hilang/Diubah"
 
@@ -2671,23 +2671,23 @@ msgctxt "add new on admin bar"
 msgid "Page"
 msgstr "Laman"
 
-#: wp-includes/pluggable.php:1641
+#: wp-includes/pluggable.php:1637
 msgid "A new comment on the post \"%s\" is waiting for your approval"
 msgstr "Satu komentar baru pada pos \"%s\" menunggu persetujuan Anda"
 
-#: wp-includes/pluggable.php:1633
+#: wp-includes/pluggable.php:1629
 msgid "A new pingback on the post \"%s\" is waiting for your approval"
 msgstr "Satu pingback baru pada pos \"%s\" menunggu persetujuan Anda"
 
-#: wp-includes/pluggable.php:1625
+#: wp-includes/pluggable.php:1621
 msgid "A new trackback on the post \"%s\" is waiting for your approval"
 msgstr "Satu lacakbalik baru pada pos \"%s\" menunggu persetujuan Anda"
 
-#: wp-includes/pluggable.php:1499
+#: wp-includes/pluggable.php:1495
 msgid "You can see all comments on this post here:"
 msgstr "Anda bisa melihat semua komentar untuk pos ini di sini:"
 
-#: wp-includes/pluggable.php:1794
+#: wp-includes/pluggable.php:1790
 msgid "[%s] Your username and password info"
 msgstr "[%s] Info Nama pengguna dan password Anda"
 
@@ -2718,8 +2718,8 @@ msgstr "%1$s (sejak %2$s; %3$s)"
 msgid "Invalid taxonomy: %s."
 msgstr "Taksonomi tidak valid: %s."
 
-#: wp-includes/pluggable.php:1496 wp-includes/pluggable.php:1644
-#: wp-includes/pluggable.php:1765
+#: wp-includes/pluggable.php:1492 wp-includes/pluggable.php:1640
+#: wp-includes/pluggable.php:1761
 msgid "Email: %s"
 msgstr "Email: %s"
 
@@ -2843,12 +2843,12 @@ msgid "Link Rel"
 msgstr "Rel Taut"
 
 #. translators: 1: blog name, 2: post title
-#: wp-includes/pluggable.php:1480
+#: wp-includes/pluggable.php:1476
 msgid "[%1$s] Trackback: \"%2$s\""
 msgstr "[%1$s] Lacak balik: \"%2$s\""
 
 #. translators: 1: blog name, 2: post title
-#: wp-includes/pluggable.php:1490
+#: wp-includes/pluggable.php:1486
 msgid "[%1$s] Pingback: \"%2$s\""
 msgstr "[%1$s] Ping balik: \"%2$s\""
 
@@ -2990,7 +2990,7 @@ msgstr "Kunci aktivasi tidak sah."
 msgid "Preload"
 msgstr "Pramuat"
 
-#: wp-includes/pluggable.php:1109
+#: wp-includes/pluggable.php:1105
 msgid "You should specify a nonce action to be verified by using the first parameter."
 msgstr "Anda harus menentukan sebuah tindakan nonce untuk diverifikasi dengan menggunakan parameter pertama."
 
@@ -3477,13 +3477,13 @@ msgid "<strong>Could not find site %1$s.</strong> Searched for table %2$s in dat
 msgstr "<strong>Tak bisa menemukan situs %1$s.</strong> Setelah menelusuri tabel %2$s dalam database %3$s. Apakah itu benar?"
 
 #. translators: 1: comment author, 2: author IP, 3: author domain
-#: wp-includes/pluggable.php:1495 wp-includes/pluggable.php:1643
+#: wp-includes/pluggable.php:1491 wp-includes/pluggable.php:1639
 msgid "Author: %1$s (IP: %2$s, %3$s)"
 msgstr "Penulis: %1$s (IP: %2$s, %3$s)"
 
 #. translators: 1: website name, 2: website IP, 3: website hostname
-#: wp-includes/pluggable.php:1475 wp-includes/pluggable.php:1485
-#: wp-includes/pluggable.php:1628 wp-includes/pluggable.php:1636
+#: wp-includes/pluggable.php:1471 wp-includes/pluggable.php:1481
+#: wp-includes/pluggable.php:1624 wp-includes/pluggable.php:1632
 msgid "Website: %1$s (IP: %2$s, %3$s)"
 msgstr "Situs web: %1$s (IP: %2$s, %3$s)"
 
@@ -3599,11 +3599,11 @@ msgstr "Tak ditemukan lampiran media."
 msgid "What do I do now?"
 msgstr "Apa yang harus saya lakukan selanjutnya?"
 
-#: wp-includes/pluggable.php:1483
+#: wp-includes/pluggable.php:1479
 msgid "New pingback on your post \"%s\""
 msgstr "Pingback baru pada pos \"%s\" Anda"
 
-#: wp-includes/pluggable.php:1493
+#: wp-includes/pluggable.php:1489
 msgid "New comment on your post \"%s\""
 msgstr "Komentar baru pada pos \"%s\" Anda"
 
@@ -3611,7 +3611,7 @@ msgstr "Komentar baru pada pos \"%s\" Anda"
 msgid "If your site does not display, please contact the owner of this network."
 msgstr "Jika situs Anda tidak terlihat, silakan hubungi pemilik jaringan ini."
 
-#: wp-includes/pluggable.php:1473
+#: wp-includes/pluggable.php:1469
 msgid "New trackback on your post \"%s\""
 msgstr "Lacakbalik baru pada pos \"%s\" Anda"
 
@@ -3619,14 +3619,14 @@ msgstr "Lacakbalik baru pada pos \"%s\" Anda"
 msgid "If you are the owner of this network please check that MySQL is running properly and all tables are error free."
 msgstr "Jika Anda pemilik jaringan ini, silakan pastikan MySQL berjalan dengan baik dan seluruh tabel bebas dari galat."
 
-#: wp-includes/pluggable.php:1476 wp-includes/pluggable.php:1486
-#: wp-includes/pluggable.php:1497 wp-includes/pluggable.php:1629
-#: wp-includes/pluggable.php:1637 wp-includes/pluggable.php:1645
+#: wp-includes/pluggable.php:1472 wp-includes/pluggable.php:1482
+#: wp-includes/pluggable.php:1493 wp-includes/pluggable.php:1625
+#: wp-includes/pluggable.php:1633 wp-includes/pluggable.php:1641
 msgid "URL: %s"
 msgstr "URL: %s"
 
-#: wp-includes/pluggable.php:1477 wp-includes/pluggable.php:1487
-#: wp-includes/pluggable.php:1498 wp-includes/pluggable.php:1646
+#: wp-includes/pluggable.php:1473 wp-includes/pluggable.php:1483
+#: wp-includes/pluggable.php:1494 wp-includes/pluggable.php:1642
 msgid "Comment: %s"
 msgstr "Komentar: %s"
 
@@ -3635,11 +3635,11 @@ msgctxt "noun"
 msgid "Trash"
 msgstr "Tong Sampah"
 
-#: wp-includes/pluggable.php:1478
+#: wp-includes/pluggable.php:1474
 msgid "You can see all trackbacks on this post here:"
 msgstr "Anda bisa melihat semua lacak balik untuk pos ini di sini:"
 
-#: wp-includes/pluggable.php:1488
+#: wp-includes/pluggable.php:1484
 msgid "You can see all pingbacks on this post here:"
 msgstr "Anda bisa melihat semua ping balik untuk pos ini di sini:"
 
@@ -5030,7 +5030,7 @@ msgid "By: %s"
 msgstr "Oleh: %s"
 
 #. translators: opening curly double quote
-#: wp-includes/formatting.php:88 wp-includes/formatting.php:4325
+#: wp-includes/formatting.php:88 wp-includes/formatting.php:4334
 msgctxt "opening curly double quote"
 msgid "&#8220;"
 msgstr "&#8220;"
@@ -5042,19 +5042,19 @@ msgid "&#8221;"
 msgstr "&#8221;"
 
 #. translators: min=minute
-#: wp-includes/formatting.php:2841
+#: wp-includes/formatting.php:2850
 msgid "%s min"
 msgid_plural "%s mins"
 msgstr[0] "%s menit"
 msgstr[1] "%s menit"
 
-#: wp-includes/formatting.php:2846
+#: wp-includes/formatting.php:2855
 msgid "%s hour"
 msgid_plural "%s hours"
 msgstr[0] "%s jam"
 msgstr[1] "%s jam"
 
-#: wp-includes/formatting.php:2851
+#: wp-includes/formatting.php:2860
 msgid "%s day"
 msgid_plural "%s days"
 msgstr[0] "%s hari"
@@ -5213,19 +5213,19 @@ msgstr "Anda tidak diizinkan untuk mengakses detail tentang situs ini."
 msgid "Invalid post format"
 msgstr "Format pos tidak sah"
 
-#: wp-includes/formatting.php:3661
+#: wp-includes/formatting.php:3670
 msgid "The email address entered did not appear to be a valid email address. Please enter a valid email address."
 msgstr "Alamat surel yang dimasukkan kelihatannya bukan alamat surel yang sah. Silahkan masukkan alamat surel yang sah."
 
-#: wp-includes/formatting.php:3764
+#: wp-includes/formatting.php:3773
 msgid "The WordPress address you entered did not appear to be a valid URL. Please enter a valid URL."
 msgstr "Alamat WordPress yang Anda masukkan kelihatannya bukan URL yang sah. Silahkan masukkan URL yang sah."
 
-#: wp-includes/formatting.php:3777
+#: wp-includes/formatting.php:3786
 msgid "The Site address you entered did not appear to be a valid URL. Please enter a valid URL."
 msgstr "Alamat Situs yang Anda masukkan kelihatannya bukan URL yang sah. Silahkan masukkan URL yang sah."
 
-#: wp-includes/formatting.php:3832
+#: wp-includes/formatting.php:3841
 msgid "The timezone you have entered is not valid. Please select a valid timezone."
 msgstr "Zona waktu yang Anda masukkan tidak sah. Silahkan pilih zona waktu yang sah."
 
@@ -5241,7 +5241,7 @@ msgstr "Batalkan balasan"
 msgid "Invalid file type"
 msgstr "Jenis berkas tidak sah"
 
-#: wp-includes/formatting.php:2953 wp-includes/general-template.php:3036
+#: wp-includes/formatting.php:2962 wp-includes/general-template.php:3036
 msgid "&hellip;"
 msgstr "&hellip;"
 
@@ -5362,19 +5362,19 @@ msgstr "Maaf, berkas ini tidak dapat disunting."
 msgid "Invalid user ID."
 msgstr "ID pengguna tidak sah."
 
-#: wp-includes/formatting.php:2856
+#: wp-includes/formatting.php:2865
 msgid "%s week"
 msgid_plural "%s weeks"
 msgstr[0] "%s minggu"
 msgstr[1] "%s minggu"
 
-#: wp-includes/formatting.php:2861
+#: wp-includes/formatting.php:2870
 msgid "%s month"
 msgid_plural "%s months"
 msgstr[0] "%s bulan"
 msgstr[1] "%s bulan"
 
-#: wp-includes/formatting.php:2866
+#: wp-includes/formatting.php:2875
 msgid "%s year"
 msgid_plural "%s years"
 msgstr[0] "%s tahun"
@@ -5394,17 +5394,17 @@ msgid "Suggested"
 msgstr "Disarankan"
 
 #. translators: used to join items in a list with more than 2 items
-#: wp-includes/formatting.php:4074
+#: wp-includes/formatting.php:4083
 msgid "%s, %s"
 msgstr "%s, %s"
 
 #. translators: used to join last two items in a list with more than 2 times
-#: wp-includes/formatting.php:4076
+#: wp-includes/formatting.php:4085
 msgid "%s, and %s"
 msgstr "%s, dan %s"
 
 #. translators: used to join items in a list with only 2 items
-#: wp-includes/formatting.php:4078
+#: wp-includes/formatting.php:4087
 msgid "%s and %s"
 msgstr "%s dan %s"
 
@@ -5829,7 +5829,7 @@ msgstr "Sunting item menu: %1$s (%2$s)"
 #. Asian characters), enter 'characters_excluding_spaces' or
 #. 'characters_including_spaces'. Otherwise, enter 'words'. Do not translate
 #. into your own language.
-#: wp-includes/formatting.php:2964 wp-includes/script-loader.php:419
+#: wp-includes/formatting.php:2973 wp-includes/script-loader.php:419
 msgctxt "Word count type. Do not translate!"
 msgid "words"
 msgstr "words"
@@ -7412,19 +7412,19 @@ msgstr "URL"
 msgid "No results found."
 msgstr "Tidak ada hasil yang ditemukan."
 
-#: wp-includes/class-wp-customize-manager.php:1950
+#: wp-includes/class-wp-customize-manager.php:1952
 #: wp-includes/class-wp-editor.php:988 wp-includes/media-template.php:613
 #: wp-includes/media-template.php:844 wp-includes/media-template.php:910
 msgid "Left"
 msgstr "Kiri"
 
-#: wp-includes/class-wp-customize-manager.php:1951
+#: wp-includes/class-wp-customize-manager.php:1953
 #: wp-includes/class-wp-editor.php:989 wp-includes/media-template.php:616
 #: wp-includes/media-template.php:847 wp-includes/media-template.php:913
 msgid "Center"
 msgstr "Tengah"
 
-#: wp-includes/class-wp-customize-manager.php:1952
+#: wp-includes/class-wp-customize-manager.php:1954
 #: wp-includes/class-wp-editor.php:990 wp-includes/media-template.php:619
 #: wp-includes/media-template.php:850 wp-includes/media-template.php:916
 msgid "Right"
@@ -7435,73 +7435,73 @@ msgstr "Kanan"
 msgid "Help"
 msgstr "Bantuan"
 
-#: wp-includes/class-wp-customize-manager.php:1808
+#: wp-includes/class-wp-customize-manager.php:1810
 #: wp-includes/class-wp-xmlrpc-server.php:467
 msgid "Site Title"
 msgstr "Judul Situs"
 
-#: wp-includes/class-wp-customize-manager.php:1819
+#: wp-includes/class-wp-customize-manager.php:1821
 msgid "Tagline"
 msgstr "Slogan"
 
-#: wp-includes/class-wp-customize-manager.php:1966
+#: wp-includes/class-wp-customize-manager.php:1968
 msgid "Scroll"
 msgstr "Tarik"
 
-#: wp-includes/class-wp-customize-manager.php:1967
+#: wp-includes/class-wp-customize-manager.php:1969
 msgid "Fixed"
 msgstr "Tetap"
 
-#: wp-includes/class-wp-customize-manager.php:1933
+#: wp-includes/class-wp-customize-manager.php:1935
 msgid "No Repeat"
 msgstr "Tidak Berulang"
 
-#: wp-includes/class-wp-customize-manager.php:1934
+#: wp-includes/class-wp-customize-manager.php:1936
 msgid "Tile"
 msgstr "Ubin"
 
-#: wp-includes/class-wp-customize-manager.php:1857
+#: wp-includes/class-wp-customize-manager.php:1859
 msgid "Display Header Text"
 msgstr "Tampilkan Teks Tajuk"
 
-#: wp-includes/class-wp-customize-manager.php:1879
+#: wp-includes/class-wp-customize-manager.php:1881
 msgid "Background Color"
 msgstr "Warna Latar belakang"
 
-#: wp-includes/class-wp-customize-manager.php:1907
+#: wp-includes/class-wp-customize-manager.php:1909
 #: wp-includes/customize/class-wp-customize-background-image-control.php:30
 msgid "Background Image"
 msgstr "Gambar Latar belakang "
 
-#: wp-includes/class-wp-customize-manager.php:1929
+#: wp-includes/class-wp-customize-manager.php:1931
 msgid "Background Repeat"
 msgstr "Latar belakang Berulang"
 
-#: wp-includes/class-wp-customize-manager.php:1946
+#: wp-includes/class-wp-customize-manager.php:1948
 msgid "Background Position"
 msgstr "Posisi Latar belakang "
 
-#: wp-includes/class-wp-customize-manager.php:1962
+#: wp-includes/class-wp-customize-manager.php:1964
 msgid "Background Attachment"
 msgstr "Lampiran Latar belakang "
 
-#: wp-includes/class-wp-customize-manager.php:1935
+#: wp-includes/class-wp-customize-manager.php:1937
 msgid "Tile Horizontally"
 msgstr "Pasang Merata secara Horizontal"
 
-#: wp-includes/class-wp-customize-manager.php:1936
+#: wp-includes/class-wp-customize-manager.php:1938
 msgid "Tile Vertically"
 msgstr "Pasang Merata secara Vertikal"
 
-#: wp-includes/class-wp-customize-manager.php:1864
+#: wp-includes/class-wp-customize-manager.php:1866
 msgid "Header Text Color"
 msgstr "Warna Teks Tajuk"
 
-#: wp-includes/class-wp-customize-manager.php:1841
+#: wp-includes/class-wp-customize-manager.php:1843
 msgid "Colors"
 msgstr "Warna"
 
-#: wp-includes/class-wp-customize-manager.php:1887
+#: wp-includes/class-wp-customize-manager.php:1889
 #: wp-includes/customize/class-wp-customize-header-image-control.php:31
 msgid "Header Image"
 msgstr "Gambar Tajuk"
@@ -7536,7 +7536,7 @@ msgstr "(tanpa nama)"
 msgid "Reorder mode closed"
 msgstr "Mode pengaturan urutan ditutup"
 
-#: wp-includes/class-wp-customize-manager.php:1797
+#: wp-includes/class-wp-customize-manager.php:1799
 msgid "Site Identity"
 msgstr "Identitas Situs"
 
@@ -7545,11 +7545,11 @@ msgstr "Identitas Situs"
 msgid "Add to menu: %1$s (%2$s)"
 msgstr "Tambahkan ke menu: %1$s (%2$s)"
 
-#: wp-includes/class-wp-customize-manager.php:1831
+#: wp-includes/class-wp-customize-manager.php:1833
 msgid "The Site Icon is used as a browser and app icon for your site. Icons must be square, and at least 512px wide and tall."
 msgstr "Ikon Situs digunakan sebagai ikon browser dan aplikasi untuk situs Anda. Ikon harus bujursangkar dengan panjang sisi minimal 512 piksel."
 
-#: wp-includes/class-wp-customize-manager.php:1830
+#: wp-includes/class-wp-customize-manager.php:1832
 msgid "Site Icon"
 msgstr "Ikon Situs"
 
@@ -7752,11 +7752,11 @@ msgid_plural "Your theme supports %s menus. Select which menu appears in each lo
 msgstr[0] "Tema Anda mendukung %s menu. Pilih menu mana yang akan ditampilkan pada tiap lokasi."
 msgstr[1] "Tema Anda mendukung %s menu. Pilih menu mana yang akan ditampilkan pada tiap lokasi."
 
-#: wp-includes/class-wp-customize-manager.php:2027
+#: wp-includes/class-wp-customize-manager.php:2029
 msgid "Posts page"
 msgstr "Laman pos-pos"
 
-#: wp-includes/class-wp-customize-manager.php:2003
+#: wp-includes/class-wp-customize-manager.php:2005
 msgid "Your latest posts"
 msgstr "Pos-pos terbaru Anda"
 
@@ -7777,23 +7777,23 @@ msgstr "(tanpa label)"
 msgid "You are customizing %s"
 msgstr "Anda sedang menyuaikan %s"
 
-#: wp-includes/class-wp-customize-manager.php:2004
+#: wp-includes/class-wp-customize-manager.php:2006
 msgid "A static page"
 msgstr "Sebuah laman statis"
 
-#: wp-includes/class-wp-customize-manager.php:2015
+#: wp-includes/class-wp-customize-manager.php:2017
 msgid "Front page"
 msgstr "Laman depan"
 
-#: wp-includes/class-wp-customize-manager.php:1999
+#: wp-includes/class-wp-customize-manager.php:2001
 msgid "Front page displays"
 msgstr "Laman depan menampilkan"
 
-#: wp-includes/class-wp-customize-manager.php:1985
+#: wp-includes/class-wp-customize-manager.php:1987
 msgid "Static Front Page"
 msgstr "Laman Depan Statis"
 
-#: wp-includes/class-wp-customize-manager.php:1988
+#: wp-includes/class-wp-customize-manager.php:1990
 msgid "Your theme supports a static front page."
 msgstr "Tema Anda mendukung laman depan statis"
 
