@@ -139,10 +139,6 @@ for versionIterator in $foundVersions; do
 done
 #############  /download all found languages ###########################################
 
-
-
-exit
-
 pushd git
 git checkout master
 cp ../$0 .
